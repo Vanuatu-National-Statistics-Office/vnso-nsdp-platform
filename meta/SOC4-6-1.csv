@@ -1,9 +1,9 @@
 PillarName,Society
 NSDPIndicatorID,SOC 4.6.1
 IndicatorShortName,"Support Services for Child Human Rights Violations, Sexual Abuse"
-Definition,
+Definition, 
 Calculation/Formulation,
-Range,
+Range, agegroups 4 to 15
 Assumptions,
 Limitations,
 IntendedDirection,
