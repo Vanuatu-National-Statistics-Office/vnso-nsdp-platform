@@ -1678,4 +1678,20 @@
           "status": "complete"
         }]
     }
+  },
+  {
+    "goal": {
+      "id": "census",
+      "title": "Population from census",
+      "indicators": [
+        
+        {
+          "id": "census",
+          "title": "Population from census",
+          "description": "",
+          "keywords": "",
+          "href": "/nsdp-platform/census",
+          "status": "complete"
+        }]
+    }
   }]
