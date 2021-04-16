@@ -2619,7 +2619,13 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 .layout-frontpage-alt .goal-tiles .goal-tile,
 .layout-goals .goal-tiles .goal-tile {
   width: 100%;
-  max-width: 200px; }
+  max-width: 188px;
+  max-height: 180px; }
+  @media screen and (min-width: 1024px) {
+    .layout-frontpage-alt .goal-tiles .goal-tile,
+    .layout-goals .goal-tiles .goal-tile {
+      max-width: 220px;
+      max-height: 211px; } }
 
 #main-content .goal-tiles .pillar img {
   width: calc(100% - 10px); }
