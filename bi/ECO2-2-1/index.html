@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210422232134">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210422235732">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -450,19 +450,19 @@ var translations = {
   data-id="ECO2-2-1"
   data-country="Vanuatu"
   data-charttitle="Proportion of population with reliable access to safe drinking water"
-  data-charttitles="null"
-  data-measurementunit=""
+  data-charttitles="[]"
+  data-measurementunit="Percent"
   data-showdata="true"
   data-graphtype="bar"
   data-geocoderegex=""
-  data-showmap=""
-  data-startvalues="null"
-  data-graphlimits="null"
+  data-showmap="false"
+  data-startvalues="[]"
+  data-graphlimits="[]"
   data-stackeddisaggregation=""
-  data-graphannotations="null"
+  data-graphannotations="[]"
   data-indicatordownloads="null"
   data-compositebreakdownlabel=""
-  data-precision="null"
+  data-precision="[]"
 >
   
   <span role="status" class="sr-only" id="indicator-data-view-status"></span>
@@ -568,6 +568,10 @@ var translations = {
     <p>: Vanuatu</p>
     
     
+    <p>: Percent</p>
+    
+    
+    <p>: </p>
     
   </div>
 
@@ -851,6 +855,9 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>:</dt>
+        <dd>Percent</dd>
+        
 
         
 
@@ -893,6 +900,9 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>:</dt>
+        <dd>Percent</dd>
+        
 
         
 
@@ -903,6 +913,19 @@ opensdg.chartConfigAlter(function(config, info) {
 <div id="tableSelectionDownload" class="clearfix"></div>
 
   </div>
+  <div role="tabpanel" class="tab-pane" id="embeddedmapview" class="embedded-map">
+    <div class="row">
+  <div class="col-xs-12">
+    
+    
+    
+    <div class="embedded-map" id="embeddedmapframe">
+    
+  </div>
+</div>
+
+  </div>
+  
 </div>
 
 
@@ -1085,7 +1108,20 @@ data-event-label="Change to indicator.sources tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row"> </th>
+        <td>
           
+            <p>Percent</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1364,6 +1400,8 @@ data-event-label="Change to indicator.sources tab"
 <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
+<script src="//cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.min.js" integrity="sha512-9hzM/Gfa9KP1hSBlq3/zyNF/dfbcjAYwUTBWYX+xi8fzfAPHL3ILwS1ci0CTVeuXTGkRAWgRMZZwtSNV7P+nfw==" crossorigin="anonymous"></script>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
@@ -1374,12 +1412,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210422232134'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210422235732'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210422232134"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210422235732"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
