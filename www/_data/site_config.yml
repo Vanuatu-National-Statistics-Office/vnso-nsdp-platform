@@ -84,7 +84,7 @@ frontpage_cards:
     rule_color: ''
   - title: Vanuatu National Statistics Office
     content: |+
-      <img src="assets/img/VNSO.png" alt="VNSO LOGO" />
+      <img src="./assets/img/VNSO.png" alt="VNSO LOGO" />
 
     include: ''
     button_label: VNSO Website
