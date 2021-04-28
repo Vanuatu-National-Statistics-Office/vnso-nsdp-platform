@@ -82,13 +82,13 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
+  - title: Vanuatu National Statistics Office
+    content: |+
+      <img src="assets/img/VNSO.png" alt="VNSO LOGO" />
+
     include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
+    button_label: VNSO Website
+    button_link: 'https://vnso.gov.vu'
     rule_color: ''
   - title: Nam vestibulum
     content: |
@@ -151,6 +151,7 @@ indicator_metadata_form:
     - source_5
     - source_6
   exclude_fields: []
+  translated: false
 languages:
   - en
   - bi
