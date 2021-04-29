@@ -1005,7 +1005,7 @@ var accessibilitySwitcher = function() {
 
 };
 opensdg.chartColors = function(indicatorId) {
-  var colorSet = "default";
+  var colorSet = "accessible";
   var numberOfColors = 0;
   var customColorList = [];
 
