@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210428112419">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210429154701">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -162,7 +162,7 @@ var translations = {
 
 </div>
 
-<header role="banner" class="header-default">
+<header role="banner" class="header-menu-left-aligned">
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
@@ -192,22 +192,75 @@ var translations = {
     </div></div>
     </div>
 
-    <nav class="navbar navbar-default" id="main-nav">
+    <div class="search-and-desktop-widgets">
+      <div id="search" class="menu-target">
+  <form action="/vnso-nsdp-platform/bi/search">
+    <label class="sr-only" for="indicator_search"></label>
+    <input type="text" name="q" id="indicator_search" title="" /><!--
+    --><button aria-label="" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  </form>
+</div>
+
+      <div class="navbar navbar-default widgets-without-menu">
+        <ul class="nav navbar-nav contrast-switcher"><li class="language-toggle-menu-header">
+            
+
+
+
+
+
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Bislama</span>
+      <span class="language-abbreviation">bi</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li>
+            <a href="/vnso-nsdp-platform/config/">
+              English
+            </a>
+          </li><li>
+            <a href="/vnso-nsdp-platform/fr/config/">
+              Français
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+
+
+        </li></ul>
+      </div>
+    </div>
+
+    <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
         aria-label=""
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false"></button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/bi/goals">Gols</a>
+    <a href="/vnso-nsdp-platform/bi/goals/">15 Goals</a>
 </li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/bi/reporting-status"></a>
+    <a href="/vnso-nsdp-platform/bi/reporting-status/">Data availability</a>
 </li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/bi/about"></a>
+    <a href="/vnso-nsdp-platform/bi/indicator-overview/">Indicator overview</a>
 </li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/bi/faq"></a>
+    <a href="/vnso-nsdp-platform/bi/methodology/">Methodology</a>
 </li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/bi/news"></a>
+    <a href="/vnso-nsdp-platform/bi/about/">NSPD Online Platform</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/bi/technical-advice/">Technical advice</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/bi/2030-agenda/">2030 agenda</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/bi/publications/">Publications</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/bi/government-financial-statistics/">Government financial statistics</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/bi/natural-disasters/">Disaster statistics</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/bi/area-council-profiles/">Area council profiles</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -253,55 +306,57 @@ var translations = {
 
     </li>
 </ul>
-      <div id="search" class="menu-target">
-  <form action="/vnso-nsdp-platform/bi/search">
-    <label class="sr-only" for="indicator_search"></label>
-    <input type="text" name="q" id="indicator_search" title="" /><!--
-    --><button aria-label="" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
-
-      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/bi/goals">Gols</a>
+      <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/bi/goals/">15 Goals</a>
+</li><li class="nav-link">
+            <div class="btn-group menu-dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Evaluation
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/bi/reporting-status/">Data availability</a>
 </li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/bi/reporting-status"></a>
+    <a href="/vnso-nsdp-platform/bi/indicator-overview/">Indicator overview</a>
 </li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/bi/about"></a>
+    <a href="/vnso-nsdp-platform/bi/methodology/">Methodology</a>
+</li></ul>
+            </div>
+        </li><li class="nav-link">
+            <div class="btn-group menu-dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About us
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/bi/about/">NSPD Online Platform</a>
 </li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/bi/faq"></a>
+    <a href="/vnso-nsdp-platform/bi/technical-advice/">Technical advice</a>
+</li></ul>
+            </div>
+        </li><li class="nav-link">
+            <div class="btn-group menu-dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Useful information
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/bi/2030-agenda/">2030 agenda</a>
 </li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/bi/news"></a>
-</li><li class="language-toggle-menu-header">
-    
-
-
-
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Bislama</span>
-      <span class="language-abbreviation">bi</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
-            <a href="/vnso-nsdp-platform/config/">
-              English
-            </a>
-          </li><li>
-            <a href="/vnso-nsdp-platform/fr/config/">
-              Français
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
+    <a href="/vnso-nsdp-platform/bi/publications/">Publications</a>
+</li></ul>
+            </div>
+        </li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/bi/government-financial-statistics/">Government financial statistics</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/bi/natural-disasters/">Disaster statistics</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/bi/area-council-profiles/">Area council profiles</a>
 </li>
 </ul>
 
-    </nav>
+    </div>
+
   </div>
 
 </header>
@@ -593,7 +648,7 @@ var translations = {
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.analytics'));
       try {
-        var currentValue = normalizeCurrentValue('breadcrumbs', {"goal":[{"path":"/","label":"general.home"},{"path":"/goals","label":"general.goals"}],"indicator":[{"path":"/","label":"general.home"},{"path":"/goals","label":"general.goals"}],"post":[{"path":"/","label":"general.home"},{"path":"/news","label":"menu.updates"}]});
+        var currentValue = normalizeCurrentValue('breadcrumbs', {"goal":[{"path":"/","label":"general.home"},{"path":"/goals/","label":"general.goals"}],"indicator":[{"path":"/","label":"general.home"},{"path":"/goals/","label":"general.goals"}],"post":[{"path":"/","label":"general.home"},{"path":"/news/","label":"menu.updates"}]});
         var propertyEditor = editor.getEditor('root.breadcrumbs');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -785,7 +840,7 @@ var translations = {
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.footer_language_toggle'));
       try {
-        var currentValue = normalizeCurrentValue('footer_menu', [{"path":"mailto:my-email-address@example.com","translation_key":"menu.contact_us"},{"path":"https://twitter.com/MyTwitterAccount","translation_key":"general.twitter"},{"path":"https://facebook.com/MyFacebookAccount","translation_key":"general.facebook"},{"path":"/about/cookies-and-privacy/","translation_key":"menu.cookies"}]);
+        var currentValue = normalizeCurrentValue('footer_menu', [{"path":"/contact/","translation_key":"menu.contact_us"},{"path":"https://twitter.com/MyTwitterAccount","translation_key":"general.twitter"},{"path":"https://facebook.com/MyFacebookAccount","translation_key":"general.facebook"},{"path":"/about/cookies-and-privacy/","translation_key":"menu.cookies"}]);
         var propertyEditor = editor.getEditor('root.footer_menu');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -797,7 +852,7 @@ var translations = {
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.footer_menu'));
       try {
-        var currentValue = normalizeCurrentValue('frontpage_cards', [{"title":"frontpage.download_all","content":"","include":"components/download-all-data.html","button_label":"","button_link":"","rule_color":""},{"title":"Vanuatu National Statistics Office","content":"","include":"vnso-card.html","button_label":"VNSO Website","button_link":"https://vnso.gov.vu","rule_color":""},{"title":"Nam vestibulum","content":"Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a\ninterdum risus enim vitae tortor. Donec feugiat accumsan rutrum.\n","include":"","button_label":"Read more","button_link":"https://example.com","rule_color":""}]);
+        var currentValue = normalizeCurrentValue('frontpage_cards', [{"title":"frontpage.download_all","content":"","include":"components/download-all-data.html","button_label":"","button_link":"","rule_color":""},{"title":"Vanuatu National Statistics Office","content":"","include":"vnso-card.html","button_label":"VNSO Website","button_link":"https://vnso.gov.vu","rule_color":""},{"title":"Department of Strategic Policy, Planning & Aid Coordination","content":"","include":"dsppac-card.html","button_label":"DSPPAC Website","button_link":"https://dsppac.gov.vu/","rule_color":""}]);
         var propertyEditor = editor.getEditor('root.frontpage_cards');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -965,7 +1020,7 @@ var translations = {
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.graph_color_number'));
       try {
-        var currentValue = normalizeCurrentValue('header', {"include":"header-default.html"});
+        var currentValue = normalizeCurrentValue('header', {"include":"header-menu-left-aligned.html"});
         var propertyEditor = editor.getEditor('root.header');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1097,7 +1152,7 @@ var translations = {
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.map_options'));
       try {
-        var currentValue = normalizeCurrentValue('menu', [{"path":"/goals","translation_key":"general.goals","dropdown":[]},{"path":"/reporting-status","translation_key":"menu.reporting_status","dropdown":[]},{"path":"/about","translation_key":"menu.about","dropdown":[]},{"path":"/faq","translation_key":"menu.faq","dropdown":[]},{"path":"/news","translation_key":"menu.updates","dropdown":[]}]);
+        var currentValue = normalizeCurrentValue('menu', [{"path":"/goals/","translation_key":"15 Goals","dropdown":[]},{"path":"/reporting-status/","translation_key":"Evaluation","dropdown":[{"path":"/reporting-status/","translation_key":"Data availability"},{"path":"/indicator-overview/","translation_key":"Indicator overview"},{"path":"/methodology/","translation_key":"Methodology"}]},{"path":"/about/","translation_key":"About us","dropdown":[{"path":"/about/","translation_key":"NSPD Online Platform"},{"path":"/technical-advice/","translation_key":"Technical advice"}]},{"path":"/2030-agenda/","translation_key":"Useful information","dropdown":[{"path":"/2030-agenda/","translation_key":"2030 agenda"},{"path":"/publications/","translation_key":"Publications"}]},{"path":"/government-financial-statistics/","translation_key":"Government financial statistics","dropdown":[]},{"path":"/natural-disasters/","translation_key":"Disaster statistics","dropdown":[]},{"path":"/area-council-profiles/","translation_key":"Area council profiles","dropdown":[]}]);
         var propertyEditor = editor.getEditor('root.menu');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1350,8 +1405,7 @@ var translations = {
             <li><a href="https://open-sdg.org">bildim usum open SDG</a></li>
             
               <li>
-                
-                  <a href="mailto:my-email-address@example.com" target="_blank"></a>
+                <a href="/vnso-nsdp-platform/bi/contact/"></a>
                 
                 </li>
               <li>
@@ -1404,12 +1458,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210428112419'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210429154701'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210428112419"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210429154701"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
