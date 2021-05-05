@@ -27,7 +27,7 @@
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/bi/ECO1-1-1a",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "ECO1-2-1",
@@ -91,7 +91,7 @@
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/bi/ECO1-5-3",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "ECO1-6-1",
@@ -187,7 +187,7 @@
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/bi/ECO2-2-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "ECO2-2-2",
