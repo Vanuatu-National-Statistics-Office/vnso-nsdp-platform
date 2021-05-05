@@ -2638,3 +2638,6 @@ body {
 
 #main-content {
   background: transparent; }
+
+.dsppac-image {
+  max-width: 230px; }
