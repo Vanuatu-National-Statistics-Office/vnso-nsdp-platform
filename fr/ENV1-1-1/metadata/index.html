@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210512022005">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210517201444">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -606,7 +606,127 @@ var translations = {
       }
     }
 
-    // Set values according to this site's configuration.propertyEditorAccessibilityFixes(editor.getEditor('root.TargetDescription'));propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationMethod'));propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationUnit'));propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));propertyEditorAccessibilityFixes(editor.getEditor('root.DataSource'));propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
+    // Set values according to this site's configuration.
+      try {
+        var currentValue = normalizeCurrentValue('TargetDescription', "Target TBD after baseline established ");
+        var propertyEditor = editor.getEditor('root.TargetDescription');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: TargetDescription');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.TargetDescription'));
+      try {
+        var currentValue = normalizeCurrentValue('SDGAlignment', "2.3.1 (Tier 3),  2.3.2 (Tier 3)");
+        var propertyEditor = editor.getEditor('root.SDGAlignment');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDGAlignment');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
+      try {
+        var currentValue = normalizeCurrentValue('Definition', "Food production is the process of transforming raw ingredients into prepared food products. Food production includes industries that take raw food products and convert them into marketable food items.");
+        var propertyEditor = editor.getEditor('root.Definition');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Definition');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));
+      try {
+        var currentValue = normalizeCurrentValue('Concept', "Production means growing the plants we harvest or raising the animals we use for food. Most food comes from domesticated animals and plants, and their production occurs on farms or ranches. Some foods are caught or harvested from the wild, such as fish, pigs, cows, etc.");
+        var propertyEditor = editor.getEditor('root.Concept');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Concept');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
+      try {
+        var currentValue = normalizeCurrentValue('Rationale', "Own production of food consumption , is related to the production of food and agricultural products. This includes crop production, livestock production, fisheries and aquaculture production, and from forestry production. ");
+        var propertyEditor = editor.getEditor('root.Rationale');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Rationale');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
+      try {
+        var currentValue = normalizeCurrentValue('ComputationMethod', "Total Number of Households engaged in production of food for own consumption divided by total number of households multiply by 100");
+        var propertyEditor = editor.getEditor('root.ComputationMethod');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: ComputationMethod');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationMethod'));
+      try {
+        var currentValue = normalizeCurrentValue('ComputationUnit', "Total Count\nPercentage (%)");
+        var propertyEditor = editor.getEditor('root.ComputationUnit');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: ComputationUnit');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationUnit'));
+      try {
+        var currentValue = normalizeCurrentValue('Proxy', "");
+        var propertyEditor = editor.getEditor('root.Proxy');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Proxy');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
+      try {
+        var currentValue = normalizeCurrentValue('DataSource', "VNSO (Census, NSDP Survey, Mini-Census) , Department of Agriculture (Administrative Data)");
+        var propertyEditor = editor.getEditor('root.DataSource');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DataSource');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.DataSource'));
+      try {
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "10 years (census)\n5 years (minicensus)\nNSDP Baseline 1st phase");
+        var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: FrequencyOfCollection');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
       try {
         var currentValue = normalizeCurrentValue('source_organisation_1', "2009 Population and Housing Census, VNSO (published figure in 2014 Socio-Economic Atlas p 52)");
         var propertyEditor = editor.getEditor('root.source_organisation_1');
@@ -770,12 +890,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Chercher';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210512022005'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210517201444'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210512022005"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210517201444"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

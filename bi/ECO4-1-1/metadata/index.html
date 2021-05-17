@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210512022005">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210517201444">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -606,9 +606,33 @@ var translations = {
       }
     }
 
-    // Set values according to this site's configuration.propertyEditorAccessibilityFixes(editor.getEditor('root.TargetDescription'));propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
+    // Set values according to this site's configuration.
       try {
-        var currentValue = normalizeCurrentValue('Definition', "Gross Fixed Capital Formation");
+        var currentValue = normalizeCurrentValue('TargetDescription', "By 2020 10% increase (annual increase is 7%)");
+        var propertyEditor = editor.getEditor('root.TargetDescription');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: TargetDescription');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.TargetDescription'));
+      try {
+        var currentValue = normalizeCurrentValue('SDGAlignment', "8.2.1(tier1), 17.5.1");
+        var propertyEditor = editor.getEditor('root.SDGAlignment');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDGAlignment');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
+      try {
+        var currentValue = normalizeCurrentValue('Definition', "·      Gross fixed capital formation (net investment) is the net amount of fixed capital accumulation.\nIt measures the increase in the capital stock less the disposal of fixed assets\n\n·      GFCF measures the net increase in fixed capital. It is a component of the Expenditure method of calculating GDP");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -618,7 +642,91 @@ var translations = {
         console.log(e.message);
         console.log('Unable to set config key: Definition');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationMethod'));propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationUnit'));propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));propertyEditorAccessibilityFixes(editor.getEditor('root.DataSource'));propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));
+      try {
+        var currentValue = normalizeCurrentValue('Concept', "Gross fixed capital formation includes spending on land improvements for instance fences, drains, machinery and equipment purchases, the construction of roads, railways, private residential dwellings, and commercial and industrial buildings. ");
+        var propertyEditor = editor.getEditor('root.Concept');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Concept');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
+      try {
+        var currentValue = normalizeCurrentValue('Rationale', "* Reason for capturing Gross Fixed Capital Formation, there should be a way to measure the growth of capital assets as money is reinvested\n\n* Capital Formation is a term used to capture the net change gain; this include increases in fixed assets.");
+        var propertyEditor = editor.getEditor('root.Rationale');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Rationale');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
+      try {
+        var currentValue = normalizeCurrentValue('ComputationMethod', "Number of Growth in Gross Fixed Capital Formation");
+        var propertyEditor = editor.getEditor('root.ComputationMethod');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: ComputationMethod');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationMethod'));
+      try {
+        var currentValue = normalizeCurrentValue('ComputationUnit', "total count\npercentage (%)");
+        var propertyEditor = editor.getEditor('root.ComputationUnit');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: ComputationUnit');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationUnit'));
+      try {
+        var currentValue = normalizeCurrentValue('Proxy', "No");
+        var propertyEditor = editor.getEditor('root.Proxy');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Proxy');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
+      try {
+        var currentValue = normalizeCurrentValue('DataSource', "* Ministry of Trades\n* Ministry of Finance and Economic Management");
+        var propertyEditor = editor.getEditor('root.DataSource');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DataSource');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.DataSource'));
+      try {
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
+        var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: FrequencyOfCollection');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
       try {
         var currentValue = normalizeCurrentValue('source_organisation_1', "2017 Statistical Release: GDP Highlights (p11), VNSO");
         var propertyEditor = editor.getEditor('root.source_organisation_1');
@@ -758,12 +866,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210512022005'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210517201444'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210512022005"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210517201444"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

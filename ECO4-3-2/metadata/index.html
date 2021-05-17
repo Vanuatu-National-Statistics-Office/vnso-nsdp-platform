@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210512022005">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210517201444">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -606,7 +606,127 @@ var translations = {
       }
     }
 
-    // Set values according to this site's configuration.propertyEditorAccessibilityFixes(editor.getEditor('root.TargetDescription'));propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationMethod'));propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationUnit'));propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));propertyEditorAccessibilityFixes(editor.getEditor('root.DataSource'));propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));function isTranslationKey(text) {
+    // Set values according to this site's configuration.
+      try {
+        var currentValue = normalizeCurrentValue('TargetDescription', "By 2020 increase 15%");
+        var propertyEditor = editor.getEditor('root.TargetDescription');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: TargetDescription');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.TargetDescription'));
+      try {
+        var currentValue = normalizeCurrentValue('SDGAlignment', "9.b.1");
+        var propertyEditor = editor.getEditor('root.SDGAlignment');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDGAlignment');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
+      try {
+        var currentValue = normalizeCurrentValue('Definition', "·      Export commodities are substances or good that are produced in a country, then shipped to others for distribution and sale abroad. (processed export commodities include agricultural products that have been extracted and modify using certain chemical to alter the product to preserved the produce but at the same time add more value to the product)\n·      A raw material is an unprocessed material, or primary commodity, it is a basic material that is used to produce goods or finished products.");
+        var propertyEditor = editor.getEditor('root.Definition');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Definition');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));
+      try {
+        var currentValue = normalizeCurrentValue('Concept', "* The term commodities are generally understood as goods that are essentially the same no matter where they are produced. \n* Raw material extracted from the environment directly without further process but is export directly to other country.\n");
+        var propertyEditor = editor.getEditor('root.Concept');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Concept');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
+      try {
+        var currentValue = normalizeCurrentValue('Rationale', "* To understand which two process of export has the most impact on the economy of Vanuatu \n* What major goods are being exported ");
+        var propertyEditor = editor.getEditor('root.Rationale');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Rationale');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
+      try {
+        var currentValue = normalizeCurrentValue('ComputationMethod', "* Get the total number of processed export commodities to raw exports\n* To calculate the ratio of an amount we divide the amount by the total number of parts in the ratio and then multiply this answer by the original ratio.");
+        var propertyEditor = editor.getEditor('root.ComputationMethod');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: ComputationMethod');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationMethod'));
+      try {
+        var currentValue = normalizeCurrentValue('ComputationUnit', "Percentage (%)");
+        var propertyEditor = editor.getEditor('root.ComputationUnit');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: ComputationUnit');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationUnit'));
+      try {
+        var currentValue = normalizeCurrentValue('Proxy', "No");
+        var propertyEditor = editor.getEditor('root.Proxy');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Proxy');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
+      try {
+        var currentValue = normalizeCurrentValue('DataSource', "* Department of Trade\n* Department of Agriculture & Rural Development (DARD)\n* Department of Customs & Inland Revenue (CIR)");
+        var propertyEditor = editor.getEditor('root.DataSource');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DataSource');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.DataSource'));
+      try {
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
+        var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: FrequencyOfCollection');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));function isTranslationKey(text) {
       var parts = text.split('.');
       if (parts.length !== 2) {
         return false;
@@ -734,12 +854,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210512022005'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210517201444'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210512022005"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210517201444"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

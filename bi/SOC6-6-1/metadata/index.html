@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210512022005">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210517201444">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -606,7 +606,127 @@ var translations = {
       }
     }
 
-    // Set values according to this site's configuration.propertyEditorAccessibilityFixes(editor.getEditor('root.TargetDescription'));propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationMethod'));propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationUnit'));propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));propertyEditorAccessibilityFixes(editor.getEditor('root.DataSource'));propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));function isTranslationKey(text) {
+    // Set values according to this site's configuration.
+      try {
+        var currentValue = normalizeCurrentValue('TargetDescription', "By 2030 1 planner in each area");
+        var propertyEditor = editor.getEditor('root.TargetDescription');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: TargetDescription');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.TargetDescription'));
+      try {
+        var currentValue = normalizeCurrentValue('SDGAlignment', "11.a.1 (Tier 3), 11.b.1 (Tier 3)");
+        var propertyEditor = editor.getEditor('root.SDGAlignment');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDGAlignment');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
+      try {
+        var currentValue = normalizeCurrentValue('Definition', "A design exercise that uses the land use plan as a framework to propose the optimal physical infrastructure for a settlement or area, including infrastructure for public services, transport, economic activities, recreation, and environmental protection.");
+        var propertyEditor = editor.getEditor('root.Definition');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Definition');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));
+      try {
+        var currentValue = normalizeCurrentValue('Concept', "Physical planning is concerned with the general pattern of land-use, the character and location of public buildings and structures, the design of streets, the location and development of transit and transportation systems, and all other physical facilities which are necessary or desirable to promote the economic betterment, comfort, convenience, and the general welfare.");
+        var propertyEditor = editor.getEditor('root.Concept');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Concept');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
+      try {
+        var currentValue = normalizeCurrentValue('Rationale', "* important for policy planning of the country\n* important for urban planning\n* promote a more desirable & better develoment for the need of the public");
+        var propertyEditor = editor.getEditor('root.Rationale');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Rationale');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
+      try {
+        var currentValue = normalizeCurrentValue('ComputationMethod', "(Number of declared physical planning areas that have a physical plan) / (Total number of physical planning area) *100");
+        var propertyEditor = editor.getEditor('root.ComputationMethod');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: ComputationMethod');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationMethod'));
+      try {
+        var currentValue = normalizeCurrentValue('ComputationUnit', "Percentage (%)");
+        var propertyEditor = editor.getEditor('root.ComputationUnit');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: ComputationUnit');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationUnit'));
+      try {
+        var currentValue = normalizeCurrentValue('Proxy', "No");
+        var propertyEditor = editor.getEditor('root.Proxy');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Proxy');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
+      try {
+        var currentValue = normalizeCurrentValue('DataSource', "Department of Local Authorities (DLA)");
+        var propertyEditor = editor.getEditor('root.DataSource');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DataSource');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.DataSource'));
+      try {
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
+        var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: FrequencyOfCollection');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));function isTranslationKey(text) {
       var parts = text.split('.');
       if (parts.length !== 2) {
         return false;
@@ -734,12 +854,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210512022005'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210517201444'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210512022005"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210517201444"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
