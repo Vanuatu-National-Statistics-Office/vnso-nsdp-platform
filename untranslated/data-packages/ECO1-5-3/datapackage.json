@@ -11,28 +11,49 @@
       "schema": {
         "fields": [
           {
-            "name": "Series",
+            "name": "Country",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "31530"
+                "Australia",
+                "China",
+                "Fiji",
+                "France",
+                "Hong Kong",
+                "India",
+                "Indonesia",
+                "Japan",
+                "Malaysia",
+                "Netherlands",
+                "New Caledonia",
+                "New Zealand",
+                "Papua New Guinea",
+                "Philippines",
+                "Republic of Korea",
+                "Singapore",
+                "Solomon Islands",
+                "Thailand",
+                "USA",
+                "United Kingdom"
               ]
             }
           },
           {
-            "name": "Units",
+            "name": "International Merchandise Trade",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Total"
+                "Balance",
+                "Exports",
+                "Imports"
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           },
           {
             "name": "Year",
