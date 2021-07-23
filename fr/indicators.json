@@ -1025,6 +1025,38 @@
   },
   {
     "goal": {
+      "id": "GDPProduction_ConstantValues_Indicataor",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "GDPProduction_ConstantValues_Indicataor",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/fr/GDPProduction_ConstantValues_Indicataor",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "GDPProduction_GrowthRatesConstantprices_Indicataor",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "GDPProduction_GrowthRatesConstantprices_Indicataor",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/fr/GDPProduction_GrowthRatesConstantprices_Indicataor",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "SOC1",
       "title": "global_goals.SOC1-title",
       "indicators": [

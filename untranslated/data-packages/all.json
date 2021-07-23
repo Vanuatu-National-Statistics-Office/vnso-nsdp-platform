@@ -981,6 +981,80 @@
       "title": "ENV4-5-1"
     },
     {
+      "path": "GDPProduction_GrowthRatesConstantprices_Indicataor/data.csv",
+      "name": "GDPProduction_GrowthRatesConstantprices_Indicataor",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Calculation Method",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "GDP by Production"
+              ]
+            }
+          },
+          {
+            "name": "Industry ",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Accomodation and Food Services",
+                "Animal Prodcution",
+                "Construction",
+                "Crop Production",
+                "Education, Health, Recreation, and Other Services",
+                "Electricity and Water Supply",
+                "Finance and Insurance ",
+                "Fishing",
+                "Forestry",
+                "Government Services",
+                "Information and Communication",
+                "Manufacturing",
+                "Mining and Quarrying",
+                "Other Wholesale Trade",
+                "Professional, Scientifc, Technical, Adm/Services",
+                "Real Estate",
+                "Retail Trade",
+                "Transport",
+                "Wholesale, Retail Trade, repair of Motorvehicles"
+              ]
+            }
+          },
+          {
+            "name": "Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Agriculture, Fishing and Forestry",
+                "Industry",
+                "Less imputed Bank Service Charge",
+                "Plus Taxes less Subsidies on Products ",
+                "Services"
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "GDPProduction_GrowthRatesConstantprices_Indicataor"
+    },
+    {
       "path": "ENV1-4-1/data.csv",
       "name": "ENV1-4-1",
       "profile": "tabular-data-resource",
@@ -3246,6 +3320,80 @@
         ]
       },
       "title": "SOC5-4-2"
+    },
+    {
+      "path": "GDPProduction_ConstantValues_Indicataor/data.csv",
+      "name": "GDPProduction_ConstantValues_Indicataor",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Calculation Method",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "GDP by Production"
+              ]
+            }
+          },
+          {
+            "name": "Industry ",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Accomodation and Food Services",
+                "Animal Prodcution",
+                "Construction",
+                "Crop Production",
+                "Education, Health, Recreation, and Other Services",
+                "Electricity and Water Supply",
+                "Finance and Insurance ",
+                "Fishing",
+                "Forestry",
+                "Government Services",
+                "Information and Communication",
+                "Manufacturing",
+                "Mining and Quarrying",
+                "Other Wholesale Trade",
+                "Professional, Scientifc, Technical, Adm/Services",
+                "Real Estate",
+                "Retail Trade",
+                "Transport",
+                "Wholesale, Retail Trade, repair of Motorvehicles"
+              ]
+            }
+          },
+          {
+            "name": "Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Agriculture, Fishing and Forestry",
+                "Industry",
+                "Less imputed Bank Service Charge",
+                "Plus Taxes less Subsidies on Products ",
+                "Services"
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "GDPProduction_ConstantValues_Indicataor"
     },
     {
       "path": "ENV5-1-2/data.csv",
