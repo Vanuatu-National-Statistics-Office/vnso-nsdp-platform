@@ -7,6 +7,7 @@ layout: page
 ### Open Source Project on GitHub
 The NSDP online platform is a publicly accessible instrument for disseminating and presenting data on the indicators of the Vanuatu National Sustainable Development Plan.
 The project code for the NSDP online platform is publicly available in the following GitHub repository . A universal version of the code developed by the US, UK and the Center for Open Data Enterprise for an online platform is available. The NSDP online platform is based on this. If you are interested, we recommend that you review the SDG online platforms in the USA and Great Britain and the corresponding Open SDG project documentation to familiarise. This contains technical instructions on how, for example, a copy of the Open SDG online platform can be created.
+
 •	[SDG online platform USA](https://sdg.data.gov/)
 •	[SDG online platform Great Britain](https://sustainabledevelopment-uk.github.io/)
 
