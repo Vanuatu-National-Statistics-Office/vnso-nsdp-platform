@@ -1,4 +1,4 @@
-﻿accessible_charts: true
+accessible_charts: true
 accessible_tabs: true
 analytics:
   ga_prod: ''
@@ -211,10 +211,10 @@ menu:
       - path: /publications/
         translation_key: PUBLICATIONS
   - path: /government-financial-statistics/
-    translation_key: GOVERNMENT FINANCIAL STATISTICS
+    translation_key: GOVERNMENT FINANCE
     dropdown: []
   - path: /economic-statistics/
-    translation_key: ECONOMIC STATISTICS
+    translation_key: ECONOMY
     dropdown:
       - path: /gdp-constant-price/
       - translation_key: GDP CONSTANT PRICE
