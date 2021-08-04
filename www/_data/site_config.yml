@@ -211,7 +211,7 @@ menu:
       - path: /publications/
         translation_key: PUBLICATIONS
   - path: /government-financial-statistics/
-    translation_key: GOVERNMENT FINANCIAL STATISTICS
+    translation_key: GOVERNMENT FINANCE
     dropdown: []
   - path: /economic-statistics/
     translation_key: ECONOMIC STATISTICS
