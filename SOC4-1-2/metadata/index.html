@@ -114,8 +114,6 @@ var translations = {
         
         <link rel="canonical" href="/">
 
-        
-
         <!--[if IE 9]>
         <script src="/vnso-nsdp-platform/assets/js/lib/classList.js"></script>
         <![endif]-->
@@ -128,12 +126,10 @@ var translations = {
         -->
 
         
-
-        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210723033804">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210810235353">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -142,6 +138,8 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
+
+        
 
     </head>
 <body class="language-en
@@ -172,31 +170,41 @@ layout-config-builder
     <img src="/vnso-nsdp-platform/assets/img/logo tittle.PNG" alt="National Development Goals 2030" />
 </a>
       <div class="mobile-widgets">
-    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
-        <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
-            <a href="/vnso-nsdp-platform/bi/SOC4-1-2/metadata/">
-              Bislama
-            </a>
-          </li><li>
-            <a href="/vnso-nsdp-platform/fr/SOC4-1-2/metadata/">
-              Français
-            </a>
-          </li></ul>
-  </div>
-</div>
+    <ul id='accessibility-nav' class='contrast-switcher'>
+        
 
-    </div></div>
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+    </ul></div>
     </div>
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/vnso-nsdp-platform/search">
+  <form action="/vnso-nsdp-platform/search/">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -204,34 +212,35 @@ layout-config-builder
 </div>
 
       <div class="navbar navbar-default widgets-without-menu">
-        <ul class="nav navbar-nav contrast-switcher"><li class="language-toggle-menu-header">
-            
+        <ul class="nav navbar-nav contrast-switcher">
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
 
 
-
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
-            <a href="/vnso-nsdp-platform/bi/SOC4-1-2/metadata/">
-              Bislama
-            </a>
-          </li><li>
-            <a href="/vnso-nsdp-platform/fr/SOC4-1-2/metadata/">
-              Français
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
-        </li></ul>
+        </ul>
       </div>
     </div>
 
@@ -248,11 +257,11 @@ layout-config-builder
 </li><li class="nav-link ">
     <a href="/vnso-nsdp-platform/methodology/">METHODOLOGY</a>
 </li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/2030-agenda/">2030 AGENDA</a>
+</li><li class="nav-link ">
     <a href="/vnso-nsdp-platform/about/">NSPD ONLINE PLATFORM</a>
 </li><li class="nav-link ">
     <a href="/vnso-nsdp-platform/technical-advice/">TECHNICAL ADVICE</a>
-</li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/2030-agenda/">2030 AGENDA</a>
 </li><li class="nav-link ">
     <a href="/vnso-nsdp-platform/publications/">PUBLICATIONS</a>
 </li><li class="nav-link ">
@@ -269,34 +278,37 @@ layout-config-builder
     <a href="/vnso-nsdp-platform/demographics"></a>
 </li><li class="nav-link ">
     <a href="/vnso-nsdp-platform/">DEMOGRAPHICS</a>
-</li><li class="language-toggle-menu-header">
-    
-
-
-
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
-            <a href="/vnso-nsdp-platform/bi/SOC4-1-2/metadata/">
-              Bislama
-            </a>
-          </li><li>
-            <a href="/vnso-nsdp-platform/fr/SOC4-1-2/metadata/">
-              Français
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
 </li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
 </ul>
 
     </li>
@@ -305,7 +317,7 @@ layout-config-builder
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/vnso-nsdp-platform/search">
+  <form action="/vnso-nsdp-platform/search/">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -331,23 +343,15 @@ layout-config-builder
         </li><li class="nav-link">
             <div class="btn-group menu-dropdown">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    ABOUT US
-                    <i class="fa fa-chevron-down"></i>
-                </button>
-                <ul class="dropdown-menu"><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/about/">NSPD ONLINE PLATFORM</a>
-</li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/technical-advice/">TECHNICAL ADVICE</a>
-</li></ul>
-            </div>
-        </li><li class="nav-link">
-            <div class="btn-group menu-dropdown">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     USEFUL INFORMATION
                     <i class="fa fa-chevron-down"></i>
                 </button>
                 <ul class="dropdown-menu"><li class="nav-link ">
     <a href="/vnso-nsdp-platform/2030-agenda/">2030 AGENDA</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/about/">NSPD ONLINE PLATFORM</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/technical-advice/">TECHNICAL ADVICE</a>
 </li><li class="nav-link ">
     <a href="/vnso-nsdp-platform/publications/">PUBLICATIONS</a>
 </li></ul>
@@ -383,6 +387,7 @@ layout-config-builder
 </li></ul>
             </div>
         </li>
+
 </ul>
 
     </div>
@@ -672,6 +677,7 @@ layout-config-builder
       translationLink = translationLink.replace('[id]', 'SOC4-1-2');
       translationLink = translationLink.replace('[group]', parts[0]);
       translationLink = translationLink.replace('[key]', parts[1]);
+      translationLink = translationLink.replace('[language]', 'en');
       var element = document.createElement('a');
       element.setAttribute('target', '_blank');
       element.setAttribute('href', translationLink);
@@ -755,13 +761,7 @@ layout-config-builder
   </div>
 </footer>
 
-<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
-<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
-<!-- Google Analytics -->
-
-<!-- /.container </div> -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
@@ -780,12 +780,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210723033804'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210810235353'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210723033804"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210810235353"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -825,6 +825,7 @@ $(function() {
               stackedDisaggregation: domData.stackeddisaggregation,
               graphAnnotations: domData.graphannotations,
               indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
               compositeBreakdownLabel: domData.compositebreakdownlabel,
               precision: domData.precision,
             }),

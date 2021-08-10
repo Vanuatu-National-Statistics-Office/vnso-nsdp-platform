@@ -11,31 +11,31 @@
       "schema": {
         "fields": [
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "33211"
-              ]
-            }
+            "name": "Year",
+            "type": "integer"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "VUV"
+                "VUV",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "33211",
+                ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
-          },
-          {
-            "name": "Year",
             "type": "integer"
           }
         ]

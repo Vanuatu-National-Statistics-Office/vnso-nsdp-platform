@@ -28,6 +28,33 @@ body {
 ul {
   padding-left: 2rem; }
 
+/**
+ * CSS rules specific to certain languages.
+ */
+.language-ar {
+  direction: rtl; }
+
+.language-km #page-content,
+.language-km #indicator-sidebar,
+.language-km #indicator-main,
+.language-km #main-content,
+.language-km .goal-banner,
+.language-lo #page-content,
+.language-lo #indicator-sidebar,
+.language-lo #indicator-main,
+.language-lo #main-content,
+.language-lo .goal-banner {
+  line-break: anywhere; }
+.language-km #main-content .status-inner,
+.language-km #main-content .status,
+.language-lo #main-content .status-inner,
+.language-lo #main-content .status {
+  line-break: normal; }
+.language-km #indicator-main #national th[scope="row"], .language-km #indicator-main #global th[scope="row"],
+.language-lo #indicator-main #national th[scope="row"],
+.language-lo #indicator-main #global th[scope="row"] {
+  min-width: 100px; }
+
 .js #headlineTable {
   display: none; }
 
@@ -181,10 +208,19 @@ input[type="checkbox"]:focus, body.contrast-high input[type="checkbox"]:focus {
 .tabPanel:focus,
 input[type="text"]:focus,
 body.contrast-high input[type="text"]:focus,
+.variable-selector button.accessBtn:focus,
 div[tabindex]:focus {
   background-color: white !important;
   box-shadow: none !important;
   outline: 3px solid #ffdd00 !important; }
+
+body.contrast-high .variable-selector button.accessBtn:focus {
+  background-color: black !important;
+  box-shadow: none !important;
+  outline: 3px solid #ffdd00 !important;
+  color: white !important; }
+  body.contrast-high .variable-selector button.accessBtn:focus, body.contrast-high .variable-selector button.accessBtn:focus span {
+    color: white !important; }
 
 body.contrast-high div[tabindex]:focus {
   background-color: black !important;
@@ -665,9 +701,6 @@ body.contrast-high #zip-download-info {
 .goal-banner .goal-icon a:focus {
   outline: 6px #ffdd00 solid !important; }
 
-.language-ar {
-  direction: rtl; }
-
 .language-toggle-dropdown {
   margin-top: -2px; }
   .language-toggle-dropdown .dropdown-toggle {
@@ -833,6 +866,15 @@ footer #footerLinks .language-toggle-menu-footer {
   .contrast-high .language-toggle-dropdown .dropdown-menu li a:hover {
     text-decoration: underline; }
 
+.contrast-type-single a:focus {
+  border-radius: 50%;
+  box-shadow: none !important;
+  outline: 4px solid #ffdd00 !important; }
+
+.contrast-high .contrast-type-single a:focus {
+  background-color: inherit !important;
+  box-shadow: 1px 1px white, -1px -1px white !important; }
+
 .language-toggle-menu-header > .language-toggle.language-options {
   display: none;
   position: absolute;
@@ -868,6 +910,8 @@ footer #footerLinks .language-toggle-menu-footer {
     justify-content: center; }
     #main-content #map #loader-container img {
       height: auto; }
+  #main-content #map .leaflet-control-search #map-search-combobox {
+    display: inline; }
   #main-content #map .leaflet-control-search .search-button {
     background-image: none;
     font-size: 20px;
@@ -912,6 +956,10 @@ footer #footerLinks .language-toggle-menu-footer {
     border-radius: 5px; }
     #main-content #map .disaggregation-select-container label {
       margin-right: 4px; }
+  @media only screen and (max-width: 480px) {
+    #main-content #map .leaflet-control-attribution {
+      max-width: 100px;
+      text-align: right; } }
   #main-content #map .selection-legend {
     background-color: rgba(150, 150, 150, 0.6);
     padding: 0;
@@ -1110,17 +1158,17 @@ body.contrast-high #main-content .nav-tabs {
     display: inline-block;
     list-style: none; }
     #accessibility-nav li.contrast {
-      font-size: 1.3em;
       font-weight: bold;
       border-radius: 50%;
       width: 25px;
       max-height: 25px;
       text-align: center;
       margin: 0.25em;
-      margin-top: 0.1em; }
+      margin-top: 2px; }
       #accessibility-nav li.contrast a {
         margin: auto;
-        text-decoration: none; }
+        text-decoration: none;
+        display: block; }
     #accessibility-nav li.contrast-default {
       display: none;
       background: white; }
@@ -1193,8 +1241,6 @@ body.contrast-high {
   body.contrast-high li.contrast-default a {
     color: black !important; }
 
-body.long.contrast-default li.contrast-default {
-  display: none; }
 body.long.contrast-default li.contrast-high {
   display: block; }
   @media only screen and (max-width: 767px) {
@@ -1206,8 +1252,6 @@ body.long.contrast-high li.contrast-default {
   @media only screen and (max-width: 767px) {
     body.long.contrast-high li.contrast-default {
       width: 60px; } }
-body.long.contrast-high li.contrast-high {
-  display: none; }
 
 body.long .navbar ul.navbar-nav li.contrast {
   font-size: 0.75em;
@@ -1269,6 +1313,11 @@ body.contrast-high #map a {
   color: black; }
 body.contrast-high #map .selection-legend .legend-values li, body.contrast-high #map .selection-legend .legend-values span, body.contrast-high #map .selection-legend #selection-list li, body.contrast-high #map .selection-legend #selection-list span {
   color: black; }
+
+#global td > h1:nth-child(1), #national td > h1:nth-child(1) {
+  display: none; }
+  #global td > h1:nth-child(1) + h2, #national td > h1:nth-child(1) + h2 {
+    margin-top: 0px; }
 
 body {
   background: white url("../img/sdgbg.png") top left repeat-x;
@@ -1696,7 +1745,9 @@ footer {
     background: #ccc; }
 #main-content #toolbar .accessBtn {
   padding: 0px !important;
-  border: none; }
+  border: 1px solid transparent; }
+  #main-content #toolbar .accessBtn:focus {
+    border: 1px solid #555; }
 #main-content #toolbar > p {
   font-size: 96%; }
 #main-content #fields {
@@ -1866,6 +1917,24 @@ footer {
       background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAABCAYAAADn9T9+AAAAFklEQVQImWP8////fwY0wMjIyIguBgCaAgQCms5tJwAAAABJRU5ErkJggg==");
       background-repeat: repeat;
       background-position: -5px 0; }
+  #main-content #legend.legend-for-line-chart .swatch {
+    height: 3px;
+    position: relative; }
+    #main-content #legend.legend-for-line-chart .swatch .swatch-inner {
+      position: absolute;
+      width: 11px;
+      height: 11px;
+      display: inline-block;
+      top: -4px;
+      left: 17px;
+      border-radius: 10px; }
+    #main-content #legend.legend-for-line-chart .swatch.headline {
+      height: 6px; }
+      #main-content #legend.legend-for-line-chart .swatch.headline .swatch-inner {
+        top: -3px;
+        width: 12px;
+        height: 12px;
+        border-radius: 0; }
   #main-content #legend span {
     vertical-align: middle;
     line-height: 18px; }
@@ -2454,6 +2523,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
         padding-bottom: 20px; } }
 @media screen and (min-width: 769px) {
   .layout-goal-by-target-vertical .goal-indicator {
+    min-height: 80px;
     margin-left: 60px;
     position: relative;
     width: calc(100% - 60px); }
@@ -2463,7 +2533,13 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
       position: absolute;
       right: 0;
       top: 0;
-      margin-top: 0; } }
+      margin-top: 0;
+      width: min-content; } }
+@media screen and (min-width: 992px) {
+  .layout-goal-by-target-vertical .goal-indicator {
+    min-height: auto; }
+    .layout-goal-by-target-vertical .goal-indicator .status {
+      width: auto; } }
 .layout-goal-by-target-vertical .target-number, .layout-goal-by-target-vertical .target-name, .layout-goal-by-target-vertical .indicator-number, .layout-goal-by-target-vertical .indicator-name {
   display: block; }
 .layout-goal-by-target-vertical .target-number, .layout-goal-by-target-vertical .indicator-number {
@@ -2589,7 +2665,8 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   font-weight: 700; }
 .layout-config-builder div[data-schemapath="root"] > .well > div > div > .row > div[data-schematype] > div a {
   margin-top: 15px;
-  display: inline-block; }
+  display: block;
+  margin-bottom: 15px; }
 .layout-config-builder div[data-schemapath="root"] > .je-header {
   display: none !important; }
 .layout-config-builder .help-block {

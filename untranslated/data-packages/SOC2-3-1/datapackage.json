@@ -11,11 +11,24 @@
       "schema": {
         "fields": [
           {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "12310",
                 "12311",
                 "12312",
@@ -23,26 +36,13 @@
                 "12314",
                 "12315",
                 "12316",
-                "12317"
-              ]
-            }
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Percent"
+                "12317",
+                ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
-          },
-          {
-            "name": "Year",
             "type": "integer"
           }
         ]

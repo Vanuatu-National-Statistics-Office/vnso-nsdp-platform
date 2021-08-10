@@ -11,11 +11,14 @@
       "schema": {
         "fields": [
           {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
             "name": "Country",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "Australia",
                 "China",
                 "Fiji",
@@ -24,18 +27,19 @@
                 "India",
                 "Indonesia",
                 "Japan",
+                "Republic of Korea",
                 "Malaysia",
                 "Netherlands",
                 "New Caledonia",
                 "New Zealand",
                 "Papua New Guinea",
                 "Philippines",
-                "Republic of Korea",
                 "Singapore",
                 "Solomon Islands",
                 "Thailand",
+                "United Kingdom",
                 "USA",
-                "United Kingdom"
+                ""
               ]
             }
           },
@@ -44,20 +48,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Balance",
                 "Exports",
-                "Imports"
+                "Imports",
+                "Balance",
+                ""
               ]
             }
           },
           {
             "name": "Value",
             "type": "number"
-          },
-          {
-            "name": "Year",
-            "type": "integer"
           }
         ]
       }

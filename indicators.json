@@ -1025,38 +1025,6 @@
   },
   {
     "goal": {
-      "id": "GDPProduction_ConstantValues_Indicataor",
-      "title": "",
-      "indicators": [
-        
-        {
-          "id": "GDPProduction_ConstantValues_Indicataor",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/vnso-nsdp-platform/GDPProduction_ConstantValues_Indicataor",
-          "status": "complete"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "GDPProduction_GrowthRatesConstantprices_Indicataor",
-      "title": "",
-      "indicators": [
-        
-        {
-          "id": "GDPProduction_GrowthRatesConstantprices_Indicataor",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/vnso-nsdp-platform/GDPProduction_GrowthRatesConstantprices_Indicataor",
-          "status": "complete"
-        }]
-    }
-  },
-  {
-    "goal": {
       "id": "SOC1",
       "title": "A Nation based on traditional governance and Christian principles, which underpin our culture and continue to bestow life skills and knowledge to future generations",
       "indicators": [
@@ -1732,6 +1700,46 @@
           "keywords": "",
           "href": "/vnso-nsdp-platform/census",
           "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "demographics",
+      "title": "global_indicators.demographics-title",
+      "indicators": [
+        
+        {
+          "id": "demographics",
+          "title": "global_indicators.demographics-title",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/demographics",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "gdp-constant-price",
+          "title": "global_indicators.gdp-constant-price-title",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/gdp-constant-price",
+          "status": "notstarted"
+        },
+        {
+          "id": "gdp-growth-rate",
+          "title": "global_indicators.gdp-growth-rate-title",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/gdp-growth-rate",
+          "status": "notstarted"
         }]
     }
   }]

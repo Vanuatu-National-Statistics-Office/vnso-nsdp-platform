@@ -114,8 +114,6 @@ var translations = {
         
         <link rel="canonical" href="/">
 
-        
-
         <!--[if IE 9]>
         <script src="/vnso-nsdp-platform/assets/js/lib/classList.js"></script>
         <![endif]-->
@@ -128,12 +126,10 @@ var translations = {
         -->
 
         
-
-        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210723033804">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210810235353">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -142,6 +138,8 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
+
+        
 
     </head>
 <body class="language-en
@@ -172,31 +170,41 @@ layout-reportingstatus
     <img src="/vnso-nsdp-platform/assets/img/logo tittle.PNG" alt="National Development Goals 2030" />
 </a>
       <div class="mobile-widgets">
-    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
-        <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
-            <a href="/vnso-nsdp-platform/bi/reporting-status/">
-              Bislama
-            </a>
-          </li><li>
-            <a href="/vnso-nsdp-platform/fr/reporting-status/">
-              Français
-            </a>
-          </li></ul>
-  </div>
-</div>
+    <ul id='accessibility-nav' class='contrast-switcher'>
+        
 
-    </div></div>
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+    </ul></div>
     </div>
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/vnso-nsdp-platform/search">
+  <form action="/vnso-nsdp-platform/search/">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -204,34 +212,35 @@ layout-reportingstatus
 </div>
 
       <div class="navbar navbar-default widgets-without-menu">
-        <ul class="nav navbar-nav contrast-switcher"><li class="language-toggle-menu-header">
-            
+        <ul class="nav navbar-nav contrast-switcher">
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
 
 
-
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
-            <a href="/vnso-nsdp-platform/bi/reporting-status/">
-              Bislama
-            </a>
-          </li><li>
-            <a href="/vnso-nsdp-platform/fr/reporting-status/">
-              Français
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
-        </li></ul>
+        </ul>
       </div>
     </div>
 
@@ -248,11 +257,11 @@ layout-reportingstatus
 </li><li class="nav-link ">
     <a href="/vnso-nsdp-platform/methodology/">METHODOLOGY</a>
 </li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/2030-agenda/">2030 AGENDA</a>
+</li><li class="nav-link ">
     <a href="/vnso-nsdp-platform/about/">NSPD ONLINE PLATFORM</a>
 </li><li class="nav-link ">
     <a href="/vnso-nsdp-platform/technical-advice/">TECHNICAL ADVICE</a>
-</li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/2030-agenda/">2030 AGENDA</a>
 </li><li class="nav-link ">
     <a href="/vnso-nsdp-platform/publications/">PUBLICATIONS</a>
 </li><li class="nav-link ">
@@ -269,34 +278,37 @@ layout-reportingstatus
     <a href="/vnso-nsdp-platform/demographics"></a>
 </li><li class="nav-link ">
     <a href="/vnso-nsdp-platform/">DEMOGRAPHICS</a>
-</li><li class="language-toggle-menu-header">
-    
-
-
-
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
-            <a href="/vnso-nsdp-platform/bi/reporting-status/">
-              Bislama
-            </a>
-          </li><li>
-            <a href="/vnso-nsdp-platform/fr/reporting-status/">
-              Français
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
 </li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
 </ul>
 
     </li>
@@ -305,7 +317,7 @@ layout-reportingstatus
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/vnso-nsdp-platform/search">
+  <form action="/vnso-nsdp-platform/search/">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -331,23 +343,15 @@ layout-reportingstatus
         </li><li class="nav-link">
             <div class="btn-group menu-dropdown">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    ABOUT US
-                    <i class="fa fa-chevron-down"></i>
-                </button>
-                <ul class="dropdown-menu"><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/about/">NSPD ONLINE PLATFORM</a>
-</li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/technical-advice/">TECHNICAL ADVICE</a>
-</li></ul>
-            </div>
-        </li><li class="nav-link">
-            <div class="btn-group menu-dropdown">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     USEFUL INFORMATION
                     <i class="fa fa-chevron-down"></i>
                 </button>
                 <ul class="dropdown-menu"><li class="nav-link ">
     <a href="/vnso-nsdp-platform/2030-agenda/">2030 AGENDA</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/about/">NSPD ONLINE PLATFORM</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/technical-advice/">TECHNICAL ADVICE</a>
 </li><li class="nav-link ">
     <a href="/vnso-nsdp-platform/publications/">PUBLICATIONS</a>
 </li></ul>
@@ -383,6 +387,7 @@ layout-reportingstatus
 </li></ul>
             </div>
         </li>
+
 </ul>
 
     </div>
@@ -426,345 +431,31 @@ layout-reportingstatus
         <h2 class="status-goal">
             Overall reporting status
         </h2>
-        <span class="total"><span>198</span> indicators</span>
+        <span class="total"><span>196</span> indicators</span>
         <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete"><span class="status-inner">3</span></span><strong>Reported online</strong><span class="value">2%</span>
+                <span class="status complete"><span class="status-inner">1</span></span><strong>Reported online</strong><span class="value">1%</span>
             </div><div>
-                <span class="status notstarted"><span class="status-inner">195</span></span><strong>Exploring data sources</strong><span class="value">98%</span>
+                <span class="status notstarted"><span class="status-inner">195</span></span><strong>Exploring data sources</strong><span class="value">99%</span>
             </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
             
             
-            <span class="complete" style="width:1.5151515151515151%" title="Reported online: 2%"></span>
+            <span class="complete" style="width:0.5102040816326531%" title="Reported online: 1%"></span>
             
             
-            <span class="notstarted" style="width:98.48484848484848%" title="Exploring data sources: 98%"></span></div>
+            <span class="notstarted" style="width:99.48979591836735%" title="Exploring data sources: 99%"></span></div>
     </div>
     <br style="clear:both;">
 </div>
-  <h2>Status by goal</h2><div class="goal reporting-status-item">
-    <div class="frame goal-tiles">
-        <a href="/vnso-nsdp-platform/ECO1">
-        <img src="/vnso-nsdp-platform/assets/img/goals/en/ECO1.jpg" alt="Economy 1 - Goal ECO1" width="100" height="100" class="goal-icon-ECO1 goal-icon-image goal-icon-image-jpg"/>
-        </a>
-    </div>
-    <div class="details">
-        <h3 class="status-goal">
-            <a href="/vnso-nsdp-platform/ECO1">Economy 1</a>
-        </h3>
-        <span class="total">19 indicators</span>
-        <div class="summary">
-            <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">1</span></span><strong>Reported online</strong><span class="value">5%</span>
-                </div><div>
-                    <span class="status notstarted"><span class="status-inner">18</span></span><strong>Exploring data sources</strong><span class="value">95%</span>
-                </div><br style="clear:both;">
-            </div>
-        </div>
-        <div class="goal-stats">
-                
-                
-                <span class="complete" style="width:5.263157894736842%" title="Reported online: 5%"></span>
-                
-                
-                <span class="notstarted" style="width:94.73684210526315%" title="Exploring data sources: 95%"></span></div>
-        <div class="divider"></div>
-    </div>
-    <br style="clear:both;">
-</div><div class="goal reporting-status-item">
-    <div class="frame goal-tiles">
-        <a href="/vnso-nsdp-platform/ECO2">
-        <img src="/vnso-nsdp-platform/assets/img/goals/en/ECO2.jpg" alt="Economy 2 - Goal ECO2" width="100" height="100" class="goal-icon-ECO2 goal-icon-image goal-icon-image-jpg"/>
-        </a>
-    </div>
-    <div class="details">
-        <h3 class="status-goal">
-            <a href="/vnso-nsdp-platform/ECO2">Economy 2</a>
-        </h3>
-        <span class="total">13 indicators</span>
-        <div class="summary">
-            <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
-                </div><div>
-                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
-                </div><br style="clear:both;">
-            </div>
-        </div>
-        <div class="goal-stats">
-                
-                
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
-                
-                
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
-        <div class="divider"></div>
-    </div>
-    <br style="clear:both;">
-</div><div class="goal reporting-status-item">
-    <div class="frame goal-tiles">
-        <a href="/vnso-nsdp-platform/ECO3">
-        <img src="/vnso-nsdp-platform/assets/img/goals/en/ECO3.jpg" alt="Economy 3 - Goal ECO3" width="100" height="100" class="goal-icon-ECO3 goal-icon-image goal-icon-image-jpg"/>
-        </a>
-    </div>
-    <div class="details">
-        <h3 class="status-goal">
-            <a href="/vnso-nsdp-platform/ECO3">Economy 3</a>
-        </h3>
-        <span class="total">13 indicators</span>
-        <div class="summary">
-            <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
-                </div><div>
-                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
-                </div><br style="clear:both;">
-            </div>
-        </div>
-        <div class="goal-stats">
-                
-                
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
-                
-                
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
-        <div class="divider"></div>
-    </div>
-    <br style="clear:both;">
-</div><div class="goal reporting-status-item">
-    <div class="frame goal-tiles">
-        <a href="/vnso-nsdp-platform/ECO4">
-        <img src="/vnso-nsdp-platform/assets/img/goals/en/ECO4.jpg" alt="Economy 4 - Goal ECO4" width="100" height="100" class="goal-icon-ECO4 goal-icon-image goal-icon-image-jpg"/>
-        </a>
-    </div>
-    <div class="details">
-        <h3 class="status-goal">
-            <a href="/vnso-nsdp-platform/ECO4">Economy 4</a>
-        </h3>
-        <span class="total">13 indicators</span>
-        <div class="summary">
-            <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
-                </div><div>
-                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
-                </div><br style="clear:both;">
-            </div>
-        </div>
-        <div class="goal-stats">
-                
-                
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
-                
-                
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
-        <div class="divider"></div>
-    </div>
-    <br style="clear:both;">
-</div><div class="goal reporting-status-item">
-    <div class="frame goal-tiles">
-        <a href="/vnso-nsdp-platform/ENV1">
-        <img src="/vnso-nsdp-platform/assets/img/goals/en/ENV1.jpg" alt="Environment 1 - Goal ENV1" width="100" height="100" class="goal-icon-ENV1 goal-icon-image goal-icon-image-jpg"/>
-        </a>
-    </div>
-    <div class="details">
-        <h3 class="status-goal">
-            <a href="/vnso-nsdp-platform/ENV1">Environment 1</a>
-        </h3>
-        <span class="total">13 indicators</span>
-        <div class="summary">
-            <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
-                </div><div>
-                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
-                </div><br style="clear:both;">
-            </div>
-        </div>
-        <div class="goal-stats">
-                
-                
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
-                
-                
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
-        <div class="divider"></div>
-    </div>
-    <br style="clear:both;">
-</div><div class="goal reporting-status-item">
-    <div class="frame goal-tiles">
-        <a href="/vnso-nsdp-platform/ENV2">
-        <img src="/vnso-nsdp-platform/assets/img/goals/en/ENV2.jpg" alt="Enviornment 2 - Goal ENV2" width="100" height="100" class="goal-icon-ENV2 goal-icon-image goal-icon-image-jpg"/>
-        </a>
-    </div>
-    <div class="details">
-        <h3 class="status-goal">
-            <a href="/vnso-nsdp-platform/ENV2">Enviornment 2</a>
-        </h3>
-        <span class="total">12 indicators</span>
-        <div class="summary">
-            <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
-                </div><div>
-                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
-                </div><br style="clear:both;">
-            </div>
-        </div>
-        <div class="goal-stats">
-                
-                
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
-                
-                
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
-        <div class="divider"></div>
-    </div>
-    <br style="clear:both;">
-</div><div class="goal reporting-status-item">
-    <div class="frame goal-tiles">
-        <a href="/vnso-nsdp-platform/ENV3">
-        <img src="/vnso-nsdp-platform/assets/img/goals/en/ENV3.jpg" alt="Environment 3 - Goal ENV3" width="100" height="100" class="goal-icon-ENV3 goal-icon-image goal-icon-image-jpg"/>
-        </a>
-    </div>
-    <div class="details">
-        <h3 class="status-goal">
-            <a href="/vnso-nsdp-platform/ENV3">Environment 3</a>
-        </h3>
-        <span class="total">14 indicators</span>
-        <div class="summary">
-            <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
-                </div><div>
-                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
-                </div><br style="clear:both;">
-            </div>
-        </div>
-        <div class="goal-stats">
-                
-                
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
-                
-                
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
-        <div class="divider"></div>
-    </div>
-    <br style="clear:both;">
-</div><div class="goal reporting-status-item">
-    <div class="frame goal-tiles">
-        <a href="/vnso-nsdp-platform/ENV4">
-        <img src="/vnso-nsdp-platform/assets/img/goals/en/ENV4.jpg" alt="Environment 4 - Goal ENV4" width="100" height="100" class="goal-icon-ENV4 goal-icon-image goal-icon-image-jpg"/>
-        </a>
-    </div>
-    <div class="details">
-        <h3 class="status-goal">
-            <a href="/vnso-nsdp-platform/ENV4">Environment 4</a>
-        </h3>
-        <span class="total">13 indicators</span>
-        <div class="summary">
-            <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
-                </div><div>
-                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
-                </div><br style="clear:both;">
-            </div>
-        </div>
-        <div class="goal-stats">
-                
-                
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
-                
-                
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
-        <div class="divider"></div>
-    </div>
-    <br style="clear:both;">
-</div><div class="goal reporting-status-item">
-    <div class="frame goal-tiles">
-        <a href="/vnso-nsdp-platform/ENV5">
-        <img src="/vnso-nsdp-platform/assets/img/goals/en/ENV5.jpg" alt="Environment 5 - Goal ENV5" width="100" height="100" class="goal-icon-ENV5 goal-icon-image goal-icon-image-jpg"/>
-        </a>
-    </div>
-    <div class="details">
-        <h3 class="status-goal">
-            <a href="/vnso-nsdp-platform/ENV5">Environment 5</a>
-        </h3>
-        <span class="total">9 indicators</span>
-        <div class="summary">
-            <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
-                </div><div>
-                    <span class="status notstarted"><span class="status-inner">9</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
-                </div><br style="clear:both;">
-            </div>
-        </div>
-        <div class="goal-stats">
-                
-                
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
-                
-                
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
-        <div class="divider"></div>
-    </div>
-    <br style="clear:both;">
-</div><div class="goal reporting-status-item">
-    <div class="frame goal-tiles">
-        <a href="/vnso-nsdp-platform/GDPProduction_ConstantValues_Indicataor">
-        <img src="" alt=" - Goal GDPProduction_ConstantValues_Indicataor" width="100" height="100" class="goal-icon-GDPProduction_ConstantValues_Indicataor goal-icon-image goal-icon-image-jpg"/>
-        </a>
-    </div>
-    <div class="details">
-        <h3 class="status-goal">
-            <a href="/vnso-nsdp-platform/GDPProduction_ConstantValues_Indicataor"></a>
-        </h3>
-        <span class="total">1 indicators</span>
-        <div class="summary">
-            <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">1</span></span><strong>Reported online</strong><span class="value">100%</span>
-                </div><div>
-                    <span class="status notstarted"><span class="status-inner">0</span></span><strong>Exploring data sources</strong><span class="value">0%</span>
-                </div><br style="clear:both;">
-            </div>
-        </div>
-        <div class="goal-stats">
-                
-                
-                <span class="complete" style="width:100.0%" title="Reported online: 100%"></span>
-                
-                
-                <span class="notstarted" style="width:0.0%" title="Exploring data sources: 0%"></span></div>
-        <div class="divider"></div>
-    </div>
-    <br style="clear:both;">
-</div><div class="goal reporting-status-item">
-    <div class="frame goal-tiles">
-        <a href="/vnso-nsdp-platform/GDPProduction_GrowthRatesConstantprices_Indicataor">
-        <img src="" alt=" - Goal GDPProduction_GrowthRatesConstantprices_Indicataor" width="100" height="100" class="goal-icon-GDPProduction_GrowthRatesConstantprices_Indicataor goal-icon-image goal-icon-image-jpg"/>
-        </a>
-    </div>
-    <div class="details">
-        <h3 class="status-goal">
-            <a href="/vnso-nsdp-platform/GDPProduction_GrowthRatesConstantprices_Indicataor"></a>
-        </h3>
-        <span class="total">1 indicators</span>
-        <div class="summary">
-            <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">1</span></span><strong>Reported online</strong><span class="value">100%</span>
-                </div><div>
-                    <span class="status notstarted"><span class="status-inner">0</span></span><strong>Exploring data sources</strong><span class="value">0%</span>
-                </div><br style="clear:both;">
-            </div>
-        </div>
-        <div class="goal-stats">
-                
-                
-                <span class="complete" style="width:100.0%" title="Reported online: 100%"></span>
-                
-                
-                <span class="notstarted" style="width:0.0%" title="Exploring data sources: 0%"></span></div>
-        <div class="divider"></div>
-    </div>
-    <br style="clear:both;">
-</div><div class="goal reporting-status-item">
+  
+
+
+
+
+<h2>Status by goal</h2><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/vnso-nsdp-platform/SOC1">
         <img src="/vnso-nsdp-platform/assets/img/goals/en/SOC1.jpg" alt="Society 1 - Goal SOC1" width="100" height="100" class="goal-icon-SOC1 goal-icon-image goal-icon-image-jpg"/>
@@ -938,6 +629,267 @@ layout-reportingstatus
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/vnso-nsdp-platform/ENV1">
+        <img src="/vnso-nsdp-platform/assets/img/goals/en/ENV1.jpg" alt="Environment 1 - Goal ENV1" width="100" height="100" class="goal-icon-ENV1 goal-icon-image goal-icon-image-jpg"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
+            <a href="/vnso-nsdp-platform/ENV1">Environment 1</a>
+        </h3>
+        <span class="total">13 indicators</span>
+        <div class="summary">
+            <div class="statuses"><div>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                </div><br style="clear:both;">
+            </div>
+        </div>
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/vnso-nsdp-platform/ENV2">
+        <img src="/vnso-nsdp-platform/assets/img/goals/en/ENV2.jpg" alt="Enviornment 2 - Goal ENV2" width="100" height="100" class="goal-icon-ENV2 goal-icon-image goal-icon-image-jpg"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
+            <a href="/vnso-nsdp-platform/ENV2">Enviornment 2</a>
+        </h3>
+        <span class="total">12 indicators</span>
+        <div class="summary">
+            <div class="statuses"><div>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                </div><br style="clear:both;">
+            </div>
+        </div>
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/vnso-nsdp-platform/ENV3">
+        <img src="/vnso-nsdp-platform/assets/img/goals/en/ENV3.jpg" alt="Environment 3 - Goal ENV3" width="100" height="100" class="goal-icon-ENV3 goal-icon-image goal-icon-image-jpg"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
+            <a href="/vnso-nsdp-platform/ENV3">Environment 3</a>
+        </h3>
+        <span class="total">14 indicators</span>
+        <div class="summary">
+            <div class="statuses"><div>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                </div><br style="clear:both;">
+            </div>
+        </div>
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/vnso-nsdp-platform/ENV4">
+        <img src="/vnso-nsdp-platform/assets/img/goals/en/ENV4.jpg" alt="Environment 4 - Goal ENV4" width="100" height="100" class="goal-icon-ENV4 goal-icon-image goal-icon-image-jpg"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
+            <a href="/vnso-nsdp-platform/ENV4">Environment 4</a>
+        </h3>
+        <span class="total">13 indicators</span>
+        <div class="summary">
+            <div class="statuses"><div>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                </div><br style="clear:both;">
+            </div>
+        </div>
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/vnso-nsdp-platform/ENV5">
+        <img src="/vnso-nsdp-platform/assets/img/goals/en/ENV5.jpg" alt="Environment 5 - Goal ENV5" width="100" height="100" class="goal-icon-ENV5 goal-icon-image goal-icon-image-jpg"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
+            <a href="/vnso-nsdp-platform/ENV5">Environment 5</a>
+        </h3>
+        <span class="total">9 indicators</span>
+        <div class="summary">
+            <div class="statuses"><div>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">9</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                </div><br style="clear:both;">
+            </div>
+        </div>
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/vnso-nsdp-platform/ECO1">
+        <img src="/vnso-nsdp-platform/assets/img/goals/en/ECO1.jpg" alt="Economy 1 - Goal ECO1" width="100" height="100" class="goal-icon-ECO1 goal-icon-image goal-icon-image-jpg"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
+            <a href="/vnso-nsdp-platform/ECO1">Economy 1</a>
+        </h3>
+        <span class="total">19 indicators</span>
+        <div class="summary">
+            <div class="statuses"><div>
+                    <span class="status complete"><span class="status-inner">1</span></span><strong>Reported online</strong><span class="value">5%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">18</span></span><strong>Exploring data sources</strong><span class="value">95%</span>
+                </div><br style="clear:both;">
+            </div>
+        </div>
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:5.263157894736842%" title="Reported online: 5%"></span>
+                
+                
+                <span class="notstarted" style="width:94.73684210526315%" title="Exploring data sources: 95%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/vnso-nsdp-platform/ECO2">
+        <img src="/vnso-nsdp-platform/assets/img/goals/en/ECO2.jpg" alt="Economy 2 - Goal ECO2" width="100" height="100" class="goal-icon-ECO2 goal-icon-image goal-icon-image-jpg"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
+            <a href="/vnso-nsdp-platform/ECO2">Economy 2</a>
+        </h3>
+        <span class="total">13 indicators</span>
+        <div class="summary">
+            <div class="statuses"><div>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                </div><br style="clear:both;">
+            </div>
+        </div>
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/vnso-nsdp-platform/ECO3">
+        <img src="/vnso-nsdp-platform/assets/img/goals/en/ECO3.jpg" alt="Economy 3 - Goal ECO3" width="100" height="100" class="goal-icon-ECO3 goal-icon-image goal-icon-image-jpg"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
+            <a href="/vnso-nsdp-platform/ECO3">Economy 3</a>
+        </h3>
+        <span class="total">13 indicators</span>
+        <div class="summary">
+            <div class="statuses"><div>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                </div><br style="clear:both;">
+            </div>
+        </div>
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/vnso-nsdp-platform/ECO4">
+        <img src="/vnso-nsdp-platform/assets/img/goals/en/ECO4.jpg" alt="Economy 4 - Goal ECO4" width="100" height="100" class="goal-icon-ECO4 goal-icon-image goal-icon-image-jpg"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
+            <a href="/vnso-nsdp-platform/ECO4">Economy 4</a>
+        </h3>
+        <span class="total">13 indicators</span>
+        <div class="summary">
+            <div class="statuses"><div>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                </div><br style="clear:both;">
+            </div>
+        </div>
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
 </div>
   
 
@@ -987,13 +939,7 @@ layout-reportingstatus
   </div>
 </footer>
 
-<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
-<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
-<!-- Google Analytics -->
-
-<!-- /.container </div> -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
@@ -1012,12 +958,12 @@ layout-reportingstatus
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210723033804'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210810235353'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210723033804"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210810235353"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -1057,6 +1003,7 @@ $(function() {
               stackedDisaggregation: domData.stackeddisaggregation,
               graphAnnotations: domData.graphannotations,
               indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
               compositeBreakdownLabel: domData.compositebreakdownlabel,
               precision: domData.precision,
             }),
