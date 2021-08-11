@@ -1,1 +1,7 @@
 From,To
+National,Province
+National,Sex
+Province,Constituency
+Constituency,Area Council
+Area Council,Age
+Sex,Age

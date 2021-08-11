@@ -1737,6 +1737,200 @@
       "title": "ECO1-8-2"
     },
     {
+      "path": "demographics/data.csv",
+      "name": "demographics",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "0-4",
+                "10-14",
+                "15-19",
+                "20-24",
+                "25-29",
+                "30-34",
+                "35-39",
+                "40-44",
+                "45-49",
+                "5-9",
+                "50-54",
+                "55-59",
+                "60-64",
+                "65-69",
+                "70-74",
+                "75-79",
+                "80+"
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "Area Council",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Aneityum",
+                "Aniwa",
+                "Canal Fanafo",
+                "Central Malekula",
+                "Central Pentecost 1",
+                "Central Pentecost 2",
+                "East Ambae",
+                "East Malo",
+                "East Santo",
+                "Emau",
+                "Erakor",
+                "Eratap",
+                "Eton",
+                "Futuna",
+                "Gaua",
+                "Ifira",
+                "Luganville",
+                "Makimae",
+                "Malorua",
+                "Mele",
+                "Merelava",
+                "Middle Bush Tanna",
+                "Mota",
+                "Motalava",
+                "Nguna",
+                "North Ambae",
+                "North Ambrym",
+                "North East Malekula",
+                "North Efate",
+                "North Erromango",
+                "North Maewo",
+                "North Pentecost",
+                "North Santo",
+                "North Tanna",
+                "North Tongoa",
+                "North West Malekula",
+                "North West Santo",
+                "Paama",
+                "Pango",
+                "Port Vila",
+                "South Ambae",
+                "South East Ambrym",
+                "South East Malekula",
+                "South East Santo",
+                "South Epi",
+                "South Erromango",
+                "South Maewo",
+                "South Malekula",
+                "South Pentecost",
+                "South Santo",
+                "South Tanna",
+                "South West Malekula",
+                "South West Tanna",
+                "Tongariki",
+                "Torres",
+                "Ureparapara",
+                "Vanua Lava",
+                "Varisu",
+                "Vermali",
+                "Vermaul",
+                "West Ambae",
+                "West Ambrym",
+                "West Malo",
+                "West Santo",
+                "West Tanna",
+                "Whitesands"
+              ]
+            },
+            "title": "Area Council"
+          },
+          {
+            "name": "Constituency",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Ambae",
+                "Ambrym",
+                "Banks",
+                "Efate",
+                "Epi",
+                "Luganville",
+                "Maewo",
+                "Malekula",
+                "Malo",
+                "Paama",
+                "Pentecost",
+                "Port Vila",
+                "Santo Rural",
+                "Shepherds",
+                "Tafea Outer Islands",
+                "Tanna",
+                "Tongoa",
+                "Torres"
+              ]
+            },
+            "title": "Constituency"
+          },
+          {
+            "name": "National",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Vanuatu"
+              ]
+            },
+            "title": "National"
+          },
+          {
+            "name": "Province",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Malampa",
+                "Penama",
+                "Sanma",
+                "Shefa",
+                "Tafea",
+                "Torba"
+              ]
+            },
+            "title": "Province"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "demographics"
+    },
+    {
       "path": "ECO2-2-2/data.csv",
       "name": "ECO2-2-2",
       "profile": "tabular-data-resource",
@@ -6161,30 +6355,6 @@
         ]
       },
       "title": "gdp-growth-rate"
-    },
-    {
-      "path": "demographics/data.csv",
-      "name": "demographics",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "demographics"
     }
   ]
 }
