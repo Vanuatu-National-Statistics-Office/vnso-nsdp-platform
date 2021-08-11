@@ -2786,6 +2786,13 @@ body {
   border-bottom: 10px solid #D7B629;
   padding-bottom: 10px;
   margin-bottom: 10px; }
+  .goal-number-SOC1 .goal-banner h1,
+  .goal-number-SOC2 .goal-banner h1,
+  .goal-number-SOC3 .goal-banner h1,
+  .goal-number-SOC4 .goal-banner h1,
+  .goal-number-SOC5 .goal-banner h1,
+  .goal-number-SOC6 .goal-banner h1 {
+    color: #D7B629; }
 
 .goal-number-ENV1 .previous-next-links .btn-primary,
 .goal-number-ENV2 .previous-next-links .btn-primary,
@@ -2806,6 +2813,12 @@ body {
   border-bottom: 10px solid #6EAC47;
   padding-bottom: 10px;
   margin-bottom: 10px; }
+  .goal-number-ENV1 .goal-banner h1,
+  .goal-number-ENV2 .goal-banner h1,
+  .goal-number-ENV3 .goal-banner h1,
+  .goal-number-ENV4 .goal-banner h1,
+  .goal-number-ENV5 .goal-banner h1 {
+    color: #6EAC47; }
 
 .goal-number-ECO1 .previous-next-links .btn-primary,
 .goal-number-ECO2 .previous-next-links .btn-primary,
@@ -2824,3 +2837,8 @@ body {
   border-bottom: 10px solid #CF1C32;
   padding-bottom: 10px;
   margin-bottom: 10px; }
+  .goal-number-ECO1 .goal-banner h1,
+  .goal-number-ECO2 .goal-banner h1,
+  .goal-number-ECO3 .goal-banner h1,
+  .goal-number-ECO4 .goal-banner h1 {
+    color: #CF1C32; }
