@@ -1,4 +1,31 @@
-Year,Country,International Merchandise Trade,Value
+Year,Trading Country,International Merchandise Trade,Value
+2012,,Exports,3581.0
+2012,,Imports,31426.0
+2012,,Balance,-27845.0
+2013,,Exports,3380.0
+2013,,Imports,33815.0
+2013,,Balance,-30435.0
+2014,,Exports,5525.0
+2014,,Imports,34653.0
+2014,,Balance,-29128.0
+2015,,Exports,4091.0
+2015,,Imports,43604.0
+2015,,Balance,-39513.0
+2016,,Exports,3551.0
+2016,,Imports,47934.0
+2016,,Balance,-44383.0
+2017,,Exports,5523.0
+2017,,Imports,39788.0
+2017,,Balance,-34265.0
+2018,,Exports,4933.0
+2018,,Imports,41069.0
+2018,,Balance,-36136.0
+2019,,Exports,4755.0
+2019,,Imports,39195.0
+2019,,Balance,-34440.0
+2020,,Exports,4255.0
+2020,,Imports,32651.0
+2020,,Balance,-28396.0
 2012,Australia,Exports,936.0
 2012,Australia,Imports,8774.0
 2012,Australia,Balance,-7838.0
@@ -391,7 +418,7 @@ Year,Country,International Merchandise Trade,Value
 2015,Philippines,Balance,584.0
 2016,Philippines,Exports,
 2016,Philippines,Imports,
-2016,Philippines,Balance,0.0
+2016,Philippines,Balance,
 2017,Philippines,Exports,1715.0
 2017,Philippines,Imports,78.0
 2017,Philippines,Balance,1637.0

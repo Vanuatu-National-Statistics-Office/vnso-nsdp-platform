@@ -225,7 +225,20 @@
       "schema": {
         "fields": [
           {
-            "name": "Country",
+            "name": "International Merchandise Trade",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Balance",
+                "Exports",
+                "Imports"
+              ]
+            },
+            "title": "International Merchandise Trade"
+          },
+          {
+            "name": "Trading Country",
             "type": "string",
             "constraints": {
               "enum": [
@@ -252,20 +265,7 @@
                 "United Kingdom"
               ]
             },
-            "title": "Country"
-          },
-          {
-            "name": "International Merchandise Trade",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Balance",
-                "Exports",
-                "Imports"
-              ]
-            },
-            "title": "International Merchandise Trade"
+            "title": "Trading Country"
           },
           {
             "name": "Value",
