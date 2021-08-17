@@ -1731,7 +1731,7 @@
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/gdp-constant-price",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "gdp-growth-rate",

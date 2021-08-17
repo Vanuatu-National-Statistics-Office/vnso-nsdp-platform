@@ -11,13 +11,57 @@
       "schema": {
         "fields": [
           {
+            "name": "Industry",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Accommodation and Food Services",
+                "Animal Production",
+                "Construction",
+                "Crop Production",
+                "Education, Health, Recreation, and Other Services",
+                "Electricity and Water Supply",
+                "Finance and Insurance",
+                "Fishing",
+                "Forestry",
+                "Government Services",
+                "Information and Communication",
+                "Manufacturing",
+                "Mining and Quarrying",
+                "Other Wholesale Trade",
+                "Professional, Scientific, Technical, Admin/Services",
+                "Real Estate",
+                "Retail Trade",
+                "Transport",
+                "Wholesale, Retail Trade, repair of Motor vehicles"
+              ]
+            },
+            "title": "Industry"
+          },
+          {
+            "name": "Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Agriculture, Fishing and Forestry",
+                "Industry",
+                "Less imputed Bank Service Charge",
+                "Plus Taxes less Subsidies on Products",
+                "Services"
+              ]
+            },
+            "title": "Sector"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]
