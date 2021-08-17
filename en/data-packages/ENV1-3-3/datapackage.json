@@ -11,13 +11,38 @@
       "schema": {
         "fields": [
           {
+            "name": "Geographic Location",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Luganville",
+                "Port Vila",
+                "Vanuatu"
+              ]
+            },
+            "title": "Geographic Location"
+          },
+          {
+            "name": "Index",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Consumer Price Index",
+                "Food Index"
+              ]
+            },
+            "title": "Index"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

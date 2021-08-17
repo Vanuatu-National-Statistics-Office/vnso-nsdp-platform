@@ -2584,6 +2584,55 @@
       "title": "SOC2-1-1"
     },
     {
+      "path": "ENV1-3-3/data.csv",
+      "name": "ENV1-3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Geographic Location",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Luganville",
+                "Port Vila",
+                "Vanuatu"
+              ]
+            },
+            "title": "Geographic Location"
+          },
+          {
+            "name": "Index",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Consumer Price Index",
+                "Food Index"
+              ]
+            },
+            "title": "Index"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "ENV1-3-3"
+    },
+    {
       "path": "ENV1-2-1/data.csv",
       "name": "ENV1-2-1",
       "profile": "tabular-data-resource",
@@ -6327,30 +6376,6 @@
         ]
       },
       "title": "ENV2-1-1"
-    },
-    {
-      "path": "ENV1-3-3/data.csv",
-      "name": "ENV1-3-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "ENV1-3-3"
     },
     {
       "path": "ECO1-1-1a/data.csv",
