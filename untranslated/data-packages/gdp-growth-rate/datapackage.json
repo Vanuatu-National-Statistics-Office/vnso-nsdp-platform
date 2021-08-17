@@ -12,7 +12,49 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Agriculture, Fishing and Forestry",
+                "Industry",
+                "Services",
+                "Plus Taxes less Subsidies on Products",
+                "Less imputed Bank Service Charge",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Industry",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Crop Production",
+                "Animal Production",
+                "Forestry",
+                "Fishing",
+                "Mining and Quarrying",
+                "Manufacturing",
+                "Electricity and Water Supply",
+                "Construction",
+                "Wholesale, Retail Trade, repair of Motor vehicles",
+                "Other Wholesale Trade",
+                "Retail Trade",
+                "Transport",
+                "Accommodation and Food Services",
+                "Information and Communication",
+                "Finance and Insurance",
+                "Real Estate",
+                "Professional, Scientifc, Technical, Admin/Services",
+                "Government Services",
+                "Education, Health, Recreation, and Other Services",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
