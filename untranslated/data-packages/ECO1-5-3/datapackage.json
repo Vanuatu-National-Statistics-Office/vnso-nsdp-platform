@@ -15,7 +15,7 @@
             "type": "integer"
           },
           {
-            "name": "Trading Country",
+            "name": "Country",
             "type": "string",
             "constraints": {
               "enum": [
@@ -39,18 +39,6 @@
                 "Thailand",
                 "United Kingdom",
                 "USA",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "International Merchandise Trade",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Exports",
-                "Imports",
-                "Balance",
                 ""
               ]
             }

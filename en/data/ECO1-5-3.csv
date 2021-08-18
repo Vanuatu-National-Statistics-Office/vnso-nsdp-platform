@@ -1,568 +1,190 @@
-Year,Trading Country,International Merchandise Trade,Value
-2012,,Exports,3581.0
-2012,,Imports,31426.0
-2012,,Balance,-27845.0
-2013,,Exports,3380.0
-2013,,Imports,33815.0
-2013,,Balance,-30435.0
-2014,,Exports,5525.0
-2014,,Imports,34653.0
-2014,,Balance,-29128.0
-2015,,Exports,4091.0
-2015,,Imports,43604.0
-2015,,Balance,-39513.0
-2016,,Exports,3551.0
-2016,,Imports,47934.0
-2016,,Balance,-44383.0
-2017,,Exports,5523.0
-2017,,Imports,39788.0
-2017,,Balance,-34265.0
-2018,,Exports,4933.0
-2018,,Imports,41069.0
-2018,,Balance,-36136.0
-2019,,Exports,4755.0
-2019,,Imports,39195.0
-2019,,Balance,-34440.0
-2020,,Exports,4255.0
-2020,,Imports,32651.0
-2020,,Balance,-28396.0
-2012,Australia,Exports,936.0
-2012,Australia,Imports,8774.0
-2012,Australia,Balance,-7838.0
-2013,Australia,Exports,941.0
-2013,Australia,Imports,8423.0
-2013,Australia,Balance,-7482.0
-2014,Australia,Exports,1431.0
-2014,Australia,Imports,9305.0
-2014,Australia,Balance,-7874.0
-2015,Australia,Exports,1145.0
-2015,Australia,Imports,9506.0
-2015,Australia,Balance,-8361.0
-2016,Australia,Exports,948.0
-2016,Australia,Imports,9852.0
-2016,Australia,Balance,-8904.0
-2017,Australia,Exports,602.0
-2017,Australia,Imports,8707.0
-2017,Australia,Balance,-8105.0
-2018,Australia,Exports,1195.0
-2018,Australia,Imports,9638.0
-2018,Australia,Balance,-8443.0
-2019,Australia,Exports,1052.0
-2019,Australia,Imports,8239.0
-2019,Australia,Balance,-7186.0
-2020,Australia,Exports,520.0
-2020,Australia,Imports,6969.0
-2020,Australia,Balance,-6449.0
-2012,China,Exports,6.0
-2012,China,Imports,2169.0
-2012,China,Balance,-2163.0
-2013,China,Exports,154.0
-2013,China,Imports,2480.0
-2013,China,Balance,-2326.0
-2014,China,Exports,138.0
-2014,China,Imports,2677.0
-2014,China,Balance,-2539.0
-2015,China,Exports,444.0
-2015,China,Imports,5257.0
-2015,China,Balance,-4813.0
-2016,China,Exports,94.0
-2016,China,Imports,5750.0
-2016,China,Balance,-5656.0
-2017,China,Exports,378.0
-2017,China,Imports,5645.0
-2017,China,Balance,-5267.0
-2018,China,Exports,293.0
-2018,China,Imports,4305.0
-2018,China,Balance,-4012.0
-2019,China,Exports,541.0
-2019,China,Imports,4619.0
-2019,China,Balance,-4079.0
-2020,China,Exports,933.0
-2020,China,Imports,4194.0
-2020,China,Balance,-3261.0
-2012,Fiji,Exports,238.0
-2012,Fiji,Imports,2094.0
-2012,Fiji,Balance,-1856.0
-2013,Fiji,Exports,419.0
-2013,Fiji,Imports,2794.0
-2013,Fiji,Balance,-2375.0
-2014,Fiji,Exports,191.0
-2014,Fiji,Imports,2800.0
-2014,Fiji,Balance,-2609.0
-2015,Fiji,Exports,249.0
-2015,Fiji,Imports,3760.0
-2015,Fiji,Balance,-3511.0
-2016,Fiji,Exports,216.0
-2016,Fiji,Imports,4736.0
-2016,Fiji,Balance,-4520.0
-2017,Fiji,Exports,341.0
-2017,Fiji,Imports,4092.0
-2017,Fiji,Balance,-3751.0
-2018,Fiji,Exports,815.0
-2018,Fiji,Imports,3528.0
-2018,Fiji,Balance,-2713.0
-2019,Fiji,Exports,1098.0
-2019,Fiji,Imports,3639.0
-2019,Fiji,Balance,-2541.0
-2020,Fiji,Exports,825.0
-2020,Fiji,Imports,3609.0
-2020,Fiji,Balance,-2784.0
-2012,France,Exports,9.0
-2012,France,Imports,782.0
-2012,France,Balance,-773.0
-2013,France,Exports,20.0
-2013,France,Imports,1255.0
-2013,France,Balance,-1235.0
-2014,France,Exports,34.0
-2014,France,Imports,1206.0
-2014,France,Balance,-1172.0
-2015,France,Exports,2.0
-2015,France,Imports,980.0
-2015,France,Balance,-978.0
-2016,France,Exports,2.0
-2016,France,Imports,2130.0
-2016,France,Balance,-2128.0
-2017,France,Exports,3.0
-2017,France,Imports,1028.0
-2017,France,Balance,-1025.0
-2018,France,Exports,30.0
-2018,France,Imports,950.0
-2018,France,Balance,-920.0
-2019,France,Exports,127.0
-2019,France,Imports,835.0
-2019,France,Balance,-709.0
-2020,France,Exports,4.0
-2020,France,Imports,767.0
-2020,France,Balance,-763.0
-2012,Hong Kong,Exports,217.0
-2012,Hong Kong,Imports,486.0
-2012,Hong Kong,Balance,-269.0
-2013,Hong Kong,Exports,332.0
-2013,Hong Kong,Imports,562.0
-2013,Hong Kong,Balance,-230.0
-2014,Hong Kong,Exports,585.0
-2014,Hong Kong,Imports,660.0
-2014,Hong Kong,Balance,-75.0
-2015,Hong Kong,Exports,203.0
-2015,Hong Kong,Imports,965.0
-2015,Hong Kong,Balance,-762.0
-2016,Hong Kong,Exports,192.0
-2016,Hong Kong,Imports,1105.0
-2016,Hong Kong,Balance,-914.0
-2017,Hong Kong,Exports,84.0
-2017,Hong Kong,Imports,1313.0
-2017,Hong Kong,Balance,-1229.0
-2018,Hong Kong,Exports,83.0
-2018,Hong Kong,Imports,1137.0
-2018,Hong Kong,Balance,-1054.0
-2019,Hong Kong,Exports,19.0
-2019,Hong Kong,Imports,993.0
-2019,Hong Kong,Balance,-974.0
-2020,Hong Kong,Exports,49.0
-2020,Hong Kong,Imports,964.0
-2020,Hong Kong,Balance,-914.0
-2012,India,Exports,0.0
-2012,India,Imports,329.0
-2012,India,Balance,-329.0
-2013,India,Exports,0.0
-2013,India,Imports,256.0
-2013,India,Balance,-256.0
-2014,India,Exports,1.0
-2014,India,Imports,217.0
-2014,India,Balance,-216.0
-2015,India,Exports,0.0
-2015,India,Imports,323.0
-2015,India,Balance,-323.0
-2016,India,Exports,0.0
-2016,India,Imports,249.0
-2016,India,Balance,-249.0
-2017,India,Exports,0.0
-2017,India,Imports,302.0
-2017,India,Balance,-302.0
-2018,India,Exports,0.0
-2018,India,Imports,315.0
-2018,India,Balance,-315.0
-2019,India,Exports,28.0
-2019,India,Imports,327.0
-2019,India,Balance,-299.0
-2020,India,Exports,0.0
-2020,India,Imports,264.0
-2020,India,Balance,-264.0
-2012,Indonesia,Exports,23.0
-2012,Indonesia,Imports,345.0
-2012,Indonesia,Balance,-322.0
-2013,Indonesia,Exports,10.0
-2013,Indonesia,Imports,376.0
-2013,Indonesia,Balance,-366.0
-2014,Indonesia,Exports,21.0
-2014,Indonesia,Imports,426.0
-2014,Indonesia,Balance,-405.0
-2015,Indonesia,Exports,0.0
-2015,Indonesia,Imports,382.0
-2015,Indonesia,Balance,-382.0
-2016,Indonesia,Exports,0.0
-2016,Indonesia,Imports,427.0
-2016,Indonesia,Balance,-427.0
-2017,Indonesia,Exports,4.0
-2017,Indonesia,Imports,501.0
-2017,Indonesia,Balance,-497.0
-2018,Indonesia,Exports,15.0
-2018,Indonesia,Imports,467.0
-2018,Indonesia,Balance,-452.0
-2019,Indonesia,Exports,7.0
-2019,Indonesia,Imports,616.0
-2019,Indonesia,Balance,-609.0
-2020,Indonesia,Exports,19.0
-2020,Indonesia,Imports,510.0
-2020,Indonesia,Balance,-492.0
-2012,Japan,Exports,226.0
-2012,Japan,Imports,911.0
-2012,Japan,Balance,-685.0
-2013,Japan,Exports,215.0
-2013,Japan,Imports,1337.0
-2013,Japan,Balance,-1122.0
-2014,Japan,Exports,233.0
-2014,Japan,Imports,1040.0
-2014,Japan,Balance,-807.0
-2015,Japan,Exports,209.0
-2015,Japan,Imports,2141.0
-2015,Japan,Balance,-1932.0
-2016,Japan,Exports,106.0
-2016,Japan,Imports,2921.0
-2016,Japan,Balance,-2815.0
-2017,Japan,Exports,147.0
-2017,Japan,Imports,2058.0
-2017,Japan,Balance,-1911.0
-2018,Japan,Exports,145.0
-2018,Japan,Imports,2867.0
-2018,Japan,Balance,-2722.0
-2019,Japan,Exports,41.0
-2019,Japan,Imports,2385.0
-2019,Japan,Balance,-2344.0
-2020,Japan,Exports,49.0
-2020,Japan,Imports,1506.0
-2020,Japan,Balance,-1457.0
-2012,Republic of Korea,Exports,19.0
-2012,Republic of Korea,Imports,486.0
-2012,Republic of Korea,Balance,-467.0
-2013,Republic of Korea,Exports,9.0
-2013,Republic of Korea,Imports,721.0
-2013,Republic of Korea,Balance,-712.0
-2014,Republic of Korea,Exports,24.0
-2014,Republic of Korea,Imports,612.0
-2014,Republic of Korea,Balance,-588.0
-2015,Republic of Korea,Exports,5.0
-2015,Republic of Korea,Imports,712.0
-2015,Republic of Korea,Balance,-707.0
-2016,Republic of Korea,Exports,2.0
-2016,Republic of Korea,Imports,933.0
-2016,Republic of Korea,Balance,-931.0
-2017,Republic of Korea,Exports,4.0
-2017,Republic of Korea,Imports,780.0
-2017,Republic of Korea,Balance,-776.0
-2018,Republic of Korea,Exports,0.0
-2018,Republic of Korea,Imports,638.0
-2018,Republic of Korea,Balance,-638.0
-2019,Republic of Korea,Exports,20.0
-2019,Republic of Korea,Imports,618.0
-2019,Republic of Korea,Balance,-598.0
-2020,Republic of Korea,Exports,17.0
-2020,Republic of Korea,Imports,571.0
-2020,Republic of Korea,Balance,-555.0
-2012,Malaysia,Exports,530.0
-2012,Malaysia,Imports,305.0
-2012,Malaysia,Balance,225.0
-2013,Malaysia,Exports,265.0
-2013,Malaysia,Imports,253.0
-2013,Malaysia,Balance,12.0
-2014,Malaysia,Exports,355.0
-2014,Malaysia,Imports,226.0
-2014,Malaysia,Balance,129.0
-2015,Malaysia,Exports,293.0
-2015,Malaysia,Imports,335.0
-2015,Malaysia,Balance,-42.0
-2016,Malaysia,Exports,580.0
-2016,Malaysia,Imports,210.0
-2016,Malaysia,Balance,370.0
-2017,Malaysia,Exports,766.0
-2017,Malaysia,Imports,232.0
-2017,Malaysia,Balance,534.0
-2018,Malaysia,Exports,525.0
-2018,Malaysia,Imports,271.0
-2018,Malaysia,Balance,254.0
-2019,Malaysia,Exports,366.0
-2019,Malaysia,Imports,286.0
-2019,Malaysia,Balance,80.0
-2020,Malaysia,Exports,205.0
-2020,Malaysia,Imports,342.0
-2020,Malaysia,Balance,-137.0
-2012,Netherlands,Exports,3.0
-2012,Netherlands,Imports,132.0
-2012,Netherlands,Balance,-129.0
-2013,Netherlands,Exports,7.0
-2013,Netherlands,Imports,136.0
-2013,Netherlands,Balance,-129.0
-2014,Netherlands,Exports,19.0
-2014,Netherlands,Imports,82.0
-2014,Netherlands,Balance,-63.0
-2015,Netherlands,Exports,20.0
-2015,Netherlands,Imports,64.0
-2015,Netherlands,Balance,-44.0
-2016,Netherlands,Exports,180.0
-2016,Netherlands,Imports,4829.0
-2016,Netherlands,Balance,-4649.0
-2017,Netherlands,Exports,9.0
-2017,Netherlands,Imports,95.0
-2017,Netherlands,Balance,-86.0
-2018,Netherlands,Exports,3.0
-2018,Netherlands,Imports,62.0
-2018,Netherlands,Balance,-59.0
-2019,Netherlands,Exports,4.0
-2019,Netherlands,Imports,68.0
-2019,Netherlands,Balance,-64.0
-2020,Netherlands,Exports,9.0
-2020,Netherlands,Imports,61.0
-2020,Netherlands,Balance,-52.0
-2012,New Caledonia,Exports,187.0
-2012,New Caledonia,Imports,516.0
-2012,New Caledonia,Balance,-329.0
-2013,New Caledonia,Exports,365.0
-2013,New Caledonia,Imports,358.0
-2013,New Caledonia,Balance,7.0
-2014,New Caledonia,Exports,392.0
-2014,New Caledonia,Imports,522.0
-2014,New Caledonia,Balance,-130.0
-2015,New Caledonia,Exports,106.0
-2015,New Caledonia,Imports,741.0
-2015,New Caledonia,Balance,-635.0
-2016,New Caledonia,Exports,411.0
-2016,New Caledonia,Imports,655.0
-2016,New Caledonia,Balance,-244.0
-2017,New Caledonia,Exports,464.0
-2017,New Caledonia,Imports,662.0
-2017,New Caledonia,Balance,-198.0
-2018,New Caledonia,Exports,450.0
-2018,New Caledonia,Imports,728.0
-2018,New Caledonia,Balance,-278.0
-2019,New Caledonia,Exports,528.0
-2019,New Caledonia,Imports,448.0
-2019,New Caledonia,Balance,80.0
-2020,New Caledonia,Exports,559.0
-2020,New Caledonia,Imports,357.0
-2020,New Caledonia,Balance,202.0
-2012,New Zealand,Exports,126.0
-2012,New Zealand,Imports,3772.0
-2012,New Zealand,Balance,-3646.0
-2013,New Zealand,Exports,144.0
-2013,New Zealand,Imports,3796.0
-2013,New Zealand,Balance,-3652.0
-2014,New Zealand,Exports,199.0
-2014,New Zealand,Imports,3674.0
-2014,New Zealand,Balance,-3475.0
-2015,New Zealand,Exports,282.0
-2015,New Zealand,Imports,4967.0
-2015,New Zealand,Balance,-4685.0
-2016,New Zealand,Exports,166.0
-2016,New Zealand,Imports,5103.0
-2016,New Zealand,Balance,-4937.0
-2017,New Zealand,Exports,239.0
-2017,New Zealand,Imports,4152.0
-2017,New Zealand,Balance,-3913.0
-2018,New Zealand,Exports,129.0
-2018,New Zealand,Imports,3943.0
-2018,New Zealand,Balance,-3814.0
-2019,New Zealand,Exports,192.0
-2019,New Zealand,Imports,3830.0
-2019,New Zealand,Balance,-3638.0
-2020,New Zealand,Exports,228.0
-2020,New Zealand,Imports,4018.0
-2020,New Zealand,Balance,-3790.0
-2012,Papua New Guinea,Exports,221.0
-2012,Papua New Guinea,Imports,174.0
-2012,Papua New Guinea,Balance,47.0
-2013,Papua New Guinea,Exports,143.0
-2013,Papua New Guinea,Imports,138.0
-2013,Papua New Guinea,Balance,5.0
-2014,Papua New Guinea,Exports,116.0
-2014,Papua New Guinea,Imports,171.0
-2014,Papua New Guinea,Balance,-55.0
-2015,Papua New Guinea,Exports,60.0
-2015,Papua New Guinea,Imports,85.0
-2015,Papua New Guinea,Balance,-25.0
-2016,Papua New Guinea,Exports,99.0
-2016,Papua New Guinea,Imports,85.0
-2016,Papua New Guinea,Balance,13.0
-2017,Papua New Guinea,Exports,296.0
-2017,Papua New Guinea,Imports,165.0
-2017,Papua New Guinea,Balance,131.0
-2018,Papua New Guinea,Exports,101.0
-2018,Papua New Guinea,Imports,193.0
-2018,Papua New Guinea,Balance,-92.0
-2019,Papua New Guinea,Exports,1.0
-2019,Papua New Guinea,Imports,170.0
-2019,Papua New Guinea,Balance,-168.0
-2020,Papua New Guinea,Exports,0.0
-2020,Papua New Guinea,Imports,250.0
-2020,Papua New Guinea,Balance,-250.0
-2012,Philippines,Exports,517.0
-2012,Philippines,Imports,60.0
-2012,Philippines,Balance,457.0
-2013,Philippines,Exports,1.0
-2013,Philippines,Imports,77.0
-2013,Philippines,Balance,-76.0
-2014,Philippines,Exports,1188.0
-2014,Philippines,Imports,50.0
-2014,Philippines,Balance,1138.0
-2015,Philippines,Exports,658.0
-2015,Philippines,Imports,74.0
-2015,Philippines,Balance,584.0
-2016,Philippines,Exports,
-2016,Philippines,Imports,
-2016,Philippines,Balance,
-2017,Philippines,Exports,1715.0
-2017,Philippines,Imports,78.0
-2017,Philippines,Balance,1637.0
-2018,Philippines,Exports,239.0
-2018,Philippines,Imports,135.0
-2018,Philippines,Balance,104.0
-2019,Philippines,Exports,245.0
-2019,Philippines,Imports,91.0
-2019,Philippines,Balance,154.0
-2020,Philippines,Exports,291.0
-2020,Philippines,Imports,89.0
-2020,Philippines,Balance,202.0
-2012,Singapore,Exports,129.0
-2012,Singapore,Imports,8239.0
-2012,Singapore,Balance,-8110.0
-2013,Singapore,Exports,53.0
-2013,Singapore,Imports,8409.0
-2013,Singapore,Balance,-8356.0
-2014,Singapore,Exports,84.0
-2014,Singapore,Imports,9079.0
-2014,Singapore,Balance,-8995.0
-2015,Singapore,Exports,277.0
-2015,Singapore,Imports,7467.0
-2015,Singapore,Balance,-7190.0
-2016,Singapore,Exports,178.0
-2016,Singapore,Imports,5527.0
-2016,Singapore,Balance,-5349.0
-2017,Singapore,Exports,48.0
-2017,Singapore,Imports,7325.0
-2017,Singapore,Balance,-7277.0
-2018,Singapore,Exports,16.0
-2018,Singapore,Imports,9201.0
-2018,Singapore,Balance,-9185.0
-2019,Singapore,Exports,12.0
-2019,Singapore,Imports,9794.0
-2019,Singapore,Balance,-9781.0
-2020,Singapore,Exports,4.0
-2020,Singapore,Imports,6283.0
-2020,Singapore,Balance,-6279.0
-2012,Solomon Islands,Exports,91.0
-2012,Solomon Islands,Imports,100.0
-2012,Solomon Islands,Balance,-9.0
-2013,Solomon Islands,Exports,127.0
-2013,Solomon Islands,Imports,246.0
-2013,Solomon Islands,Balance,-119.0
-2014,Solomon Islands,Exports,229.0
-2014,Solomon Islands,Imports,181.0
-2014,Solomon Islands,Balance,48.0
-2015,Solomon Islands,Exports,87.0
-2015,Solomon Islands,Imports,142.0
-2015,Solomon Islands,Balance,-55.0
-2016,Solomon Islands,Exports,144.0
-2016,Solomon Islands,Imports,156.0
-2016,Solomon Islands,Balance,-12.0
-2017,Solomon Islands,Exports,61.0
-2017,Solomon Islands,Imports,208.0
-2017,Solomon Islands,Balance,-147.0
-2018,Solomon Islands,Exports,22.0
-2018,Solomon Islands,Imports,232.0
-2018,Solomon Islands,Balance,-210.0
-2019,Solomon Islands,Exports,16.0
-2019,Solomon Islands,Imports,193.0
-2019,Solomon Islands,Balance,-178.0
-2020,Solomon Islands,Exports,18.0
-2020,Solomon Islands,Imports,210.0
-2020,Solomon Islands,Balance,-192.0
-2012,Thailand,Exports,2.0
-2012,Thailand,Imports,963.0
-2012,Thailand,Balance,-961.0
-2013,Thailand,Exports,0.0
-2013,Thailand,Imports,1181.0
-2013,Thailand,Balance,-1181.0
-2014,Thailand,Exports,3.0
-2014,Thailand,Imports,997.0
-2014,Thailand,Balance,-994.0
-2015,Thailand,Exports,1.0
-2015,Thailand,Imports,4899.0
-2015,Thailand,Balance,-4898.0
-2016,Thailand,Exports,1.0
-2016,Thailand,Imports,1381.0
-2016,Thailand,Balance,-1380.0
-2017,Thailand,Exports,0.0
-2017,Thailand,Imports,1657.0
-2017,Thailand,Balance,-1657.0
-2018,Thailand,Exports,0.0
-2018,Thailand,Imports,1563.0
-2018,Thailand,Balance,-1563.0
-2019,Thailand,Exports,1.0
-2019,Thailand,Imports,1355.0
-2019,Thailand,Balance,-1353.0
-2020,Thailand,Exports,0.0
-2020,Thailand,Imports,1183.0
-2020,Thailand,Balance,-1183.0
-2012,United Kingdom,Exports,30.0
-2012,United Kingdom,Imports,119.0
-2012,United Kingdom,Balance,-89.0
-2013,United Kingdom,Exports,13.0
-2013,United Kingdom,Imports,84.0
-2013,United Kingdom,Balance,-71.0
-2014,United Kingdom,Exports,27.0
-2014,United Kingdom,Imports,104.0
-2014,United Kingdom,Balance,-77.0
-2015,United Kingdom,Exports,19.0
-2015,United Kingdom,Imports,139.0
-2015,United Kingdom,Balance,-120.0
-2016,United Kingdom,Exports,12.0
-2016,United Kingdom,Imports,102.0
-2016,United Kingdom,Balance,-90.0
-2017,United Kingdom,Exports,10.0
-2017,United Kingdom,Imports,141.0
-2017,United Kingdom,Balance,-131.0
-2018,United Kingdom,Exports,55.0
-2018,United Kingdom,Imports,78.0
-2018,United Kingdom,Balance,-23.0
-2019,United Kingdom,Exports,9.0
-2019,United Kingdom,Imports,44.0
-2019,United Kingdom,Balance,-35.0
-2020,United Kingdom,Exports,2.0
-2020,United Kingdom,Imports,31.0
-2020,United Kingdom,Balance,-29.0
-2012,USA,Exports,71.0
-2012,USA,Imports,670.0
-2012,USA,Balance,-599.0
-2013,USA,Exports,162.0
-2013,USA,Imports,933.0
-2013,USA,Balance,-771.0
-2014,USA,Exports,255.0
-2014,USA,Imports,624.0
-2014,USA,Balance,-369.0
-2015,USA,Exports,31.0
-2015,USA,Imports,665.0
-2015,USA,Balance,-634.0
-2016,USA,Exports,220.0
-2016,USA,Imports,1783.0
-2016,USA,Balance,-1562.0
-2017,USA,Exports,352.0
-2017,USA,Imports,647.0
-2017,USA,Balance,-295.0
-2018,USA,Exports,817.0
-2018,USA,Imports,818.0
-2018,USA,Balance,-1.0
-2019,USA,Exports,448.0
-2019,USA,Imports,645.0
-2019,USA,Balance,-197.0
-2020,USA,Exports,523.0
-2020,USA,Imports,473.0
-2020,USA,Balance,50.0
+Year,Country,Value
+2012,,-27845.0
+2013,,-30435.0
+2014,,-29128.0
+2015,,-39513.0
+2016,,-44383.0
+2017,,-34265.0
+2018,,-36136.0
+2019,,-34440.0
+2020,,-28396.0
+2012,Australia,-7838.0
+2013,Australia,-7482.0
+2014,Australia,-7874.0
+2015,Australia,-8361.0
+2016,Australia,-8904.0
+2017,Australia,-8105.0
+2018,Australia,-8443.0
+2019,Australia,-7186.0
+2020,Australia,-6449.0
+2012,China,-2163.0
+2013,China,-2326.0
+2014,China,-2539.0
+2015,China,-4813.0
+2016,China,-5656.0
+2017,China,-5267.0
+2018,China,-4012.0
+2019,China,-4079.0
+2020,China,-3261.0
+2012,Fiji,-1856.0
+2013,Fiji,-2375.0
+2014,Fiji,-2609.0
+2015,Fiji,-3511.0
+2016,Fiji,-4520.0
+2017,Fiji,-3751.0
+2018,Fiji,-2713.0
+2019,Fiji,-2541.0
+2020,Fiji,-2784.0
+2012,France,-773.0
+2013,France,-1235.0
+2014,France,-1172.0
+2015,France,-978.0
+2016,France,-2128.0
+2017,France,-1025.0
+2018,France,-920.0
+2019,France,-709.0
+2020,France,-763.0
+2012,Hong Kong,-269.0
+2013,Hong Kong,-230.0
+2014,Hong Kong,-75.0
+2015,Hong Kong,-762.0
+2016,Hong Kong,-914.0
+2017,Hong Kong,-1229.0
+2018,Hong Kong,-1054.0
+2019,Hong Kong,-974.0
+2020,Hong Kong,-914.0
+2012,India,-329.0
+2013,India,-256.0
+2014,India,-216.0
+2015,India,-323.0
+2016,India,-249.0
+2017,India,-302.0
+2018,India,-315.0
+2019,India,-299.0
+2020,India,-264.0
+2012,Indonesia,-322.0
+2013,Indonesia,-366.0
+2014,Indonesia,-405.0
+2015,Indonesia,-382.0
+2016,Indonesia,-427.0
+2017,Indonesia,-497.0
+2018,Indonesia,-452.0
+2019,Indonesia,-609.0
+2020,Indonesia,-492.0
+2012,Japan,-685.0
+2013,Japan,-1122.0
+2014,Japan,-807.0
+2015,Japan,-1932.0
+2016,Japan,-2815.0
+2017,Japan,-1911.0
+2018,Japan,-2722.0
+2019,Japan,-2344.0
+2020,Japan,-1457.0
+2012,Republic of Korea,-467.0
+2013,Republic of Korea,-712.0
+2014,Republic of Korea,-588.0
+2015,Republic of Korea,-707.0
+2016,Republic of Korea,-931.0
+2017,Republic of Korea,-776.0
+2018,Republic of Korea,-638.0
+2019,Republic of Korea,-598.0
+2020,Republic of Korea,-555.0
+2012,Malaysia,225.0
+2013,Malaysia,12.0
+2014,Malaysia,129.0
+2015,Malaysia,-42.0
+2016,Malaysia,370.0
+2017,Malaysia,534.0
+2018,Malaysia,254.0
+2019,Malaysia,80.0
+2020,Malaysia,-137.0
+2012,Netherlands,-129.0
+2013,Netherlands,-129.0
+2014,Netherlands,-63.0
+2015,Netherlands,-44.0
+2016,Netherlands,-4649.0
+2017,Netherlands,-86.0
+2018,Netherlands,-59.0
+2019,Netherlands,-64.0
+2020,Netherlands,-52.0
+2012,New Caledonia,-329.0
+2013,New Caledonia,7.0
+2014,New Caledonia,-130.0
+2015,New Caledonia,-635.0
+2016,New Caledonia,-244.0
+2017,New Caledonia,-198.0
+2018,New Caledonia,-278.0
+2019,New Caledonia,80.0
+2020,New Caledonia,202.0
+2012,New Zealand,-3646.0
+2013,New Zealand,-3652.0
+2014,New Zealand,-3475.0
+2015,New Zealand,-4685.0
+2016,New Zealand,-4937.0
+2017,New Zealand,-3913.0
+2018,New Zealand,-3814.0
+2019,New Zealand,-3638.0
+2020,New Zealand,-3790.0
+2012,Papua New Guinea,47.0
+2013,Papua New Guinea,5.0
+2014,Papua New Guinea,-55.0
+2015,Papua New Guinea,-25.0
+2016,Papua New Guinea,13.0
+2017,Papua New Guinea,131.0
+2018,Papua New Guinea,-92.0
+2019,Papua New Guinea,-168.0
+2020,Papua New Guinea,-250.0
+2012,Philippines,457.0
+2013,Philippines,-76.0
+2014,Philippines,1138.0
+2015,Philippines,584.0
+2016,Philippines,
+2017,Philippines,1637.0
+2018,Philippines,104.0
+2019,Philippines,154.0
+2020,Philippines,202.0
+2012,Singapore,-8110.0
+2013,Singapore,-8356.0
+2014,Singapore,-8995.0
+2015,Singapore,-7190.0
+2016,Singapore,-5349.0
+2017,Singapore,-7277.0
+2018,Singapore,-9185.0
+2019,Singapore,-9781.0
+2020,Singapore,-6279.0
+2012,Solomon Islands,-9.0
+2013,Solomon Islands,-119.0
+2014,Solomon Islands,48.0
+2015,Solomon Islands,-55.0
+2016,Solomon Islands,-12.0
+2017,Solomon Islands,-147.0
+2018,Solomon Islands,-210.0
+2019,Solomon Islands,-178.0
+2020,Solomon Islands,-192.0
+2012,Thailand,-961.0
+2013,Thailand,-1181.0
+2014,Thailand,-994.0
+2015,Thailand,-4898.0
+2016,Thailand,-1380.0
+2017,Thailand,-1657.0
+2018,Thailand,-1563.0
+2019,Thailand,-1353.0
+2020,Thailand,-1183.0
+2012,United Kingdom,-89.0
+2013,United Kingdom,-71.0
+2014,United Kingdom,-77.0
+2015,United Kingdom,-120.0
+2016,United Kingdom,-90.0
+2017,United Kingdom,-131.0
+2018,United Kingdom,-23.0
+2019,United Kingdom,-35.0
+2020,United Kingdom,-29.0
+2012,USA,-599.0
+2013,USA,-771.0
+2014,USA,-369.0
+2015,USA,-634.0
+2016,USA,-1562.0
+2017,USA,-295.0
+2018,USA,-1.0
+2019,USA,-197.0
+2020,USA,50.0
