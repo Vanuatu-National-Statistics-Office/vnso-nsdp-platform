@@ -15,7 +15,7 @@ Private Mail Bag 9019
 
 Tel: (678) 22110 / 22111 / 33040
 
-E-mail:stats@vanuatu.gov.vu
+E-mail:[here](stats@vanuatu.gov.vu)
 
 Facebook: facebook.com/vanuatunationalstatisticsoffice
 
@@ -25,6 +25,6 @@ Website: www.vnso.gov.vu
 
 Head Office Location (Port-Vila).
 
-complete
+
 
 
