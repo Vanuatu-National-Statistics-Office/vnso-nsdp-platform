@@ -1,28 +1,28 @@
 Year,Geographic Location,Index,Value
-2009,Vanuatu,Food Index,135.2
-2009,Vanuatu,Consumer Price Index,132.1
-2010,Vanuatu,Food Index,141.4
-2010,Vanuatu,Consumer Price Index,135.8
-2011,Vanuatu,Food Index,142.5
-2011,Vanuatu,Consumer Price Index,137
-2012,Vanuatu,Food Index,145.4
-2012,Vanuatu,Consumer Price Index,138.8
-2013,Vanuatu,Food Index,147.6
-2013,Vanuatu,Consumer Price Index,140.8
-2014,Vanuatu,Food Index,150.1
-2014,Vanuatu,Consumer Price Index,142
-2015,Vanuatu,Food Index,155.5
-2015,Vanuatu,Consumer Price Index,145.5
-2016,Vanuatu,Food Index,159
-2016,Vanuatu,Consumer Price Index,146.7
-2017,Vanuatu,Food Index,169.8
-2017,Vanuatu,Consumer Price Index,151.2
-2018,Vanuatu,Food Index,176.8
-2018,Vanuatu,Consumer Price Index,154.8
-2019,Vanuatu,Food Index,186.4
-2019,Vanuatu,Consumer Price Index,159
-2020,Vanuatu,Food Index,207.7
-2020,Vanuatu,Consumer Price Index,167.5
+2009,,Food Index,135.2
+2009,,Consumer Price Index,132.1
+2010,,Food Index,141.4
+2010,,Consumer Price Index,135.8
+2011,,Food Index,142.5
+2011,,Consumer Price Index,137
+2012,,Food Index,145.4
+2012,,Consumer Price Index,138.8
+2013,,Food Index,147.6
+2013,,Consumer Price Index,140.8
+2014,,Food Index,150.1
+2014,,Consumer Price Index,142
+2015,,Food Index,155.5
+2015,,Consumer Price Index,145.5
+2016,,Food Index,159
+2016,,Consumer Price Index,146.7
+2017,,Food Index,169.8
+2017,,Consumer Price Index,151.2
+2018,,Food Index,176.8
+2018,,Consumer Price Index,154.8
+2019,,Food Index,186.4
+2019,,Consumer Price Index,159
+2020,,Food Index,207.7
+2020,,Consumer Price Index,167.5
 2009,Port Vila,Food Index,133.8
 2009,Port Vila,Consumer Price Index,131.5
 2010,Port Vila,Food Index,140.7
