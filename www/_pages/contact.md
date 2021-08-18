@@ -24,6 +24,3 @@ Twitter: [here](twitter.com/vnso_stats)
 Website: [here](www.vnso.gov.vu)
 
 Head Office Location (Port-Vila).
-
-
-
