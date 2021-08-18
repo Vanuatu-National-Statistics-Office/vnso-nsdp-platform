@@ -15,7 +15,7 @@ Private Mail Bag 9019
 
 Tel: (678) 22110 / 22111 / 33040
 
-E-mail:[here](stats@vanuatu.gov.vu)
+E-mail:stats@vanuatu.gov.vu
 
 Facebook: facebook.com/vanuatunationalstatisticsoffice
 
