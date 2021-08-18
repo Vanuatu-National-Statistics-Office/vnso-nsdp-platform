@@ -19,20 +19,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Vanuatu",
                 "Port Vila",
                 "Luganville",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Index",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Food Index",
-                "Consumer Price Index",
                 ""
               ]
             }

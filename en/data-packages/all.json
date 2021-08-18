@@ -2655,23 +2655,10 @@
               "enum": [
                 "",
                 "Luganville",
-                "Port Vila",
-                "Vanuatu"
+                "Port Vila"
               ]
             },
             "title": "Geographic Location"
-          },
-          {
-            "name": "Index",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Consumer Price Index",
-                "Food Index"
-              ]
-            },
-            "title": "Index"
           },
           {
             "name": "Value",
