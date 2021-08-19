@@ -87,7 +87,7 @@ prose:
       - name: "Disaggregation"
         field:
             element: text
-            translation_key: Disaggregation
+            translation_key:"Disaggregation"
             scope: national
       - name: "DataSource"
         field:
