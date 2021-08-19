@@ -129,7 +129,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210818235131">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210819004108">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -466,7 +466,7 @@ data-event-label="high"
 
     
     
-    var schema = {"type":"object","title":"Edit Metadata","properties":{"OverallConcepts":{"type":"string","format":"markdown","title":"Overall Concepts","description":"Scope: national, Field: OverallConcepts"},"TargetDescription":{"type":"string","format":"markdown","title":"Target","description":"Scope: national, Field: TargetDescription"},"SDGAlignment":{"type":"string","format":"markdown","title":"SDG Alignment","description":"Scope: national, Field: SDGAlignment"},"Definition":{"type":"string","format":"markdown","title":"Definitions","description":"Scope: national, Field: Definition"},"Concept":{"type":"string","format":"markdown","title":"Concept","description":"Scope: national, Field: Concept"},"Rationale":{"type":"string","format":"markdown","title":"Rationale","description":"Scope: national, Field: Rationale"},"ComputationMethod":{"type":"string","format":"markdown","title":"Computation Method","description":"Scope: national, Field: ComputationMethod"},"ComputationUnit":{"type":"string","format":"markdown","title":"Computation Unit","description":"Scope: national, Field: ComputationUnit"},"Proxy":{"type":"string","format":"markdown","title":"Proxy","description":"Scope: national, Field: Proxy"},"Disaggregation":{"type":"string","format":"markdown","title":"Disaggregation","description":"Scope: national, Field: Disaggregation"},"DataSource":{"type":"string","format":"markdown","title":"Data Source","description":"Scope: national, Field: DataSource"},"FrequencyOfCollection":{"type":"string","format":"markdown","title":"Frequency Of Collection","description":"Scope: national, Field: FrequencyOfCollection"},"source_organisation_1":{"type":"string","format":"markdown","title":"Organisation","description":"Scope: source_1, Field: source_organisation_1"},"source_organisation_2":{"type":"string","format":"markdown","title":"Organisation","description":"Scope: source_2, Field: source_organisation_2"},"source_organisation_3":{"type":"string","format":"markdown","title":"Organisation","description":"Scope: source_3, Field: source_organisation_3"}},"additionalProperties":true};
+    var schema = {"type":"object","title":"Edit Metadata","properties":{"OverallConcepts":{"type":"string","format":"markdown","title":"Overall Concepts","description":"Scope: national, Field: OverallConcepts"},"PillarDescription":{"type":"string","format":"markdown","title":"Pillar Description","description":"Scope: national, Field: PillarDescription"},"GoalId":{"type":"string","format":"markdown","title":"Goal Id","description":"Scope: national, Field: GoalId"},"GoalDescription":{"type":"string","format":"markdown","title":"Goal Description","description":"Scope: national, Field: GoalDescription"},"PolicyObjectiveId":{"type":"string","format":"markdown","title":"Policy Objective Id","description":"Scope: national, Field: PolicyObjectiveId"},"PolicyObjectiveDescription":{"type":"string","format":"markdown","title":"Policy Objective Description","description":"Scope: national, Field: PolicyObjectiveDescription"},"IndicatorId":{"type":"string","format":"markdown","title":"Indicator Id","description":"Scope: national, Field: IndicatorId"},"IndicatorDescription":{"type":"string","format":"markdown","title":"Indicator Description","description":"Scope: national, Field: IndicatorDescription"},"TargetDescription":{"type":"string","format":"markdown","title":"Target","description":"Scope: national, Field: TargetDescription"},"SDGAlignment":{"type":"string","format":"markdown","title":"SDG Alignment","description":"Scope: national, Field: SDGAlignment"},"Concept":{"type":"string","format":"markdown","title":"Concept","description":"Scope: national, Field: Concept"},"Rationale":{"type":"string","format":"markdown","title":"Rationale","description":"Scope: national, Field: Rationale"},"ComputationMethod":{"type":"string","format":"markdown","title":"Computation Method","description":"Scope: national, Field: ComputationMethod"},"ComputationUnit":{"type":"string","format":"markdown","title":"Computation Unit","description":"Scope: national, Field: ComputationUnit"},"Proxy":{"type":"string","format":"markdown","title":"Proxy","description":"Scope: national, Field: Proxy"},"DataSource":{"type":"string","format":"markdown","title":"Data Source","description":"Scope: national, Field: DataSource"},"FrequencyOfCollection":{"type":"string","format":"markdown","title":"Frequency Of Collection","description":"Scope: national, Field: FrequencyOfCollection"},"source_organisation_1":{"type":"string","format":"markdown","title":"Organisation","description":"Scope: source_1, Field: source_organisation_1"},"source_organisation_2":{"type":"string","format":"markdown","title":"Organisation","description":"Scope: source_2, Field: source_organisation_2"},"source_organisation_3":{"type":"string","format":"markdown","title":"Organisation","description":"Scope: source_3, Field: source_organisation_3"}},"additionalProperties":true};
     
       
         
@@ -635,6 +635,90 @@ data-event-label="high"
 
     // Set values according to this site's configuration.propertyEditorAccessibilityFixes(editor.getEditor('root.OverallConcepts'));
       try {
+        var currentValue = normalizeCurrentValue('PillarDescription', "Environment Pillar");
+        var propertyEditor = editor.getEditor('root.PillarDescription');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: PillarDescription');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.PillarDescription'));
+      try {
+        var currentValue = normalizeCurrentValue('GoalId', "ENV3");
+        var propertyEditor = editor.getEditor('root.GoalId');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: GoalId');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.GoalId'));
+      try {
+        var currentValue = normalizeCurrentValue('GoalDescription', "A strong and resilient nation in the face of climate change and disaster risks posed by natural and man-made hazards");
+        var propertyEditor = editor.getEditor('root.GoalDescription');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: GoalDescription');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.GoalDescription'));
+      try {
+        var currentValue = normalizeCurrentValue('PolicyObjectiveId', "ENV3-1");
+        var propertyEditor = editor.getEditor('root.PolicyObjectiveId');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: PolicyObjectiveId');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.PolicyObjectiveId'));
+      try {
+        var currentValue = normalizeCurrentValue('PolicyObjectiveDescription', "Institutionalise climate change and disaster risk governance, and build institutional capacity and awareness");
+        var propertyEditor = editor.getEditor('root.PolicyObjectiveDescription');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: PolicyObjectiveDescription');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.PolicyObjectiveDescription'));
+      try {
+        var currentValue = normalizeCurrentValue('IndicatorId', "ENV3-1-2");
+        var propertyEditor = editor.getEditor('root.IndicatorId');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: IndicatorId');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.IndicatorId'));
+      try {
+        var currentValue = normalizeCurrentValue('IndicatorDescription', "Institutional strengthening of NAB, Department of Climate Change and other MoCC departments");
+        var propertyEditor = editor.getEditor('root.IndicatorDescription');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: IndicatorDescription');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.IndicatorDescription'));
+      try {
         var currentValue = normalizeCurrentValue('TargetDescription', "By 2030 100% of DoCC and National Advisory Board secretariat staff financed by the government.");
         var propertyEditor = editor.getEditor('root.TargetDescription');
         propertyEditor.setValue(null);
@@ -658,18 +742,6 @@ data-event-label="high"
         console.log('Unable to set config key: SDGAlignment');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
-      try {
-        var currentValue = normalizeCurrentValue('Definition', "Vanuatu’s National Advisory Board on Climate Change & Disaster Risk reduction (NAB) is the supreme policy making and advisory body for all disaster risk reduction and climate change programs, projects, initiatives and activities.");
-        var propertyEditor = editor.getEditor('root.Definition');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: Definition');
-      }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));
       try {
         var currentValue = normalizeCurrentValue('Concept', "The NAB develops DRR and CC policies, guidelines and positions, advises on international and regional DRR and CC obligations, facilitates and endorses the development of new DRR & CC programs, projects, initiatives and activities, acts as a focal point for information ‐ sharing and coordination on CC/DRR, as well as guides and coordinates the development of national climate finance processes.");
         var propertyEditor = editor.getEditor('root.Concept');
@@ -729,7 +801,7 @@ data-event-label="high"
         console.log(e.message);
         console.log('Unable to set config key: Proxy');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));
       try {
         var currentValue = normalizeCurrentValue('DataSource', "Vanuatu National Advisory Board");
         var propertyEditor = editor.getEditor('root.DataSource');
@@ -876,12 +948,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210818235131'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210819004108'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210818235131"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210819004108"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
