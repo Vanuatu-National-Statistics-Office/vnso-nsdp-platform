@@ -1742,4 +1742,20 @@
           "status": "complete"
         }]
     }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "government-financial-statistics",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/government-financial-statistics",
+          "status": "complete"
+        }]
+    }
   }]
