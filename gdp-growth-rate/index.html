@@ -105,7 +105,7 @@ var translations = {
         
     <title>
         
-        global_indicators.gdp-growth-rate-title - Indicators of The National Sustainable Development Plan
+         - Indicators of The National Sustainable Development Plan
     </title>
 
 
@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210820001955">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210820004539">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -471,7 +471,7 @@ data-event-label="high"
         <div>
           <h1>
             
-            <span class="lead-copy">global_indicators.gdp-growth-rate-title</span>
+            <span class="lead-copy"></span>
           </h1>
         </div>
       </div>
@@ -507,8 +507,23 @@ data-event-label="high"
   
 
   
+<div class="row metadata-available-indicator">
+  <div class="col-xs-12">
+    <h2></h2>
+  </div>
+</div>
+
 
   
+
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <h2 id="real-economic-growth-rate-adjusted-for-inflation-or-deflation">Real Economic growth rate adjusted for inflation or deflation</h2>
+
+<p>The GDP growth rate compares the year-over-year (or quarterly) change in a country’s economic output to measure how fast an economy is growing. Usually expressed as a percentage rate, this measure is popular for economic policy-makers because GDP growth is thought to be closely connected to key policy targets such as inflation and unemployment rates. If GDP growth rates accelerate, it may be a signal that the economy is “overheating” and the central bank may seek to raise interest rates. Conversely, central banks see a shrinking (or negative) GDP growth rate (i.e., a recession) as a signal that rates should be lowered and that stimulus may be necessary.</p>
+
+  </div>
+</div>
 
 
 
@@ -523,20 +538,20 @@ data-event-label="high"
   data-id="gdp-growth-rate"
   data-country="Vanuatu"
   data-charttitle="GDP Growth Rate"
-  data-charttitles="null"
+  data-charttitles="[]"
   data-measurementunit=""
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
-  data-startvalues="null"
-  data-graphlimits="null"
+  data-showmap="false"
+  data-startvalues="[]"
+  data-graphlimits="[]"
   data-stackeddisaggregation=""
-  data-graphannotations="null"
+  data-graphannotations="[]"
   data-indicatordownloads="null"
   data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Industry&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Accommodation and Food Services&quot;,&quot;Animal Production&quot;,&quot;Construction&quot;,&quot;Crop Production&quot;,&quot;Education, Health, Recreation, and Other Services&quot;,&quot;Electricity and Water Supply&quot;,&quot;Finance and Insurance&quot;,&quot;Fishing&quot;,&quot;Forestry&quot;,&quot;Government Services&quot;,&quot;Information and Communication&quot;,&quot;Manufacturing&quot;,&quot;Mining and Quarrying&quot;,&quot;Other Wholesale Trade&quot;,&quot;Professional, Scientifc, Technical, Admin/Services&quot;,&quot;Real Estate&quot;,&quot;Retail Trade&quot;,&quot;Transport&quot;,&quot;Wholesale, Retail Trade, repair of Motor vehicles&quot;]},&quot;title&quot;:&quot;Industry&quot;},{&quot;name&quot;:&quot;Sector&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Agriculture, Fishing and Forestry&quot;,&quot;Industry&quot;,&quot;Less imputed Bank Service Charge&quot;,&quot;Plus Taxes less Subsidies on Products&quot;,&quot;Services&quot;]},&quot;title&quot;:&quot;Sector&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
   data-compositebreakdownlabel=""
-  data-precision="null"
+  data-precision="[]"
 >
   
   <span role="status" class="sr-only" id="indicator-data-view-status"></span>
@@ -760,6 +775,10 @@ data-event-label="high"
     <p>Geographical Area: Vanuatu</p>
     
     
+    <p>Unit of Measurement: </p>
+    
+    
+    <p>Footnote: </p>
     
   </div>
 
@@ -1097,6 +1116,19 @@ opensdg.chartConfigAlter(function(config, info) {
 <div id="tableSelectionDownload" class="clearfix"></div>
 
   </div>
+  <div role="tabpanel" class="tab-pane" id="embeddedmapview" class="embedded-map">
+    <div class="row">
+  <div class="col-xs-12">
+    
+    
+    
+    <div class="embedded-map" id="embeddedmapframe">
+    
+  </div>
+</div>
+
+  </div>
+  
 </div>
 
 
@@ -1334,6 +1366,8 @@ data-event-label="Change to indicator.sources tab"
 <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
+<script src="//cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.min.js" integrity="sha512-9hzM/Gfa9KP1hSBlq3/zyNF/dfbcjAYwUTBWYX+xi8fzfAPHL3ILwS1ci0CTVeuXTGkRAWgRMZZwtSNV7P+nfw==" crossorigin="anonymous"></script>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
@@ -1344,12 +1378,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210820001955'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210820004539'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210820001955"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210820004539"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
