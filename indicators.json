@@ -1706,12 +1706,12 @@
   {
     "goal": {
       "id": "demographics",
-      "title": "global_indicators.demographics-title",
+      "title": "",
       "indicators": [
         
         {
           "id": "demographics",
-          "title": "global_indicators.demographics-title",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/demographics",

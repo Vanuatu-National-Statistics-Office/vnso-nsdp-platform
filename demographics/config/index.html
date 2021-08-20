@@ -129,7 +129,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210820000543">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210820001955">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -633,7 +633,211 @@ data-event-label="high"
       }
     }
 
-    // Set values according to this site's configuration.propertyEditorAccessibilityFixes(editor.getEditor('root.composite_breakdown_label'));propertyEditorAccessibilityFixes(editor.getEditor('root.computation_units'));propertyEditorAccessibilityFixes(editor.getEditor('root.copyright'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_footnote'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_non_statistical'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_notice_class'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_notice_heading'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_notice_text'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_show_map'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_start_values'));propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_footer'));propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_html'));propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_tab_title'));propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_title'));propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_url'));propertyEditorAccessibilityFixes(editor.getEditor('root.expected_disaggregations'));propertyEditorAccessibilityFixes(editor.getEditor('root.graph_annotations'));propertyEditorAccessibilityFixes(editor.getEditor('root.graph_limits'));propertyEditorAccessibilityFixes(editor.getEditor('root.graph_stacked_disaggregation'));
+    // Set values according to this site's configuration.
+      try {
+        var currentValue = normalizeCurrentValue('composite_breakdown_label', "");
+        var propertyEditor = editor.getEditor('root.composite_breakdown_label');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: composite_breakdown_label');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.composite_breakdown_label'));
+      try {
+        var currentValue = normalizeCurrentValue('computation_units', "");
+        var propertyEditor = editor.getEditor('root.computation_units');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_units');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.computation_units'));
+      try {
+        var currentValue = normalizeCurrentValue('copyright', "");
+        var propertyEditor = editor.getEditor('root.copyright');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: copyright');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.copyright'));
+      try {
+        var currentValue = normalizeCurrentValue('data_footnote', "");
+        var propertyEditor = editor.getEditor('root.data_footnote');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_footnote');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_footnote'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_non_statistical'));
+      try {
+        var currentValue = normalizeCurrentValue('data_notice_class', "");
+        var propertyEditor = editor.getEditor('root.data_notice_class');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_notice_class');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_notice_class'));
+      try {
+        var currentValue = normalizeCurrentValue('data_notice_heading', "");
+        var propertyEditor = editor.getEditor('root.data_notice_heading');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_notice_heading');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_notice_heading'));
+      try {
+        var currentValue = normalizeCurrentValue('data_notice_text', "");
+        var propertyEditor = editor.getEditor('root.data_notice_text');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_notice_text');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_notice_text'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_show_map'));
+      try {
+        var currentValue = normalizeCurrentValue('data_start_values', []);
+        var propertyEditor = editor.getEditor('root.data_start_values');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_start_values');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_start_values'));
+      try {
+        var currentValue = normalizeCurrentValue('embedded_feature_footer', "");
+        var propertyEditor = editor.getEditor('root.embedded_feature_footer');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: embedded_feature_footer');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_footer'));
+      try {
+        var currentValue = normalizeCurrentValue('embedded_feature_html', "");
+        var propertyEditor = editor.getEditor('root.embedded_feature_html');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: embedded_feature_html');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_html'));
+      try {
+        var currentValue = normalizeCurrentValue('embedded_feature_tab_title', "");
+        var propertyEditor = editor.getEditor('root.embedded_feature_tab_title');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: embedded_feature_tab_title');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_tab_title'));
+      try {
+        var currentValue = normalizeCurrentValue('embedded_feature_title', "");
+        var propertyEditor = editor.getEditor('root.embedded_feature_title');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: embedded_feature_title');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_title'));
+      try {
+        var currentValue = normalizeCurrentValue('embedded_feature_url', "");
+        var propertyEditor = editor.getEditor('root.embedded_feature_url');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: embedded_feature_url');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_url'));
+      try {
+        var currentValue = normalizeCurrentValue('expected_disaggregations', []);
+        var propertyEditor = editor.getEditor('root.expected_disaggregations');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: expected_disaggregations');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.expected_disaggregations'));
+      try {
+        var currentValue = normalizeCurrentValue('graph_annotations', []);
+        var propertyEditor = editor.getEditor('root.graph_annotations');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: graph_annotations');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_annotations'));
+      try {
+        var currentValue = normalizeCurrentValue('graph_limits', []);
+        var propertyEditor = editor.getEditor('root.graph_limits');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: graph_limits');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_limits'));
+      try {
+        var currentValue = normalizeCurrentValue('graph_stacked_disaggregation', "");
+        var propertyEditor = editor.getEditor('root.graph_stacked_disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: graph_stacked_disaggregation');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_stacked_disaggregation'));
       try {
         var currentValue = normalizeCurrentValue('graph_title', "Demographics");
         var propertyEditor = editor.getEditor('root.graph_title');
@@ -645,7 +849,19 @@ data-event-label="high"
         console.log(e.message);
         console.log('Unable to set config key: graph_title');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_title'));propertyEditorAccessibilityFixes(editor.getEditor('root.graph_titles'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_title'));
+      try {
+        var currentValue = normalizeCurrentValue('graph_titles', []);
+        var propertyEditor = editor.getEditor('root.graph_titles');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: graph_titles');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_titles'));
       try {
         var currentValue = normalizeCurrentValue('graph_type', "line");
         var propertyEditor = editor.getEditor('root.graph_type');
@@ -657,9 +873,21 @@ data-event-label="high"
         console.log(e.message);
         console.log('Unable to set config key: graph_type');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_type'));propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_available'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_type'));
       try {
-        var currentValue = normalizeCurrentValue('indicator_name', "global_indicators.demographics-title");
+        var currentValue = normalizeCurrentValue('indicator_available', "");
+        var propertyEditor = editor.getEditor('root.indicator_available');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_available');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_available'));
+      try {
+        var currentValue = normalizeCurrentValue('indicator_name', "");
         var propertyEditor = editor.getEditor('root.indicator_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -669,7 +897,19 @@ data-event-label="high"
         console.log(e.message);
         console.log('Unable to set config key: indicator_name');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_name'));propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_number'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_name'));
+      try {
+        var currentValue = normalizeCurrentValue('indicator_number', "");
+        var propertyEditor = editor.getEditor('root.indicator_number');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_number');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_number'));
       try {
         var currentValue = normalizeCurrentValue('national_geographical_coverage', "Vanuatu");
         var propertyEditor = editor.getEditor('root.national_geographical_coverage');
@@ -681,7 +921,43 @@ data-event-label="high"
         console.log(e.message);
         console.log('Unable to set config key: national_geographical_coverage');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.national_geographical_coverage'));propertyEditorAccessibilityFixes(editor.getEditor('root.page_content'));propertyEditorAccessibilityFixes(editor.getEditor('root.permalink'));propertyEditorAccessibilityFixes(editor.getEditor('root.precision'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.national_geographical_coverage'));
+      try {
+        var currentValue = normalizeCurrentValue('page_content', "## Resource allocation and service delivery\n\nDemographics statistics about the population of a particular geography such as your province, constituency, area council or nation profoundly affect how important decisions are made. Demographic data offers one source of reliable data that provides valuable insights about a community’s future infrastructure needs, resource allocation, and demand for services. They also help determine where aid and assistance programs are targeted, what businesses might move to your community, and how your vote counts in an election. All area council, constituency, provincial and national Plans, which present a vision for growth and development, should include a section dedicated to demographic trends that informs and/or relates to the community vision.​");
+        var propertyEditor = editor.getEditor('root.page_content');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: page_content');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.page_content'));
+      try {
+        var currentValue = normalizeCurrentValue('permalink', "");
+        var propertyEditor = editor.getEditor('root.permalink');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: permalink');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.permalink'));
+      try {
+        var currentValue = normalizeCurrentValue('precision', []);
+        var propertyEditor = editor.getEditor('root.precision');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: precision');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.precision'));
       try {
         var currentValue = normalizeCurrentValue('reporting_status', "complete");
         var propertyEditor = editor.getEditor('root.reporting_status');
@@ -693,7 +969,19 @@ data-event-label="high"
         console.log(e.message);
         console.log('Unable to set config key: reporting_status');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.reporting_status'));propertyEditorAccessibilityFixes(editor.getEditor('root.sort'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.reporting_status'));
+      try {
+        var currentValue = normalizeCurrentValue('sort', "");
+        var propertyEditor = editor.getEditor('root.sort');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: sort');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.sort'));
       try {
         var currentValue = normalizeCurrentValue('standalone', true);
         var propertyEditor = editor.getEditor('root.standalone');
@@ -705,7 +993,19 @@ data-event-label="high"
         console.log(e.message);
         console.log('Unable to set config key: standalone');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.standalone'));propertyEditorAccessibilityFixes(editor.getEditor('root.tags'));function isTranslationKey(text) {
+    propertyEditorAccessibilityFixes(editor.getEditor('root.standalone'));
+      try {
+        var currentValue = normalizeCurrentValue('tags', []);
+        var propertyEditor = editor.getEditor('root.tags');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: tags');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.tags'));function isTranslationKey(text) {
       var parts = text.split('.');
       if (parts.length !== 2) {
         return false;
@@ -828,12 +1128,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210820000543'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210820001955'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210820000543"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210820001955"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
