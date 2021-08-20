@@ -129,17 +129,14 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210820034318">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210820132000">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
-
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
 
     </head>
 <body class="language-en
@@ -633,7 +630,10 @@ data-event-label="high"
       }
     }
 
-    // Set values according to this site's configuration.propertyEditorAccessibilityFixes(editor.getEditor('root.OverallConcepts'));
+    // Set values according to this site's configuration.
+    propertyEditorAccessibilityFixes(editor.getEditor('root.OverallConcepts'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('PillarDescription', "Environment Pillar");
         var propertyEditor = editor.getEditor('root.PillarDescription');
@@ -646,6 +646,8 @@ data-event-label="high"
         console.log('Unable to set config key: PillarDescription');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.PillarDescription'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('GoalId', "ENV2");
         var propertyEditor = editor.getEditor('root.GoalId');
@@ -658,6 +660,8 @@ data-event-label="high"
         console.log('Unable to set config key: GoalId');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.GoalId'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('GoalDescription', "An economy which fosters sustainable growth and development through low impact industries and modern technologies to ensure the well-being of future generations");
         var propertyEditor = editor.getEditor('root.GoalDescription');
@@ -670,6 +674,8 @@ data-event-label="high"
         console.log('Unable to set config key: GoalDescription');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.GoalDescription'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('PolicyObjectiveId', "ENV2-6");
         var propertyEditor = editor.getEditor('root.PolicyObjectiveId');
@@ -682,6 +688,8 @@ data-event-label="high"
         console.log('Unable to set config key: PolicyObjectiveId');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.PolicyObjectiveId'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('PolicyObjectiveDescription', "Ensure adequate financial resources to support our sustainable development aspirations");
         var propertyEditor = editor.getEditor('root.PolicyObjectiveDescription');
@@ -694,6 +702,8 @@ data-event-label="high"
         console.log('Unable to set config key: PolicyObjectiveDescription');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.PolicyObjectiveDescription'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('IndicatorId', "ENV2-6-1");
         var propertyEditor = editor.getEditor('root.IndicatorId');
@@ -706,6 +716,8 @@ data-event-label="high"
         console.log('Unable to set config key: IndicatorId');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.IndicatorId'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('IndicatorDescription', "Proportion of funding requested by DEPC in support of sustainable development approved through NPP/percentage of government expenditure for environmental activities");
         var propertyEditor = editor.getEditor('root.IndicatorDescription');
@@ -718,6 +730,8 @@ data-event-label="high"
         console.log('Unable to set config key: IndicatorDescription');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.IndicatorDescription'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('TargetDescription', "Government expenditure for environmental activities has increased by at least 15 million vatu from the 2016 baseline");
         var propertyEditor = editor.getEditor('root.TargetDescription');
@@ -730,6 +744,8 @@ data-event-label="high"
         console.log('Unable to set config key: TargetDescription');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.TargetDescription'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('SDGAlignment', "13.a.1 (R) (Tier 3) , 17.7.1 (Tier 3)");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
@@ -742,6 +758,8 @@ data-event-label="high"
         console.log('Unable to set config key: SDGAlignment');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('Concept', "* The idea of creating new environmental initiatives is increasing to support our sustainable environment development aspirations. For instance, “Ban of Plastic Bags” this is an initiative that DEPC has requested the Government for its support through NPP’s to support the ban and at the same time promote a clean Environment for all. Such initiatives require the governments input through funding to successfully implement the activities especially in the Environmental sector.\n\n* Innovative thinking for sustainability – meeting the needs of the present without compromising the ability of the future generations to meet their needs – environmentally, socially, economically: (Planet, People, Profits). ");
         var propertyEditor = editor.getEditor('root.Concept');
@@ -754,6 +772,8 @@ data-event-label="high"
         console.log('Unable to set config key: Concept');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('Rationale', "* Promote a sustainable and clean Environment for all\n* Promote management of environment resources and other natural resources for future utilisation \n* Depicts the risk of environmental degradation if resources are not managed well and poor environmental management");
         var propertyEditor = editor.getEditor('root.Rationale');
@@ -766,6 +786,8 @@ data-event-label="high"
         console.log('Unable to set config key: Rationale');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('ComputationMethod', "New project proposals developed by the Department f Environment under the Ministry of Climate Change and Adaptation (MoCCA), reviewed by the executive of MoCCA for submission to the NPP committee for their review and approval.");
         var propertyEditor = editor.getEditor('root.ComputationMethod');
@@ -778,6 +800,8 @@ data-event-label="high"
         console.log('Unable to set config key: ComputationMethod');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationMethod'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('ComputationUnit', "Monetary figures(vt), percentage (%)");
         var propertyEditor = editor.getEditor('root.ComputationUnit');
@@ -790,6 +814,8 @@ data-event-label="high"
         console.log('Unable to set config key: ComputationUnit');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationUnit'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('Proxy', "No");
         var propertyEditor = editor.getEditor('root.Proxy');
@@ -802,6 +828,8 @@ data-event-label="high"
         console.log('Unable to set config key: Proxy');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('DataSource', "Ministry of Finance & Economic Management\nMinistry of Climate Change & Adaptation\n");
         var propertyEditor = editor.getEditor('root.DataSource');
@@ -814,6 +842,8 @@ data-event-label="high"
         console.log('Unable to set config key: DataSource');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DataSource'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('FrequencyOfCollection', "");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
@@ -825,7 +855,17 @@ data-event-label="high"
         console.log(e.message);
         console.log('Unable to set config key: FrequencyOfCollection');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));function isTranslationKey(text) {
+    propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
+
+    
+
+    function isTranslationKey(text) {
       var parts = text.split('.');
       if (parts.length !== 2) {
         return false;
@@ -948,12 +988,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210820034318'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210820132000'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210820034318"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210820132000"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

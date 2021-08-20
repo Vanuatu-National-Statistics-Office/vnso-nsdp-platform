@@ -129,17 +129,14 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210820034318">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210820132000">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
-
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
 
     </head>
 <body class="language-en
@@ -633,7 +630,46 @@ data-event-label="high"
       }
     }
 
-    // Set values according to this site's configuration.propertyEditorAccessibilityFixes(editor.getEditor('root.composite_breakdown_label'));propertyEditorAccessibilityFixes(editor.getEditor('root.computation_units'));propertyEditorAccessibilityFixes(editor.getEditor('root.copyright'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_footnote'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_non_statistical'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_notice_class'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_notice_heading'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_notice_text'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_show_map'));propertyEditorAccessibilityFixes(editor.getEditor('root.data_start_values'));propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_footer'));propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_html'));propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_tab_title'));propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_title'));propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_url'));propertyEditorAccessibilityFixes(editor.getEditor('root.expected_disaggregations'));propertyEditorAccessibilityFixes(editor.getEditor('root.graph_annotations'));propertyEditorAccessibilityFixes(editor.getEditor('root.graph_limits'));propertyEditorAccessibilityFixes(editor.getEditor('root.graph_stacked_disaggregation'));
+    // Set values according to this site's configuration.
+    propertyEditorAccessibilityFixes(editor.getEditor('root.composite_breakdown_label'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.computation_units'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.copyright'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_footnote'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_non_statistical'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_notice_class'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_notice_heading'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_notice_text'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_show_map'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_start_values'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_footer'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_html'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_tab_title'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_title'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_url'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.expected_disaggregations'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_annotations'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_limits'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_stacked_disaggregation'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('graph_title', "Change in government revenue (GFS Tables)");
         var propertyEditor = editor.getEditor('root.graph_title');
@@ -645,7 +681,11 @@ data-event-label="high"
         console.log(e.message);
         console.log('Unable to set config key: graph_title');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_title'));propertyEditorAccessibilityFixes(editor.getEditor('root.graph_titles'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_title'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_titles'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('graph_type', "bar");
         var propertyEditor = editor.getEditor('root.graph_type');
@@ -657,7 +697,11 @@ data-event-label="high"
         console.log(e.message);
         console.log('Unable to set config key: graph_type');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_type'));propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_available'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.graph_type'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_available'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('indicator_name', "indicators.ECO1-2-1-title");
         var propertyEditor = editor.getEditor('root.indicator_name');
@@ -670,6 +714,8 @@ data-event-label="high"
         console.log('Unable to set config key: indicator_name');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_name'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('indicator_number', "ECO1-2-1");
         var propertyEditor = editor.getEditor('root.indicator_number');
@@ -682,6 +728,8 @@ data-event-label="high"
         console.log('Unable to set config key: indicator_number');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_number'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('national_geographical_coverage', "Vanuatu");
         var propertyEditor = editor.getEditor('root.national_geographical_coverage');
@@ -693,7 +741,15 @@ data-event-label="high"
         console.log(e.message);
         console.log('Unable to set config key: national_geographical_coverage');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.national_geographical_coverage'));propertyEditorAccessibilityFixes(editor.getEditor('root.page_content'));propertyEditorAccessibilityFixes(editor.getEditor('root.permalink'));propertyEditorAccessibilityFixes(editor.getEditor('root.precision'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.national_geographical_coverage'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.page_content'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.permalink'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.precision'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('reporting_status', "notstarted");
         var propertyEditor = editor.getEditor('root.reporting_status');
@@ -705,7 +761,17 @@ data-event-label="high"
         console.log(e.message);
         console.log('Unable to set config key: reporting_status');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.reporting_status'));propertyEditorAccessibilityFixes(editor.getEditor('root.sort'));propertyEditorAccessibilityFixes(editor.getEditor('root.standalone'));propertyEditorAccessibilityFixes(editor.getEditor('root.tags'));function isTranslationKey(text) {
+    propertyEditorAccessibilityFixes(editor.getEditor('root.reporting_status'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.sort'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.standalone'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.tags'));
+
+    
+
+    function isTranslationKey(text) {
       var parts = text.split('.');
       if (parts.length !== 2) {
         return false;
@@ -828,12 +894,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210820034318'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210820132000'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210820034318"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210820132000"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

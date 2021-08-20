@@ -129,17 +129,14 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210820034318">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210820132000">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
-
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
 
     </head>
 <body class="language-en
@@ -633,7 +630,10 @@ data-event-label="high"
       }
     }
 
-    // Set values according to this site's configuration.propertyEditorAccessibilityFixes(editor.getEditor('root.OverallConcepts'));
+    // Set values according to this site's configuration.
+    propertyEditorAccessibilityFixes(editor.getEditor('root.OverallConcepts'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('PillarDescription', "Environment Pillar");
         var propertyEditor = editor.getEditor('root.PillarDescription');
@@ -646,6 +646,8 @@ data-event-label="high"
         console.log('Unable to set config key: PillarDescription');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.PillarDescription'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('GoalId', "ENV3");
         var propertyEditor = editor.getEditor('root.GoalId');
@@ -658,6 +660,8 @@ data-event-label="high"
         console.log('Unable to set config key: GoalId');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.GoalId'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('GoalDescription', "A strong and resilient nation in the face of climate change and disaster risks posed by natural and man-made hazards");
         var propertyEditor = editor.getEditor('root.GoalDescription');
@@ -670,6 +674,8 @@ data-event-label="high"
         console.log('Unable to set config key: GoalDescription');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.GoalDescription'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('PolicyObjectiveId', "ENV3-1");
         var propertyEditor = editor.getEditor('root.PolicyObjectiveId');
@@ -682,6 +688,8 @@ data-event-label="high"
         console.log('Unable to set config key: PolicyObjectiveId');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.PolicyObjectiveId'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('PolicyObjectiveDescription', "Institutionalise climate change and disaster risk governance, and build institutional capacity and awareness");
         var propertyEditor = editor.getEditor('root.PolicyObjectiveDescription');
@@ -694,6 +702,8 @@ data-event-label="high"
         console.log('Unable to set config key: PolicyObjectiveDescription');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.PolicyObjectiveDescription'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('IndicatorId', "ENV3-1-2");
         var propertyEditor = editor.getEditor('root.IndicatorId');
@@ -706,6 +716,8 @@ data-event-label="high"
         console.log('Unable to set config key: IndicatorId');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.IndicatorId'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('IndicatorDescription', "Institutional strengthening of NAB, Department of Climate Change and other MoCC departments");
         var propertyEditor = editor.getEditor('root.IndicatorDescription');
@@ -718,6 +730,8 @@ data-event-label="high"
         console.log('Unable to set config key: IndicatorDescription');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.IndicatorDescription'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('TargetDescription', "By 2030 100% of DoCC and National Advisory Board secretariat staff financed by the government.");
         var propertyEditor = editor.getEditor('root.TargetDescription');
@@ -730,6 +744,8 @@ data-event-label="high"
         console.log('Unable to set config key: TargetDescription');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.TargetDescription'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('SDGAlignment', "");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
@@ -742,6 +758,8 @@ data-event-label="high"
         console.log('Unable to set config key: SDGAlignment');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('Concept', "The NAB develops DRR and CC policies, guidelines and positions, advises on international and regional DRR and CC obligations, facilitates and endorses the development of new DRR & CC programs, projects, initiatives and activities, acts as a focal point for information ‐ sharing and coordination on CC/DRR, as well as guides and coordinates the development of national climate finance processes.");
         var propertyEditor = editor.getEditor('root.Concept');
@@ -754,6 +772,8 @@ data-event-label="high"
         console.log('Unable to set config key: Concept');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('Rationale', "The study will highly address the Vanuatu’s society, environment, and economy which are highly vulnerable to climate change and disaster risks.");
         var propertyEditor = editor.getEditor('root.Rationale');
@@ -766,6 +786,8 @@ data-event-label="high"
         console.log('Unable to set config key: Rationale');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('ComputationMethod', "To retrieve all findings and data on NAB based on;\n• Review of policies, guidelines and positions.\n• Provide advice on disaster risk reduction and climate change obligations, projects,initiatives and activities.\n• Review of audit report of the development of national climate finance processes.\n• Review of guidelines and coordination to the development of climate finance processes.");
         var propertyEditor = editor.getEditor('root.ComputationMethod');
@@ -778,6 +800,8 @@ data-event-label="high"
         console.log('Unable to set config key: ComputationMethod');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationMethod'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('ComputationUnit', "");
         var propertyEditor = editor.getEditor('root.ComputationUnit');
@@ -790,6 +814,8 @@ data-event-label="high"
         console.log('Unable to set config key: ComputationUnit');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationUnit'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('Proxy', "");
         var propertyEditor = editor.getEditor('root.Proxy');
@@ -802,6 +828,8 @@ data-event-label="high"
         console.log('Unable to set config key: Proxy');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('DataSource', "Vanuatu National Advisory Board");
         var propertyEditor = editor.getEditor('root.DataSource');
@@ -814,6 +842,8 @@ data-event-label="high"
         console.log('Unable to set config key: DataSource');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DataSource'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
@@ -825,7 +855,17 @@ data-event-label="high"
         console.log(e.message);
         console.log('Unable to set config key: FrequencyOfCollection');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));function isTranslationKey(text) {
+    propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
+
+    
+
+    function isTranslationKey(text) {
       var parts = text.split('.');
       if (parts.length !== 2) {
         return false;
@@ -948,12 +988,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210820034318'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210820132000'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210820034318"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210820132000"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

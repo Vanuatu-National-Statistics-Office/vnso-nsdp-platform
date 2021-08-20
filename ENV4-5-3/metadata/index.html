@@ -129,17 +129,14 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210820034318">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210820132000">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
-
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
 
     </head>
 <body class="language-en
@@ -633,7 +630,10 @@ data-event-label="high"
       }
     }
 
-    // Set values according to this site's configuration.propertyEditorAccessibilityFixes(editor.getEditor('root.OverallConcepts'));
+    // Set values according to this site's configuration.
+    propertyEditorAccessibilityFixes(editor.getEditor('root.OverallConcepts'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('PillarDescription', "Environment Pillar");
         var propertyEditor = editor.getEditor('root.PillarDescription');
@@ -646,6 +646,8 @@ data-event-label="high"
         console.log('Unable to set config key: PillarDescription');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.PillarDescription'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('GoalId', "ENV4");
         var propertyEditor = editor.getEditor('root.GoalId');
@@ -658,6 +660,8 @@ data-event-label="high"
         console.log('Unable to set config key: GoalId');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.GoalId'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('GoalDescription', "A nation which utilises and sustainably manages our land, water and natural resources");
         var propertyEditor = editor.getEditor('root.GoalDescription');
@@ -670,6 +674,8 @@ data-event-label="high"
         console.log('Unable to set config key: GoalDescription');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.GoalDescription'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('PolicyObjectiveId', "ENV4-5");
         var propertyEditor = editor.getEditor('root.PolicyObjectiveId');
@@ -682,6 +688,8 @@ data-event-label="high"
         console.log('Unable to set config key: PolicyObjectiveId');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.PolicyObjectiveId'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('PolicyObjectiveDescription', "Reduce and prevent the degradation and erosion of foreshore and coastal areas");
         var propertyEditor = editor.getEditor('root.PolicyObjectiveDescription');
@@ -694,6 +702,8 @@ data-event-label="high"
         console.log('Unable to set config key: PolicyObjectiveDescription');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.PolicyObjectiveDescription'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('IndicatorId', "ENV4-5-3");
         var propertyEditor = editor.getEditor('root.IndicatorId');
@@ -706,6 +716,8 @@ data-event-label="high"
         console.log('Unable to set config key: IndicatorId');
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.IndicatorId'));
+
+    
       try {
         var currentValue = normalizeCurrentValue('IndicatorDescription', "Number of places where detailed geo-scientific information has been collected");
         var propertyEditor = editor.getEditor('root.IndicatorDescription');
@@ -717,7 +729,35 @@ data-event-label="high"
         console.log(e.message);
         console.log('Unable to set config key: IndicatorDescription');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.IndicatorDescription'));propertyEditorAccessibilityFixes(editor.getEditor('root.TargetDescription'));propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationMethod'));propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationUnit'));propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));propertyEditorAccessibilityFixes(editor.getEditor('root.DataSource'));propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));function isTranslationKey(text) {
+    propertyEditorAccessibilityFixes(editor.getEditor('root.IndicatorDescription'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.TargetDescription'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationMethod'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.ComputationUnit'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.DataSource'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
+
+    
+
+    function isTranslationKey(text) {
       var parts = text.split('.');
       if (parts.length !== 2) {
         return false;
@@ -840,12 +880,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210820034318'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210820132000'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210820034318"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210820132000"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
