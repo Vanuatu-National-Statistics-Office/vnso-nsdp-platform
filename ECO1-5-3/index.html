@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210821023541">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20210821030545">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -717,7 +717,7 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: QSI December 2018, VNSO</p>
+    <p>Source: </p>
     
     
     <p>Geographical Area: Vanuatu</p>
@@ -1008,9 +1008,6 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>Source:</dt>
-        <dd>QSI December 2018, VNSO, QSI December 2013, VNSO, QSI December 2017, VNSO, QSI 2009 December, VNSO</dd>
-        
 
         
         <dt>Geographical Area:</dt>
@@ -1049,9 +1046,6 @@ opensdg.chartConfigAlter(function(config, info) {
 <div id="selectionTableFooter" class="table-footer-text">
   <h5 class="sr-only">Chart details</h5>
     <dl>
-        
-        <dt>Source:</dt>
-        <dd>QSI December 2018, VNSO, QSI December 2013, VNSO, QSI December 2017, VNSO, QSI 2009 December, VNSO</dd>
         
 
         
@@ -1271,7 +1265,20 @@ data-event-label="Change to indicator.sources tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">SDG Alignment </th>
+        <td>
           
+            <p>17.11.1</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1280,7 +1287,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            <p>Trade balance taken from fourth quarter QSI in millions of vatu</p>
+            <p>Balance of trade (BOT) is the difference between the value of a country’s exports and the value of a country’s imports for a given period. Balance of trade is the largest component of a country’s balance of payments (BOP). Sometimes the balance of trade betrween a countries goods and the balance of trade between its services are distinguished as two seperate figures</p>
 
           
         </td>
@@ -1296,7 +1303,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Concept </th>
         <td>
           
-            <p>balance and import and export</p>
+            <p>Economists use the BOT to measure the relative strength of a country’s economy</p>
 
           
         </td>
@@ -1312,7 +1319,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Rationale </th>
         <td>
           
-            <p>aaaaaaaaaa</p>
+            <p>A country that imports more goods and services that it exports in terms of value has a trade deficit or a negative trade balance. Conversely, a country that exports more goods and services than it imports has a trade surplus or a psoitive trade balance.</p>
 
           
         </td>
@@ -1331,13 +1338,52 @@ data-event-label="Change to indicator.sources tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Disaggregation </th>
+        <td>
           
+            <p>Country</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Data Source </th>
+        <td>
           
+            <p>Customs and Inland Revenue</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Frequency Of Collection </th>
+        <td>
           
+            <p>Continuous</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1365,207 +1411,6 @@ data-event-label="Change to indicator.sources tab"
 
 
 
-
-  <div class="row">
-  
-    
-    
-    <div class="col-md-6">
-      
-        <h4>Source 1</h4>
-      
-      <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-        
-      
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>QSI December 2018, VNSO</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  
-  
-</table>
-
-    </div>
-    
-    
-    
-    <div class="col-md-6">
-      
-        <h4>Source 2</h4>
-      
-      <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-        
-      
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>QSI December 2013, VNSO</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-</table>
-
-    </div>
-    
-    
-    
-    <div class="col-md-6">
-      
-        <h4>Source 3</h4>
-      
-      <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-        
-      
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>QSI December 2017, VNSO</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-</table>
-
-    </div>
-    
-    
-    
-    <div class="col-md-6">
-      
-        <h4>Source 4</h4>
-      
-      <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-    </div>
-    
-  </div>
 
 
       </article>
@@ -1663,12 +1508,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210821023541'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20210821030545'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210821023541"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20210821030545"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
