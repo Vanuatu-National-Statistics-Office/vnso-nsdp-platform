@@ -3323,30 +3323,54 @@
       "schema": {
         "fields": [
           {
-            "name": "Series",
+            "name": "Age",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Subjective Well-being"
+                "15-30",
+                "31-64",
+                "65+"
               ]
             },
-            "title": "Series"
+            "title": "Age"
           },
           {
-            "name": "Units",
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Province",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Total"
+                "MALAMPA",
+                "PENAMA",
+                "SANMA",
+                "SHEFA",
+                "TAFEA",
+                "TORBA"
               ]
             },
-            "title": "Units"
+            "title": "Province"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
