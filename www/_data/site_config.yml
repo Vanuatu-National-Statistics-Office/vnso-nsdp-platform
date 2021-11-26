@@ -220,7 +220,7 @@ menu:
       - path: demographics
         translation_key: DEMOGRAPHICS      
   - path: /data-innovation/
-    translation_key: DATA INNOVATION
+    translation_key: DATA INNOVATIONS
     dropdown:
       - path: /reproducible-analytical-pipeline/
         translation_key: REPRODUCIBLE ANALYTICAL PIPELINE
