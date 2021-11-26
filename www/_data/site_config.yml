@@ -213,20 +213,21 @@ menu:
         translation_key: PUBLICATIONS
   - path: /government-financial-statistics/
     translation_key: GOVERNMENT FINANCIAL STATISTICS
-    dropdown: []
-  - path: /economic-statistics/
-    translation_key: ECONOMIC STATISTICS
-    dropdown:
-      - path: /gdp-constant-price/
-        translation_key: GDP CONSTANT PRICE
-        title: GDB CONSTANT PRICE
-      - path: /gdp-growth-rate/
-        translation_key: GDP GROWTH RATE
+    dropdown: []  
   - path: /population-profiles/
     translation_key: POPULATION PROFILES
     dropdown:
       - path: demographics
-        translation_key: DEMOGRAPHICS
+        translation_key: DEMOGRAPHICS      
+  - path: /data-innovation/
+    translation_key: DATA INNOVATION
+    dropdown:
+      - path: /reproducible-analytical-pipeline/
+        translation_key: REPRODUCIBLE ANALYTICAL PIPELINE
+      - path: /trusted-statistics/
+        translation_key: TRUSTED STATISTICS
+      - path: /wellbeing/
+        translation_key: WELLBEING
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
