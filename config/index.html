@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20211126052506">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20211126053753">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -268,11 +268,13 @@ data-event-label="high"
 </li><li class="nav-link ">
     <a href="/vnso-nsdp-platform/government-financial-statistics/">GOVERNMENT FINANCIAL STATISTICS</a>
 </li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/gdp-constant-price/">GDP CONSTANT PRICE</a>
-</li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/gdp-growth-rate/">GDP GROWTH RATE</a>
-</li><li class="nav-link ">
     <a href="/vnso-nsdp-platform/demographics">DEMOGRAPHICS</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/reproducible-analytical-pipeline/">REPRODUCIBLE ANALYTICAL PIPELINE</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/trusted-statistics/">TRUSTED STATISTICS</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/wellbeing/">WELLBEING</a>
 </li>
 
 
@@ -354,23 +356,25 @@ data-event-label="high"
 </li><li class="nav-link">
             <div class="btn-group menu-dropdown">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    ECONOMIC STATISTICS
-                    <i class="fa fa-chevron-down"></i>
-                </button>
-                <ul class="dropdown-menu"><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/gdp-constant-price/">GDP CONSTANT PRICE</a>
-</li><li class="nav-link ">
-    <a href="/vnso-nsdp-platform/gdp-growth-rate/">GDP GROWTH RATE</a>
-</li></ul>
-            </div>
-        </li><li class="nav-link">
-            <div class="btn-group menu-dropdown">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     POPULATION PROFILES
                     <i class="fa fa-chevron-down"></i>
                 </button>
                 <ul class="dropdown-menu"><li class="nav-link ">
     <a href="/vnso-nsdp-platform/demographics">DEMOGRAPHICS</a>
+</li></ul>
+            </div>
+        </li><li class="nav-link">
+            <div class="btn-group menu-dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    DATA INNOVATION
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu"><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/reproducible-analytical-pipeline/">REPRODUCIBLE ANALYTICAL PIPELINE</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/trusted-statistics/">TRUSTED STATISTICS</a>
+</li><li class="nav-link ">
+    <a href="/vnso-nsdp-platform/wellbeing/">WELLBEING</a>
 </li></ul>
             </div>
         </li>
@@ -1287,7 +1291,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('menu', [{"path":"/reporting-status/","translation_key":"EVALUATION","dropdown":[{"path":"/reporting-status/","translation_key":"DATA AVAILABILITY"},{"path":"/indicator-overview/","translation_key":"INDICATOR OVERVIEW"},{"path":"/methodology/","translation_key":"METHODOLOGY"}]},{"path":"/2030-agenda/","translation_key":"USEFUL INFORMATION","dropdown":[{"path":"/about/","translation_key":"NSPD ONLINE PLATFORM"},{"path":"/technical-advice/","translation_key":"TECHNICAL ADVICE"},{"path":"/publications/","translation_key":"PUBLICATIONS"}]},{"path":"/government-financial-statistics/","translation_key":"GOVERNMENT FINANCIAL STATISTICS","dropdown":[]},{"path":"/economic-statistics/","translation_key":"ECONOMIC STATISTICS","dropdown":[{"path":"/gdp-constant-price/","translation_key":"GDP CONSTANT PRICE","title":"GDB CONSTANT PRICE"},{"path":"/gdp-growth-rate/","translation_key":"GDP GROWTH RATE"}]},{"path":"/population-profiles/","translation_key":"POPULATION PROFILES","dropdown":[{"path":"demographics","translation_key":"DEMOGRAPHICS"}]}]);
+        var currentValue = normalizeCurrentValue('menu', [{"path":"/reporting-status/","translation_key":"EVALUATION","dropdown":[{"path":"/reporting-status/","translation_key":"DATA AVAILABILITY"},{"path":"/indicator-overview/","translation_key":"INDICATOR OVERVIEW"},{"path":"/methodology/","translation_key":"METHODOLOGY"}]},{"path":"/2030-agenda/","translation_key":"USEFUL INFORMATION","dropdown":[{"path":"/about/","translation_key":"NSPD ONLINE PLATFORM"},{"path":"/technical-advice/","translation_key":"TECHNICAL ADVICE"},{"path":"/publications/","translation_key":"PUBLICATIONS"}]},{"path":"/government-financial-statistics/","translation_key":"GOVERNMENT FINANCIAL STATISTICS","dropdown":[]},{"path":"/population-profiles/","translation_key":"POPULATION PROFILES","dropdown":[{"path":"demographics","translation_key":"DEMOGRAPHICS"}]},{"path":"/data-innovation/","translation_key":"DATA INNOVATION","dropdown":[{"path":"/reproducible-analytical-pipeline/","translation_key":"REPRODUCIBLE ANALYTICAL PIPELINE"},{"path":"/trusted-statistics/","translation_key":"TRUSTED STATISTICS"},{"path":"/wellbeing/","translation_key":"WELLBEING"}]}]);
         var propertyEditor = editor.getEditor('root.menu');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1645,12 +1649,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20211126052506'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20211126053753'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20211126052506"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20211126053753"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
