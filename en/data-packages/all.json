@@ -4900,26 +4900,48 @@
       "schema": {
         "fields": [
           {
-            "name": "Series",
+            "name": "Industry",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "GDP Growth Rate"
+                "Accommodation and Food Services",
+                "Animal Production",
+                "Construction",
+                "Crop Production",
+                "Education, Health, Recreation, and Other Services",
+                "Electricity and Water Supply",
+                "Finance and Insurance",
+                "Fishing",
+                "Forestry",
+                "Government Services",
+                "Information and Communication",
+                "Manufacturing",
+                "Mining and Quarrying",
+                "Other Wholesale Trade",
+                "Professional, Scientifc, Technical, Admin/Services",
+                "Real Estate",
+                "Retail Trade",
+                "Transport",
+                "Wholesale, Retail Trade, repair of Motor vehicles"
               ]
             },
-            "title": "Series"
+            "title": "Industry"
           },
           {
-            "name": "Units",
+            "name": "Sector",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Percent"
+                "Agriculture, Fishing and Forestry",
+                "Industry",
+                "Less imputed Bank Service Charge",
+                "Plus Taxes less Subsidies on Products",
+                "Services"
               ]
             },
-            "title": "Units"
+            "title": "Sector"
           },
           {
             "name": "Value",
