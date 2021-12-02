@@ -1726,6 +1726,22 @@
       "indicators": [
         
         {
+          "id": "disaster-statistics",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/disaster-statistics",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
           "id": "gdp-constant-price",
           "title": "",
           "description": "",
