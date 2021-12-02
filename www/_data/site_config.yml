@@ -212,7 +212,8 @@ menu:
       - path: /publications/
         translation_key: PUBLICATIONS
   - path: /government-financial-statistics/
-    translation_key: GOVERNMENT FINANCIAL STATISTICS
+    translation_key: GOVERNMENT FINANCIAL 
+                           STATISTICS
     dropdown: []  
   - path: /population-profiles/
     translation_key: POPULATION PROFILES
