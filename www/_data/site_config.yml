@@ -216,10 +216,10 @@ menu:
                            STATISTICS"
     dropdown: []  
   - path: /population-profiles/
-    translation_key: POPULATION PROFILES
+    translation_key: DISASTER STATISTICS
     dropdown:
       - path: demographics
-        translation_key: DEMOGRAPHICS      
+        translation_key: POPULATION PROFILES    
   - path: /data-innovation/
     translation_key: DATA INNOVATION
     dropdown:
