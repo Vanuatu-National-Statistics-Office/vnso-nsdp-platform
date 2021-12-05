@@ -228,6 +228,15 @@ menu:
         translation_key: TRUSTED STATISTICS
       - path: /wellbeing/
         translation_key: WELLBEING
+   - path: /human-resource-development/
+    translation_key: HUMAN RESOURCE DEVELOPMENT
+    dropdown:
+      - path: /education/
+        translation_key: EDUCATION
+      - path: /scolarship/
+        translation_key: SCHOLARSHIP
+      - path: /labour/
+        translation_key: LABOUR
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
