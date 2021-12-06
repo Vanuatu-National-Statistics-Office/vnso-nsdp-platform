@@ -217,17 +217,17 @@ menu:
   - path: /population-profiles/
     translation_key: DISASTER STATISTICS
     dropdown:
-      - path: demographics
+      - path: /demographics/
         translation_key: POPULATION PROFILES    
+      - path: /wellbeing/
+        translation_key: WELLBEING
   - path: /data-innovation/
     translation_key: DATA INNOVATION
     dropdown:
       - path: /reproducible-analytical-pipeline/
         translation_key: REPRODUCIBLE ANALYTICAL PIPELINE
       - path: /trusted-statistics/
-        translation_key: TRUSTED STATISTICS
-      - path: /wellbeing/
-        translation_key: WELLBEING
+        translation_key: TRUSTED STATISTICS 
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
