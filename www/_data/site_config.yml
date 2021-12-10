@@ -225,11 +225,11 @@ menu:
     translation_key: HUMAN RESOURCE DEVELOPMENT
     dropdown:
        -path: /education/
-       translation_key: EDUCATION
+        translation_key: EDUCATION
        -path: /scolarship/
-       translation_key: SCHOLARSHIPS
+        translation_key: SCHOLARSHIPS
        -path: /labour/
-       translation_key: LABOUR
+        translation_key: LABOUR
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
