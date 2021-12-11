@@ -221,13 +221,15 @@ menu:
         translation_key: POPULATION PROFILES    
       - path: /wellbeing/
         translation_key: WELLBEING
-  - path: /data-innovation/
-    translation_key: DATA INNOVATION
+  - path: /human-resource-development/
+    translation_key: HUMAN RESOURCE DEVELOPMENT
     dropdown:
-      - path: /reproducible-analytical-pipeline/
-        translation_key: REPRODUCIBLE ANALYTICAL PIPELINE
-      - path: /trusted-statistics/
-        translation_key: TRUSTED STATISTICS 
+      - path: /education/
+        translation_key: EDUCATION
+      - path: /scolarship/
+        translation_key: SCHOLARSHIPS
+      - path: /labour/
+        translation_key: LABOUR
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
