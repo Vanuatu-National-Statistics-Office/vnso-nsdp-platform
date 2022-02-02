@@ -112,3 +112,8 @@ docs_subfolder: data-docs
 # This can be uncommented and updated so allow links to your indicator pages.
 # The URL here should have [id] instead of the indicator ID.
 #docs_indicator_url: https://my-github-org/my-site-repository/[id]
+
+# This allows the CSV files to control the order of disaggregations on indicator pages.
+# More infomation: https://github.com/Vanuatu-National-Statistics-Office/vnso-nsdp-platform/wiki/Controlling-the-order-of-disaggregations
+datapackage:
+  sorting: default
