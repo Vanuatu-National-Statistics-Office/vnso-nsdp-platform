@@ -11,37 +11,37 @@
       "schema": {
         "fields": [
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Proportion of Children (2-14) that Experience Any Violent Discipline (PROXY)",
-                "Proportion of Children (2-14) that Experience Psychological Aggression (PROXY)"
-              ]
-            },
-            "title": "Series"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Percent"
+                "Percent",
+                ""
               ]
             },
             "title": "Units"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of Children (2-14) that Experience Any Violent Discipline (PROXY)",
+                "Proportion of Children (2-14) that Experience Psychological Aggression (PROXY)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
           }
         ]
       }

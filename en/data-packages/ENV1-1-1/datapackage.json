@@ -11,39 +11,39 @@
       "schema": {
         "fields": [
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual Growth Rate of Subsistence/Custom/Traditional Agriculture Constant Price (PROXY)",
-                "Proportion of Population age 15+ Engaged in Household Production for Own Consumption (PROXY)",
-                "Total Households Engaged in Agricultural Activities (PROXY)"
-              ]
-            },
-            "title": "Series"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "Percent",
-                "Total"
+                "Total",
+                ""
               ]
             },
             "title": "Units"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Annual Growth Rate of Subsistence/Custom/Traditional Agriculture Constant Price (PROXY)",
+                "Proportion of Population age 15+ Engaged in Household Production for Own Consumption (PROXY)",
+                "Total Households Engaged in Agricultural Activities (PROXY)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
           }
         ]
       }

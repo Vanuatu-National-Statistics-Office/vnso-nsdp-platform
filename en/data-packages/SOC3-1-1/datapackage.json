@@ -11,38 +11,38 @@
       "schema": {
         "fields": [
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Skilled Health Professionals Ratio, Doctors",
-                "Skilled Health Professionals Ratio, Nurses",
-                "Skilled Health Professionals Ratio, Midwives"
-              ]
-            },
-            "title": "Series"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Total"
+                "Total",
+                ""
               ]
             },
             "title": "Units"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Skilled Health Professionals Ratio, Doctors",
+                "Skilled Health Professionals Ratio, Nurses",
+                "Skilled Health Professionals Ratio, Midwives",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
           }
         ]
       }

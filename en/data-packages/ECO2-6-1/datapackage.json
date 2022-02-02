@@ -11,37 +11,37 @@
       "schema": {
         "fields": [
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Minutes to Nearest Road Walking Distance, < 1 hour (PROXY)",
-                "Minutes to Nearest Airstrip Walking Distance, < 1 hour (PROXY)"
-              ]
-            },
-            "title": "Series"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Percent"
+                "Percent",
+                ""
               ]
             },
             "title": "Units"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Minutes to Nearest Road Walking Distance, < 1 hour (PROXY)",
+                "Minutes to Nearest Airstrip Walking Distance, < 1 hour (PROXY)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
           }
         ]
       }

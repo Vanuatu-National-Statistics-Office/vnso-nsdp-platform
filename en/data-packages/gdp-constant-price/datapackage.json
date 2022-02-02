@@ -11,58 +11,58 @@
       "schema": {
         "fields": [
           {
-            "name": "Industry",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Accommodation and Food Services",
-                "Animal Production",
-                "Construction",
-                "Crop Production",
-                "Education, Health, Recreation, and Other Services",
-                "Electricity and Water Supply",
-                "Finance and Insurance",
-                "Fishing",
-                "Forestry",
-                "Government Services",
-                "Information and Communication",
-                "Manufacturing",
-                "Mining and Quarrying",
-                "Other Wholesale Trade",
-                "Professional, Scientific, Technical, Admin/Services",
-                "Real Estate",
-                "Retail Trade",
-                "Transport",
-                "Wholesale, Retail Trade, repair of Motor vehicles"
-              ]
-            },
-            "title": "Industry"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "Sector",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "Agriculture, Fishing and Forestry",
                 "Industry",
-                "Less imputed Bank Service Charge",
+                "Services",
                 "Plus Taxes less Subsidies on Products",
-                "Services"
+                "Less imputed Bank Service Charge",
+                ""
               ]
             },
             "title": "Sector"
           },
           {
+            "name": "Industry",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Crop Production",
+                "Animal Production",
+                "Forestry",
+                "Fishing",
+                "Mining and Quarrying",
+                "Manufacturing",
+                "Electricity and Water Supply",
+                "Construction",
+                "Wholesale, Retail Trade, repair of Motor vehicles",
+                "Other Wholesale Trade",
+                "Retail Trade",
+                "Transport",
+                "Accommodation and Food Services",
+                "Information and Communication",
+                "Finance and Insurance",
+                "Real Estate",
+                "Professional, Scientific, Technical, Admin/Services",
+                "Government Services",
+                "Education, Health, Recreation, and Other Services",
+                ""
+              ]
+            },
+            "title": "Industry"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
           }
         ]
       }

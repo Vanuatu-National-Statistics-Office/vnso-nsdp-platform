@@ -11,35 +11,59 @@
       "schema": {
         "fields": [
           {
-            "name": "Age",
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Province",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "0-4",
-                "10-14",
-                "15-19",
-                "20-24",
-                "25-29",
-                "30-34",
-                "35-39",
-                "40-44",
-                "45-49",
-                "5-9",
-                "50-54",
-                "55-59",
-                "60-64",
-                "65+"
+                "Malampa",
+                "Penama",
+                "Sanma",
+                "Shefa",
+                "Tafea",
+                "Torba",
+                ""
               ]
             },
-            "title": "Age"
+            "title": "Province"
+          },
+          {
+            "name": "Constituency",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ambae",
+                "Ambrym",
+                "Banks",
+                "Efate",
+                "Epi",
+                "Luganville",
+                "Maewo",
+                "Malekula",
+                "Malo",
+                "Paama",
+                "Pentecost",
+                "Port Vila",
+                "Santo Rural",
+                "Shepherds",
+                "Tafea Outer Islands",
+                "Tanna",
+                "Tongoa",
+                "Torres",
+                ""
+              ]
+            },
+            "title": "Constituency"
           },
           {
             "name": "Area Council",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "aneityum",
                 "aniwa",
                 "canal - fanafo",
@@ -105,38 +129,47 @@
                 "west malo",
                 "west santo",
                 "west tanna",
-                "whitesands"
+                "whitesands",
+                ""
               ]
             },
             "title": "Area Council"
           },
           {
-            "name": "Constituency",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Ambae",
-                "Ambrym",
-                "Banks",
-                "Efate",
-                "Epi",
-                "Luganville",
-                "Maewo",
-                "Malekula",
-                "Malo",
-                "Paama",
-                "Pentecost",
-                "Port Vila",
-                "Santo Rural",
-                "Shepherds",
-                "Tafea Outer Islands",
-                "Tanna",
-                "Tongoa",
-                "Torres"
+                "Male",
+                "Female",
+                ""
               ]
             },
-            "title": "Constituency"
+            "title": "Sex"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0-4",
+                "5-9",
+                "10-14",
+                "15-19",
+                "20-24",
+                "25-29",
+                "30-34",
+                "35-39",
+                "40-44",
+                "45-49",
+                "50-54",
+                "55-59",
+                "60-64",
+                "65+",
+                ""
+              ]
+            },
+            "title": "Age"
           },
           {
             "name": "GeoCode",
@@ -144,42 +177,9 @@
             "title": "GeoCode"
           },
           {
-            "name": "Province",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Malampa",
-                "Penama",
-                "Sanma",
-                "Shefa",
-                "Tafea",
-                "Torba"
-              ]
-            },
-            "title": "Province"
-          },
-          {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Female",
-                "Male"
-              ]
-            },
-            "title": "Sex"
-          },
-          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
           }
         ]
       }

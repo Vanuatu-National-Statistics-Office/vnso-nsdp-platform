@@ -11,40 +11,40 @@
       "schema": {
         "fields": [
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Population Use of Radio",
-                "Population Use of Newspapers",
-                "Population Use of Television",
-                "Population Use of Internet",
-                "Population Ownership of Mobile Phones (15 yr +)"
-              ]
-            },
-            "title": "Series"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Percent"
+                "Percent",
+                ""
               ]
             },
             "title": "Units"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population Use of Radio",
+                "Population Use of Newspapers",
+                "Population Use of Television",
+                "Population Use of Internet",
+                "Population Ownership of Mobile Phones (15 yr +)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
           }
         ]
       }

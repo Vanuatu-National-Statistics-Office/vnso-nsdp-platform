@@ -11,39 +11,39 @@
       "schema": {
         "fields": [
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Value of Accommodation and Food Services as Proportion GDP (PROXY)",
-                "Value of Transport as Proportion GDP (PROXY)",
-                "Value of Industry as Proportion GDP",
-                "Value of Agriculture as Proportion GDP"
-              ]
-            },
-            "title": "Series"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Percent"
+                "Percent",
+                ""
               ]
             },
             "title": "Units"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Value of Accommodation and Food Services as Proportion GDP (PROXY)",
+                "Value of Transport as Proportion GDP (PROXY)",
+                "Value of Industry as Proportion GDP",
+                "Value of Agriculture as Proportion GDP",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
           }
         ]
       }
