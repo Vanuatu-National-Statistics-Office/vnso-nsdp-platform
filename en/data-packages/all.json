@@ -5631,52 +5631,6 @@
       "title": "ECO1-8-1"
     },
     {
-      "path": "ECO1-1-1/data.csv",
-      "name": "ECO1-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Underlying Inflation Rate"
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Percent"
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "ECO1-1-1"
-    },
-    {
       "path": "ECO3-4-1/data.csv",
       "name": "ECO3-4-1",
       "profile": "tabular-data-resource",
@@ -6479,6 +6433,30 @@
         ]
       },
       "title": "Proportion of wetland that is degraded over total wetland area"
+    },
+    {
+      "path": "ECO1-1-1/data.csv",
+      "name": "ECO1-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "ECO1-1-1"
     },
     {
       "path": "disaster-statistics/data.csv",
