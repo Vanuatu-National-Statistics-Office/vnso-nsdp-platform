@@ -461,28 +461,22 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Revenue Source",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "31210",
+                "Taxes on Property",
+                "Value Added",
+                "Excise",
+                "Other",
+                "Taxes on Inter.trade & transaction",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },

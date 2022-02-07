@@ -16,30 +16,23 @@
             "title": "Year"
           },
           {
-            "name": "Units",
+            "name": "Revenue Source",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
+                "Taxes on Property",
+                "Value Added",
+                "Excise",
+                "Other",
+                "Taxes on Inter.trade & transaction",
                 ""
               ]
             },
-            "title": "Units"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Change in Government Revenue",
-                ""
-              ]
-            },
-            "title": "Series"
+            "title": "Revenue Source"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
