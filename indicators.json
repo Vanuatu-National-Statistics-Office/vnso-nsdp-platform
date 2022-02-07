@@ -22,14 +22,6 @@
           "status": "complete"
         },
         {
-          "id": "ECO1-1-1a",
-          "title": "indicators.ECO1-1-1a-title",
-          "description": "",
-          "keywords": "",
-          "href": "/vnso-nsdp-platform/ECO1-1-1a",
-          "status": "notstarted"
-        },
-        {
           "id": "ECO1-2-1",
           "title": "Change in government revenue (GFS Tables)",
           "description": "",
