@@ -13,7 +13,7 @@ build.site:
 	bundle exec jekyll build --config=config_site.yml
 
 build.site.production:
-	bundle exec jekyll build --config=config_site.yml,config_site_prod.yml
+	JEKYLL_ENV=production bundle exec jekyll build --config=config_site.yml,config_site_prod.yml
 
 serve: build
 	bundle exec jekyll serve --config=config_site.yml --skip-initial-build
