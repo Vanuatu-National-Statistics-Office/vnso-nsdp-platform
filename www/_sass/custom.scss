@@ -1,11 +1,11 @@
 // Enter any custom Sass in this file.
-.layout-frontpage-alt .goal-tiles .goal-tile,
+.layout-frontpage .goal-tiles .goal-tile,
 .layout-goals .goal-tiles .goal-tile {
     width: 100%;
     max-width: 188px;
     max-height: 180px;
     @media screen and (min-width: 1024px) {
-        max-width: 220px;
+        max-width: 215px;
         max-height: 211px;
     }
 }
@@ -18,6 +18,10 @@ body {
 }
 #main-content {
     background: transparent;
+}
+
+.card {
+    background-color: transparent;
 }
 
 .card .dsppac-image {
@@ -76,7 +80,8 @@ $pillar-color-ENV: #6EAC47;
         border-top: 10px solid $pillar-color-SOC;
         margin-top: 10px;
         border-bottom: 10px solid $pillar-color-SOC;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
         margin-bottom: 10px;
         h1 {
             color: $pillar-color-SOC;
@@ -100,7 +105,8 @@ $pillar-color-ENV: #6EAC47;
         border-top: 10px solid $pillar-color-ENV;
         margin-top: 10px;
         border-bottom: 10px solid $pillar-color-ENV;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
         margin-bottom: 10px;
         h1 {
             color: $pillar-color-ENV;
@@ -123,10 +129,33 @@ $pillar-color-ENV: #6EAC47;
         border-top: 10px solid $pillar-color-ECO;
         margin-top: 10px;
         border-bottom: 10px solid $pillar-color-ECO;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
         margin-bottom: 10px;
         h1 {
             color: $pillar-color-ECO;
+        }
+    }
+}
+
+.layout-goal {
+    .container {
+        h3, h4 {
+            margin: 0;
+            font-size: $fontSize;
+            &:after {
+                content: "";
+                display: block;
+                border-bottom: 1px solid $color-dark;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+        }
+        .row {
+            margin-bottom: 20px;
+        }
+        .goal-page-indicator-progress {
+            margin-left: 0px;
         }
     }
 }
