@@ -1,0 +1,6 @@
+map_points:
+  - csv: geojson/tbl_VuSchools.csv
+    geojson: schools.geojson
+    label: Schools
+    icon: foobar
+    
