@@ -55,6 +55,9 @@ inputs:
   - class: InputYamlMeta
     path_pattern: progress/*.yml
     git: false
+  - class: InputYamlMeta
+    path_pattern: map-points/*.yml
+    git: false
 
 # Translations
 # ------------
@@ -79,6 +82,12 @@ translations:
 # This allows the build to generate stats for reporting status by additional
 # fields, beyond the default "status by goal" report.
 reporting_status_extra_fields: []
+
+indicator_downloads:
+  - button_label: Full dataset
+    source_pattern: full-datasets/*.csv
+    output_folder: full-datasets
+    indicator_id_pattern: full_(.*)
 
 # Map layers
 # ----------
