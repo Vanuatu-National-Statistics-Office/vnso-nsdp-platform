@@ -12,9 +12,9 @@ def indicator_callback(indicator):
     map_points = indicator.get_meta_field_value('map_points')
     if show_map and map_points:
         for map_point in map_points:
-            data = read_map_points_csv(os.path.abspath(map_point['csv']))
+            data = read_map_points_csv(os.path.abspath(map_point['input']))
             geojson = generate_geojson_data(data)
-            write_geojson_data(geojson, map_point['geojson'])
+            write_geojson_data(geojson, map_point['output'])
 
 
 def read_map_points_csv(filepath):
