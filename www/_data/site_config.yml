@@ -231,6 +231,11 @@ metadata_tabs:
 news:
   category_links: false
 non_global_metadata: indicator.national_metadata
+progressive_web_app:
+  enabled: true
+  name: Indicators of the National Sustainable Development Plan
+  short_name: NSDP Indicators
+  precaching: true
 remote_data_prefix: _build
 reporting_status:
   title: Reporting Status
