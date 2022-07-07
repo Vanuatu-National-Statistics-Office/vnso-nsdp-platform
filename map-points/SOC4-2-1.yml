@@ -1,0 +1,4 @@
+map_points:
+  - input: geojson/points/schools.csv
+    output: SOC4-2-1-schools.geojson
+    label: Schools
