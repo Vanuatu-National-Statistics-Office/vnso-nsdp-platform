@@ -18,6 +18,9 @@ build.site.production:
 serve: build
 	bundle exec jekyll serve --config=config_site.yml --skip-initial-build
 
+serve.production: build.site.production
+	JEKYLL_ENV=production bundle exec jekyll serve --config=config_site.yml,config_site_prod.yml --skip-initial-build
+
 test: test.data test.site
 
 test.data:
