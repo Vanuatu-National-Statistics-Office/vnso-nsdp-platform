@@ -193,22 +193,20 @@ menu:
       - path: /methodology/
         translation_key: METHODOLOGY
   - path: /2030-agenda/
-    translation_key: USEFUL INFORMATION
+    translation_key: INFORMATION
     dropdown:
       - path: /about/
         translation_key: NSPD ONLINE PLATFORM
       - path: /technical-advice/
         translation_key: TECHNICAL ADVICE
-      - path: /publications/
-        translation_key: PUBLICATIONS
   - path: /government-financial-statistics/
-    translation_key: GOVERNMENT FINANCE
+    translation_key: FINANCE
     dropdown: []  
   - path: /population-profiles/
-    translation_key: DISASTER STATISTICS
+    translation_key: PROFILES
     dropdown:
       - path: /demographics/
-        translation_key: POPULATION PROFILES    
+        translation_key: DEMOGRAPHICS    
       - path: /wellbeing/
         translation_key: WELLBEING
   - path: /human-resource-development/
