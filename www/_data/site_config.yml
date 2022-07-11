@@ -207,17 +207,23 @@ menu:
     dropdown:
       - path: /demographics/
         translation_key: DEMOGRAPHICS    
-      - path: /wellbeing/
-        translation_key: WELLBEING
-  - path: /human-resource-development/
-    translation_key: HUMAN RESOURCE DEVELOPMENT
-    dropdown:
       - path: /education/
         translation_key: EDUCATION
-      - path: /scolarship/
-        translation_key: SCHOLARSHIPS
       - path: /labour/
-        translation_key: LABOUR
+      - translation_key: LABOUR
+      - path: /primary-production/
+      - translation_key: PRIMARY PRODUCTION
+      - path: /household_facilities/
+      - translation_key: HOUSEHOLD FACILITIES
+  - path: /human-development/
+    translation_key: HUMAN DEVELOPMENT
+    dropdown:
+      - path: /enrolment/
+        translation_key: ENROLMENT
+      - path: /grades/
+        translation_key: GRADES
+      - path: /scolarship/
+        translation_key: SCHOLARSHIP    
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
