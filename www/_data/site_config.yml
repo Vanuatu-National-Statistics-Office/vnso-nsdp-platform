@@ -223,7 +223,7 @@ menu:
       - path: /grades/
         translation_key: GRADES
       - path: /scolarship/
-        translation_key: SCHOLARSHIP    
+        translation_key: SCHOLARSHIP   
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
