@@ -1,5 +1,5 @@
 ---
 title: GRADES
-permalink: /education/
+permalink: /grades/
 layout: page
 ---
