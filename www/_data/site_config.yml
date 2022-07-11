@@ -213,7 +213,7 @@ menu:
       - translation_key: LABOUR
       - path: /primary-production/
       - translation_key: PRIMARY PRODUCTION
-      - path: /household_facilities/
+      - path: /household-facilities/
       - translation_key: HOUSEHOLD FACILITIES
   - path: /human-development/
     translation_key: HUMAN DEVELOPMENT
