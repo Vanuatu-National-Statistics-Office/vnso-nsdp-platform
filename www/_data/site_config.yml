@@ -199,9 +199,11 @@ menu:
         translation_key: NSPD ONLINE PLATFORM
       - path: /technical-advice/
         translation_key: TECHNICAL ADVICE
-  - path: /government-financial-statistics/
-    translation_key: FINANCE
-    dropdown: []  
+  - path: /finance-statistics/
+    translation_key: FINANCE STATISTICS
+    dropdown:
+       -path: /government-expenditure/
+        translation_key: /GOVERNMENT EXPENDITURE
   - path: /population-profiles/
     translation_key: PROFILES
     dropdown:
