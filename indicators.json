@@ -1766,4 +1766,20 @@
           "status": "complete"
         }]
     }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "operations-budget",
+          "title": "Ministry of Finance Operations Budget",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/operations-budget/",
+          "status": "complete"
+        }]
+    }
   }]
