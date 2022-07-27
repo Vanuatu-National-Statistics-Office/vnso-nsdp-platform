@@ -1782,4 +1782,20 @@
           "status": "complete"
         }]
     }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "school-attendance",
+          "title": "School Attendance",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/school-attendance/",
+          "status": "complete"
+        }]
+    }
   }]
