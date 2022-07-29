@@ -12,3 +12,10 @@ venv/
 *.Rproj
 Gemfile.lock
 .vscode/
+
+
+# Set up ignore for data folder
+data/
+
+# Set up ignore for full-datasets folder
+full-datasets/
