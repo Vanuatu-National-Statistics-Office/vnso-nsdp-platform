@@ -15,7 +15,7 @@ Gemfile.lock
 
 
 # Set up ignore for data folder
-data/
+data/*
 
 # Set up ignore for full-datasets folder
-full-datasets/
+full-datasets/*
