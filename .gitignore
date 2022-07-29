@@ -12,3 +12,6 @@ venv/
 *.Rproj
 Gemfile.lock
 .vscode/
+
+# Set up ignore for data folder
+data/secure/ 
