@@ -1,6 +1,7 @@
-﻿accessible_charts: true
-accessible_tabs: true
-analytics:
+﻿analytics:
+  ua: ''
+  gtag: ''
+  gtm: ''
   ga_prod: ''
 breadcrumbs:
   goal:
@@ -14,7 +15,8 @@ breadcrumbs:
       label: general.home
     - path: /news/
       label: menu.updates
-contrast_type: default
+cookie_consent_form:
+  enabled: false
 country:
   name: Vanuatu
   adjective: Vanuatuan
@@ -27,11 +29,11 @@ create_pages:
   - filename: ''
     folder: /reporting-status
     layout: reportingstatus
-    title: 'Reporting status'
+    title: Reporting status
   - filename: ''
     folder: /search
     layout: search
-    title: 'Search'
+    title: Search
 custom_css: []
 custom_js:
   - /assets/js/custom.js
@@ -43,10 +45,11 @@ date_formats: []
 disclaimer:
   phase: Beta
   message: ''
+  hidden: false
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: jnandrew@vanuatu.gov.vu
+  suggestions: jnandrew@vanuatu.gov.vu
+  functional: jnandrew@vanuatu.gov.vu
 environment: staging
 footer_language_toggle: none
 footer_menu:
@@ -82,8 +85,6 @@ frontpage_goals_grid:
   description: >-
     Click on each goal for Vanuatu National Sustainable Development Plan
     indicator data.
-frontpage_heading: ''
-frontpage_instructions: ''
 frontpage_introduction_banner:
   title: frontpage.nsdp_title
   description: frontpage.nsdp_description
@@ -98,10 +99,10 @@ graph_color_set: accessible
 graph_color_list: []
 graph_color_number: 0
 graph_title_from_series: false
-header:
-  include: header-menu-left-aligned.html
 header_language_toggle: dropdown
 hide_empty_metadata: true
+hide_single_series: false
+hide_single_unit: false
 indicator_config_form:
   enabled: true
   dropdowns: []
@@ -137,6 +138,11 @@ indicator_metadata_form:
     - Disaggregation
     - Frequency of collection
   translated: true
+indicator_tabs:
+  tab_1: ''
+  tab_2: ''
+  tab_3: ''
+  tab_4: ''
 languages:
   - en
 languages_public: []
@@ -154,14 +160,18 @@ map_layers:
     label: Area councils
     min_zoom: 8
     max_zoom: 15
+    staticBorders: false
 map_options:
+  disaggregation_controls: false
   minZoom: 6
   maxZoom: 15
   tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
   tileOptions:
     id: ''
     accessToken: ''
-    attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+    attribution: >-
+      &copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap
+      contributors</a>
   colorRange: chroma.brewer.BuGn
   noValueColor: '#f0f0f0'
   styleNormal:
@@ -201,16 +211,16 @@ menu:
         translation_key: TECHNICAL ADVICE
   - path: /financial-statistics/
     translation_key: FINANCIAL STATISTICS
-    dropdown: []  
+    dropdown: []
   - path: /population-profiles/
     translation_key: PROFILES
     dropdown:
       - path: /demographics/
-        translation_key: DEMOGRAPHICS    
+        translation_key: DEMOGRAPHICS
       - path: /education/
         translation_key: EDUCATION
       - path: /labour/
-        translation_key: LABOUR  
+        translation_key: LABOUR
       - path: /primary-production
         translation_key: PRIMARY PRODUCTION
       - path: /household-facilities/
@@ -223,7 +233,7 @@ menu:
       - path: /grades/
         translation_key: GRADES
       - path: /scolarship/
-        translation_key: SCHOLARSHIP   
+        translation_key: SCHOLARSHIP
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
@@ -234,7 +244,9 @@ metadata_tabs:
     description: ''
 news:
   category_links: false
-non_global_metadata: indicator.national_metadata
+progress_status:
+  status_heading: ''
+  status_types: []
 progressive_web_app:
   enabled: true
   name: Indicators of the National Sustainable Development Plan
@@ -254,17 +266,28 @@ reporting_status:
     suitable data source is still being sought for other indicators, these are
     marked as **Exploring data sources**.
   disaggregation_tabs: false
+  status_types:
+    - value: complete
+      label: status.reported_online
+      hide_on_goal_pages: false
+    - value: notstarted
+      label: status.exploring_data_sources
+      hide_on_goal_pages: false
 repository_url_data: ''
 repository_url_site: ''
 search_index_boost: []
 search_index_extra_fields: []
-series_toggle: true
-sharethis_property: ''
 site_config_form:
   enabled: true
   dropdowns: []
   repository_link: >-
     https://github.com/Vanuatu-National-Statistics-Office/vnso-nsdp-platform/tree/develop/www/_data
   translation_link: ''
+time_series_attributes:
+  - field: COMMENT_TS
+    label: indicator.footnote
+  - field: DATA_LAST_UPDATE
+    label: metadata_fields.national_data_update_url
 validate_indicator_config: false
 validate_site_config: false
+x_axis_label: ''
