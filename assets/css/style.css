@@ -2660,3 +2660,6 @@ body {
   margin-bottom: 20px; }
 .layout-goal .container .goal-page-indicator-progress {
   margin-left: 0px; }
+
+.site-intro p {
+  text-align: justify; }
