@@ -3065,8 +3065,8 @@ var mapView = function () {
     $('.map').show();
     $('#map').sdgMap({
       indicatorId: indicatorId,
-      mapOptions: {"minZoom":6,"maxZoom":15,"tileURL":"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png","tileOptions":{"id":"","accessToken":"","attribution":"&copy; <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap contributors</a>"},"colorRange":"chroma.brewer.BuGn","noValueColor":"#f0f0f0","styleNormal":{"weight":1,"opacity":1,"fillOpacity":0.7,"color":"#888888","dashArray":""},"styleHighlighted":{"weight":1,"opacity":1,"fillOpacity":0.7,"color":"#111111","dashArray":""},"styleStatic":{"weight":2,"opacity":1,"fillOpacity":0,"color":"#172d44","dashArray":"5,5"}},
-      mapLayers: [{"subfolder":"provinces","label":"Provinces","min_zoom":6,"max_zoom":7,"staticBorders":false},{"subfolder":"area-councils","label":"Area councils","min_zoom":8,"max_zoom":15}],
+      mapOptions: {"disaggregation_controls":false,"minZoom":6,"maxZoom":15,"tileURL":"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png","tileOptions":{"id":"","accessToken":"","attribution":"&copy; <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap contributors</a>"},"colorRange":"chroma.brewer.BuGn","noValueColor":"#f0f0f0","styleNormal":{"weight":1,"opacity":1,"fillOpacity":0.7,"color":"#888888","dashArray":""},"styleHighlighted":{"weight":1,"opacity":1,"fillOpacity":0.7,"color":"#111111","dashArray":""},"styleStatic":{"weight":2,"opacity":1,"fillOpacity":0,"color":"#172d44","dashArray":"5,5"}},
+      mapLayers: [{"subfolder":"provinces","label":"Provinces","min_zoom":6,"max_zoom":7,"staticBorders":false},{"subfolder":"area-councils","label":"Area councils","min_zoom":8,"max_zoom":15,"staticBorders":false}],
       precision: precision,
       decimalSeparator: decimalSeparator,
       dataSchema: dataSchema,
@@ -5559,7 +5559,7 @@ $(function() {
             this.displayedDisaggregation = 0;
             this.seriesColumn = 'Series';
             this.unitsColumn = 'Units';
-            this.displayForm = null;
+            this.displayForm = false;
             this.updateDisaggregations();
         },
 
