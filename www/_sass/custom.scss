@@ -163,3 +163,9 @@ $pillar-color-ENV: #6EAC47;
 .site-intro p {
    text-align: justify;
 }
+
+@media all and (display-mode: standalone) {
+    .hide-after-install {
+        display: none;
+    }
+}
