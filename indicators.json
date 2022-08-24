@@ -148,6 +148,14 @@
           "keywords": "",
           "href": "/vnso-nsdp-platform/ECO1-9-1/",
           "status": "notstarted"
+        },
+        {
+          "id": "ECO1-z-1",
+          "title": "My indicator name for 1.z.1",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/ECO1-z-1/",
+          "status": "complete"
         }]
     }
   },
