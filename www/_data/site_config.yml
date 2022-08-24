@@ -80,6 +80,12 @@ frontpage_cards:
     button_label: DSPPAC Website
     button_link: 'https://dsppac.gov.vu/'
     rule_color: ''
+  - title: 'Install the app'
+    content: ''
+    include: app-install-card.html
+    button_label: ''
+    button_link: ''
+    rule_color: ''
 frontpage_goals_grid:
   title: Indicators of the National Sustainable Development Plan
   description: >-
