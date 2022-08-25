@@ -3,61 +3,6 @@
   "title": "All indicators",
   "resources": [
     {
-      "path": "ECO1-z-1/data.csv",
-      "name": "ECO1-z-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Series A",
-                "Series B",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total",
-                "Percent",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "My column",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Group A",
-                "Group B",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "indicators.ECO1-z-1-title"
-    },
-    {
       "path": "SOC4-3-2/data.csv",
       "name": "SOC4-3-2",
       "profile": "tabular-data-resource",
