@@ -21,12 +21,16 @@ if ('onbeforeinstallprompt' in window) {
   window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     deferredPrompt = e;
-    console.log('Caught the beforeinstallprompt event');
   });
 
   document.getElementById('app-install-button').addEventListener('click', (e) => {
-    console.log('Triggering the event...');
-    deferredPrompt.prompt();
+    try {
+      deferredPrompt.prompt();
+    }
+    catch (error) {
+      // If this failed, the app must have already been installed.
+      $supportedInstructions.replaceWith('<p class="already-installed">You have successfully installed the app.</p>');
+    }
   });
 
   $installCard.show();

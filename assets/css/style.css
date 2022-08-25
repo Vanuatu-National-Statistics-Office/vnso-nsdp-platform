@@ -2667,3 +2667,5 @@ body {
 @media all and (display-mode: standalone) {
   .hide-after-install {
     display: none; } }
+.already-installed {
+  color: green; }
