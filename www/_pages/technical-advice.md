@@ -6,6 +6,8 @@ layout: page
 
 The NSDP online platform is a publicly accessible instrument for disseminating and presenting data on the indicators of the Vanuatu National Sustainable Development Plan. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IpkEzmHwwso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Sources
 
 The project code for the NSDP online platform is publicly available in the [Vanuatu National Statistics GitHub Repository](https://github.com/Vanuatu-National-Statistics-Office). GitHub is where over 65 million developers shape the future of software, together. The Vanuatu National Statistics Office is the first government instiution in the Pacific to enhance evidence based decision-making through the application of GitHub. Data scientists need to use Github for much the same reason that software engineers do — for collaboration, 'safely' making changes to projects and being able to track and rollback changes over time. It is, therefore, becoming more and more important that data scientists are proficient in the use of version control.
