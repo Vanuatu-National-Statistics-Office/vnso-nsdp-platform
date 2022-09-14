@@ -2532,7 +2532,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 #main-content .goal-tiles .pillar img {
   width: calc(100% - 10px); }
 
-body {
+body.contrast-default {
   background: white url("../img/SDG_watermark-logo.png") center center no-repeat; }
 
 #main-content {
