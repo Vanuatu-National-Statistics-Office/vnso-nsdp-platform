@@ -1,10 +1,6 @@
 From,To
-Ministry ID,Ministry Desc
-Ministry Desc,Department ID
-Department ID,Department Desc
-Department Desc,Program ID
-Program ID,Program Desc
-Program Desc,Activity ID
-Activity ID,Activity Desc
-Activity Desc,Budget
+Ministry,Department
+Department,Program
+Program,Activity
+Activity,Budget
 Budget,Budget Type
