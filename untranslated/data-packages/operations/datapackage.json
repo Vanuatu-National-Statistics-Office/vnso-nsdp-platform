@@ -1,0 +1,185 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Budget Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Actual",
+                "Budget",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Ministry",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Constitutional Agencies",
+                "Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",
+                "Ministry of Climate Change Adaptation, Geohazards, Meteorology and Energy",
+                "Ministry of Cooperatives and Ni-Vanuatu Business Development Services",
+                "Ministry of Education & Training",
+                "Ministry of Finance and Economic Management",
+                "Ministry of Foreign Affairs, International Cooperation and External Trade",
+                "Ministry of Health",
+                "Ministry of Infrastructure and Public Utilities",
+                "Ministry of Internal Affairs",
+                "Ministry of Justice and Social Welfare",
+                "Ministry of Lands, Mines & Water Resources",
+                "Ministry of Tourism, Trade, Commerce and Ni- Vanuatu Business",
+                "Ministry of Youth Development and Sports",
+                "Prime Ministers Ministry",
+                "Ministry of Civil Aviation, Meteorology and Postal Services",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Department",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Citizenship Office",
+                "Judicial Services Commission",
+                "Judiciary",
+                "Malvatumauri Council of Chiefs",
+                "National Audit Office",
+                "Office of the Ombudsman",
+                "Parliament",
+                "President of the Republic",
+                "Public Prosecutor",
+                "Public Service Commission",
+                "Public Solicitor",
+                "State Law Office",
+                "Agriculture, Quarantine, Forestry and Fisheries Cabinet",
+                "Department of Agriculture",
+                "Department of Biosecurity",
+                "Department of Fisheries",
+                "Department of Forestry",
+                "Energy Department",
+                "Environment Department",
+                "National Disaster Management Office",
+                "Vanuatu Meteorological Services",
+                "Ministry of Ni-Vanuatu Business Development & Coops Cabinet",
+                "Director General Directorate",
+                "Education Commissions and Councils",
+                "MoE Cabinet",
+                "Department of Customs and Inland Revenue",
+                "Department of Finance & Treasury",
+                "Economic Research & Expenditure Analysis Unit",
+                "MFEM Cabinet",
+                "MFEM Corporate Services",
+                "National Statistics Office",
+                "Department of External Trade, Industry and Investment",
+                "Department of Foreign Affairs",
+                "Ministry of Foreign Affairs Cabinet",
+                "Department of Health",
+                "Health Cabinet",
+                "Civil Aviation Authority",
+                "Department of Ports and Harbours",
+                "Department of Public Works",
+                "MIPU Cabinet",
+                "Civil Registry Office",
+                "Department of Immigration",
+                "Department of Labour",
+                "Department of Provincial Affairs",
+                "Electoral Office",
+                "Internal Affairs Cabinet",
+                "Police Service Commission",
+                "Vanuatu Police Force",
+                "Correctional Services",
+                "Department of Womens Affairs",
+                "Ministry of Justice & Social Welfare Corporate Service Unit",
+                "Ministry of Justice and Community Service",
+                "Cabinet Operations",
+                "Corporate Services",
+                "Department of Geology and Mines",
+                "Department of Land Records",
+                "Department of Land Survey",
+                "Department of Lands",
+                "Valuer General",
+                "Department of Cooperatives and Ni-Vanuatu Business Development",
+                "Department of Tourism",
+                "Ministry of Commerce, Industry and Tourism Cabinet",
+                "Trade and Ni Vanuatu Business Corporate Service Unit",
+                "Vanuatu Investment Promotion Authority",
+                "Department of Youth and Sport",
+                "Ministry of Youth Development and Training",
+                "Department of Strategic Policy Cordination & Corporate Services",
+                "Language Services Department",
+                "Prime Ministers Cabinet",
+                "Customary land management Office",
+                "Vanuatu Law Commission",
+                "Department of Industry",
+                "Livestock",
+                "Civil Avation Cabinet",
+                "Climate Change Adaptation, Geohazards, Meteorology and Energy Cabinet",
+                "Government Remuneration Tribunal (GRT)",
+                "Office of the Government Chief Information Officer (OCGIO)",
+                "PMO Corporate Service Unit",
+                "Vanuatu Project Management Unit (VPMU)",
+                "Vanuatu Mobile Force",
+                "Parliamentary Secretariat",
+                "MoCC Coporate Service Unit",
+                "Education Service Directorate",
+                "Finance & Administration Directorate",
+                "Policy & Planning Directorate",
+                "Tertiary Education Directorate",
+                "Parliament Secretariat - Ministry of Agriculture",
+                "Department of Climate Change",
+                "Cooperatives Development",
+                "Intellectual Property Development and Protection",
+                "National Standards Development",
+                "Trade Development Division",
+                "Commerce Development",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Activity",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Value in Millions (VT)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "operations",
+  "title": ""
+}
