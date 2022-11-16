@@ -13,7 +13,7 @@
 #main-content .goal-tiles .pillar img {
     width: calc(100% - 10px);
 }
-body {
+body.contrast-default {
     background: white url("../img/SDG_watermark-logo.png") center center no-repeat;
 }
 #main-content {
@@ -158,4 +158,18 @@ $pillar-color-ENV: #6EAC47;
             margin-left: 0px;
         }
     }
+}
+
+.site-intro p {
+   text-align: justify;
+}
+
+@media all and (display-mode: standalone) {
+    .hide-after-install {
+        display: none;
+    }
+}
+
+.already-installed {
+    color: green;
 }
