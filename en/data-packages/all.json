@@ -4222,12 +4222,24 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "Trade",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "Export",
+                "Import",
+                ""
+              ]
+            },
+            "title": "Trade"
+          },
+          {
+            "name": "Value",
+            "type": "number",
             "title": "Value"
           }
         ]
