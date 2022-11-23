@@ -15,15 +15,45 @@
             "type": "integer"
           },
           {
+            "name": "Province",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "TORBA",
+                "SANMA",
+                "PENAMA",
+                "MALAMPA",
+                "SHEFA",
+                "TAFEA",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Urban",
+                "Rural",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Female",
                 "Male",
+                "Female",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

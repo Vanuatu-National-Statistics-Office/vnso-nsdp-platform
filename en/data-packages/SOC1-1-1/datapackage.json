@@ -16,16 +16,49 @@
             "title": "Year"
           },
           {
+            "name": "Province",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "TORBA",
+                "SANMA",
+                "PENAMA",
+                "MALAMPA",
+                "SHEFA",
+                "TAFEA",
+                ""
+              ]
+            },
+            "title": "Province"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Urban",
+                "Rural",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
             "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Female",
                 "Male",
+                "Female",
                 ""
               ]
             },
             "title": "Sex"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
