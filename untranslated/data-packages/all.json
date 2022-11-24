@@ -2818,7 +2818,7 @@
           }
         ]
       },
-      "title": "SOC1-2-3"
+      "title": "indicators.SOC1-2-3-title"
     },
     {
       "path": "SOC5-4-1/data.csv",
