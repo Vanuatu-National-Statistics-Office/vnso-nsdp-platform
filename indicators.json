@@ -1051,7 +1051,7 @@
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/SOC1-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC1-2-2",
@@ -1059,7 +1059,7 @@
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/SOC1-2-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC1-2-3",

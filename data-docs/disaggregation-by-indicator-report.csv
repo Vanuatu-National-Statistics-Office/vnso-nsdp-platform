@@ -12,4 +12,6 @@ Indicator,Disaggregations,Number of disaggregations
 #ENV1-3-3,Geographic Location,1
 #SOC1-1-1,"Province, Region, Sex",3
 #SOC1-1-2,"Province, Region, Sex",3
+#SOC1-2-1,"Province, Region, Sex",3
+#SOC1-2-2,"Province, Region, Sex, Unit",4
 #SOC4-2-1,"Province, Sex, Age",3
