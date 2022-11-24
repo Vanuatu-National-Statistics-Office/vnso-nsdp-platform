@@ -548,27 +548,62 @@
             "title": "Year"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
             "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Use of Traditional Lands Agriculture",
-                "Use of Traditional Lands Livestock",
+                "Agriculture",
+                "Forestry",
+                "Livestock",
                 ""
               ]
             },
             "title": "Series"
+          },
+          {
+            "name": "Province",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "TORBA",
+                "SANMA",
+                "PENAMA",
+                "MALAMPA",
+                "SHEFA",
+                "TAFEA",
+                "SANMA Rural",
+                "SHEFA Rural",
+                ""
+              ]
+            },
+            "title": "Province"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Urban",
+                "Rural",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Sex",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
