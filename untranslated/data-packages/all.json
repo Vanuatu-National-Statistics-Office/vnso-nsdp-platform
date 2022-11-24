@@ -2981,7 +2981,7 @@
           }
         ]
       },
-      "title": "SOC1-7-1"
+      "title": "indicators.SOC1-7-1-title"
     },
     {
       "path": "ECO2-9-1/data.csv",
