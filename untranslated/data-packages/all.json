@@ -562,7 +562,7 @@
           }
         ]
       },
-      "title": "SOC1-7-2"
+      "title": "indicators.SOC1-7-2-title"
     },
     {
       "path": "SOC4-1-2/data.csv",
