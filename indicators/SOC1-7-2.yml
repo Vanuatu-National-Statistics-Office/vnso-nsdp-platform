@@ -23,7 +23,7 @@ graph_target_lines: []
 graph_title: ''
 graph_titles:
   - series: Agriculture
-    unit: '%'
+    unit: (%) Percentage of traditional lands used
     title: Proportion of population that use traditional lands for Agriculture
   - series: Forestry
     unit: (%) percentage of traditional lands used
