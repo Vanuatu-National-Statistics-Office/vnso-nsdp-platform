@@ -20,10 +20,17 @@ graph_limits: []
 graph_series_breaks: []
 graph_stacked_disaggregation: ''
 graph_target_lines: []
-graph_title: >-
-  Proportion of population that use traditional lands for agriculture, marine,
-  forestry and livestock for consumption or customary purposes
-graph_titles: []
+graph_title: ''
+graph_titles:
+  - series: Agriculture
+    unit: '%'
+    title: Proportion of population that use traditional lands for Agriculture
+  - series: Forestry
+    unit: (%) percentage of traditional lands used
+    title: Proportion of population that use traditional lands for Forestry
+  - series: Livestock
+    unit: (%) percentage of traditional lands used
+    title: Proportion of population that use traditional lands for Livestock
 graph_type: bar
 indicator_available: ''
 indicator_name: indicators.SOC1-7-2-title
