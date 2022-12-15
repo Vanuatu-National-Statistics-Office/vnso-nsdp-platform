@@ -19,6 +19,11 @@ prose:
             element: text
             translation_key: "Concept"
             scope: national
+      - name: "Disaggregation"
+        field:
+            element: text
+            translation_key: "Disaggregation"
+            scope: national
       - name: "Rationale"
         field:
             element: text
@@ -28,6 +33,11 @@ prose:
         field:
             element: text
             translation_key: "Method of Computation"
+            scope: national
+      - name: "SDGAlignment"
+        field:
+            element: text
+            translation_key: "Sustainable Development Goal Indicator Alignment"
             scope: national
       - name: "UnitOfMeasurement"
         field:
