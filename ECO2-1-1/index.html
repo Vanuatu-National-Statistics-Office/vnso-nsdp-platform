@@ -137,7 +137,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20221208155259">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20221215024235">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -662,9 +662,6 @@ data-event-label="Change to Table tab"
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>Source:</dt>
-        <dd>2016 Mini Census (p169), VNSO, 2009 Population and Housing Census (p181), VNSO</dd>
-        
 
         
         <dt>Geographical Area:</dt>
@@ -736,9 +733,6 @@ data-event-label="Change to Table tab"
 <div id="selectionTableFooter" class="table-footer-text">
   <h5 class="sr-only">Chart details</h5>
     <dl>
-        
-        <dt>Source:</dt>
-        <dd>2016 Mini Census (p169), VNSO, 2009 Population and Housing Census (p181), VNSO</dd>
         
 
         
@@ -867,38 +861,136 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Proxy </th>
+        <td>
+          
+            <p>No</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Definition </th>
+        <td>
+          
+            <p>The percentage of households sourcing energy for lighting from renewable sources. Renewable energy, often referred to as clean energy, comes from natural sources or processes that are constantly replenished.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Concept </th>
+        <td>
+          
+            <p>Renewable energy often provides energy in four important areas: electricity generation, air and water heating/cooling, transportation, and rural (off-grid) energy services. This information can be used to provide insight whether the energy for lighting is derived from the main grid-based electricity a non-renewable resource.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Rationale </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Renewable energy provides reliable power supplies and fuel diversification, which enhance energy security, lower risk of fuel spills, and reduce the need for imported fuels. Renewable energy also helps conserve the nation’s natural resources.</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Method of Computation </th>
+        <td>
           
-      
-      
-      
+            <p>Proportion of households sourcing energy for lighting from renewable sources = <img src="../assets/img/ECO2-1-1-computation.png" alt="(Total number of households sourcing energy for lighting from renewable sources.)/(Total number of households  ) x 100" /></p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Sustainable Development Goal Indicator Alignment </th>
+        <td>
           
-      
-      
-      
+            <p>7.1.1, 7.1.2 &amp; 7.2.1</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Unit of Measurement </th>
+        <td>
           
-      
-      
-      
+            <p>Percentage</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Frequency of Collection </th>
+        <td>
           
+            <p>Every 10 years</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -927,96 +1019,6 @@ data-event-label="Change to indicator.sources tab"
 
 
 
-
-  <div class="row">
-  
-    
-    
-    <div class="col-md-6">
-      
-        <h4>Source 1</h4>
-      
-      <table class="table metadata-content">
-  <tbody>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>2016 Mini Census (p169), VNSO</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  
-  
-  </tbody>
-</table>
-
-    </div>
-    
-    
-    
-    <div class="col-md-6">
-      
-        <h4>Source 2</h4>
-      
-      <table class="table metadata-content">
-  <tbody>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>2009 Population and Housing Census (p181), VNSO</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  </tbody>
-</table>
-
-    </div>
-    
-  </div>
 
 
             </article>
@@ -1125,12 +1127,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20221208155259'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20221215024235'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20221208155259"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20221215024235"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
