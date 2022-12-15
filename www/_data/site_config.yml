@@ -132,17 +132,7 @@ indicator_metadata_form:
     - source_1
     - source_2
     - source_3
-  exclude_fields:
-    - Goal Description
-    - Policy Objective
-    - SDG Alignment
-    - Definition
-    - Concepts
-    - Rationale / Interpretation
-    - Method of computation
-    - Unit of measurement
-    - Disaggregation
-    - Frequency of collection
+  exclude_fields: []
   translated: true
 indicator_tabs:
   tab_1: ''
