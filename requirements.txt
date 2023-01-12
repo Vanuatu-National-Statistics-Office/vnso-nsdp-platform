@@ -3,3 +3,4 @@ git+https://github.com/dougmet/yamlmd
 git+https://github.com/brockfanning/sdg-build-1@per-indicator-callback
 mysql-connector-python
 openpyxl
+frictionless==4.40.8
