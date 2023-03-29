@@ -190,8 +190,10 @@ map_options:
     dashArray: '5,5'
 menu:
   - path: /reporting-status/
-    translation_key: EVALUATION
+    translation_key: INFORMATION
     dropdown:
+      - path: /about/
+        translation_key: NSPD ONLINE PLATFORM
       - path: /reporting-status/
         translation_key: DATA AVAILABILITY
       - path: /indicator-overview/
@@ -199,12 +201,10 @@ menu:
       - path: /methodology/
         translation_key: METHODOLOGY
   - path: /2030-agenda/
-    translation_key: INFORMATION
+    translation_key: FINANCE
     dropdown:
       - path: /about/
         translation_key: NSPD ONLINE PLATFORM
-      - path: /technical-advice/
-        translation_key: TECHNICAL ADVICE
   - path: /financial-statistics/
     translation_key: FINANCIAL STATISTICS
     dropdown: []
