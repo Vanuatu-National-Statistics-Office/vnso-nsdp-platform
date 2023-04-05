@@ -216,7 +216,7 @@ menu:
     dropdown:
       - path: /financial-statistics/
         translation_key: Exports
-      - path: /financial-statistics
+      - path: /financial-statistics/
         translation_key: Imports
   - path: /education/
     translation_key: EDUCATION
