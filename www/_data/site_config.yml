@@ -203,33 +203,55 @@ menu:
   - path: /2030-agenda/
     translation_key: FINANCE
     dropdown:
-      - path: /about/
-        translation_key: NSPD ONLINE PLATFORM
+      - path: /financial-statistics/
+        translation_key: Government
+      - path: /financial-statistics/
+        translation_key: Donor
+      - path: /financial-statistics/
+        translation_key: VAT
+      - path: /financial-statistics/
+        translation_key: Businesses
   - path: /financial-statistics/
-    translation_key: FINANCIAL STATISTICS
-    dropdown: []
-  - path: /population-profiles/
-    translation_key: PROFILES
+    translation_key: Trade
     dropdown:
-      - path: /demographics/
-        translation_key: DEMOGRAPHICS
-      - path: /education/
-        translation_key: EDUCATION
-      - path: /labour/
-        translation_key: LABOUR
-      - path: /primary-production
-        translation_key: PRIMARY PRODUCTION
-      - path: /household-facilities/
-        translation_key: HOUSEHOLD FACILITIES
-  - path: /human-development/
-    translation_key: HUMAN DEVELOPMENT
+      - path: /financial-statistics/
+        translation_key: Exports
+      - path: /financial-statistics
+        translation_key: Imports
+  - path: /education/
+    translation_key: EDUCATION
     dropdown:
       - path: /enrolment/
-        translation_key: ENROLMENT
+        translation_key: Enrolment
       - path: /grades/
-        translation_key: GRADES
+        translation_key: Grades
       - path: /scolarship/
-        translation_key: SCHOLARSHIP
+        translation_key: Vocational
+      - path: /scolarship/
+        translation_key: USP
+  - path: /population-profiles/
+    translation_key: DISASTERS
+    dropdown:
+      - path: /demographics/
+        translation_key: Population
+      - path: /labour/
+        translation_key: Health
+      - path: /primary-production/
+        translation_key: Education
+      - path: /labour/
+        translation: Labour
+      - path: /household-facilities/
+        translation_key: Agriculture
+      - path: /labour/
+        translation_key: Infrastructure
+      - path: /labour/
+        translation_key: Shelter
+      - path: /labour/
+        translation_key: Water & Santitation & Hygience
+        path: /labour/
+        translation_key: Income
+  - path: /human-development/
+    translation_key: HUMAN DEVELOPMENT    
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
