@@ -203,8 +203,8 @@ menu:
   - path: /2030-agenda/
     translation_key: FINANCE
     dropdown:
-      - path: /about/
-        translation_key: NSPD ONLINE PLATFORM
+      - path: /government/
+        translation_key: Government
   - path: /financial-statistics/
     translation_key: FINANCIAL STATISTICS
     dropdown: []
