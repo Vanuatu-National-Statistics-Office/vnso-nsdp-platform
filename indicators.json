@@ -1753,10 +1753,18 @@
   },
   {
     "goal": {
-      "id": "",
-      "title": "",
+      "id": "government",
+      "title": "The Republic of Vanuatu Government Finances",
       "indicators": [
         
+        {
+          "id": "government",
+          "title": "The Republic of Vanuatu Government Finances",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/government/",
+          "status": "complete"
+        },
         {
           "id": "government-financial-statistics",
           "title": "",
