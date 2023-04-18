@@ -1681,6 +1681,22 @@
   },
   {
     "goal": {
+      "id": "business",
+      "title": "business",
+      "indicators": [
+        
+        {
+          "id": "business",
+          "title": "business",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/business/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "census",
       "title": "Population from census",
       "indicators": [
