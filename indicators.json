@@ -1846,4 +1846,20 @@
           "status": "complete"
         }]
     }
+  },
+  {
+    "goal": {
+      "id": "vat",
+      "title": "Value added tax on goods and services in Vanuatu",
+      "indicators": [
+        
+        {
+          "id": "vat",
+          "title": "Value added tax on goods and services in Vanuatu",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/vat/",
+          "status": "notstarted"
+        }]
+    }
   }]

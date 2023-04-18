@@ -7973,6 +7973,30 @@
         ]
       },
       "title": "The Republic of Vanuatu Government Finances"
+    },
+    {
+      "path": "vat/data.csv",
+      "name": "vat",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Value added tax on goods and services in Vanuatu"
     }
   ]
 }
