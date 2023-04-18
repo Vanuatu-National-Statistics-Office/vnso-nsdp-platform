@@ -209,6 +209,8 @@ menu:
         translation_key: DONOR
       - path: /vat/
         translation_key: VAT
+      - path: /business/
+        translation_key: BUSINESSES
   - path: /financial-statistics/
     translation_key: FINANCIAL STATISTICS
     dropdown: []
