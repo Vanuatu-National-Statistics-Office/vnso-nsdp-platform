@@ -207,6 +207,8 @@ menu:
         translation_key: GOVERNMENT
       - path: /donor/
         translation_key: DONOR
+      - path: /vat/
+        translation_key: VAT
   - path: /financial-statistics/
     translation_key: FINANCIAL STATISTICS
     dropdown: []
