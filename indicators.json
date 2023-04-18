@@ -1729,6 +1729,22 @@
   },
   {
     "goal": {
+      "id": "donor",
+      "title": "The Republic of Vanuatu Government Finances by Donor",
+      "indicators": [
+        
+        {
+          "id": "donor",
+          "title": "The Republic of Vanuatu Government Finances by Donor",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/donor/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "",
       "title": "",
       "indicators": [
