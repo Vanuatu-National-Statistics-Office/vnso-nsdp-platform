@@ -1761,6 +1761,22 @@
   },
   {
     "goal": {
+      "id": "exports",
+      "title": "The Republic of Vanuatu Trade Exports",
+      "indicators": [
+        
+        {
+          "id": "exports",
+          "title": "The Republic of Vanuatu Trade Exports",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/exports/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "",
       "title": "",
       "indicators": [
