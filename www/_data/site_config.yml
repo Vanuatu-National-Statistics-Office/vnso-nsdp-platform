@@ -214,10 +214,10 @@ menu:
   - path: /reporting-status/
     translation_key: TRADE
     dropdown:
-        path: /exports/
-        translation_key: EXPORTS
-        path: /imports/
-        translation_key: IMPORTS
+      - path: /exports/
+      - translation_key: EXPORTS
+      - path: /imports/
+      - translation_key: IMPORTS
   - path: /population-profiles/
     translation_key: PROFILES
     dropdown:
