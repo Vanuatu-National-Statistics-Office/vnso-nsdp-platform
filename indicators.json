@@ -1825,6 +1825,22 @@
   },
   {
     "goal": {
+      "id": "imports",
+      "title": "The Republic of Vanuatu Trade Imports",
+      "indicators": [
+        
+        {
+          "id": "imports",
+          "title": "The Republic of Vanuatu Trade Imports",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/imports/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "operations",
       "title": "",
       "indicators": [
