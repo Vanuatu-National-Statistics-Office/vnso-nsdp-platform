@@ -211,7 +211,7 @@ menu:
         translation_key: VAT
       - path: /business/
         translation_key: BUSINESSES
-  - path: /trades/
+  - path: /2030-agenda/
     translation_key: TRADES
     dropdown:
       - path: /exports/
