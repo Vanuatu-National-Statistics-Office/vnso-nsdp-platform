@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230424063056">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230424065853">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -236,19 +236,13 @@ layout-config-builder
 </li><li class=" ">
     <a class="dropdown-item" href="/vnso-nsdp-platform/">IMPORTS</a>
 </li></ul>
-            </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-profiles" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    PROFILES
+            </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-trades" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    TRADES
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown-profiles"><li class=" ">
-    <a class="dropdown-item" href="/vnso-nsdp-platform/demographics/">DEMOGRAPHICS</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown-trades"><li class=" ">
+    <a class="dropdown-item" href="/vnso-nsdp-platform/exports/">EXPORTS</a>
 </li><li class=" ">
-    <a class="dropdown-item" href="/vnso-nsdp-platform/education/">EDUCATION</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/vnso-nsdp-platform/labour/">LABOUR</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/vnso-nsdp-platform/primary-production">PRIMARY PRODUCTION</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/vnso-nsdp-platform/household-facilities/">HOUSEHOLD FACILITIES</a>
+    <a class="dropdown-item" href="/vnso-nsdp-platform/imports/">IMPORTS</a>
 </li></ul>
             </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-human-development" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     HUMAN DEVELOPMENT
@@ -1111,7 +1105,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('menu', [{"path":"/reporting-status/","translation_key":"INFORMATION","dropdown":[{"path":"/about/","translation_key":"NSPD ONLINE PLATFORM"},{"path":"/reporting-status/","translation_key":"DATA AVAILABILITY"},{"path":"/indicator-overview/","translation_key":"INDICATOR OVERVIEW"},{"path":"/methodology/","translation_key":"METHODOLOGY"}]},{"path":"/2030-agenda/","translation_key":"FINANCE","dropdown":[{"path":"/government/","translation_key":"GOVERNMENT"},{"path":"/donor/","translation_key":"DONOR"},{"path":"/vat/","translation_key":"VAT"},{"path":"/business/","translation_key":"BUSINESSES"}]},{"path":"/trades/","translation_key":"TRADES","dropdown":[{"path":"/exports/"},{"translation_key":"EXPORTS"},{"path":"/imports/"},{"translation_key":"IMPORTS"}]},{"path":"/population-profiles/","translation_key":"PROFILES","dropdown":[{"path":"/demographics/","translation_key":"DEMOGRAPHICS"},{"path":"/education/","translation_key":"EDUCATION"},{"path":"/labour/","translation_key":"LABOUR"},{"path":"/primary-production","translation_key":"PRIMARY PRODUCTION"},{"path":"/household-facilities/","translation_key":"HOUSEHOLD FACILITIES"}]},{"path":"/human-development/","translation_key":"HUMAN DEVELOPMENT","dropdown":[{"path":"/enrolment/","translation_key":"ENROLMENT"},{"path":"/grades/","translation_key":"GRADES"},{"path":"/scolarship/","translation_key":"SCHOLARSHIP"}]}]);
+        var currentValue = normalizeCurrentValue('menu', [{"path":"/reporting-status/","translation_key":"INFORMATION","dropdown":[{"path":"/about/","translation_key":"NSPD ONLINE PLATFORM"},{"path":"/reporting-status/","translation_key":"DATA AVAILABILITY"},{"path":"/indicator-overview/","translation_key":"INDICATOR OVERVIEW"},{"path":"/methodology/","translation_key":"METHODOLOGY"}]},{"path":"/2030-agenda/","translation_key":"FINANCE","dropdown":[{"path":"/government/","translation_key":"GOVERNMENT"},{"path":"/donor/","translation_key":"DONOR"},{"path":"/vat/","translation_key":"VAT"},{"path":"/business/","translation_key":"BUSINESSES"}]},{"path":"/trades/","translation_key":"TRADES","dropdown":[{"path":"/exports/"},{"translation_key":"EXPORTS"},{"path":"/imports/"},{"translation_key":"IMPORTS"}]},{"path":"/trades/","translation_key":"TRADES","dropdown":[{"path":"/exports/","translation_key":"EXPORTS"},{"path":"/imports/","translation_key":"IMPORTS"}]},{"path":"/human-development/","translation_key":"HUMAN DEVELOPMENT","dropdown":[{"path":"/enrolment/","translation_key":"ENROLMENT"},{"path":"/grades/","translation_key":"GRADES"},{"path":"/scolarship/","translation_key":"SCHOLARSHIP"}]}]);
         var propertyEditor = editor.getEditor('root.menu');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1488,12 +1482,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230424063056'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230424065853'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230424063056"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230424065853"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
