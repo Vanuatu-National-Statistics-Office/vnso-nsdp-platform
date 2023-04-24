@@ -215,13 +215,6 @@ menu:
     translation_key: TRADES
     dropdown:
       - path: /exports/
-      - translation_key: EXPORTS
-      - path: /imports/
-      - translation_key: IMPORTS
-  - path: /trades/
-    translation_key: TRADES
-    dropdown:
-      - path: /exports/
         translation_key: EXPORTS
       - path: /imports/
         translation_key: IMPORTS
