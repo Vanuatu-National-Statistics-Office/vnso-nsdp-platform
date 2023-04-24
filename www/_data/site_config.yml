@@ -218,19 +218,13 @@ menu:
       - translation_key: EXPORTS
       - path: /imports/
       - translation_key: IMPORTS
-  - path: /population-profiles/
-    translation_key: PROFILES
+  - path: /trades/
+    translation_key: TRADES
     dropdown:
-      - path: /demographics/
-        translation_key: DEMOGRAPHICS
-      - path: /education/
-        translation_key: EDUCATION
-      - path: /labour/
-        translation_key: LABOUR
-      - path: /primary-production
-        translation_key: PRIMARY PRODUCTION
-      - path: /household-facilities/
-        translation_key: HOUSEHOLD FACILITIES
+      - path: /exports/
+        translation_key: EXPORTS
+      - path: /imports/
+        translation_key: IMPORTS
   - path: /human-development/
     translation_key: HUMAN DEVELOPMENT
     dropdown:
