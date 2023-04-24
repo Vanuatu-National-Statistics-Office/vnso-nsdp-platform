@@ -214,9 +214,9 @@ menu:
   - path: /trades/
     translation_key: TRADE
     dropdown:
-      - path: /exports/
+      - path: /exports
       - translation_key: EXPORTS
-      - path: /imports/
+      - path: /imports
       - translation_key: IMPORTS
   - path: /population-profiles/
     translation_key: PROFILES
