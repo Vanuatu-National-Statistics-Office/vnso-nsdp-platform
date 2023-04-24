@@ -212,11 +212,11 @@ menu:
       - path: /business/
         translation_key: BUSINESSES
   - path: /trades/
-    translation_key: TRADE
+    translation_key: TRADES
     dropdown:
-      - path: /exports
+      - path: /exports/
       - translation_key: EXPORTS
-      - path: /imports
+      - path: /imports/
       - translation_key: IMPORTS
   - path: /population-profiles/
     translation_key: PROFILES
