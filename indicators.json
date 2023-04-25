@@ -1761,6 +1761,22 @@
   },
   {
     "goal": {
+      "id": "enrolments",
+      "title": "Vanuatu School Enrollments Rate",
+      "indicators": [
+        
+        {
+          "id": "enrolments",
+          "title": "Vanuatu School Enrollments Rate",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/enrolments/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "exports",
       "title": "The Republic of Vanuatu Trade Exports",
       "indicators": [
@@ -1820,6 +1836,22 @@
           "keywords": "",
           "href": "/vnso-nsdp-platform/government-financial-statistics/",
           "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "grades",
+      "title": "Vanuatu School Grades",
+      "indicators": [
+        
+        {
+          "id": "grades",
+          "title": "Vanuatu School Grades",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/grades/",
+          "status": "notstarted"
         }]
     }
   },
@@ -1891,6 +1923,22 @@
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/vat/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "vocational",
+      "title": "Vanuatu Vocational Education",
+      "indicators": [
+        
+        {
+          "id": "vocational",
+          "title": "Vanuatu Vocational Education",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/vocational/",
           "status": "notstarted"
         }]
     }
