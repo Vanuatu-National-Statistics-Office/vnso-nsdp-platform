@@ -219,14 +219,16 @@ menu:
       - path: /imports/
         translation_key: IMPORTS
   - path: /human-development/
-    translation_key: HUMAN DEVELOPMENT
+    translation_key: EDUCATION
     dropdown:
-      - path: /enrolment/
-        translation_key: ENROLMENT
+      - path: /enrolments/
+        translation_key: ENROLMENTS
       - path: /grades/
         translation_key: GRADES
-      - path: /scolarship/
-        translation_key: SCHOLARSHIP
+      - path: /vocational/
+        translation_key: VOCATIONAL
+      - path: /usp/
+        translation_key: USP
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
