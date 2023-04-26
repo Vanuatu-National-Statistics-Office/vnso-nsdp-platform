@@ -218,6 +218,17 @@ menu:
         translation_key: EXPORTS
       - path: /imports/
         translation_key: IMPORTS
+  - path: /education/
+    translation_key: EDUCATION
+    dropdown:
+      - path: /enrolments/
+        translation_key: ENROLMENTS
+      - path: /grades/
+        translation_key: GRADES
+      - path: /vocational/
+        translation_key: VOCATIONAL
+      - path: /usp/
+        translation_key: USP
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
