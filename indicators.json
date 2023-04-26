@@ -1913,6 +1913,22 @@
   },
   {
     "goal": {
+      "id": "usp",
+      "title": "University of the South Pacific",
+      "indicators": [
+        
+        {
+          "id": "usp",
+          "title": "University of the South Pacific",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/usp/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "vat",
       "title": "Value added tax on goods and services in Vanuatu",
       "indicators": [
