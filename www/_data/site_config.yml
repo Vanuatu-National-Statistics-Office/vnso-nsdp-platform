@@ -218,15 +218,6 @@ menu:
         translation_key: EXPORTS
       - path: /imports/
         translation_key: IMPORTS
-  - path: /human-development/
-    translation_key: HUMAN DEVELOPMENT
-    dropdown:
-      - path: /enrolment/
-        translation_key: ENROLMENT
-      - path: /grades/
-        translation_key: GRADES
-      - path: /scolarship/
-        translation_key: SCHOLARSHIP
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
