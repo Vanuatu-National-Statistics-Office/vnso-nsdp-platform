@@ -1681,6 +1681,22 @@
   },
   {
     "goal": {
+      "id": "agriculture",
+      "title": "Vanuatu Labour Statistics",
+      "indicators": [
+        
+        {
+          "id": "agriculture",
+          "title": "Vanuatu Labour Statistics",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/agriculture/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "business",
       "title": "business",
       "indicators": [
@@ -1857,6 +1873,22 @@
   },
   {
     "goal": {
+      "id": "health",
+      "title": "Vanuatu Health Statistics",
+      "indicators": [
+        
+        {
+          "id": "health",
+          "title": "Vanuatu Health Statistics",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/health/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "imports",
       "title": "The Republic of Vanuatu Trade Imports",
       "indicators": [
@@ -1867,6 +1899,22 @@
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/imports/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "labor",
+      "title": "Vanuatu Labour Statistics",
+      "indicators": [
+        
+        {
+          "id": "labor",
+          "title": "Vanuatu Labour Statistics",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/labor/",
           "status": "notstarted"
         }]
     }
@@ -1892,6 +1940,22 @@
           "keywords": "",
           "href": "/vnso-nsdp-platform/operations-budget/",
           "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "population",
+      "title": "Vanuatu Demographics",
+      "indicators": [
+        
+        {
+          "id": "population",
+          "title": "Vanuatu Demographics",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/population/",
+          "status": "notstarted"
         }]
     }
   },

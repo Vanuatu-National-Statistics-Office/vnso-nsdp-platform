@@ -10,11 +10,11 @@ Indicator,Disaggregations,Number of disaggregations
 #ECO2-2-1,Region,1
 #ECO3-1-1,Sub-Industry,1
 #ENV1-3-3,Geographic Location,1
-#SOC1-1-1,"Province, Sex, Region",3
-#SOC1-1-2,"Province, Sex, Region",3
-#SOC1-2-1,"Province, Sex, Region",3
-#SOC1-2-2,"Province, Sex, Region, Unit",4
-#SOC1-2-3,"Province, Sex, Region",3
-#SOC1-7-1,"Province, Sex, Region",3
-#SOC1-7-2,"Province, Region",2
+#SOC1-1-1,"Region, Province, Sex",3
+#SOC1-1-2,"Region, Province, Sex",3
+#SOC1-2-1,"Region, Province, Sex",3
+#SOC1-2-2,"Region, Province, Sex, Unit",4
+#SOC1-2-3,"Region, Province, Sex",3
+#SOC1-7-1,"Region, Province, Sex",3
+#SOC1-7-2,"Region, Province",2
 #SOC4-2-1,"Province, Sex, Age",3
