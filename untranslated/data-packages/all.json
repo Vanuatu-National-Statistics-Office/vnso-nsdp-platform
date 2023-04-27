@@ -7625,6 +7625,28 @@
       "title": "Vanuatu Labour Statistics"
     },
     {
+      "path": "infrastrucure/data.csv",
+      "name": "infrastrucure",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Vanuatu Infrastructure Statistics"
+    },
+    {
       "path": "vocational/data.csv",
       "name": "vocational",
       "profile": "tabular-data-resource",

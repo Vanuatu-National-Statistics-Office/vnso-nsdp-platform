@@ -1905,6 +1905,22 @@
   },
   {
     "goal": {
+      "id": "infrastrucure",
+      "title": "Vanuatu Infrastructure Statistics",
+      "indicators": [
+        
+        {
+          "id": "infrastrucure",
+          "title": "Vanuatu Infrastructure Statistics",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/infrastrucure/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "labor",
       "title": "Vanuatu Labour Statistics",
       "indicators": [
