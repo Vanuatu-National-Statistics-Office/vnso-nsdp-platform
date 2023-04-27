@@ -1905,6 +1905,22 @@
   },
   {
     "goal": {
+      "id": "income",
+      "title": "Vanuatu household Incomes",
+      "indicators": [
+        
+        {
+          "id": "income",
+          "title": "Vanuatu household Incomes",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/income/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "infrastrucure",
       "title": "Vanuatu Infrastructure Statistics",
       "indicators": [
@@ -1993,6 +2009,22 @@
   },
   {
     "goal": {
+      "id": "shelter",
+      "title": "Vanuatu Shelter characteristics",
+      "indicators": [
+        
+        {
+          "id": "shelter",
+          "title": "Vanuatu Shelter characteristics",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/shelter/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "usp",
       "title": "University of the South Pacific",
       "indicators": [
@@ -2035,6 +2067,22 @@
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/vocational/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "watersanitation&hygiene",
+      "title": "Vanuatu household water sanitation and hygiene characteristics",
+      "indicators": [
+        
+        {
+          "id": "watersanitation&hygiene",
+          "title": "Vanuatu household water sanitation and hygiene characteristics",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/watersanitation&hygiene/",
           "status": "notstarted"
         }]
     }

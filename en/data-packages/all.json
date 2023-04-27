@@ -7999,6 +7999,30 @@
       "title": ""
     },
     {
+      "path": "income/data.csv",
+      "name": "income",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": " Vanuatu household Incomes"
+    },
+    {
       "path": "exports/data.csv",
       "name": "exports",
       "profile": "tabular-data-resource",
@@ -8021,6 +8045,30 @@
         ]
       },
       "title": "The Republic of Vanuatu Trade Exports"
+    },
+    {
+      "path": "watersanitation&hygiene/data.csv",
+      "name": "watersanitation&hygiene",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": " Vanuatu household water sanitation and hygiene characteristics"
     },
     {
       "path": "agriculture/data.csv",
@@ -8069,6 +8117,30 @@
         ]
       },
       "title": "Vanuatu School Enrollments Rate"
+    },
+    {
+      "path": "shelter/data.csv",
+      "name": "shelter",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Vanuatu Shelter characteristics"
     },
     {
       "path": "donor/data.csv",
