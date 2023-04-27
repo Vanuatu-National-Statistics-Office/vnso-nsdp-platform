@@ -240,6 +240,25 @@ menu:
         translation_key: VOCATIONAL
       - path: /usp/
         translation_key: USP
+  - path: /2030-agenda/
+    translation_key: DISASTER
+    dropdown:
+      - path: /population/
+        translation_key: POPULATION
+      - path: /health/
+        translation_key: HEALTH
+      - path: /labor/
+        translation_key: LABOR
+      - path: /agriculture/
+        translation_key: AGRICULTURE
+      - path: /infrastrucure/
+        translation_key: INFRASTRUCTURE
+      - path: /shelter/
+        translation_key: SHELTER
+      - path: /watersanitation&hygiene/
+        translation_key: WATER SANITATION & HYGIENE
+      - path: /income/
+        translation_key: INCOME
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
