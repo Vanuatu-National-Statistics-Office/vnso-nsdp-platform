@@ -2104,6 +2104,28 @@
       "title": "ENV4-1-2"
     },
     {
+      "path": "book3/data.csv",
+      "name": "book3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "book3"
+    },
+    {
       "path": "SOC4-3-2/data.csv",
       "name": "SOC4-3-2",
       "profile": "tabular-data-resource",

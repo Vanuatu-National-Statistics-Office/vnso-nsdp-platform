@@ -1697,6 +1697,22 @@
   },
   {
     "goal": {
+      "id": "book3",
+      "title": "global_indicators.book3-title",
+      "indicators": [
+        
+        {
+          "id": "book3",
+          "title": "global_indicators.book3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/book3/",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "business",
       "title": "business",
       "indicators": [
