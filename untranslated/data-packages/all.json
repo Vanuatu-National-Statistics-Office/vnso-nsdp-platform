@@ -1026,21 +1026,11 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Unit",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "13330",
+                "Number deaths per 1000 live births",
                 ""
               ]
             }

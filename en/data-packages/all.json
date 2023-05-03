@@ -1113,26 +1113,15 @@
             "title": "Year"
           },
           {
-            "name": "Units",
+            "name": "Unit",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
+                "Number deaths per 1000 live births",
                 ""
               ]
             },
-            "title": "Units"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Under 5 Mortality Rate",
-                ""
-              ]
-            },
-            "title": "Series"
+            "title": "Unit"
           },
           {
             "name": "Value",
