@@ -1810,16 +1810,16 @@
   {
     "goal": {
       "id": "exports",
-      "title": "The Republic of Vanuatu Trade Exports",
+      "title": "exports",
       "indicators": [
         
         {
           "id": "exports",
-          "title": "The Republic of Vanuatu Trade Exports",
+          "title": "exports",
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/exports/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230504223144">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230504232131">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -817,7 +817,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('graph_title', "Vanuatu exports over the years");
+        var currentValue = normalizeCurrentValue('graph_title', "");
         var propertyEditor = editor.getEditor('root.graph_title');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -831,7 +831,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('graph_titles', []);
+        var currentValue = normalizeCurrentValue('graph_titles', [{"series":"values of principle exports to main countries of destination in vatu","unit":"VUV","title":"values of principle exports to main countries of destination"},{"series":"Quantity ","unit":"tonnes kilogram","title":"Quantity of principle exports to main countries destination"},{"series":"Price per unit","unit":"(vatu per kilogram/litre)","title":"Graph showing price per unit of principle exports to main countries destinations"}]);
         var propertyEditor = editor.getEditor('root.graph_titles');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -873,7 +873,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_name', "The Republic of Vanuatu Trade Exports");
+        var currentValue = normalizeCurrentValue('indicator_name', "exports");
         var propertyEditor = editor.getEditor('root.indicator_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -887,7 +887,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_number', "exports");
+        var currentValue = normalizeCurrentValue('indicator_number', "exports trades");
         var propertyEditor = editor.getEditor('root.indicator_number');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -929,7 +929,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('page_content', "Vanuatu is an island nation located in the south pacific ocean, and its heavily relies on exports to fuel its economy. Some of the country's major exports products include agricultural goods such as copra, cocoa, and coffee. Additionally, the country also exports fish, timber, and processed coconut oil. The main export  destinations for Vanuatu are Australia, New Zealand, and Asia. However the country's economy is relatively small, and its exports do not generate significant revenue compared to the other larger nations. Nonetheless, Vanuatu diverse range of exports commodities highlights the potential for growth in the country's export sector.\n\n");
+        var currentValue = normalizeCurrentValue('page_content', "");
         var propertyEditor = editor.getEditor('root.page_content');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1055,7 +1055,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('reporting_status', "notstarted");
+        var currentValue = normalizeCurrentValue('reporting_status', "complete");
         var propertyEditor = editor.getEditor('root.reporting_status');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1274,12 +1274,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230504223144'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230504232131'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230504223144"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230504232131"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
