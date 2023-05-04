@@ -29,7 +29,7 @@ graph_titles:
     unit: tonnes kilogram
     title: Quantity of principle exports to main countries destination
   - series: Price per unit
-    unit: (vatu per kilogram/litre)
+    unit: vatu per kilogram/litre
     title: >-
       Graph showing price per unit of principle exports to main countries
       destinations
