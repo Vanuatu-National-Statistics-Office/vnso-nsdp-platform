@@ -13,9 +13,8 @@ Indicator,Disaggregations,Number of disaggregations
 #SOC1-1-1,"Region, Province, Sex",3
 #SOC1-1-2,"Region, Province, Sex",3
 #SOC1-2-1,"Region, Province, Sex",3
-#SOC1-2-2,"Region, Unit, Province, Sex",4
+#SOC1-2-2,"Region, Province, Sex, Unit",4
 #SOC1-2-3,"Region, Province, Sex",3
 #SOC1-7-1,"Region, Province, Sex",3
 #SOC1-7-2,"Region, Province",2
-#SOC3-3-3,Unit,1
 #SOC4-2-1,"Province, Sex, Age",3

@@ -1026,16 +1026,6 @@
             "type": "integer"
           },
           {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Number deaths per 1000 live births",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "number"
           }

@@ -16,17 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Number deaths per 1000 live births",
-                ""
-              ]
-            },
-            "title": "Unit"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"
