@@ -923,7 +923,7 @@
           }
         ]
       },
-      "title": "SOC3-3-2"
+      "title": "indicators.SOC3-3-2-title"
     },
     {
       "path": "ENV1-3-1/data.csv",
