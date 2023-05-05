@@ -3677,112 +3677,6 @@
       "title": "ENV3-1-3"
     },
     {
-      "path": "Exports/data.csv",
-      "name": "Exports",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Value(inmillionvatu)",
-                "Quantity(intonneskilogram)",
-                "Priceperunit(vatuperkilogram/litre)",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "PrincipalExport",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Beef",
-                "Cocoa",
-                "Coconutoil",
-                "Copra",
-                "Kava",
-                "Wood",
-                "Ccoconutoil",
-                "CoconutOil",
-                ""
-              ]
-            },
-            "title": "PrincipalExport"
-          },
-          {
-            "name": "MainCountryofDestination",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "JAPAN",
-                "PAPUANEWGUINEA",
-                "SOLOMONISLANDS",
-                "MALAYSIA",
-                "AUSTRALIA",
-                "BELGIUM",
-                "UNITEDKINGDOM",
-                "NEWZEALAND",
-                "TAIWAN,PROVINCEOFCHINA",
-                "NEWCALEDONIA",
-                "PHILIPPINES",
-                "BANGLADESH",
-                "KIRIBATI",
-                "FIJI",
-                "UNITEDSTATESOFAMERICA",
-                "CHINA,PEOPLESREPUBLICOF",
-                "HONGKONG",
-                "INDONESIA",
-                "ITALY",
-                "FRENCHPOLYNESIA",
-                "VIETNAM",
-                "INDIA",
-                "SINGAPORE",
-                "FRANCE",
-                "SRILANKA",
-                "NETHERLANDS",
-                "CZECHREPUBLIC",
-                "UNITEDARABEMIRATES",
-                ""
-              ]
-            },
-            "title": "MainCountryofDestination"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "VUV",
-                "kilogram",
-                "vatuperkilogram/litre",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Exports"
-    },
-    {
       "path": "SOC5-2-1/data.csv",
       "name": "SOC5-2-1",
       "profile": "tabular-data-resource",
@@ -4742,6 +4636,112 @@
         ]
       },
       "title": "SOC4-4-3"
+    },
+    {
+      "path": "exports/data.csv",
+      "name": "exports",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Value(inmillionvatu)",
+                "Quantity(intonneskilogram)",
+                "Priceperunit(vatuperkilogram/litre)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "PrincipalExport",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Beef",
+                "Cocoa",
+                "Coconutoil",
+                "Copra",
+                "Kava",
+                "Wood",
+                "Ccoconutoil",
+                "CoconutOil",
+                ""
+              ]
+            },
+            "title": "PrincipalExport"
+          },
+          {
+            "name": "MainCountryofDestination",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "JAPAN",
+                "PAPUANEWGUINEA",
+                "SOLOMONISLANDS",
+                "MALAYSIA",
+                "AUSTRALIA",
+                "BELGIUM",
+                "UNITEDKINGDOM",
+                "NEWZEALAND",
+                "TAIWAN,PROVINCEOFCHINA",
+                "NEWCALEDONIA",
+                "PHILIPPINES",
+                "BANGLADESH",
+                "KIRIBATI",
+                "FIJI",
+                "UNITEDSTATESOFAMERICA",
+                "CHINA,PEOPLESREPUBLICOF",
+                "HONGKONG",
+                "INDONESIA",
+                "ITALY",
+                "FRENCHPOLYNESIA",
+                "VIETNAM",
+                "INDIA",
+                "SINGAPORE",
+                "FRANCE",
+                "SRILANKA",
+                "NETHERLANDS",
+                "CZECHREPUBLIC",
+                "UNITEDARABEMIRATES",
+                ""
+              ]
+            },
+            "title": "MainCountryofDestination"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "VUV",
+                "kilogram",
+                "vatuperkilogram/litre",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "exports"
     },
     {
       "path": "SOC6-2-1/data.csv",
@@ -8085,30 +8085,6 @@
         ]
       },
       "title": " Vanuatu household Incomes"
-    },
-    {
-      "path": "exports/data.csv",
-      "name": "exports",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "exports"
     },
     {
       "path": "watersanitation&hygiene/data.csv",

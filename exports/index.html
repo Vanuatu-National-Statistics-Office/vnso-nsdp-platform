@@ -146,7 +146,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230505032914">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230505034857">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -485,7 +485,7 @@ data-event-label="high"
   data-graphtargetlines="[]"
   data-graphseriesbreaks="[]"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Value(inmillionvatu)&quot;,&quot;Quantity(intonneskilogram)&quot;,&quot;Priceperunit(vatuperkilogram/litre)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Series&quot;},{&quot;name&quot;:&quot;PrincipalExport&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Beef&quot;,&quot;Cocoa&quot;,&quot;Coconutoil&quot;,&quot;Copra&quot;,&quot;Kava&quot;,&quot;Wood&quot;,&quot;Ccoconutoil&quot;,&quot;CoconutOil&quot;,&quot;&quot;]},&quot;title&quot;:&quot;PrincipalExport&quot;},{&quot;name&quot;:&quot;MainCountryofDestination&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;JAPAN&quot;,&quot;PAPUANEWGUINEA&quot;,&quot;SOLOMONISLANDS&quot;,&quot;MALAYSIA&quot;,&quot;AUSTRALIA&quot;,&quot;BELGIUM&quot;,&quot;UNITEDKINGDOM&quot;,&quot;NEWZEALAND&quot;,&quot;TAIWAN,PROVINCEOFCHINA&quot;,&quot;NEWCALEDONIA&quot;,&quot;PHILIPPINES&quot;,&quot;BANGLADESH&quot;,&quot;KIRIBATI&quot;,&quot;FIJI&quot;,&quot;UNITEDSTATESOFAMERICA&quot;,&quot;CHINA,PEOPLESREPUBLICOF&quot;,&quot;HONGKONG&quot;,&quot;INDONESIA&quot;,&quot;ITALY&quot;,&quot;FRENCHPOLYNESIA&quot;,&quot;VIETNAM&quot;,&quot;INDIA&quot;,&quot;SINGAPORE&quot;,&quot;FRANCE&quot;,&quot;SRILANKA&quot;,&quot;NETHERLANDS&quot;,&quot;CZECHREPUBLIC&quot;,&quot;UNITEDARABEMIRATES&quot;,&quot;&quot;]},&quot;title&quot;:&quot;MainCountryofDestination&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;VUV&quot;,&quot;kilogram&quot;,&quot;vatuperkilogram/litre&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
   data-proxy=""
@@ -521,15 +521,355 @@ data-event-label="high"
   <div id="datatables">
 
     
+    <a href="/vnso-nsdp-platform/en/headline/exports.csv" class="btn btn-primary btn-download" download="indicator_exports.csv" tabindex="0" role="button">Download headline data (.csv)</a>
+    
     <a href="/vnso-nsdp-platform/en/data/exports.csv" class="btn btn-primary btn-download" download='indicator_exports.csv' tabindex='0' role='button'>Download source data (.csv)</a>
 
     <p class="no-js-disaggregation-hint">Download source data for disaggregations (.csv)</p>
 
     
-    <h3>No headline data available</h3>
+    <h3>Headline data</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption></caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col">Units</th>
+        
+        
+        
+        <th scope="col" class="table-value">Series</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>4645</td>
+          
+          
+          
+          <td>VUV</td>
+          
+          
+          
+          <td class="table-value">Value(inmillionvatu)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>3774</td>
+          
+          
+          
+          <td>VUV</td>
+          
+          
+          
+          <td class="table-value">Value(inmillionvatu)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>3986</td>
+          
+          
+          
+          <td>VUV</td>
+          
+          
+          
+          <td class="table-value">Value(inmillionvatu)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>4653</td>
+          
+          
+          
+          <td>VUV</td>
+          
+          
+          
+          <td class="table-value">Value(inmillionvatu)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2021</td>
+          
+          
+          
+          <td>4653</td>
+          
+          
+          
+          <td>VUV</td>
+          
+          
+          
+          <td class="table-value">Value(inmillionvatu)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>31821</td>
+          
+          
+          
+          <td>kilogram</td>
+          
+          
+          
+          <td class="table-value">Quantity(intonneskilogram)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>12742</td>
+          
+          
+          
+          <td>kilogram</td>
+          
+          
+          
+          <td class="table-value">Quantity(intonneskilogram)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>14242</td>
+          
+          
+          
+          <td>kilogram</td>
+          
+          
+          
+          <td class="table-value">Quantity(intonneskilogram)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>55623</td>
+          
+          
+          
+          <td>kilogram</td>
+          
+          
+          
+          <td class="table-value">Quantity(intonneskilogram)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2021</td>
+          
+          
+          
+          <td>55623</td>
+          
+          
+          
+          <td>kilogram</td>
+          
+          
+          
+          <td class="table-value">Quantity(intonneskilogram)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>146</td>
+          
+          
+          
+          <td>vatuperkilogram/litre</td>
+          
+          
+          
+          <td class="table-value">Priceperunit(vatuperkilogram/litre)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>296</td>
+          
+          
+          
+          <td>vatuperkilogram/litre</td>
+          
+          
+          
+          <td class="table-value">Priceperunit(vatuperkilogram/litre)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>280</td>
+          
+          
+          
+          <td>vatuperkilogram/litre</td>
+          
+          
+          
+          <td class="table-value">Priceperunit(vatuperkilogram/litre)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>84</td>
+          
+          
+          
+          <td>vatuperkilogram/litre</td>
+          
+          
+          
+          <td class="table-value">Priceperunit(vatuperkilogram/litre)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2021</td>
+          
+          
+          
+          <td>84</td>
+          
+          
+          
+          <td>vatuperkilogram/litre</td>
+          
+          
+          
+          <td class="table-value">Priceperunit(vatuperkilogram/litre)</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
     
   </div>
 
+  
+  <div id="datatableFooter">
+    
+    
+    <p>Geographical Area: Vanuatu</p>
+    
+    
+    <p>Unit of Measurement: </p>
+    
+    
+    <p>Footnote: </p>
+    
+  </div>
   
 
 </div>
@@ -1012,12 +1352,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230505032914'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230505034857'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230505032914"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230505034857"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

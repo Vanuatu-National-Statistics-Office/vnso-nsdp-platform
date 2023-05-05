@@ -12,12 +12,94 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Value(inmillionvatu)",
+                "Quantity(intonneskilogram)",
+                "Priceperunit(vatuperkilogram/litre)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "PrincipalExport",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Beef",
+                "Cocoa",
+                "Coconutoil",
+                "Copra",
+                "Kava",
+                "Wood",
+                "Ccoconutoil",
+                "CoconutOil",
+                ""
+              ]
+            },
+            "title": "PrincipalExport"
+          },
+          {
+            "name": "MainCountryofDestination",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "JAPAN",
+                "PAPUANEWGUINEA",
+                "SOLOMONISLANDS",
+                "MALAYSIA",
+                "AUSTRALIA",
+                "BELGIUM",
+                "UNITEDKINGDOM",
+                "NEWZEALAND",
+                "TAIWAN,PROVINCEOFCHINA",
+                "NEWCALEDONIA",
+                "PHILIPPINES",
+                "BANGLADESH",
+                "KIRIBATI",
+                "FIJI",
+                "UNITEDSTATESOFAMERICA",
+                "CHINA,PEOPLESREPUBLICOF",
+                "HONGKONG",
+                "INDONESIA",
+                "ITALY",
+                "FRENCHPOLYNESIA",
+                "VIETNAM",
+                "INDIA",
+                "SINGAPORE",
+                "FRANCE",
+                "SRILANKA",
+                "NETHERLANDS",
+                "CZECHREPUBLIC",
+                "UNITEDARABEMIRATES",
+                ""
+              ]
+            },
+            "title": "MainCountryofDestination"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "VUV",
+                "kilogram",
+                "vatuperkilogram/litre",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
