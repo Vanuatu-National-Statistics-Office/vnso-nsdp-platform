@@ -12,11 +12,74 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Value (in million vatu)",
+                "Quantity (in tonnes kilogram)",
+                "Price per unit (vatu per kilogram/litre)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Principal Import",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alcoholic Drinks",
+                "Cigarettes and Tobacco",
+                "Medicaments",
+                "Petroleum Oils and Gasesous",
+                "Fish",
+                "Rice",
+                "Alcholic drinks",
+                "Alcoholic drinks",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Main Country of Origin",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUSTRALIA",
+                "FRANCE",
+                "NEW ZEALAND",
+                "NEW CALEDONIA",
+                "UNITED KINGDOM",
+                "INDONESIA",
+                "SINGAPORE",
+                "HONG KONG",
+                "FIJI",
+                "INDIA",
+                "UNITED STATES OF AMERICA",
+                "NETHERLANDS",
+                "UNITED ARAB EMIRATES",
+                "MALAYSIA",
+                "SOLOMON ISLANDS",
+                "THAILAND",
+                "CHINA, PEOPLES REPUBLIC OF",
+                "PAPUA NEW GUINEA",
+                "VIET NAM",
+                "FINLAND",
+                "FRENCH POLYNESIA",
+                "SWITZERLAND",
+                "TAIWAN, PROVINCE OF CHINA",
+                "TURKEY",
+                "COSTA RICA",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

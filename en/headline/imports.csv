@@ -1,1 +1,16 @@
-Year,Value
+Year,Value,Series
+2017,11234,Value (in million vatu)
+2018,12634,Value (in million vatu)
+2019,13173,Value (in million vatu)
+2020,9666,Value (in million vatu)
+2021,10003,Value (in million vatu)
+2017,129329,Quantity (in tonnes kilogram)
+2018,133719,Quantity (in tonnes kilogram)
+2019,144969,Quantity (in tonnes kilogram)
+2020,113194,Quantity (in tonnes kilogram)
+2021,118149,Quantity (in tonnes kilogram)
+2017,87,Price per unit (vatu per kilogram/litre)
+2018,94,Price per unit (vatu per kilogram/litre)
+2019,91,Price per unit (vatu per kilogram/litre)
+2020,85,Price per unit (vatu per kilogram/litre)
+2021,85,Price per unit (vatu per kilogram/litre)

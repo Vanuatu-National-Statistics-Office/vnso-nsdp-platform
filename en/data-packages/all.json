@@ -3701,6 +3701,96 @@
       "title": "SOC5-2-1"
     },
     {
+      "path": "imports/data.csv",
+      "name": "imports",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Value (in million vatu)",
+                "Quantity (in tonnes kilogram)",
+                "Price per unit (vatu per kilogram/litre)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Principal Import",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alcoholic Drinks",
+                "Cigarettes and Tobacco",
+                "Medicaments",
+                "Petroleum Oils and Gasesous",
+                "Fish",
+                "Rice",
+                "Alcholic drinks",
+                "Alcoholic drinks",
+                ""
+              ]
+            },
+            "title": "Principal Import"
+          },
+          {
+            "name": "Main Country of Origin",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUSTRALIA",
+                "FRANCE",
+                "NEW ZEALAND",
+                "NEW CALEDONIA",
+                "UNITED KINGDOM",
+                "INDONESIA",
+                "SINGAPORE",
+                "HONG KONG",
+                "FIJI",
+                "INDIA",
+                "UNITED STATES OF AMERICA",
+                "NETHERLANDS",
+                "UNITED ARAB EMIRATES",
+                "MALAYSIA",
+                "SOLOMON ISLANDS",
+                "THAILAND",
+                "CHINA, PEOPLES REPUBLIC OF",
+                "PAPUA NEW GUINEA",
+                "VIET NAM",
+                "FINLAND",
+                "FRENCH POLYNESIA",
+                "SWITZERLAND",
+                "TAIWAN, PROVINCE OF CHINA",
+                "TURKEY",
+                "COSTA RICA",
+                ""
+              ]
+            },
+            "title": "Main Country of Origin"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Imports Trades in Vanuatu"
+    },
+    {
       "path": "ECO2-3-1/data.csv",
       "name": "ECO2-3-1",
       "profile": "tabular-data-resource",
@@ -8253,30 +8343,6 @@
         ]
       },
       "title": "business"
-    },
-    {
-      "path": "imports/data.csv",
-      "name": "imports",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Imports Trades in Vanuatu"
     },
     {
       "path": "government/data.csv",
