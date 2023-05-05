@@ -1906,16 +1906,16 @@
   {
     "goal": {
       "id": "imports",
-      "title": "The Republic of Vanuatu Trade Imports",
+      "title": "Imports Trades in Vanuatu",
       "indicators": [
         
         {
           "id": "imports",
-          "title": "The Republic of Vanuatu Trade Imports",
+          "title": "Imports Trades in Vanuatu",
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/imports/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
