@@ -25,6 +25,15 @@ graph_titles:
   - series: major industry in total
     unit: total number of business
     title: Graph showing total number of major industry businesses
+  - series: proportion of business in major industry
+    unit: percentage
+    title: Graph showing proportion of businesses in major industry
+  - series: minor industry in total
+    unit: total number of business
+    title: Graph showing total number of minor industry businesses
+  - series: proportion of business in minor industry
+    unit: percentage
+    title: Graph showing proportion of businesses within the minor industry
 graph_type: bar
 indicator_available: ''
 indicator_name: Vanuatu updated business license registry
