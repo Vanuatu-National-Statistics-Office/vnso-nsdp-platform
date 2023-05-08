@@ -1,556 +1,181 @@
-﻿Year,Series,Principal Import,Main Country of Origin,Value
-2017,Value (in million vatu),,,11234
-2017,Value (in million vatu),Alcoholic Drinks,,994
-2017,Value (in million vatu),Cigarettes and Tobacco,,599
-2017,Value (in million vatu),Medicaments,,694
-2017,Value (in million vatu),Petroleum Oils and Gasesous,,6822
-2017,Value (in million vatu),Fish,,613
-2017,Value (in million vatu),Rice,,1512
-2017,Value (in million vatu),Alcoholic Drinks,AUSTRALIA,561
-2017,Value (in million vatu),Alcoholic Drinks,FRANCE,218
-2017,Value (in million vatu),Alcoholic Drinks,NEW ZEALAND,52
-2017,Value (in million vatu),Alcoholic Drinks,NEW CALEDONIA,28
-2017,Value (in million vatu),Alcoholic Drinks,UNITED KINGDOM,23
-2017,Value (in million vatu),Cigarettes and Tobacco,AUSTRALIA,534
-2017,Value (in million vatu),Cigarettes and Tobacco,INDONESIA,42
-2017,Value (in million vatu),Cigarettes and Tobacco,SINGAPORE,9
-2017,Value (in million vatu),Cigarettes and Tobacco,HONG KONG,6
-2017,Value (in million vatu),Cigarettes and Tobacco,FIJI,6
-2017,Value (in million vatu),Medicaments,NEW ZEALAND,204
-2017,Value (in million vatu),Medicaments,AUSTRALIA,155
-2017,Value (in million vatu),Medicaments,INDIA,147
-2017,Value (in million vatu),Medicaments,UNITED STATES OF AMERICA,60
-2017,Value (in million vatu),Medicaments,NETHERLANDS,29
-2017,Value (in million vatu),Petroleum Oils and Gasesous,SINGAPORE,6214
-2017,Value (in million vatu),Petroleum Oils and Gasesous,AUSTRALIA,371
-2017,Value (in million vatu),Petroleum Oils and Gasesous,NEW ZEALAND,91
-2017,Value (in million vatu),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,90
-2017,Value (in million vatu),Petroleum Oils and Gasesous,MALAYSIA,44
-2017,Value (in million vatu),Fish,SOLOMON ISLANDS,186
-2017,Value (in million vatu),Fish,THAILAND,176
-2017,Value (in million vatu),Fish,FIJI,166
-2017,Value (in million vatu),Fish,"CHINA, PEOPLES REPUBLIC OF",38
-2017,Value (in million vatu),Fish,PAPUA NEW GUINEA,37
-2017,Value (in million vatu),Rice,VIET NAM,981
-2017,Value (in million vatu),Rice,SINGAPORE,414
-2017,Value (in million vatu),Rice,"CHINA, PEOPLES REPUBLIC OF",68
-2017,Value (in million vatu),Rice,UNITED STATES OF AMERICA,11
-2017,Value (in million vatu),Rice,AUSTRALIA,11
-2018,Value (in million vatu),,,12634
-2018,Value (in million vatu),Alcholic drinks,,921
-2018,Value (in million vatu),Cigarettes and Tobacco,,661
-2018,Value (in million vatu),Medicaments,,613
-2018,Value (in million vatu),Petroleum Oils and Gasesous,,8416
-2018,Value (in million vatu),Fish,,714
-2018,Value (in million vatu),Rice,,1308
-2018,Value (in million vatu),Alcoholic drinks,AUSTRALIA,515
-2018,Value (in million vatu),Alcoholic drinks,FRANCE,214
-2018,Value (in million vatu),Alcoholic drinks,NEW ZEALAND,57
-2018,Value (in million vatu),Alcoholic drinks,NEW CALEDONIA,24
-2018,Value (in million vatu),Alcoholic drinks,NETHERLANDS,24
-2018,Value (in million vatu),Cigarettes and Tobacco,AUSTRALIA,542
-2018,Value (in million vatu),Cigarettes and Tobacco,"CHINA, PEOPLES REPUBLIC OF",0
-2018,Value (in million vatu),Cigarettes and Tobacco,FIJI,17
-2018,Value (in million vatu),Cigarettes and Tobacco,FINLAND,0
-2018,Value (in million vatu),Cigarettes and Tobacco,HONG KONG,1
-2018,Value (in million vatu),Medicaments,NEW ZEALAND,188
-2018,Value (in million vatu),Medicaments,INDIA,119
-2018,Value (in million vatu),Medicaments,AUSTRALIA,108
-2018,Value (in million vatu),Medicaments,UNITED STATES OF AMERICA,53
-2018,Value (in million vatu),Medicaments,FRENCH POLYNESIA,32
-2018,Value (in million vatu),Petroleum Oils and Gasesous,SINGAPORE,7881
-2018,Value (in million vatu),Petroleum Oils and Gasesous,AUSTRALIA,311
-2018,Value (in million vatu),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,98
-2018,Value (in million vatu),Petroleum Oils and Gasesous,NEW ZEALAND,69
-2018,Value (in million vatu),Petroleum Oils and Gasesous,MALAYSIA,45
-2018,Value (in million vatu),Fish,THAILAND,212
-2018,Value (in million vatu),Fish,SOLOMON ISLANDS,203
-2018,Value (in million vatu),Fish,FIJI,171
-2018,Value (in million vatu),Fish,PAPUA NEW GUINEA,67
-2018,Value (in million vatu),Fish,"CHINA, PEOPLES REPUBLIC OF",38
-2018,Value (in million vatu),Rice,VIET NAM,602
-2018,Value (in million vatu),Rice,SINGAPORE,462
-2018,Value (in million vatu),Rice,"CHINA, PEOPLES REPUBLIC OF",112
-2018,Value (in million vatu),Rice,AUSTRALIA,85
-2018,Value (in million vatu),Rice,NEW ZEALAND,29
-2019,Value (in million vatu),,,13173
-2019,Value (in million vatu),Alcholic drinks,,941
-2019,Value (in million vatu),Cigarettes and Tobacco,,731
-2019,Value (in million vatu),Medicaments,,542
-2019,Value (in million vatu),Petroleum Oils and Gasesous,,9049
-2019,Value (in million vatu),Fish,,674
-2019,Value (in million vatu),Rice,,1237
-2019,Value (in million vatu),Alcoholic drinks,AUSTRALIA,509
-2019,Value (in million vatu),Alcoholic drinks,FRANCE,244
-2019,Value (in million vatu),Alcoholic drinks,NEW ZEALAND,67
-2019,Value (in million vatu),Alcoholic drinks,NETHERLANDS,22
-2019,Value (in million vatu),Alcoholic drinks,NEW CALEDONIA,19
-2019,Value (in million vatu),Cigarettes and Tobacco,AUSTRALIA,522
-2019,Value (in million vatu),Cigarettes and Tobacco,INDONESIA,187
-2019,Value (in million vatu),Cigarettes and Tobacco,FIJI,21
-2019,Value (in million vatu),Cigarettes and Tobacco,SWITZERLAND,1
-2019,Value (in million vatu),Cigarettes and Tobacco,"CHINA, PEOPLES REPUBLIC OF",0
-2019,Value (in million vatu),Medicaments,AUSTRALIA,159
-2019,Value (in million vatu),Medicaments,NEW ZEALAND,146
-2019,Value (in million vatu),Medicaments,INDIA,131
-2019,Value (in million vatu),Medicaments,UNITED STATES OF AMERICA,68
-2019,Value (in million vatu),Medicaments,FRENCH POLYNESIA,38
-2019,Value (in million vatu),Petroleum Oils and Gasesous,SINGAPORE,8542
-2019,Value (in million vatu),Petroleum Oils and Gasesous,AUSTRALIA,309
-2019,Value (in million vatu),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,92
-2019,Value (in million vatu),Petroleum Oils and Gasesous,NEW ZEALAND,68
-2019,Value (in million vatu),Petroleum Oils and Gasesous,MALAYSIA,31
-2019,Value (in million vatu),Fish,FIJI,164
-2019,Value (in million vatu),Fish,SOLOMON ISLANDS,157
-2019,Value (in million vatu),Fish,THAILAND,152
-2019,Value (in million vatu),Fish,PAPUA NEW GUINEA,144
-2019,Value (in million vatu),Fish,"CHINA, PEOPLES REPUBLIC OF",39
-2019,Value (in million vatu),Rice,SINGAPORE,463
-2019,Value (in million vatu),Rice,VIET NAM,395
-2019,Value (in million vatu),Rice,"CHINA, PEOPLES REPUBLIC OF",264
-2019,Value (in million vatu),Rice,"TAIWAN, PROVINCE OF CHINA",35
-2019,Value (in million vatu),Rice,HONG KONG,24
-2020,Value (in million vatu),,,9666
-2020,Value (in million vatu),Alcholic drinks,,682
-2020,Value (in million vatu),Cigarettes and Tobacco,,626
-2020,Value (in million vatu),Medicaments,,682
-2020,Value (in million vatu),Petroleum Oils and Gasesous,,5688
-2020,Value (in million vatu),Fish,,825
-2020,Value (in million vatu),Rice,,1163
-2020,Value (in million vatu),Alcoholic drinks,AUSTRALIA,338
-2020,Value (in million vatu),Alcoholic drinks,FRANCE,187
-2020,Value (in million vatu),Alcoholic drinks,NEW ZEALAND,61
-2020,Value (in million vatu),Alcoholic drinks,SOLOMON ISLANDS,29
-2020,Value (in million vatu),Alcoholic drinks,NEW CALEDONIA,15
-2020,Value (in million vatu),Cigarettes and Tobacco,AUSTRALIA,458
-2020,Value (in million vatu),Cigarettes and Tobacco,INDONESIA,162
-2020,Value (in million vatu),Cigarettes and Tobacco,FIJI,3
-2020,Value (in million vatu),Cigarettes and Tobacco,HONG KONG,1
-2020,Value (in million vatu),Cigarettes and Tobacco,SWITZERLAND,0
-2020,Value (in million vatu),Medicaments,NEW ZEALAND,180
-2020,Value (in million vatu),Medicaments,AUSTRALIA,164
-2020,Value (in million vatu),Medicaments,INDIA,129
-2020,Value (in million vatu),Medicaments,UNITED STATES OF AMERICA,37
-2020,Value (in million vatu),Medicaments,TURKEY,31
-2020,Value (in million vatu),Rice,"CHINA, PEOPLES REPUBLIC OF",452
-2020,Value (in million vatu),Rice,SINGAPORE,221
-2020,Value (in million vatu),Rice,"TAIWAN, PROVINCE OF CHINA",195
-2020,Value (in million vatu),Rice,VIET NAM,162
-2020,Value (in million vatu),Rice,HONG KONG,49
-2020,Value (in million vatu),Petroleum Oils and Gasesous,SINGAPORE,5187
-2020,Value (in million vatu),Petroleum Oils and Gasesous,AUSTRALIA,290
-2020,Value (in million vatu),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,76
-2020,Value (in million vatu),Petroleum Oils and Gasesous,NEW ZEALAND,57
-2020,Value (in million vatu),Petroleum Oils and Gasesous,MALAYSIA,51
-2020,Value (in million vatu),Fish,FIJI,252
-2020,Value (in million vatu),Fish,THAILAND,183
-2020,Value (in million vatu),Fish,SOLOMON ISLANDS,179
-2020,Value (in million vatu),Fish,PAPUA NEW GUINEA,142
-2020,Value (in million vatu),Fish,"CHINA, PEOPLES REPUBLIC OF",39
-2021,Value (in million vatu),,,10003
-2021,Value (in million vatu),Alcoholic drinks,,612
-2021,Value (in million vatu),Cigarettes and Tobacco,,772
-2021,Value (in million vatu),Medicaments,,628
-2021,Value (in million vatu),Petroleum Oils and Gasesous,,6434
-2021,Value (in million vatu),Rice,,950
-2021,Value (in million vatu),Fish,,606
-2021,Value (in million vatu),Alcoholic drinks,AUSTRALIA,283
-2021,Value (in million vatu),Alcoholic drinks,FRANCE,172
-2021,Value (in million vatu),Alcoholic drinks,NEW ZEALAND,55
-2021,Value (in million vatu),Alcoholic drinks,SOLOMON ISLANDS,42
-2021,Value (in million vatu),Alcoholic drinks,UNITED KINGDOM,10
-2021,Value (in million vatu),Cigarettes and Tobacco,AUSTRALIA,499
-2021,Value (in million vatu),Cigarettes and Tobacco,INDONESIA,270
-2021,Value (in million vatu),Cigarettes and Tobacco,FIJI,2
-2021,Value (in million vatu),Cigarettes and Tobacco,"CHINA, PEOPLES REPUBLIC OF",1
-2021,Value (in million vatu),Cigarettes and Tobacco,COSTA RICA,0
-2021,Value (in million vatu),Medicaments,NEW ZEALAND,170
-2021,Value (in million vatu),Medicaments,AUSTRALIA,152
-2021,Value (in million vatu),Medicaments,INDIA,116
-2021,Value (in million vatu),Medicaments,NETHERLANDS,40
-2021,Value (in million vatu),Medicaments,UNITED STATES OF AMERICA,37
-2021,Value (in million vatu),Petroleum Oils and Gasesous,SINGAPORE,5996
-2021,Value (in million vatu),Petroleum Oils and Gasesous,AUSTRALIA,186
-2021,Value (in million vatu),Petroleum Oils and Gasesous,NEW ZEALAND,96
-2021,Value (in million vatu),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,87
-2021,Value (in million vatu),Petroleum Oils and Gasesous,MALAYSIA,44
-2021,Value (in million vatu),Rice,"CHINA, PEOPLES REPUBLIC OF",406
-2021,Value (in million vatu),Rice,"TAIWAN, PROVINCE OF CHINA",288
-2021,Value (in million vatu),Rice,VIET NAM,142
-2021,Value (in million vatu),Rice,FIJI,28
-2021,Value (in million vatu),Rice,AUSTRALIA,25
-2021,Value (in million vatu),Fish,FIJI,159
-2021,Value (in million vatu),Fish,PAPUA NEW GUINEA,143
-2021,Value (in million vatu),Fish,SOLOMON ISLANDS,138
-2021,Value (in million vatu),Fish,THAILAND,91
-2021,Value (in million vatu),Fish,"CHINA, PEOPLES REPUBLIC OF",49
-2017,Quantity (in tonnes kilogram),,,129329
-2017,Quantity (in tonnes kilogram),Alcoholic Drinks,,2692
-2017,Quantity (in tonnes kilogram),Cigarettes and Tobacco,,156
-2017,Quantity (in tonnes kilogram),Medicaments,,139
-2017,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,,102296
-2017,Quantity (in tonnes kilogram),Fish,,2723
-2017,Quantity (in tonnes kilogram),Rice,,21324
-2017,Quantity (in tonnes kilogram),Alcoholic Drinks,AUSTRALIA,1401
-2017,Quantity (in tonnes kilogram),Alcoholic Drinks,FRANCE,535
-2017,Quantity (in tonnes kilogram),Alcoholic Drinks,NEW ZEALAND,163
-2017,Quantity (in tonnes kilogram),Alcoholic Drinks,NEW CALEDONIA,157
-2017,Quantity (in tonnes kilogram),Alcoholic Drinks,UNITED KINGDOM,37
-2017,Quantity (in tonnes kilogram),Cigarettes and Tobacco,AUSTRALIA,144
-2017,Quantity (in tonnes kilogram),Cigarettes and Tobacco,INDONESIA,5
-2017,Quantity (in tonnes kilogram),Cigarettes and Tobacco,SINGAPORE,1
-2017,Quantity (in tonnes kilogram),Cigarettes and Tobacco,HONG KONG,3
-2017,Quantity (in tonnes kilogram),Cigarettes and Tobacco,FIJI,1
-2017,Quantity (in tonnes kilogram),Medicaments,NEW ZEALAND,15
-2017,Quantity (in tonnes kilogram),Medicaments,AUSTRALIA,55
-2017,Quantity (in tonnes kilogram),Medicaments,INDIA,18
-2017,Quantity (in tonnes kilogram),Medicaments,UNITED STATES OF AMERICA,4
-2017,Quantity (in tonnes kilogram),Medicaments,NETHERLANDS,14
-2017,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,SINGAPORE,97943
-2017,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,AUSTRALIA,2863
-2017,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,NEW ZEALAND,939
-2017,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,324
-2017,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,MALAYSIA,178
-2017,Quantity (in tonnes kilogram),Fish,SOLOMON ISLANDS,503
-2017,Quantity (in tonnes kilogram),Fish,THAILAND,922
-2017,Quantity (in tonnes kilogram),Fish,FIJI,558
-2017,Quantity (in tonnes kilogram),Fish,"CHINA, PEOPLES REPUBLIC OF",522
-2017,Quantity (in tonnes kilogram),Fish,PAPUA NEW GUINEA,132
-2017,Quantity (in tonnes kilogram),Rice,VIET NAM,14174
-2017,Quantity (in tonnes kilogram),Rice,SINGAPORE,4978
-2018,Quantity (in tonnes kilogram),Rice,"CHINA, PEOPLES REPUBLIC OF",1513
-2018,Quantity (in tonnes kilogram),Rice,UNITED STATES OF AMERICA,204
-2018,Quantity (in tonnes kilogram),Rice,AUSTRALIA,113
-2018,Quantity (in tonnes kilogram),,,133719
-2018,Quantity (in tonnes kilogram),Alcholic drinks,,3976
-2018,Quantity (in tonnes kilogram),Cigarettes and Tobacco,,204
-2018,Quantity (in tonnes kilogram),Medicaments,,151
-2018,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,,105497
-2018,Quantity (in tonnes kilogram),Fish,,3076
-2018,Quantity (in tonnes kilogram),Rice,,20815
-2018,Quantity (in tonnes kilogram),Alcoholic drinks,AUSTRALIA,2066
-2018,Quantity (in tonnes kilogram),Alcoholic drinks,FRANCE,1206
-2018,Quantity (in tonnes kilogram),Alcoholic drinks,NEW ZEALAND,198
-2018,Quantity (in tonnes kilogram),Alcoholic drinks,NEW CALEDONIA,108
-2018,Quantity (in tonnes kilogram),Alcoholic drinks,NETHERLANDS,128
-2018,Quantity (in tonnes kilogram),Cigarettes and Tobacco,AUSTRALIA,162
-2018,Quantity (in tonnes kilogram),Cigarettes and Tobacco,"CHINA, PEOPLES REPUBLIC OF",0
-2018,Quantity (in tonnes kilogram),Cigarettes and Tobacco,FIJI,2
-2018,Quantity (in tonnes kilogram),Cigarettes and Tobacco,FINLAND,0
-2018,Quantity (in tonnes kilogram),Cigarettes and Tobacco,HONG KONG,0
-2018,Quantity (in tonnes kilogram),Medicaments,NEW ZEALAND,10
-2018,Quantity (in tonnes kilogram),Medicaments,INDIA,12
-2018,Quantity (in tonnes kilogram),Medicaments,AUSTRALIA,64
-2018,Quantity (in tonnes kilogram),Medicaments,UNITED STATES OF AMERICA,5
-2018,Quantity (in tonnes kilogram),Medicaments,FRENCH POLYNESIA,8
-2018,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,SINGAPORE,102135
-2018,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,AUSTRALIA,2158
-2018,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,315
-2018,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,NEW ZEALAND,655
-2018,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,MALAYSIA,184
-2018,Quantity (in tonnes kilogram),Fish,THAILAND,890
-2018,Quantity (in tonnes kilogram),Fish,SOLOMON ISLANDS,557
-2018,Quantity (in tonnes kilogram),Fish,FIJI,650
-2018,Quantity (in tonnes kilogram),Fish,PAPUA NEW GUINEA,270
-2019,Quantity (in tonnes kilogram),Fish,"CHINA, PEOPLES REPUBLIC OF",535
-2019,Quantity (in tonnes kilogram),Rice,VIET NAM,10927
-2019,Quantity (in tonnes kilogram),Rice,SINGAPORE,6005
-2019,Quantity (in tonnes kilogram),Rice,"CHINA, PEOPLES REPUBLIC OF",2119
-2019,Quantity (in tonnes kilogram),Rice,AUSTRALIA,1193
-2019,Quantity (in tonnes kilogram),Rice,NEW ZEALAND,410
-2019,Quantity (in tonnes kilogram),,,144969
-2019,Quantity (in tonnes kilogram),Alcholic drinks,,3657
-2019,Quantity (in tonnes kilogram),Cigarettes and Tobacco,,169
-2019,Quantity (in tonnes kilogram),Medicaments,,224
-2019,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,,114009
-2019,Quantity (in tonnes kilogram),Fish,,2669
-2019,Quantity (in tonnes kilogram),Rice,,24241
-2019,Quantity (in tonnes kilogram),Alcoholic drinks,AUSTRALIA,20447
-2019,Quantity (in tonnes kilogram),Alcoholic drinks,FRANCE,8102
-2019,Quantity (in tonnes kilogram),Alcoholic drinks,NEW ZEALAND,2328
-2019,Quantity (in tonnes kilogram),Alcoholic drinks,NETHERLANDS,1311
-2019,Quantity (in tonnes kilogram),Alcoholic drinks,NEW CALEDONIA,999
-2019,Quantity (in tonnes kilogram),Cigarettes and Tobacco,AUSTRALIA,142
-2019,Quantity (in tonnes kilogram),Cigarettes and Tobacco,INDONESIA,25
-2019,Quantity (in tonnes kilogram),Cigarettes and Tobacco,FIJI,3
-2019,Quantity (in tonnes kilogram),Cigarettes and Tobacco,SWITZERLAND,0
-2019,Quantity (in tonnes kilogram),Cigarettes and Tobacco,"CHINA, PEOPLES REPUBLIC OF",0
-2019,Quantity (in tonnes kilogram),Medicaments,AUSTRALIA,84
-2019,Quantity (in tonnes kilogram),Medicaments,NEW ZEALAND,12
-2019,Quantity (in tonnes kilogram),Medicaments,INDIA,16
-2019,Quantity (in tonnes kilogram),Medicaments,UNITED STATES OF AMERICA,11
-2019,Quantity (in tonnes kilogram),Medicaments,FRENCH POLYNESIA,9
-2019,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,SINGAPORE,110722
-2019,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,AUSTRALIA,2284
-2019,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,288
-2019,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,NEW ZEALAND,580
-2019,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,MALAYSIA,115
-2020,Quantity (in tonnes kilogram),Fish,FIJI,611
-2020,Quantity (in tonnes kilogram),Fish,SOLOMON ISLANDS,377
-2020,Quantity (in tonnes kilogram),Fish,THAILAND,558
-2020,Quantity (in tonnes kilogram),Fish,PAPUA NEW GUINEA,498
-2020,Quantity (in tonnes kilogram),Fish,"CHINA, PEOPLES REPUBLIC OF",498
-2020,Quantity (in tonnes kilogram),Rice,SINGAPORE,10399
-2020,Quantity (in tonnes kilogram),Rice,VIET NAM,7705
-2020,Quantity (in tonnes kilogram),Rice,"CHINA, PEOPLES REPUBLIC OF",4319
-2020,Quantity (in tonnes kilogram),Rice,"TAIWAN, PROVINCE OF CHINA",767
-2020,Quantity (in tonnes kilogram),Rice,HONG KONG,448
-2020,Quantity (in tonnes kilogram),,,113194
-2020,Quantity (in tonnes kilogram),Alcholic drinks,,3035
-2020,Quantity (in tonnes kilogram),Cigarettes and Tobacco,,149
-2020,Quantity (in tonnes kilogram),Medicaments,,257
-2020,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,,83870
-2020,Quantity (in tonnes kilogram),Fish,,3497
-2020,Quantity (in tonnes kilogram),Rice,,22386
-2020,Quantity (in tonnes kilogram),Alcoholic drinks,AUSTRALIA,1616
-2020,Quantity (in tonnes kilogram),Alcoholic drinks,FRANCE,709
-2020,Quantity (in tonnes kilogram),Alcoholic drinks,NEW ZEALAND,207
-2020,Quantity (in tonnes kilogram),Alcoholic drinks,SOLOMON ISLANDS,181
-2020,Quantity (in tonnes kilogram),Alcoholic drinks,NEW CALEDONIA,93
-2020,Quantity (in tonnes kilogram),Cigarettes and Tobacco,AUSTRALIA,126
-2020,Quantity (in tonnes kilogram),Cigarettes and Tobacco,INDONESIA,22
-2020,Quantity (in tonnes kilogram),Cigarettes and Tobacco,FIJI,0
-2020,Quantity (in tonnes kilogram),Cigarettes and Tobacco,HONG KONG,0
-2020,Quantity (in tonnes kilogram),Cigarettes and Tobacco,SWITZERLAND,0
-2020,Quantity (in tonnes kilogram),Medicaments,NEW ZEALAND,11
-2020,Quantity (in tonnes kilogram),Medicaments,AUSTRALIA,166
-2020,Quantity (in tonnes kilogram),Medicaments,INDIA,8
-2020,Quantity (in tonnes kilogram),Medicaments,UNITED STATES OF AMERICA,1
-2020,Quantity (in tonnes kilogram),Medicaments,TURKEY,2
-2021,Quantity (in tonnes kilogram),Rice,"CHINA, PEOPLES REPUBLIC OF",6869
-2021,Quantity (in tonnes kilogram),Rice,SINGAPORE,6845
-2021,Quantity (in tonnes kilogram),Rice,"TAIWAN, PROVINCE OF CHINA",3614
-2021,Quantity (in tonnes kilogram),Rice,VIET NAM,3100
-2021,Quantity (in tonnes kilogram),Rice,HONG KONG,956
-2021,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,SINGAPORE,80556
-2021,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,AUSTRALIA,2193
-2021,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,236
-2021,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,NEW ZEALAND,554
-2021,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,MALAYSIA,205
-2021,Quantity (in tonnes kilogram),Fish,FIJI,880
-2021,Quantity (in tonnes kilogram),Fish,THAILAND,665
-2021,Quantity (in tonnes kilogram),Fish,SOLOMON ISLANDS,417
-2021,Quantity (in tonnes kilogram),Fish,PAPUA NEW GUINEA,609
-2021,Quantity (in tonnes kilogram),Fish,"CHINA, PEOPLES REPUBLIC OF",424
-2021,Quantity (in tonnes kilogram),,,118149
-2021,Quantity (in tonnes kilogram),Alcoholic drinks,,2962
-2021,Quantity (in tonnes kilogram),Cigarettes and Tobacco,,176
-2021,Quantity (in tonnes kilogram),Medicaments,,243
-2021,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,,94806
-2021,Quantity (in tonnes kilogram),Rice,,17448
-2021,Quantity (in tonnes kilogram),Fish,,2514
-2021,Quantity (in tonnes kilogram),Alcoholic drinks,AUSTRALIA,1585
-2021,Quantity (in tonnes kilogram),Alcoholic drinks,FRANCE,663
-2021,Quantity (in tonnes kilogram),Alcoholic drinks,NEW ZEALAND,223
-2021,Quantity (in tonnes kilogram),Alcoholic drinks,SOLOMON ISLANDS,177
-2021,Quantity (in tonnes kilogram),Alcoholic drinks,UNITED KINGDOM,12
-2021,Quantity (in tonnes kilogram),Cigarettes and Tobacco,AUSTRALIA,141
-2021,Quantity (in tonnes kilogram),Cigarettes and Tobacco,INDONESIA,35
-2021,Quantity (in tonnes kilogram),Cigarettes and Tobacco,FIJI,0
-2021,Quantity (in tonnes kilogram),Cigarettes and Tobacco,"CHINA, PEOPLES REPUBLIC OF",0
-2021,Quantity (in tonnes kilogram),Cigarettes and Tobacco,COSTA RICA,0
-2021,Quantity (in tonnes kilogram),Medicaments,NEW ZEALAND,9
-2021,Quantity (in tonnes kilogram),Medicaments,AUSTRALIA,142
-2021,Quantity (in tonnes kilogram),Medicaments,INDIA,17
-2021,Quantity (in tonnes kilogram),Medicaments,NETHERLANDS,41
-2021,Quantity (in tonnes kilogram),Medicaments,UNITED STATES OF AMERICA,7
-2021,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,SINGAPORE,92083
-2021,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,AUSTRALIA,1231
-2021,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,NEW ZEALAND,961
-2021,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,280
-2021,Quantity (in tonnes kilogram),Petroleum Oils and Gasesous,MALAYSIA,169
-2021,Quantity (in tonnes kilogram),Rice,"CHINA, PEOPLES REPUBLIC OF",6227
-2021,Quantity (in tonnes kilogram),Rice,"TAIWAN, PROVINCE OF CHINA",5163
-2021,Quantity (in tonnes kilogram),Rice,VIET NAM,3994
-2021,Quantity (in tonnes kilogram),Rice,FIJI,296
-2021,Quantity (in tonnes kilogram),Rice,AUSTRALIA,351
-2021,Quantity (in tonnes kilogram),Fish,FIJI,501
-2021,Quantity (in tonnes kilogram),Fish,PAPUA NEW GUINEA,503
-2021,Quantity (in tonnes kilogram),Fish,SOLOMON ISLANDS,304
-2021,Quantity (in tonnes kilogram),Fish,THAILAND,393
-2021,Quantity (in tonnes kilogram),Fish,"CHINA, PEOPLES REPUBLIC OF",507
-2017,Price per unit (vatu per kilogram/litre),,,87
-2017,Price per unit (vatu per kilogram/litre),Alcoholic Drinks,,369
-2017,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,,3849
-2017,Price per unit (vatu per kilogram/litre),Medicaments,,5002
-2017,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,,67
-2017,Price per unit (vatu per kilogram/litre),Fish,,225
-2017,Price per unit (vatu per kilogram/litre),Rice,,71
-2017,Price per unit (vatu per kilogram/litre),Alcoholic Drinks,AUSTRALIA,401
-2017,Price per unit (vatu per kilogram/litre),Alcoholic Drinks,FRANCE,407
-2017,Price per unit (vatu per kilogram/litre),Alcoholic Drinks,NEW ZEALAND,319
-2017,Price per unit (vatu per kilogram/litre),Alcoholic Drinks,NEW CALEDONIA,177
-2017,Price per unit (vatu per kilogram/litre),Alcoholic Drinks,UNITED KINGDOM,637
-2017,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,AUSTRALIA,3709
-2017,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,INDONESIA,8181
-2017,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,SINGAPORE,6764
-2017,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,HONG KONG,1589
-2017,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,FIJI,6217
-2017,Price per unit (vatu per kilogram/litre),Medicaments,NEW ZEALAND,13794
-2017,Price per unit (vatu per kilogram/litre),Medicaments,AUSTRALIA,2813
-2017,Price per unit (vatu per kilogram/litre),Medicaments,INDIA,8256
-2017,Price per unit (vatu per kilogram/litre),Medicaments,UNITED STATES OF AMERICA,14057
-2017,Price per unit (vatu per kilogram/litre),Medicaments,NETHERLANDS,2079
-2017,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,SINGAPORE,63
-2017,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,AUSTRALIA,130
-2017,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,NEW ZEALAND,97
-2017,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,278
-2017,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,MALAYSIA,250
-2017,Price per unit (vatu per kilogram/litre),Fish,SOLOMON ISLANDS,369
-2017,Price per unit (vatu per kilogram/litre),Fish,THAILAND,191
-2017,Price per unit (vatu per kilogram/litre),Fish,FIJI,297
-2017,Price per unit (vatu per kilogram/litre),Fish,"CHINA, PEOPLES REPUBLIC OF",73
-2017,Price per unit (vatu per kilogram/litre),Fish,PAPUA NEW GUINEA,278
-2017,Price per unit (vatu per kilogram/litre),Rice,VIET NAM,69
-2017,Price per unit (vatu per kilogram/litre),Rice,SINGAPORE,83
-2017,Price per unit (vatu per kilogram/litre),Rice,"CHINA, PEOPLES REPUBLIC OF",45
-2017,Price per unit (vatu per kilogram/litre),Rice,UNITED STATES OF AMERICA,56
-2017,Price per unit (vatu per kilogram/litre),Rice,AUSTRALIA,98
-2018,Price per unit (vatu per kilogram/litre),,,94
-2018,Price per unit (vatu per kilogram/litre),Alcholic drinks,,232
-2018,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,,3238
-2018,Price per unit (vatu per kilogram/litre),Medicaments,,4066
-2018,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,,80
-2018,Price per unit (vatu per kilogram/litre),Fish,,232
-2018,Price per unit (vatu per kilogram/litre),Rice,,63
-2018,Price per unit (vatu per kilogram/litre),Alcoholic drinks,AUSTRALIA,249
-2018,Price per unit (vatu per kilogram/litre),Alcoholic drinks,FRANCE,177
-2018,Price per unit (vatu per kilogram/litre),Alcoholic drinks,NEW ZEALAND,289
-2018,Price per unit (vatu per kilogram/litre),Alcoholic drinks,NEW CALEDONIA,227
-2018,Price per unit (vatu per kilogram/litre),Alcoholic drinks,NETHERLANDS,188
-2018,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,AUSTRALIA,3338
-2018,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,"CHINA, PEOPLES REPUBLIC OF",316
-2018,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,FIJI,8527
-2018,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,FINLAND,1435
-2018,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,HONG KONG,7756
-2018,Price per unit (vatu per kilogram/litre),Medicaments,NEW ZEALAND,18568
-2018,Price per unit (vatu per kilogram/litre),Medicaments,INDIA,9672
-2018,Price per unit (vatu per kilogram/litre),Medicaments,AUSTRALIA,1689
-2018,Price per unit (vatu per kilogram/litre),Medicaments,UNITED STATES OF AMERICA,11037
-2018,Price per unit (vatu per kilogram/litre),Medicaments,FRENCH POLYNESIA,3759
-2018,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,SINGAPORE,77
-2018,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,AUSTRALIA,144
-2018,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,310
-2018,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,NEW ZEALAND,106
-2018,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,MALAYSIA,243
-2018,Price per unit (vatu per kilogram/litre),Fish,THAILAND,239
-2018,Price per unit (vatu per kilogram/litre),Fish,SOLOMON ISLANDS,364
-2018,Price per unit (vatu per kilogram/litre),Fish,FIJI,262
-2018,Price per unit (vatu per kilogram/litre),Fish,PAPUA NEW GUINEA,247
-2018,Price per unit (vatu per kilogram/litre),Fish,"CHINA, PEOPLES REPUBLIC OF",71
-2018,Price per unit (vatu per kilogram/litre),Rice,VIET NAM,55
-2018,Price per unit (vatu per kilogram/litre),Rice,SINGAPORE,77
-2018,Price per unit (vatu per kilogram/litre),Rice,"CHINA, PEOPLES REPUBLIC OF",53
-2018,Price per unit (vatu per kilogram/litre),Rice,AUSTRALIA,72
-2018,Price per unit (vatu per kilogram/litre),Rice,NEW ZEALAND,71
-2019,Price per unit (vatu per kilogram/litre),,,91
-2019,Price per unit (vatu per kilogram/litre),Alcholic drinks,,257
-2019,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,,4326
-2019,Price per unit (vatu per kilogram/litre),Medicaments,,2416
-2019,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,,79
-2019,Price per unit (vatu per kilogram/litre),Fish,,252
-2019,Price per unit (vatu per kilogram/litre),Rice,,51
-2019,Price per unit (vatu per kilogram/litre),Alcoholic drinks,AUSTRALIA,25
-2019,Price per unit (vatu per kilogram/litre),Alcoholic drinks,FRANCE,30
-2019,Price per unit (vatu per kilogram/litre),Alcoholic drinks,NEW ZEALAND,29
-2019,Price per unit (vatu per kilogram/litre),Alcoholic drinks,NETHERLANDS,17
-2019,Price per unit (vatu per kilogram/litre),Alcoholic drinks,NEW CALEDONIA,19
-2019,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,AUSTRALIA,3686
-2019,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,INDONESIA,7581
-2019,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,FIJI,8318
-2019,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,SWITZERLAND,57385
-2019,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,"CHINA, PEOPLES REPUBLIC OF",3316
-2019,Price per unit (vatu per kilogram/litre),Medicaments,AUSTRALIA,1902
-2019,Price per unit (vatu per kilogram/litre),Medicaments,NEW ZEALAND,12068
-2019,Price per unit (vatu per kilogram/litre),Medicaments,INDIA,8105
-2019,Price per unit (vatu per kilogram/litre),Medicaments,UNITED STATES OF AMERICA,6153
-2019,Price per unit (vatu per kilogram/litre),Medicaments,FRENCH POLYNESIA,4338
-2019,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,SINGAPORE,77
-2019,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,AUSTRALIA,135
-2019,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,320
-2019,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,NEW ZEALAND,117
-2019,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,MALAYSIA,270
-2019,Price per unit (vatu per kilogram/litre),Fish,FIJI,268
-2019,Price per unit (vatu per kilogram/litre),Fish,SOLOMON ISLANDS,416
-2019,Price per unit (vatu per kilogram/litre),Fish,THAILAND,273
-2019,Price per unit (vatu per kilogram/litre),Fish,PAPUA NEW GUINEA,289
-2019,Price per unit (vatu per kilogram/litre),Fish,"CHINA, PEOPLES REPUBLIC OF",78
-2019,Price per unit (vatu per kilogram/litre),Rice,SINGAPORE,45
-2019,Price per unit (vatu per kilogram/litre),Rice,VIET NAM,51
-2019,Price per unit (vatu per kilogram/litre),Rice,"CHINA, PEOPLES REPUBLIC OF",61
-2019,Price per unit (vatu per kilogram/litre),Rice,"TAIWAN, PROVINCE OF CHINA",45
-2019,Price per unit (vatu per kilogram/litre),Rice,HONG KONG,54
-2020,Price per unit (vatu per kilogram/litre),,,85
-2020,Price per unit (vatu per kilogram/litre),Alcholic drinks,,225
-2020,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,,4212
-2020,Price per unit (vatu per kilogram/litre),Medicaments,,2651
-2020,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,,68
-2020,Price per unit (vatu per kilogram/litre),Fish,,236
-2020,Price per unit (vatu per kilogram/litre),Rice,,52
-2020,Price per unit (vatu per kilogram/litre),Alcoholic drinks,AUSTRALIA,209
-2020,Price per unit (vatu per kilogram/litre),Alcoholic drinks,FRANCE,264
-2020,Price per unit (vatu per kilogram/litre),Alcoholic drinks,NEW ZEALAND,295
-2020,Price per unit (vatu per kilogram/litre),Alcoholic drinks,SOLOMON ISLANDS,163
-2020,Price per unit (vatu per kilogram/litre),Alcoholic drinks,NEW CALEDONIA,156
-2020,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,AUSTRALIA,3622
-2020,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,INDONESIA,7522
-2020,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,FIJI,13542
-2020,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,HONG KONG,169251
-2020,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,SWITZERLAND,29789
-2020,Price per unit (vatu per kilogram/litre),Medicaments,NEW ZEALAND,15828
-2020,Price per unit (vatu per kilogram/litre),Medicaments,AUSTRALIA,991
-2020,Price per unit (vatu per kilogram/litre),Medicaments,INDIA,17169
-2020,Price per unit (vatu per kilogram/litre),Medicaments,UNITED STATES OF AMERICA,31435
-2020,Price per unit (vatu per kilogram/litre),Medicaments,TURKEY,12465
-2020,Price per unit (vatu per kilogram/litre),Rice,"CHINA, PEOPLES REPUBLIC OF",66
-2020,Price per unit (vatu per kilogram/litre),Rice,SINGAPORE,32
-2020,Price per unit (vatu per kilogram/litre),Rice,"TAIWAN, PROVINCE OF CHINA",54
-2020,Price per unit (vatu per kilogram/litre),Rice,VIET NAM,52
-2020,Price per unit (vatu per kilogram/litre),Rice,HONG KONG,51
-2020,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,SINGAPORE,64
-2020,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,AUSTRALIA,132
-2020,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,321
-2020,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,NEW ZEALAND,103
-2020,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,MALAYSIA,251
-2020,Price per unit (vatu per kilogram/litre),Fish,FIJI,286
-2020,Price per unit (vatu per kilogram/litre),Fish,THAILAND,274
-2020,Price per unit (vatu per kilogram/litre),Fish,SOLOMON ISLANDS,429
-2020,Price per unit (vatu per kilogram/litre),Fish,PAPUA NEW GUINEA,234
-2020,Price per unit (vatu per kilogram/litre),Fish,"CHINA, PEOPLES REPUBLIC OF",92
-2021,Price per unit (vatu per kilogram/litre),,,85
-2021,Price per unit (vatu per kilogram/litre),Alcoholic drinks,,207
-2021,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,,4382
-2021,Price per unit (vatu per kilogram/litre),Medicaments,,2587
-2021,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,,68
-2021,Price per unit (vatu per kilogram/litre),Rice,,54
-2021,Price per unit (vatu per kilogram/litre),Fish,,241
-2021,Price per unit (vatu per kilogram/litre),Alcoholic drinks,AUSTRALIA,179
-2021,Price per unit (vatu per kilogram/litre),Alcoholic drinks,FRANCE,260
-2021,Price per unit (vatu per kilogram/litre),Alcoholic drinks,NEW ZEALAND,247
-2021,Price per unit (vatu per kilogram/litre),Alcoholic drinks,SOLOMON ISLANDS,235
-2021,Price per unit (vatu per kilogram/litre),Alcoholic drinks,UNITED KINGDOM,875
-2021,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,AUSTRALIA,3543
-2021,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,INDONESIA,7718
-2021,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,FIJI,9015
-2021,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,"CHINA, PEOPLES REPUBLIC OF",4288
-2021,Price per unit (vatu per kilogram/litre),Cigarettes and Tobacco,COSTA RICA,11171
-2021,Price per unit (vatu per kilogram/litre),Medicaments,NEW ZEALAND,19206
-2021,Price per unit (vatu per kilogram/litre),Medicaments,AUSTRALIA,1072
-2021,Price per unit (vatu per kilogram/litre),Medicaments,INDIA,6811
-2021,Price per unit (vatu per kilogram/litre),Medicaments,NETHERLANDS,996
-2021,Price per unit (vatu per kilogram/litre),Medicaments,UNITED STATES OF AMERICA,5365
-2021,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,SINGAPORE,65
-2021,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,AUSTRALIA,151
-2021,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,NEW ZEALAND,100
-2021,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,UNITED ARAB EMIRATES,309
-2021,Price per unit (vatu per kilogram/litre),Petroleum Oils and Gasesous,MALAYSIA,258
-2021,Price per unit (vatu per kilogram/litre),Rice,"CHINA, PEOPLES REPUBLIC OF",65
-2021,Price per unit (vatu per kilogram/litre),Rice,"TAIWAN, PROVINCE OF CHINA",56
-2021,Price per unit (vatu per kilogram/litre),Rice,VIET NAM,36
-2021,Price per unit (vatu per kilogram/litre),Rice,FIJI,95
-2021,Price per unit (vatu per kilogram/litre),Rice,AUSTRALIA,71
-2021,Price per unit (vatu per kilogram/litre),Fish,FIJI,317
-2021,Price per unit (vatu per kilogram/litre),Fish,PAPUA NEW GUINEA,284
-2021,Price per unit (vatu per kilogram/litre),Fish,SOLOMON ISLANDS,453
-2021,Price per unit (vatu per kilogram/litre),Fish,THAILAND,231
-2021,Price per unit (vatu per kilogram/litre),Fish,"CHINA, PEOPLES REPUBLIC OF",96
+﻿Year,Series,Principal Import,Main Country of Origin,Unit,Value
+2017,Total Value,,,Millions of Vatu (VUV),11234
+2017,Total Value,Alcoholic Drinks,,Millions of Vatu (VUV),994
+2017,Total Value,Cigarettes and Tobacco,,Millions of Vatu (VUV),599
+2017,Total Value,Medicaments,,Millions of Vatu (VUV),694
+2017,Total Value,Petroleum Oils and Gasesous,,Millions of Vatu (VUV),6822
+2017,Total Value,Fish,,Millions of Vatu (VUV),613
+2017,Total Value,Rice,,Millions of Vatu (VUV),1512
+2017,Import by Country,Alcoholic Drinks,Australia,Millions of Vatu (VUV),561
+2017,Import by Country,Alcoholic Drinks,France,Millions of Vatu (VUV),218
+2017,Import by Country,Alcoholic Drinks,New Zealand,Millions of Vatu (VUV),52
+2017,Import by Country,Alcoholic Drinks,New Caledonia,Millions of Vatu (VUV),28
+2017,Import by Country,Alcoholic Drinks,United Kingdom,Millions of Vatu (VUV),23
+2017,Import by Country,Cigarettes and Tobacco,Australia,Millions of Vatu (VUV),534
+2017,Import by Country,Cigarettes and Tobacco,Indonesia,Millions of Vatu (VUV),42
+2017,Import by Country,Cigarettes and Tobacco,Singapore,Millions of Vatu (VUV),9
+2017,Import by Country,Cigarettes and Tobacco,Hong Kong,Millions of Vatu (VUV),6
+2017,Import by Country,Cigarettes and Tobacco,Fiji,Millions of Vatu (VUV),6
+2017,Import by Country,Medicaments,New Zealand,Millions of Vatu (VUV),204
+2017,Import by Country,Medicaments,Australia,Millions of Vatu (VUV),155
+2017,Import by Country,Medicaments,India,Millions of Vatu (VUV),147
+2017,Import by Country,Medicaments,United States of America,Millions of Vatu (VUV),60
+2017,Import by Country,Medicaments,Netherlands,Millions of Vatu (VUV),29
+2017,Import by Country,Petroleum Oils and Gasesous,Singapore,Millions of Vatu (VUV),6214
+2017,Import by Country,Petroleum Oils and Gasesous,Australia,Millions of Vatu (VUV),371
+2017,Import by Country,Petroleum Oils and Gasesous,New Zealand,Millions of Vatu (VUV),91
+2017,Import by Country,Petroleum Oils and Gasesous,United Arab Emirates,Millions of Vatu (VUV),90
+2017,Import by Country,Petroleum Oils and Gasesous,Malaysia,Millions of Vatu (VUV),44
+2017,Import by Country,Fish,Solomon Islands,Millions of Vatu (VUV),186
+2017,Import by Country,Fish,Thailand,Millions of Vatu (VUV),176
+2017,Import by Country,Fish,Fiji,Millions of Vatu (VUV),166
+2017,Import by Country,Fish,China,Millions of Vatu (VUV),38
+2017,Import by Country,Fish,Papua New Guinea,Millions of Vatu (VUV),37
+2017,Import by Country,Rice,Viet nam,Millions of Vatu (VUV),981
+2017,Import by Country,Rice,Singapore,Millions of Vatu (VUV),414
+2017,Import by Country,Rice,China,Millions of Vatu (VUV),68
+2017,Import by Country,Rice,United States of America,Millions of Vatu (VUV),11
+2017,Import by Country,Rice,Australia,Millions of Vatu (VUV),11
+2018,Total Value,,,Millions of Vatu (VUV),12634
+2018,Total Value,Alcholic drinks,,Millions of Vatu (VUV),921
+2018,Total Value,Cigarettes and Tobacco,,Millions of Vatu (VUV),661
+2018,Total Value,Medicaments,,Millions of Vatu (VUV),613
+2018,Total Value,Petroleum Oils and Gasesous,,Millions of Vatu (VUV),8416
+2018,Total Value,Fish,,Millions of Vatu (VUV),714
+2018,Total Value,Rice,,Millions of Vatu (VUV),1308
+2018,Import by Country,Alcoholic drinks,Australia,Millions of Vatu (VUV),515
+2018,Import by Country,Alcoholic drinks,France,Millions of Vatu (VUV),214
+2018,Import by Country,Alcoholic drinks,New Zealand,Millions of Vatu (VUV),57
+2018,Import by Country,Alcoholic drinks,New Caledonia,Millions of Vatu (VUV),24
+2018,Import by Country,Alcoholic drinks,Netherlands,Millions of Vatu (VUV),24
+2018,Import by Country,Cigarettes and Tobacco,Australia,Millions of Vatu (VUV),542
+2018,Import by Country,Cigarettes and Tobacco,Fiji,Millions of Vatu (VUV),17
+2018,Import by Country,Cigarettes and Tobacco,Hong Kong,Millions of Vatu (VUV),1
+2018,Import by Country,Medicaments,New Zealand,Millions of Vatu (VUV),188
+2018,Import by Country,Medicaments,India,Millions of Vatu (VUV),119
+2018,Import by Country,Medicaments,Australia,Millions of Vatu (VUV),108
+2018,Import by Country,Medicaments,United States of America,Millions of Vatu (VUV),53
+2018,Import by Country,Medicaments,French Polynesia,Millions of Vatu (VUV),32
+2018,Import by Country,Petroleum Oils and Gasesous,Singapore,Millions of Vatu (VUV),7881
+2018,Import by Country,Petroleum Oils and Gasesous,Australia,Millions of Vatu (VUV),311
+2018,Import by Country,Petroleum Oils and Gasesous,United Arab Emirates,Millions of Vatu (VUV),98
+2018,Import by Country,Petroleum Oils and Gasesous,New Zealand,Millions of Vatu (VUV),69
+2018,Import by Country,Petroleum Oils and Gasesous,Malaysia,Millions of Vatu (VUV),45
+2018,Import by Country,Fish,Thailand,Millions of Vatu (VUV),212
+2018,Import by Country,Fish,Solomon Islands,Millions of Vatu (VUV),203
+2018,Import by Country,Fish,Fiji,Millions of Vatu (VUV),171
+2018,Import by Country,Fish,Papua New Guinea,Millions of Vatu (VUV),67
+2018,Import by Country,Fish,China,Millions of Vatu (VUV),38
+2018,Import by Country,Rice,Viet nam,Millions of Vatu (VUV),602
+2018,Import by Country,Rice,Singapore,Millions of Vatu (VUV),462
+2018,Import by Country,Rice,China,Millions of Vatu (VUV),112
+2018,Import by Country,Rice,Australia,Millions of Vatu (VUV),85
+2018,Import by Country,Rice,New Zealand,Millions of Vatu (VUV),29
+2019,Total Value,,,Millions of Vatu (VUV),13173
+2019,Total Value,Alcholic drinks,,Millions of Vatu (VUV),941
+2019,Total Value,Cigarettes and Tobacco,,Millions of Vatu (VUV),731
+2019,Total Value,Medicaments,,Millions of Vatu (VUV),542
+2019,Total Value,Petroleum Oils and Gasesous,,Millions of Vatu (VUV),9049
+2019,Total Value,Fish,,Millions of Vatu (VUV),674
+2019,Total Value,Rice,,Millions of Vatu (VUV),1237
+2019,Import by Country,Alcoholic drinks,Australia,Millions of Vatu (VUV),509
+2019,Import by Country,Alcoholic drinks,France,Millions of Vatu (VUV),244
+2019,Import by Country,Alcoholic drinks,New Zealand,Millions of Vatu (VUV),67
+2019,Import by Country,Alcoholic drinks,Netherlands,Millions of Vatu (VUV),22
+2019,Import by Country,Alcoholic drinks,New Caledonia,Millions of Vatu (VUV),19
+2019,Import by Country,Cigarettes and Tobacco,Australia,Millions of Vatu (VUV),522
+2019,Import by Country,Cigarettes and Tobacco,Indonesia,Millions of Vatu (VUV),187
+2019,Import by Country,Cigarettes and Tobacco,Fiji,Millions of Vatu (VUV),21
+2019,Import by Country,Cigarettes and Tobacco,Switzerland,Millions of Vatu (VUV),1
+2019,Import by Country,Medicaments,Australia,Millions of Vatu (VUV),159
+2019,Import by Country,Medicaments,New Zealand,Millions of Vatu (VUV),146
+2019,Import by Country,Medicaments,India,Millions of Vatu (VUV),131
+2019,Import by Country,Medicaments,United States of America,Millions of Vatu (VUV),68
+2019,Import by Country,Medicaments,French Polynesia,Millions of Vatu (VUV),38
+2019,Import by Country,Petroleum Oils and Gasesous,Singapore,Millions of Vatu (VUV),8542
+2019,Import by Country,Petroleum Oils and Gasesous,Australia,Millions of Vatu (VUV),309
+2019,Import by Country,Petroleum Oils and Gasesous,United Arab Emirates,Millions of Vatu (VUV),92
+2019,Import by Country,Petroleum Oils and Gasesous,New Zealand,Millions of Vatu (VUV),68
+2019,Import by Country,Petroleum Oils and Gasesous,Malaysia,Millions of Vatu (VUV),31
+2019,Import by Country,Fish,Fiji,Millions of Vatu (VUV),164
+2019,Import by Country,Fish,Solomon Islands,Millions of Vatu (VUV),157
+2019,Import by Country,Fish,Thailand,Millions of Vatu (VUV),152
+2019,Import by Country,Fish,Papua New Guinea,Millions of Vatu (VUV),144
+2019,Import by Country,Fish,China,Millions of Vatu (VUV),39
+2019,Import by Country,Rice,Singapore,Millions of Vatu (VUV),463
+2019,Import by Country,Rice,Viet nam,Millions of Vatu (VUV),395
+2019,Import by Country,Rice,China,Millions of Vatu (VUV),264
+2019,Import by Country,Rice,Taiwan,Millions of Vatu (VUV),35
+2019,Import by Country,Rice,Hong Kong,Millions of Vatu (VUV),24
+2020,Total Value,,,Millions of Vatu (VUV),9666
+2020,Total Value,Alcholic drinks,,Millions of Vatu (VUV),682
+2020,Total Value,Cigarettes and Tobacco,,Millions of Vatu (VUV),626
+2020,Total Value,Medicaments,,Millions of Vatu (VUV),682
+2020,Total Value,Petroleum Oils and Gasesous,,Millions of Vatu (VUV),5688
+2020,Total Value,Fish,,Millions of Vatu (VUV),825
+2020,Total Value,Rice,,Millions of Vatu (VUV),1163
+2020,Import by Country,Alcoholic drinks,Australia,Millions of Vatu (VUV),338
+2020,Import by Country,Alcoholic drinks,France,Millions of Vatu (VUV),187
+2020,Import by Country,Alcoholic drinks,New Zealand,Millions of Vatu (VUV),61
+2020,Import by Country,Alcoholic drinks,Solomon Islands,Millions of Vatu (VUV),29
+2020,Import by Country,Alcoholic drinks,New Caledonia,Millions of Vatu (VUV),15
+2020,Import by Country,Cigarettes and Tobacco,Australia,Millions of Vatu (VUV),458
+2020,Import by Country,Cigarettes and Tobacco,Indonesia,Millions of Vatu (VUV),162
+2020,Import by Country,Cigarettes and Tobacco,Fiji,Millions of Vatu (VUV),3
+2020,Import by Country,Cigarettes and Tobacco,Hong Kong,Millions of Vatu (VUV),1
+2020,Import by Country,Medicaments,New Zealand,Millions of Vatu (VUV),180
+2020,Import by Country,Medicaments,Australia,Millions of Vatu (VUV),164
+2020,Import by Country,Medicaments,India,Millions of Vatu (VUV),129
+2020,Import by Country,Medicaments,United States of America,Millions of Vatu (VUV),37
+2020,Import by Country,Medicaments,Turkey,Millions of Vatu (VUV),31
+2020,Import by Country,Rice,China,Millions of Vatu (VUV),452
+2020,Import by Country,Rice,Singapore,Millions of Vatu (VUV),221
+2020,Import by Country,Rice,Taiwan,Millions of Vatu (VUV),195
+2020,Import by Country,Rice,Viet nam,Millions of Vatu (VUV),162
+2020,Import by Country,Rice,Hong Kong,Millions of Vatu (VUV),49
+2020,Import by Country,Petroleum Oils and Gasesous,Singapore,Millions of Vatu (VUV),5187
+2020,Import by Country,Petroleum Oils and Gasesous,Australia,Millions of Vatu (VUV),290
+2020,Import by Country,Petroleum Oils and Gasesous,United Arab Emirates,Millions of Vatu (VUV),76
+2020,Import by Country,Petroleum Oils and Gasesous,New Zealand,Millions of Vatu (VUV),57
+2020,Import by Country,Petroleum Oils and Gasesous,Malaysia,Millions of Vatu (VUV),51
+2020,Import by Country,Fish,Fiji,Millions of Vatu (VUV),252
+2020,Import by Country,Fish,Thailand,Millions of Vatu (VUV),183
+2020,Import by Country,Fish,Solomon Islands,Millions of Vatu (VUV),179
+2020,Import by Country,Fish,Papua New Guinea,Millions of Vatu (VUV),142
+2020,Import by Country,Fish,China,Millions of Vatu (VUV),39
+2021,Total Value,,,Millions of Vatu (VUV),10003
+2021,Total Value,Alcoholic drinks,,Millions of Vatu (VUV),612
+2021,Total Value,Cigarettes and Tobacco,,Millions of Vatu (VUV),772
+2021,Total Value,Medicaments,,Millions of Vatu (VUV),628
+2021,Total Value,Petroleum Oils and Gasesous,,Millions of Vatu (VUV),6434
+2021,Total Value,Rice,,Millions of Vatu (VUV),950
+2021,Total Value,Fish,,Millions of Vatu (VUV),606
+2021,Import by Country,Alcoholic drinks,Australia,Millions of Vatu (VUV),283
+2021,Import by Country,Alcoholic drinks,France,Millions of Vatu (VUV),172
+2021,Import by Country,Alcoholic drinks,New Zealand,Millions of Vatu (VUV),55
+2021,Import by Country,Alcoholic drinks,Solomon Islands,Millions of Vatu (VUV),42
+2021,Import by Country,Alcoholic drinks,United Kingdom,Millions of Vatu (VUV),10
+2021,Import by Country,Cigarettes and Tobacco,Australia,Millions of Vatu (VUV),499
+2021,Import by Country,Cigarettes and Tobacco,Indonesia,Millions of Vatu (VUV),270
+2021,Import by Country,Cigarettes and Tobacco,Fiji,Millions of Vatu (VUV),2
+2021,Import by Country,Cigarettes and Tobacco,China,Millions of Vatu (VUV),1
+2021,Import by Country,Medicaments,New Zealand,Millions of Vatu (VUV),170
+2021,Import by Country,Medicaments,Australia,Millions of Vatu (VUV),152
+2021,Import by Country,Medicaments,India,Millions of Vatu (VUV),116
+2021,Import by Country,Medicaments,Netherlands,Millions of Vatu (VUV),40
+2021,Import by Country,Medicaments,United States of America,Millions of Vatu (VUV),37
+2021,Import by Country,Petroleum Oils and Gasesous,Singapore,Millions of Vatu (VUV),5996
+2021,Import by Country,Petroleum Oils and Gasesous,Australia,Millions of Vatu (VUV),186
+2021,Import by Country,Petroleum Oils and Gasesous,New Zealand,Millions of Vatu (VUV),96
+2021,Import by Country,Petroleum Oils and Gasesous,United Arab Emirates,Millions of Vatu (VUV),87
+2021,Import by Country,Petroleum Oils and Gasesous,Malaysia,Millions of Vatu (VUV),44
+2021,Import by Country,Rice,China,Millions of Vatu (VUV),406
+2021,Import by Country,Rice,Taiwan,Millions of Vatu (VUV),288
+2021,Import by Country,Rice,Viet nam,Millions of Vatu (VUV),142
+2021,Import by Country,Rice,Fiji,Millions of Vatu (VUV),28
+2021,Import by Country,Rice,Australia,Millions of Vatu (VUV),25
+2021,Import by Country,Fish,Fiji,Millions of Vatu (VUV),159
+2021,Import by Country,Fish,Papua New Guinea,Millions of Vatu (VUV),143
+2021,Import by Country,Fish,Solomon Islands,Millions of Vatu (VUV),138
+2021,Import by Country,Fish,Thailand,Millions of Vatu (VUV),91
+2021,Import by Country,Fish,China,Millions of Vatu (VUV),49
