@@ -240,7 +240,7 @@ menu:
         translation_key: LABOR
       - path: /agriculture/
         translation_key: AGRICULTURE
-      - path: /infrastructure/
+      - path: /map-points/infrastructure
         translation_key: INFRASTRUCTURE
       - path: /shelter/
         translation_key: SHELTER
