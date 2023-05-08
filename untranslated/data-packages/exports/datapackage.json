@@ -19,63 +19,60 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Value(inmillionvatu)",
-                "Quantity(intonneskilogram)",
-                "Priceperunit(vatuperkilogram/litre)",
+                "Total Value",
+                "Export by Country",
                 ""
               ]
             }
           },
           {
-            "name": "PrincipalExport",
+            "name": "Principal Export",
             "type": "string",
             "constraints": {
               "enum": [
                 "Beef",
                 "Cocoa",
-                "Coconutoil",
+                "Coconut oil",
                 "Copra",
                 "Kava",
                 "Wood",
-                "Ccoconutoil",
-                "CoconutOil",
                 ""
               ]
             }
           },
           {
-            "name": "MainCountryofDestination",
+            "name": "Main Country of Destination",
             "type": "string",
             "constraints": {
               "enum": [
-                "JAPAN",
-                "PAPUANEWGUINEA",
-                "SOLOMONISLANDS",
-                "MALAYSIA",
-                "AUSTRALIA",
-                "BELGIUM",
-                "UNITEDKINGDOM",
-                "NEWZEALAND",
-                "TAIWAN,PROVINCEOFCHINA",
-                "NEWCALEDONIA",
-                "PHILIPPINES",
-                "BANGLADESH",
-                "KIRIBATI",
-                "FIJI",
-                "UNITEDSTATESOFAMERICA",
-                "CHINA,PEOPLESREPUBLICOF",
-                "HONGKONG",
-                "INDONESIA",
-                "ITALY",
-                "FRENCHPOLYNESIA",
-                "VIETNAM",
-                "INDIA",
-                "SINGAPORE",
-                "FRANCE",
-                "SRILANKA",
-                "NETHERLANDS",
-                "CZECHREPUBLIC",
-                "UNITEDARABEMIRATES",
+                "Japan",
+                "Papua New Guinea",
+                "Sri Lanka",
+                "Netherlands",
+                "Australia",
+                "Belgium",
+                "United Kingdom",
+                "New Zealand",
+                "Malaysia",
+                "Taiwan",
+                "New Caledonia",
+                "Philippines",
+                "Bangladesh",
+                "Kiribati",
+                "France",
+                "United States of America",
+                "China",
+                "Hong Kong",
+                "Fiji",
+                "Solomon Islands",
+                "Indonesia",
+                "Italy",
+                "French Polynesia",
+                "Vietnam",
+                "India",
+                "Singapore",
+                "Czech Republic",
+                "United Arab Emirates",
                 ""
               ]
             }
@@ -85,9 +82,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "VUV",
-                "kilogram",
-                "vatuperkilogram/litre",
+                "Millions in Vatu (VUV)",
                 ""
               ]
             }
