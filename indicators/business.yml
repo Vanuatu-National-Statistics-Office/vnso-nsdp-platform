@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: total number of businesses
+computation_units: ''
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -20,12 +20,21 @@ graph_limits: []
 graph_series_breaks: []
 graph_stacked_disaggregation: ''
 graph_target_lines: []
-graph_title: ' Businesses by Industry, 2015 - 2021'
-graph_titles: []
+graph_title: ''
+graph_titles:
+  - series: business by major industries
+    unit: total count
+    title: businesses by major industries
+  - series: proportion of businesses by major industries
+    unit: percentages
+    title: proportion of businesses by major industries
+  - series: businesses by minor industries
+    unit: total count
+    title: businesses by minor industries
 graph_type: line
 indicator_available: ''
-indicator_name: Business License Registry
-indicator_number: ''
+indicator_name: business
+indicator_number: business license
 indicator_tabs:
   override: false
   tab_1: ''
