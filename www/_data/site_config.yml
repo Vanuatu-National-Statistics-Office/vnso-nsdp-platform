@@ -209,7 +209,7 @@ menu:
         translation_key: DONOR
       - path: /vat/
         translation_key: VAT
-      - path: /business/
+      - path: /business
         translation_key: BUSINESSES
   - path: /trades/
     translation_key: TRADES
