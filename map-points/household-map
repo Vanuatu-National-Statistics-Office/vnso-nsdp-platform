@@ -1,0 +1,4 @@
+map_points:
+  - input: geojson/points/households-mapped.csv
+    output: private-households-locations.geojson
+    label: Private Household Profiles
