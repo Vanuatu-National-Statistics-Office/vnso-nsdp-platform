@@ -218,17 +218,6 @@ menu:
         translation_key: EXPORTS
       - path: /imports/
         translation_key: IMPORTS
-  - path: /2030-agenda/
-    translation_key: FINANCE
-    dropdown:
-      - path: /government/
-        translation_key: GOVERNMENT
-      - path: /donor/
-        translation_key: DONOR
-      - path: /vat/
-        translation_key: VAT
-      - path: /business/
-        translation_key: BUSINESSES
   - path: /education/
     translation_key: EDUCATION
     dropdown:
