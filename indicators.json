@@ -1946,32 +1946,16 @@
   {
     "goal": {
       "id": "infrastructure",
-      "title": "global_indicators.infrastructure-title",
-      "indicators": [
-        
-        {
-          "id": "infrastructure",
-          "title": "global_indicators.infrastructure-title",
-          "description": "",
-          "keywords": "",
-          "href": "/vnso-nsdp-platform/infrastructure/",
-          "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "infrastrucure",
       "title": "Vanuatu Infrastructure Statistics",
       "indicators": [
         
         {
-          "id": "infrastrucure",
+          "id": "infrastructure",
           "title": "Vanuatu Infrastructure Statistics",
           "description": "",
           "keywords": "",
-          "href": "/vnso-nsdp-platform/infrastrucure/",
-          "status": "notstarted"
+          "href": "/vnso-nsdp-platform/infrastructure/",
+          "status": "complete"
         }]
     }
   },
