@@ -1714,12 +1714,12 @@
   {
     "goal": {
       "id": "business",
-      "title": "business",
+      "title": "Business License Registry",
       "indicators": [
         
         {
           "id": "business",
-          "title": "business",
+          "title": "Business License Registry",
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/business/",
