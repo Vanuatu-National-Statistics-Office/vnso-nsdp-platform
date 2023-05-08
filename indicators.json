@@ -1724,14 +1724,6 @@
           "keywords": "",
           "href": "/vnso-nsdp-platform/business/",
           "status": "complete"
-        },
-        {
-          "id": "business-license",
-          "title": "global_indicators.business-license-title",
-          "description": "",
-          "keywords": "",
-          "href": "/vnso-nsdp-platform/business-license/",
-          "status": "complete"
         }]
     }
   },

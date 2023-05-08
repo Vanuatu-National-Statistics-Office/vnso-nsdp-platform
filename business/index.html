@@ -117,9 +117,10 @@ var translations = {
         ================================================== -->
 
         
-    
-    <title>Goal business - global_goals.business-short - Indicators of The National Sustainable Development Plan</title>
-    
+    <title>
+        
+        business - Indicators of The National Sustainable Development Plan
+    </title>
 
 
 
@@ -145,7 +146,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230508211353">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230508211701">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -167,9 +168,7 @@ var translations = {
 
     </head>
 <body class="language-en
-layout-goal
-
-goal-number-business
+layout-indicator
 ">
 <!-- <div class="container"> -->
 
@@ -299,29 +298,115 @@ data-event-label="high"
 <div id="top" tabindex=-1></div>
 
 
+
+<script type="text/template" id="item_template">
+  <% _.each(fields, function(fieldItem) { %>
+    <div class="variable-selector
+      <% if(allowedFields.indexOf(fieldItem.field) == -1) { %> disallowed <% }%>
+      <% if (typeof childFields !== 'undefined' && childFields.indexOf(fieldItem.field) !== -1) { %> child <% }%>
+      "
+      data-field="<%=fieldItem.field%>"
+    >
+      <button class='accessBtn' tabindex='0' aria-expanded='false'
+        <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
+        aria-describedby='variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>'
+        <% }%>
+      >
+        <% if(allowedFields.indexOf(fieldItem.field) == -1) { %><h6><% } else { %><h5><% } %>
+          <span aria-hidden="true"><%=translations.t(fieldItem.label)%><i class="fa fa-chevron-down"></i></span>
+          <span class="sr-only">Show sub-categories: <%=translations.t(fieldItem.label)%></span>
+        <% if(allowedFields.indexOf(fieldItem.field) == -1) { %></h6><% } else { %></h5><% } %>
+      </button>
+      <div class="variable-options">
+        <fieldset>
+          <legend class="sr-only">Sub-categories - <%=translations.t(fieldItem.field)%></legend>
+          <div>
+            <button data-type="select">Select all</button>
+            <button data-type="clear">Clear all</button>
+          </div>
+          <% _.each(fieldItem.values, function(item) { %>
+            <label>
+              <input type="checkbox" <%=item.checked ? 'checked' : ''%> value="<%=item.value%>" data-field="<%=fieldItem.field%>" /><%=translations.t(item.value)%>
+            </label>
+          <% }); %>
+        </fieldset>
+      </div>
+
+      <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Available when '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' is selected
+        </div>
+        <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
+          No options available because of filters above
+        </div>
+      <% }%>
+
+    </div>
+  <% }); %>
+</script>
+
+<script type="text/template" id="units_template">
+  
+    <h4>Unit of Measurement</h4>
+    <fieldset>
+      <legend class="sr-only">Unit of Measurement</legend>
+      <% _.each(units, function(unitsItem, index) { %>
+        <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
+        <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
+      <% }); %>
+    </fieldset>
+  
+</script>
+
+<script type="text/template" id="series_template">
+  
+    <h4>Series</h4>
+    <fieldset>
+      <legend class="sr-only">Series</legend>
+      <% _.each(serieses, function(seriesItem, index) { %>
+        <% var isProxy = (proxySerieses.includes(seriesItem)) %>
+        <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
+        <label><input type="radio" name="series" value="<%=seriesItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(seriesItem)%> <%=isProxy ? proxyPill : ''%></label>
+      <% }); %>
+    </fieldset>
+  
+</script>
+
+<script>translations['indicator'] = {"annotation_2030_target":"2030 indicator target","annotation_series_break":"Series break","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","apply":"Apply","cancel":"Cancel","change_breakdowns":"Change breakdowns","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download chart data (.csv)","download_chart_image":"Download chart image (.png)","download_chart_image_title":"Download chart image as PNG","download_csv":"Download data (.csv)","download_csv_title":"Download data as CSV","download_geojson":"Download map data (.geojson)","download_geojson_title":"Download map data as GeoJSON","download_headline":"Download headline data (.csv)","download_headline_title":"Download headline data as CSV","download_source":"Download source data (.csv)","download_source_for_disaggregations":"Download source data for disaggregations (.csv)","download_source_sdmx":"Download source SDMX (.xml)","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download table data (.csv)","edit":"Edit Indicator","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","empty_metadata_placeholder":"Not available for this indicator","empty_metadata_placeholder_sources":"Not available for this source","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","headline_data":"Headline data","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_fullscreen":"View map fullscreen","map_fullscreen_exit":"Exit fullscreen map","map_search":"Map search","map_search_cancel":"Clear map search","map_search_hide":"Hide map search","map_search_show":"Show map search","map_slider_back":"View map data for previous time period","map_slider_forward":"View map data for next time period","map_slider_keyboard":"View map data throughout time period by using left and right arrow keys","map_slider_mouse":"Navigate map data by time period","map_year_slider":"Year slider","map_zoom_home":"Reset to default map zoom","map_zoom_in":"Zoom in on map","map_zoom_out":"Zoom out on map","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from Vanuatu statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Vanuatuan statistics, this table should be consulted for information on national methodology and other Vanuatu-specific metadata information.","next":"Next indicator","no_data_hint":"No options available because of filters above","no_headline_data":"No headline data available","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","proxy":"Proxy","proxy_description":"This indicator contains some alternative data to those specified by the United Nations (UN). This indicator is the most suitable match currently available.","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","total":"Total","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+
+<script>translations['data'] = {"Year":"Year"};</script>
+
+
+<div class="heading goal-banner indicator goal-">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-12 indicator-details">
+            
+                <div>
+                    <h1>
+                        
+                        <span class="lead-copy">business</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container">
-  <nav>
-    <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
-        
-        <li class="breadcrumb-item" >
-            <a href="/vnso-nsdp-platform/">Home</a>
-        </li>
-        
-        
-    </ol>
-</nav>
+  
+
   
     
 <div class="previous-next-links d-flex justify-content-between">
     <div class="text-left">
         <a class="btn btn-primary" href="/vnso-nsdp-platform/book3/" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="d-none d-md-inline">Previous goal</span>
+            <span id="previous-link" class="d-none d-md-inline">Previous indicator</span>
         </a>
     </div>
     <div class="text-right">
-        <a class="btn btn-primary" href="/vnso-nsdp-platform/ECO1/" aria-labelledby="next-link">
-            <span id="next-link" class="d-none d-md-inline">Next goal</span>
+        <a class="btn btn-primary" href="/vnso-nsdp-platform/census/" aria-labelledby="next-link">
+            <span id="next-link" class="d-none d-md-inline">Next indicator</span>
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
         </a>
     </div>
@@ -330,151 +415,521 @@ data-event-label="high"
 
   
 </div>
-<div class="heading goal-banner goal-business">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <img src="/vnso-nsdp-platform/assets/img/goals/en/business.jpg" alt="global_goals.business-short - Goal business" id="goal-business" class="goal-icon-image goal-icon-image-jpg" />
-      </div>
-      <div class="col-xs-8 col-md-9 col-lg-10">
-        <h1>
-          
-            global_goals.business-short: global_goals.business-title
-          
-        </h1>
-      </div>
-    </div>
+<div id="main-content" class="container goal-" role="main">
+  
+
+  
+<div class="row metadata-available-indicator">
+  <div class="col-xs-12">
+    <h2></h2>
   </div>
 </div>
-<div id="main-content" class="container" role="main">
+
+
+  
+
+  
+<div class="row indicator-progress">
+    <div class="col-sm-2 progress-status-heading">
+        
+    </div>
+    <div class="col-sm-10">
+        
+    
+    
+
+
+    </div>
+</div>
+
+
   
 
 
-  <div class="container g-0">
-    <div class="row">
-      <div class="col-md-6">
-        <h2>Policy objectives</h2>
-      </div>
-      <div class="col-md-6">
-        <h2>Indicators</h2>
-      </div>
-    </div>
-    
-    
-      
-      <div class="row">
-        <div class="col-md-6">
-            <h3>
-              <span class="visually-hidden">Policy objective</span> business
-            </h3>
-            <div>business</div>
-        </div>
-        <div class="col-md-6">
-          
-            
-            
-            
-            
-            <div class="row">
-              <h4>
-                <span class="visually-hidden">Indicator</span> business
-              </h4>
-              <div class="col">
-                
-                  <a href="/vnso-nsdp-platform/business/">business</a>
-                  
+
+
+  
 
 
 
+<div class="row"
+  id="indicatorData"
+  data-indicatorid='indicator_business'
+  data-id="business"
+  data-country="Vanuatu"
+  data-charttitle=""
+  data-charttitles="[{&quot;series&quot;:&quot;business by major industries&quot;,&quot;unit&quot;:&quot;total count&quot;,&quot;title&quot;:&quot;businesses by major industries&quot;},{&quot;series&quot;:&quot;proportion of businesses by major industries&quot;,&quot;unit&quot;:&quot;percentages&quot;,&quot;title&quot;:&quot;proportion of businesses by major industries&quot;},{&quot;series&quot;:&quot;businesses by minor industries&quot;,&quot;unit&quot;:&quot;total count&quot;,&quot;title&quot;:&quot;businesses by minor industries&quot;}]"
+  data-measurementunit=""
+  data-xaxislabel="Years"
+  data-showdata="true"
+  data-graphtype="line"
+  data-graphtypes="null"
+  data-geocoderegex=""
+  data-showmap="false"
+  data-startvalues="[]"
+  data-graphlimits="[]"
+  data-stackeddisaggregation=""
+  data-graphannotations="[]"
+  data-graphtargetlines="[]"
+  data-graphseriesbreaks="[]"
+  data-indicatordownloads="null"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Totalnumber(majorindustry)&quot;,&quot;Proportion(majorindustry)&quot;,&quot;Totalnumber(minorindustry)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Series&quot;},{&quot;name&quot;:&quot;MajorIndustry&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Accommodationandfoodserviceactivities&quot;,&quot;Administrativeandsupportserviceactivities&quot;,&quot;Agriculture,forestryandfishing&quot;,&quot;Arts,entertainmentandrecreation&quot;,&quot;Construction&quot;,&quot;Education&quot;,&quot;Electricity,gas,steamandairconditioningsupply&quot;,&quot;Financialandinsuranceactivities&quot;,&quot;Humanhealthandsocialworkactivities&quot;,&quot;Informationandcommunication&quot;,&quot;Manufacturing&quot;,&quot;Miningandquarrying&quot;,&quot;Otherserviceactivities&quot;,&quot;Professional,scientificandtechnicalactivities&quot;,&quot;Publicadministrationanddefence;compulsorysocialsecurity&quot;,&quot;Realestateactivities&quot;,&quot;Transportationandstorage&quot;,&quot;Watersupply;sewerage,wastemanagementandremediationactivities&quot;,&quot;Wholesaleandretailtrade;repairofmotorvehiclesandmotorcycles&quot;,&quot;&quot;]},&quot;title&quot;:&quot;MajorIndustry&quot;},{&quot;name&quot;:&quot;MinorIndustry&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Accounting,bookkeepingandauditingactivities;taxconsultancy&quot;,&quot;Activitiesauxiliarytofinancialserviceactivities,exceptinsuranceandpensionfunding&quot;,&quot;Activitiesauxiliarytoinsuranceandpensionfunding&quot;,&quot;Activitiesofbusiness,employersandprofessionalmembershiporganizations&quot;,&quot;Activitiesofcallcentres&quot;,&quot;Activitiesofemploymentplacementagencies&quot;,&quot;Activitiesofheadoffices&quot;,&quot;Advertising&quot;,&quot;Animalproduction&quot;,&quot;Architecturalandengineeringactivitiesandrelatedtechnicalconsultancy&quot;,&quot;Beverageservingactivities&quot;,&quot;Buildingcompletionandfinishing&quot;,&quot;Buildingofshipsandboats&quot;,&quot;Businesssupportserviceactivitiesn.e.c.&quot;,&quot;Castingofmetals&quot;,&quot;Cleaningactivities&quot;,&quot;Computerprogramming,consultancyandrelatedactivities&quot;,&quot;Constructionofbuildings&quot;,&quot;Constructionofothercivilengineeringprojects&quot;,&quot;Constructionofroadsandrailways&quot;,&quot;Constructionofutilityprojects&quot;,&quot;Courieractivities&quot;,&quot;Creative,artsandentertainmentactivities&quot;,&quot;Dataprocessing,hostingandrelatedactivities;webportals&quot;,&quot;Demolitionandsitepreparation&quot;,&quot;Electricpowergeneration,transmissionanddistribution&quot;,&quot;Electrical,plumbingandotherconstructioninstallationactivities&quot;,&quot;Eventcateringandotherfoodserviceactivities&quot;,&quot;Fishing&quot;,&quot;Gamblingandbettingactivities&quot;,&quot;Growingofnon-perennialcrops&quot;,&quot;Growingofperennialcrops&quot;,&quot;Highereducation&quot;,&quot;Hospitalactivities&quot;,&quot;Inlandwatertransport&quot;,&quot;Landscapecareandmaintenanceserviceactivities&quot;,&quot;Legalactivities&quot;,&quot;Libraries,archives,museumsandotherculturalactivities&quot;,&quot;Logging&quot;,&quot;Maintenanceandrepairofmotorvehicles&quot;,&quot;Managementconsultancyactivities&quot;,&quot;Manufactureofbasicchemicals,fertilizersandnitrogencompounds,plasticsandsyntheticrubberinprimaryforms&quot;,&quot;Manufactureofbasicironandsteel&quot;,&quot;Manufactureofbeverages&quot;,&quot;Manufactureofdairyproducts&quot;,&quot;Manufactureoffurniture&quot;,&quot;Manufactureofgeneral-purposemachinery&quot;,&quot;Manufactureofknittedandcrochetedapparel&quot;,&quot;Manufactureofnon-metallicmineralproductsn.e.c.&quot;,&quot;Manufactureofotherchemicalproducts&quot;,&quot;Manufactureofotherfabricatedmetalproducts;metalworkingserviceactivities&quot;,&quot;Manufactureofotherfoodproducts&quot;,&quot;Manufactureofpaperandpaperproducts&quot;,&quot;Manufactureofpharmaceuticals,medicinalchemicalandbotanicalproducts&quot;,&quot;Manufactureofplasticsproducts&quot;,&quot;Manufactureofpreparedanimalfeeds&quot;,&quot;Manufactureofproductsofwood,cork,strawandplaitingmaterials&quot;,&quot;Manufactureofrefinedpetroleumproducts&quot;,&quot;Manufactureofrubberproducts&quot;,&quot;Manufactureofsportsgoods&quot;,&quot;Manufactureofstructuralmetalproducts,tanks,reservoirsandsteamgenerators&quot;,&quot;Manufactureofvegetableandanimaloilsandfats&quot;,&quot;Manufactureofwearingapparel,exceptfurapparel&quot;,&quot;Medicalanddentalpracticeactivities&quot;,&quot;Miningandquarryingn.e.c.&quot;,&quot;Mixedfarming&quot;,&quot;Monetaryintermediation&quot;,&quot;Motionpicture,videoandtelevisionprogrammeactivities&quot;,&quot;Non-specializedwholesaletrade&quot;,&quot;Officeadministrativeandsupportactivities&quot;,&quot;Organizationofconventionsandtradeshows&quot;,&quot;Otheramusementandrecreationactivities&quot;,&quot;Othereducation&quot;,&quot;Otherfinancialserviceactivities,exceptinsuranceandpensionfundingactivities&quot;,&quot;Otherhumanhealthactivities&quot;,&quot;Otherlandtransport&quot;,&quot;Othermanufacturingn.e.c.&quot;,&quot;Otherpersonalserviceactivities&quot;,&quot;Otherprofessional,scientificandtechnicalactivitiesn.e.c.&quot;,&quot;Otherreservationserviceandrelatedactivities&quot;,&quot;Otherspecializedconstructionactivities&quot;,&quot;Otherspecializedwholesale&quot;,&quot;Othertelecommunicationsactivities&quot;,&quot;Passengerairtransport&quot;,&quot;Photographicactivities&quot;,&quot;Plantpropagation&quot;,&quot;Postalactivities&quot;,&quot;Pre-primaryandprimaryeducation&quot;,&quot;Printingandserviceactivitiesrelatedtoprinting&quot;,&quot;Privatesecurityactivities&quot;,&quot;Processingandpreservingoffish,crustaceansandmolluscs&quot;,&quot;Processingandpreservingoffruitandvegetables&quot;,&quot;Processingandpreservingofmeat&quot;,&quot;Provisionofservicestothecommunityasawhole&quot;,&quot;Publishingofbooks,periodicalsandotherpublishingactivities&quot;,&quot;Quarryingofstone,sandandclay&quot;,&quot;Radiobroadcasting&quot;,&quot;Realestateactivitiesonafeeorcontractbasis&quot;,&quot;Realestateactivitieswithownorleasedproperty&quot;,&quot;Remediationactivitiesandotherwastemanagementservices&quot;,&quot;Rentingandleasingofmotorvehicles&quot;,&quot;Rentingandleasingofothermachinery,equipmentandtangiblegoods&quot;,&quot;Rentingandleasingofpersonalandhouseholdgoods&quot;,&quot;Repairofcomputersandcommunicationequipment&quot;,&quot;Repairoffabricatedmetalproducts,machineryandequipment&quot;,&quot;Repairofpersonalandhouseholdgoods&quot;,&quot;Reproductionofrecordedmedia&quot;,&quot;Restaurantsandmobilefoodserviceactivities&quot;,&quot;Retailsaleinnon-specializedstores&quot;,&quot;Retailsaleofautomotivefuelinspecializedstores&quot;,&quot;Retailsaleofculturalandrecreationgoodsinspecializedstores&quot;,&quot;Retailsaleoffood,beveragesandtobaccoinspecializedstores&quot;,&quot;Retailsaleofinformationandcommunicationsequipmentinspecializedstores&quot;,&quot;Retailsaleofothergoodsinspecializedstores&quot;,&quot;Retailsaleofotherhouseholdequipmentinspecializedstores&quot;,&quot;Retailsaleviastallsandmarkets&quot;,&quot;Retailtradenotinstores,stallsormarkets&quot;,&quot;Saleofmotorvehiclepartsandaccessories&quot;,&quot;Saleofmotorvehicles&quot;,&quot;Sale,maintenanceandrepairofmotorcyclesandrelatedpartsandaccessories&quot;,&quot;Satellitetelecommunicationsactivities&quot;,&quot;Sawmillingandplaningofwood&quot;,&quot;Seaandcoastalwatertransport&quot;,&quot;Secondaryeducation&quot;,&quot;Securitysystemsserviceactivities&quot;,&quot;Sewerage&quot;,&quot;Shorttermaccommodationactivities&quot;,&quot;Silvicultureandotherforestryactivities&quot;,&quot;Soundrecordingandmusicpublishingactivities&quot;,&quot;Specializeddesignactivities&quot;,&quot;Spinning,weavingandfinishingoftextiles&quot;,&quot;Sportsactivities&quot;,&quot;Supportactivitiesfortransportation&quot;,&quot;Supportactivitiestoagricultureandpost-harvestcropactivities&quot;,&quot;Tanninganddressingofleather;manufactureofluggage,handbags,saddleryandharness;dressinganddyeingoffur&quot;,&quot;Televisionprogrammingandbroadcastingactivities&quot;,&quot;Travelagencyandtouroperatoractivities&quot;,&quot;Trusts,fundsandsimilarfinancialentities&quot;,&quot;Veterinaryactivities&quot;,&quot;Warehousingandstorage&quot;,&quot;Wastecollection&quot;,&quot;Wastetreatmentanddisposal&quot;,&quot;Watercollection,treatmentandsupply&quot;,&quot;Wholesaleofagriculturalrawmaterialsandliveanimals&quot;,&quot;Wholesaleoffood,beveragesandtobacco&quot;,&quot;Wholesaleofhouseholdgoods&quot;,&quot;Wholesaleofmachinery,equipmentandsupplies&quot;,&quot;Wiredtelecommunicationsactivities&quot;,&quot;Wirelesstelecommunicationsactivities&quot;,&quot;&quot;]},&quot;title&quot;:&quot;MinorIndustry&quot;},{&quot;name&quot;:&quot;Unit&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Totalnumberofbusinesses&quot;,&quot;Percentageofindustry(%)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Unit&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-compositebreakdownlabel=""
+  data-precision="[]"
+  data-proxy=""
+  data-proxyseries="[]"
+  
+  data-mappoints="null"
+  
+>
+  
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Sub-categories</h4>
+    <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/vnso-nsdp-platform/assets/img/loading-small.gif"></p>
+  </div>
+</div>
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
-        
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reported online</span>
-</span>
-
-
-        </li></ul>
-
-
-                
-                
-                  <div class="col-lg-1 goal-page-indicator-progress">
-                    <span class="visually-hidden"></span>
-                    
-    
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
     
 
 
-                  </div>
-                
-              </div>
-            </div>
-          
-        </div>
-      </div>
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
     
-      
-      <div class="row">
-        <div class="col-md-6">
-            <h3>
-              <span class="visually-hidden">Policy objective</span> business.license
-            </h3>
-            <div>global_indicators.business-license-title</div>
-        </div>
-        <div class="col-md-6">
-          
-            
-            
-            
-            
-            <div class="row">
-              <h4>
-                <span class="visually-hidden">Indicator</span> business.license
-              </h4>
-              <div class="col">
-                
-                  <a href="/vnso-nsdp-platform/business-license/">global_indicators.business-license-title</a>
-                  
+    <a href="/vnso-nsdp-platform/en/data/business.csv" class="btn btn-primary btn-download" download='indicator_business.csv' tabindex='0' role='button'>Download source data (.csv)</a>
 
+    <p class="no-js-disaggregation-hint">Download source data for disaggregations (.csv)</p>
 
-
-
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
-        
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reported online</span>
-</span>
-
-
-        </li></ul>
-
-
-                
-                
-                  <div class="col-lg-1 goal-page-indicator-progress">
-                    <span class="visually-hidden"></span>
-                    
-
-                  </div>
-                
-              </div>
-            </div>
-          
-        </div>
-      </div>
+    
+    <h3>No headline data available</h3>
     
   </div>
+
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/vnso-nsdp-platform/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative">For tabular data alternative see Table tab.</span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Chart</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Table</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Warning:</span></i>
+      There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">
+            businesses by major industries
+          </h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+        <dt>Geographical Area:</dt>
+        <dd>Vanuatu</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Footnote:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Data last updated:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Download chart image as PNG"
+          aria-label="Download chart image as PNG"
+          class='btn btn-primary btn-download'>
+          Download chart image (.png)
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info">Click to sort by this column</span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+        <dt>Geographical Area:</dt>
+        <dd>Vanuatu</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Footnote:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Data last updated:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
+  
+  <div class="mt-4">
+<ul class="nav nav-tabs" role="tablist">
+    
+    
+        
+        
+        
+        
+        <li role="presentation" class="nav-item">
+            <button
+                type="button"
+                class="nav-link active"
+                data-bs-toggle="tab"
+                id="tab-national"
+                data-bs-target="#national"
+                aria-controls="national"
+                role="tab"
+                data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to indicator.national_metadata tab"
+
+            >National Metadata</button>
+        </li>
+    
+        
+        
+        
+        
+        <li role="presentation" class="nav-item">
+            <button
+                type="button"
+                class="nav-link "
+                data-bs-toggle="tab"
+                id="tab-sources"
+                data-bs-target="#sources"
+                aria-controls="sources"
+                role="tab"
+                data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to indicator.sources tab"
+
+            >Sources</button>
+        </li>
+    
+    
+    
+        <li role="presentation" class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab">Edit Indicator</a>
+        </li>
+    
+</ul>
+
+<div class="tab-content">
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane active" id="national">
+            <article>
+                <p>This table provides metadata for the actual indicator available from Vanuatu statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Vanuatuan statistics, this table should be consulted for information on national methodology and other Vanuatu-specific metadata information.</p>
+
+                <table class="table metadata-content">
+  <tbody>
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+            </article>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane " id="sources">
+            <article>
+                
+                <!-- Count the non-empty sources (up to 5) -->
+
+
+
+
+
+            </article>
+        </div>
+        
+    
+    
+        <div role="tabpanel" class="tab-pane" id="edit">
+            <div class="edit-container">
+  
+  
+
+  
+  
+
+
+  <a class="btn btn-primary" href="data">Edit Data</a>
+  
+
+  
+  <a class="btn btn-primary" href="metadata">Edit Metadata</a>
+  
+
+  
+  <a class="btn btn-primary" href="config">Edit Configuration</a>
+  
+
+</div>
+
+        </div>
+    
+</div>
+
+</div>
+  </div>
+</div>
+
   <a href="#top">Back to top</a>
 </div>
+
 <footer role="contentinfo">
     <div class="container">
         <div class="row">
@@ -526,6 +981,8 @@ data-event-label="high"
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js" integrity="sha256-Y26AMvaIfrZ1EQU49pf6H4QzVTrOI8m9wQYKkftBt4s=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.2.2/dist/chartjs-plugin-annotation.min.js" integrity="sha256-XuHhf6q+GD7fscc96mTm/228GXf1Nn9wOYOE0EgeFzY=" crossorigin="anonymous"></script>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
@@ -543,12 +1000,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230508211353'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230508211701'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230508211353"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230508211701"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
