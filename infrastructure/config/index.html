@@ -117,7 +117,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Edit Configuration: household.map - Indicators of The National Sustainable Development Plan</title>
+    <title>Edit Configuration: infrastructure - Indicators of The National Sustainable Development Plan</title>
 
 
 
@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230508050309">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230508054824">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -297,7 +297,7 @@ data-event-label="high"
 
 <div id="main-content" class="container" role="main">
   <div class="row">
-    <div class="col-md-12"><h1>Edit Configuration: household.map</h1></div>
+    <div class="col-md-12"><h1>Edit Configuration: infrastructure</h1></div>
   </div>
   <div class="config-widgets row">
     <div class="col-md-6" id="search_holder">
@@ -577,7 +577,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('graph_title', "global_indicators.household-map-title");
+        var currentValue = normalizeCurrentValue('graph_title', "global_indicators.infrastructure-title");
         var propertyEditor = editor.getEditor('root.graph_title');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -609,7 +609,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_name', "global_indicators.household-map-title");
+        var currentValue = normalizeCurrentValue('indicator_name', "global_indicators.infrastructure-title");
         var propertyEditor = editor.getEditor('root.indicator_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -623,7 +623,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_number', "household.map");
+        var currentValue = normalizeCurrentValue('indicator_number', "infrastructure");
         var propertyEditor = editor.getEditor('root.indicator_number');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -712,7 +712,7 @@ data-event-label="high"
     function addTranslationLink(propertyEditor) {
       var parts = propertyEditor.value.split('.');
       var translationLink = '';
-      translationLink = translationLink.replace('[id]', 'household-map');
+      translationLink = translationLink.replace('[id]', 'infrastructure');
       translationLink = translationLink.replace('[group]', parts[0]);
       translationLink = translationLink.replace('[key]', parts[1]);
       translationLink = translationLink.replace('[language]', 'en');
@@ -747,7 +747,7 @@ data-event-label="high"
       else {
         var config = editor.getValue();
         var yaml = jsyaml.safeDump(config);
-        SaveAsFile(yaml, 'household-map.yml', 'text/plain;charset=utf-8');
+        SaveAsFile(yaml, 'infrastructure.yml', 'text/plain;charset=utf-8');
       }
     });
 
@@ -830,12 +830,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230508050309'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230508054824'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230508050309"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230508054824"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

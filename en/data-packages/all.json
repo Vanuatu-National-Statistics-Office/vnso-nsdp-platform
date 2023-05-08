@@ -8681,8 +8681,8 @@
       "title": "Vanuatu Vocational Education"
     },
     {
-      "path": "household-map/data.csv",
-      "name": "household-map",
+      "path": "infrastructure/data.csv",
+      "name": "infrastructure",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -8702,7 +8702,7 @@
           }
         ]
       },
-      "title": "household-map"
+      "title": "infrastructure"
     }
   ]
 }

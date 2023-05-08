@@ -1913,22 +1913,6 @@
   },
   {
     "goal": {
-      "id": "household",
-      "title": "global_goals.household-title",
-      "indicators": [
-        
-        {
-          "id": "household-map",
-          "title": "global_indicators.household-map-title",
-          "description": "",
-          "keywords": "",
-          "href": "/vnso-nsdp-platform/household-map/",
-          "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
       "id": "imports",
       "title": "Imports Trades in Vanuatu",
       "indicators": [
@@ -1955,6 +1939,22 @@
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/income/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "infrastructure",
+      "title": "global_indicators.infrastructure-title",
+      "indicators": [
+        
+        {
+          "id": "infrastructure",
+          "title": "global_indicators.infrastructure-title",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/infrastructure/",
           "status": "notstarted"
         }]
     }
