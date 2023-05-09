@@ -68,7 +68,7 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Vanuatu National Statistics Office
+  - title: Vanuatu Bureau of Statistics
     content: ''
     include: vnso-card.html
     button_label: VNSO Website
