@@ -203,7 +203,7 @@ menu:
   - path: /2030-agenda/
     translation_key: FINANCE
     dropdown:
-      - path: /government/
+      - path: /government-financial-statistics/
         translation_key: GOVERNMENT
       - path: /donor/
         translation_key: DONOR
