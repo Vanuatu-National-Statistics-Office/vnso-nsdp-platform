@@ -6181,7 +6181,7 @@
           }
         ]
       },
-      "title": "ECO1-6-2"
+      "title": "indicators.ECO1-6-2-title"
     },
     {
       "path": "ENV3-1-2/data.csv",
@@ -7163,7 +7163,7 @@
           }
         ]
       },
-      "title": "ECO1-7-1"
+      "title": "indicators.ECO1-7-1-title"
     },
     {
       "path": "ENV2-2-1/data.csv",
