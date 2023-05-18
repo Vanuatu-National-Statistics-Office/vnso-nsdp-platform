@@ -20,8 +20,17 @@ graph_limits: []
 graph_series_breaks: []
 graph_stacked_disaggregation: ''
 graph_target_lines: []
-graph_title: Labour force participation by sector
-graph_titles: []
+graph_title: ''
+graph_titles:
+  - series: 'Agriculture, Forestry and Fishery'
+    unit: Percentage of working age population (15-65)
+    title: 'Working age population (15-65) for Agriculture, Forestry and Fishery'
+  - series: Industry
+    unit: Percentage of working age population (15-65)
+    title: Working age population (15-65) for Industry
+  - series: Service
+    unit: Percentage of working age population (15-65)
+    title: Working age population (15-65) for Service
 graph_type: bar
 indicator_available: ''
 indicator_name: indicators.ECO4-6-1-title
@@ -47,4 +56,4 @@ sort: ''
 sources: []
 standalone: false
 tags: []
-x_axis_label: Year
+x_axis_label: Region
