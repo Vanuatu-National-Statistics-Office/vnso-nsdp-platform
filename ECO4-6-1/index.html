@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230518054439">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230518062109">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -490,10 +490,10 @@ data-event-label="high"
   data-indicatorid='indicator_ECO4-6-1'
   data-id="ECO4-6-1"
   data-country="Vanuatu"
-  data-charttitle="Labour force participation by sector"
-  data-charttitles="[]"
+  data-charttitle=""
+  data-charttitles="[{&quot;series&quot;:&quot;Agriculture, Forestry and Fishery&quot;,&quot;unit&quot;:&quot;Percentage of working age population (15-65)&quot;,&quot;title&quot;:&quot;Working age population (15-65) for Agriculture, Forestry and Fishery&quot;},{&quot;series&quot;:&quot;Industry&quot;,&quot;unit&quot;:&quot;Percentage of working age population (15-65)&quot;,&quot;title&quot;:&quot;Working age population (15-65) for Industry&quot;},{&quot;series&quot;:&quot;Service&quot;,&quot;unit&quot;:&quot;Percentage of working age population (15-65)&quot;,&quot;title&quot;:&quot;Working age population (15-65) for Service&quot;}]"
   data-measurementunit=""
-  data-xaxislabel="Year"
+  data-xaxislabel="Region"
   data-showdata="true"
   data-graphtype="bar"
   data-graphtypes="null"
@@ -506,7 +506,7 @@ data-event-label="high"
   data-graphtargetlines="[]"
   data-graphseriesbreaks="[]"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Region&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Port Vila&quot;,&quot;Luganville&quot;,&quot;Torba&quot;,&quot;Sanma&quot;,&quot;Penama&quot;,&quot;Malampa&quot;,&quot;Shefa&quot;,&quot;Tafea&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Region&quot;},{&quot;name&quot;:&quot;Sectors&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Agriculture, Forestry and Fishery&quot;,&quot;Industry&quot;,&quot;Service&quot;,&quot;Economic Activity not Classified&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Sectors&quot;},{&quot;name&quot;:&quot;Sub-Sectors&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Manufacturing&quot;,&quot;Construction&quot;,&quot;MiningandQuarrying;Electricity,GasandWaterSupply&quot;,&quot;WholesaleandRetailTrade&quot;,&quot;HotelsandAccomodations&quot;,&quot;Restaurants,FoodandBeverageServices&quot;,&quot;AdministrativeandSupportServices&quot;,&quot;Education&quot;,&quot;OtherServices&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Sub-Sectors&quot;},{&quot;name&quot;:&quot;Unit of measurement&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Proportion of working age population (15-65)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Unit of measurement&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Agriculture, Forestry and Fishery&quot;,&quot;Industry&quot;,&quot;Service&quot;,&quot;Economic Activity not Classified&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Series&quot;},{&quot;name&quot;:&quot;Region&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Port Vila&quot;,&quot;Luganville&quot;,&quot;Torba&quot;,&quot;Sanma&quot;,&quot;Penama&quot;,&quot;Malampa&quot;,&quot;Shefa&quot;,&quot;Tafea&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Region&quot;},{&quot;name&quot;:&quot;Sectors&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Agriculture, Forestry and Fishery&quot;,&quot;Industry&quot;,&quot;Service&quot;,&quot;Economic Activity not Classified&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Sectors&quot;},{&quot;name&quot;:&quot;Sub-Sectors&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Manufacturing&quot;,&quot;Construction&quot;,&quot;MiningandQuarrying;Electricity,GasandWaterSupply&quot;,&quot;WholesaleandRetailTrade&quot;,&quot;HotelsandAccomodations&quot;,&quot;Restaurants,FoodandBeverageServices&quot;,&quot;AdministrativeandSupportServices&quot;,&quot;Education&quot;,&quot;OtherServices&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Sub-Sectors&quot;},{&quot;name&quot;:&quot;Unit of measurement&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Percentage of working age population (15-65)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Unit of measurement&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
   data-proxy=""
@@ -634,7 +634,7 @@ data-event-label="Change to Table tab"
       <figure role="group">
         <div id="chart-canvas">
           <h4 id="chart-heading" class="chart-title">
-            Labour force participation by sector
+            Working age population (15-65) for Agriculture, Forestry and Fishery
           </h4>
           <div id="chart" class="plot-container">
             <canvas
@@ -1161,12 +1161,12 @@ It is also defined as the section of working population in the age group of 16-6
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230518054439'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230518062109'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230518054439"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230518062109"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

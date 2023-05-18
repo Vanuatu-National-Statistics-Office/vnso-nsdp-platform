@@ -16,6 +16,20 @@
             "title": "Year"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Agriculture, Forestry and Fishery",
+                "Industry",
+                "Service",
+                "Economic Activity not Classified",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Region",
             "type": "string",
             "constraints": {
@@ -71,7 +85,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of working age population (15-65)",
+                "Percentage of working age population (15-65)",
                 ""
               ]
             },
