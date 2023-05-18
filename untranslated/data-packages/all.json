@@ -6333,15 +6333,46 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Fruit or Vegetable",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Cabbage Lettuce",
+                "Capsicum",
+                "Carrots and Turnips",
+                "Cauliflowers and Broccoli",
+                "Corn",
+                "Cucumber and Gherkins",
+                "Onions and Shallots",
+                "Oranges",
+                "Potatoes",
+                "Pumpkins, Squash, and Gourds",
+                "Tomatoes",
+                "Watermelons",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit of measurement",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total value (millions of vatu)",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "ENV1-3-1"
+      "title": "indicators.ENV1-3-1-title"
     },
     {
       "path": "ECO3-2-3/data.csv",
