@@ -15,21 +15,59 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Region",
             "type": "string",
             "constraints": {
               "enum": [
-                "Percent",
+                "Port Vila",
+                "Luganville",
+                "Torba",
+                "Sanma",
+                "Penama",
+                "Malampa",
+                "Shefa",
+                "Tafea",
                 ""
               ]
             }
           },
           {
-            "name": "Series",
+            "name": "Sectors",
             "type": "string",
             "constraints": {
               "enum": [
-                "34610",
+                "Agriculture, Forestry and Fishery",
+                "Industry",
+                "Service",
+                "Economic Activity not Classified",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sub-Sectors",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Manufacturing",
+                "Construction",
+                "MiningandQuarrying;Electricity,GasandWaterSupply",
+                "WholesaleandRetailTrade",
+                "HotelsandAccomodations",
+                "Restaurants,FoodandBeverageServices",
+                "AdministrativeandSupportServices",
+                "Education",
+                "OtherServices",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit of measurement",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of working age population (15-65)",
                 ""
               ]
             }
@@ -44,5 +82,5 @@
   ],
   "profile": "data-package",
   "name": "ECO4-6-1",
-  "title": "ECO4-6-1"
+  "title": "indicators.ECO4-6-1-title"
 }

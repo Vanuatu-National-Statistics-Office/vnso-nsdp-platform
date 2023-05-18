@@ -1,2 +1,119 @@
-Year,Units,Series,Value
-2009,Percent,Labour Force Participation Rate,70.9
+Year,Region,Sectors,Sub-Sectors,Unit of measurement,Value
+2020,,,,Proportion of working age population (15-65),46.3
+2020,,"Agriculture, Forestry and Fishery",,Proportion of working age population (15-65),37.3
+2020,Port Vila,"Agriculture, Forestry and Fishery",,Proportion of working age population (15-65),3.6
+2020,Luganville,"Agriculture, Forestry and Fishery",,Proportion of working age population (15-65),10.4
+2020,Torba,"Agriculture, Forestry and Fishery",,Proportion of working age population (15-65),61.4
+2020,Sanma,"Agriculture, Forestry and Fishery",,Proportion of working age population (15-65),62.7
+2020,Penama,"Agriculture, Forestry and Fishery",,Proportion of working age population (15-65),69.7
+2020,Malampa,"Agriculture, Forestry and Fishery",,Proportion of working age population (15-65),71.7
+2020,Shefa,"Agriculture, Forestry and Fishery",,Proportion of working age population (15-65),36.4
+2020,Tafea,"Agriculture, Forestry and Fishery",,Proportion of working age population (15-65),52.4
+2020,,Industry,,Proportion of working age population (15-65),8.9
+2020,Port Vila,Industry,,Proportion of working age population (15-65),12.1
+2020,Luganville,Industry,,Proportion of working age population (15-65),14.6
+2020,Torba,Industry,,Proportion of working age population (15-65),8.1
+2020,Sanma,Industry,,Proportion of working age population (15-65),3.0
+2020,Penama,Industry,,Proportion of working age population (15-65),5.8
+2020,Malampa,Industry,,Proportion of working age population (15-65),2.6
+2020,Shefa,Industry,,Proportion of working age population (15-65),10.1
+2020,Tafea,Industry,,Proportion of working age population (15-65),11.1
+2020,,Industry,Manufacturing,Proportion of working age population (15-65),4.5
+2020,Port Vila,Industry,Manufacturing,Proportion of working age population (15-65),6.2
+2020,Luganville,Industry,Manufacturing,Proportion of working age population (15-65),8.6
+2020,Torba,Industry,Manufacturing,Proportion of working age population (15-65),3.9
+2020,Sanma,Industry,Manufacturing,Proportion of working age population (15-65),1.6
+2020,Penama,Industry,Manufacturing,Proportion of working age population (15-65),3.1
+2020,Malampa,Industry,Manufacturing,Proportion of working age population (15-65),1.4
+2020,Shefa,Industry,Manufacturing,Proportion of working age population (15-65),56.5
+2020,Tafea,Industry,Manufacturing,Proportion of working age population (15-65),3.1
+2020,,Industry,Construction,Proportion of working age population (15-65),3.9
+2020,Port Vila,Industry,Construction,Proportion of working age population (15-65),5.2
+2020,Luganville,Industry,Construction,Proportion of working age population (15-65),4.9
+2020,Torba,Industry,Construction,Proportion of working age population (15-65),4.0
+2020,Sanma,Industry,Construction,Proportion of working age population (15-65),1.1
+2020,Penama,Industry,Construction,Proportion of working age population (15-65),2.7
+2020,Malampa,Industry,Construction,Proportion of working age population (15-65),0.9
+2020,Shefa,Industry,Construction,Proportion of working age population (15-65),4.3
+2020,Tafea,Industry,Construction,Proportion of working age population (15-65),7.6
+2020,,Industry,"MiningandQuarrying;Electricity,GasandWaterSupply",Proportion of working age population (15-65),0.5
+2020,Port Vila,Industry,"MiningandQuarrying;Electricity,GasandWaterSupply",Proportion of working age population (15-65),0.7
+2020,Luganville,Industry,"MiningandQuarrying;Electricity,GasandWaterSupply",Proportion of working age population (15-65),1.1
+2020,Torba,Industry,"MiningandQuarrying;Electricity,GasandWaterSupply",Proportion of working age population (15-65),0.2
+2020,Sanma,Industry,"MiningandQuarrying;Electricity,GasandWaterSupply",Proportion of working age population (15-65),0.2
+2020,Penama,Industry,"MiningandQuarrying;Electricity,GasandWaterSupply",Proportion of working age population (15-65),0.0
+2020,Malampa,Industry,"MiningandQuarrying;Electricity,GasandWaterSupply",Proportion of working age population (15-65),0.4
+2020,Shefa,Industry,"MiningandQuarrying;Electricity,GasandWaterSupply",Proportion of working age population (15-65),0.3
+2020,Tafea,Industry,"MiningandQuarrying;Electricity,GasandWaterSupply",Proportion of working age population (15-65),0.4
+2020,,Service,,Proportion of working age population (15-65),49.4
+2020,Port Vila,Service,,Proportion of working age population (15-65),80.8
+2020,Luganville,Service,,Proportion of working age population (15-65),73.6
+2020,Torba,Service,,Proportion of working age population (15-65),27.2
+2020,Sanma,Service,,Proportion of working age population (15-65),29.3
+2020,Penama,Service,,Proportion of working age population (15-65),18.5
+2020,Malampa,Service,,Proportion of working age population (15-65),22.1
+2020,Shefa,Service,,Proportion of working age population (15-65),47.5
+2020,Tafea,Service,,Proportion of working age population (15-65),30.8
+2020,,Service,WholesaleandRetailTrade,Proportion of working age population (15-65),13.2
+2020,Port Vila,Service,WholesaleandRetailTrade,Proportion of working age population (15-65),20.6
+2020,Luganville,Service,WholesaleandRetailTrade,Proportion of working age population (15-65),22.8
+2020,Torba,Service,WholesaleandRetailTrade,Proportion of working age population (15-65),7.1
+2020,Sanma,Service,WholesaleandRetailTrade,Proportion of working age population (15-65),5.0
+2020,Penama,Service,WholesaleandRetailTrade,Proportion of working age population (15-65),6.6
+2020,Malampa,Service,WholesaleandRetailTrade,Proportion of working age population (15-65),6.6
+2020,Shefa,Service,WholesaleandRetailTrade,Proportion of working age population (15-65),13.0
+2020,Tafea,Service,WholesaleandRetailTrade,Proportion of working age population (15-65),8.7
+2020,,Service,HotelsandAccomodations,Proportion of working age population (15-65),49.4
+2020,Port Vila,Service,HotelsandAccomodations,Proportion of working age population (15-65),80.8
+2020,Luganville,Service,HotelsandAccomodations,Proportion of working age population (15-65),73.6
+2020,Torba,Service,HotelsandAccomodations,Proportion of working age population (15-65),27.2
+2020,Sanma,Service,HotelsandAccomodations,Proportion of working age population (15-65),29.3
+2020,Penama,Service,HotelsandAccomodations,Proportion of working age population (15-65),18.5
+2020,Malampa,Service,HotelsandAccomodations,Proportion of working age population (15-65),22.1
+2020,Shefa,Service,HotelsandAccomodations,Proportion of working age population (15-65),47.5
+2020,Tafea,Service,HotelsandAccomodations,Proportion of working age population (15-65),30.8
+2020,,Service,"Restaurants,FoodandBeverageServices",Proportion of working age population (15-65),5.6
+2020,Port Vila,Service,"Restaurants,FoodandBeverageServices",Proportion of working age population (15-65),10.4
+2020,Luganville,Service,"Restaurants,FoodandBeverageServices",Proportion of working age population (15-65),7.9
+2020,Torba,Service,"Restaurants,FoodandBeverageServices",Proportion of working age population (15-65),2.2
+2020,Sanma,Service,"Restaurants,FoodandBeverageServices",Proportion of working age population (15-65),1.8
+2020,Penama,Service,"Restaurants,FoodandBeverageServices",Proportion of working age population (15-65),2.0
+2020,Malampa,Service,"Restaurants,FoodandBeverageServices",Proportion of working age population (15-65),2.6
+2020,Shefa,Service,"Restaurants,FoodandBeverageServices",Proportion of working age population (15-65),5.6
+2020,Tafea,Service,"Restaurants,FoodandBeverageServices",Proportion of working age population (15-65),1.0
+2020,,Service,AdministrativeandSupportServices,Proportion of working age population (15-65),3.9
+2020,Port Vila,Service,AdministrativeandSupportServices,Proportion of working age population (15-65),6.4
+2020,Luganville,Service,AdministrativeandSupportServices,Proportion of working age population (15-65),7.9
+2020,Torba,Service,AdministrativeandSupportServices,Proportion of working age population (15-65),0.7
+2020,Sanma,Service,AdministrativeandSupportServices,Proportion of working age population (15-65),2.3
+2020,Penama,Service,AdministrativeandSupportServices,Proportion of working age population (15-65),0.0
+2020,Malampa,Service,AdministrativeandSupportServices,Proportion of working age population (15-65),0.8
+2020,Shefa,Service,AdministrativeandSupportServices,Proportion of working age population (15-65),4.8
+2020,Tafea,Service,AdministrativeandSupportServices,Proportion of working age population (15-65),1.8
+2020,,Service,Education,Proportion of working age population (15-65),5.6
+2020,Port Vila,Service,Education,Proportion of working age population (15-65),5.2
+2020,Luganville,Service,Education,Proportion of working age population (15-65),6.5
+2020,Torba,Service,Education,Proportion of working age population (15-65),8.2
+2020,Sanma,Service,Education,Proportion of working age population (15-65),9.4
+2020,Penama,Service,Education,Proportion of working age population (15-65),4.4
+2020,Malampa,Service,Education,Proportion of working age population (15-65),5.4
+2020,Shefa,Service,Education,Proportion of working age population (15-65),4.8
+2020,Tafea,Service,Education,Proportion of working age population (15-65),4.8
+2020,,Service,OtherServices,Proportion of working age population (15-65),15.0
+2020,Port Vila,Service,OtherServices,Proportion of working age population (15-65),27.2
+2020,Luganville,Service,OtherServices,Proportion of working age population (15-65),21.4
+2020,Torba,Service,OtherServices,Proportion of working age population (15-65),4.9
+2020,Sanma,Service,OtherServices,Proportion of working age population (15-65),8.4
+2020,Penama,Service,OtherServices,Proportion of working age population (15-65),4.3
+2020,Malampa,Service,OtherServices,Proportion of working age population (15-65),4.6
+2020,Shefa,Service,OtherServices,Proportion of working age population (15-65),13.3
+2020,Tafea,Service,OtherServices,Proportion of working age population (15-65),10.2
+2020,,Economic Activity not Classified,,Proportion of working age population (15-65),4.4
+2020,Port Vila,Economic Activity not Classified,,Proportion of working age population (15-65),3.5
+2020,Luganville,Economic Activity not Classified,,Proportion of working age population (15-65),1.5
+2020,Torba,Economic Activity not Classified,,Proportion of working age population (15-65),3.4
+2020,Sanma,Economic Activity not Classified,,Proportion of working age population (15-65),5.2
+2020,Penama,Economic Activity not Classified,,Proportion of working age population (15-65),6.0
+2020,Malampa,Economic Activity not Classified,,Proportion of working age population (15-65),3.6
+2020,Shefa,Economic Activity not Classified,,Proportion of working age population (15-65),6.0
+2020,Tafea,Economic Activity not Classified,,Proportion of working age population (15-65),5.7

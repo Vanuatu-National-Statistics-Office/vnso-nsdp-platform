@@ -5,12 +5,15 @@ Geographic Location,1,2
 Industry,1,19
 Major Commodity,1,7
 Province,9,16
-Region,8,8
+Region,9,10
 Revenue Source,1,5
 Sector,1,5
+Sectors,1,4
 Series.1,1,2
 Sex,7,2
 Sub-Industry,1,9
+Sub-Sectors,1,9
 Trade,2,4
 TradeType,1,3
+Unit of measurement,1,1
 Unit,1,2

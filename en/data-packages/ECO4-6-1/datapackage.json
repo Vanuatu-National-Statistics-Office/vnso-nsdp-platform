@@ -16,26 +16,66 @@
             "title": "Year"
           },
           {
-            "name": "Units",
+            "name": "Region",
             "type": "string",
             "constraints": {
               "enum": [
-                "Percent",
+                "Port Vila",
+                "Luganville",
+                "Torba",
+                "Sanma",
+                "Penama",
+                "Malampa",
+                "Shefa",
+                "Tafea",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Region"
           },
           {
-            "name": "Series",
+            "name": "Sectors",
             "type": "string",
             "constraints": {
               "enum": [
-                "Labour Force Participation Rate",
+                "Agriculture, Forestry and Fishery",
+                "Industry",
+                "Service",
+                "Economic Activity not Classified",
                 ""
               ]
             },
-            "title": "Series"
+            "title": "Sectors"
+          },
+          {
+            "name": "Sub-Sectors",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Manufacturing",
+                "Construction",
+                "MiningandQuarrying;Electricity,GasandWaterSupply",
+                "WholesaleandRetailTrade",
+                "HotelsandAccomodations",
+                "Restaurants,FoodandBeverageServices",
+                "AdministrativeandSupportServices",
+                "Education",
+                "OtherServices",
+                ""
+              ]
+            },
+            "title": "Sub-Sectors"
+          },
+          {
+            "name": "Unit of measurement",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of working age population (15-65)",
+                ""
+              ]
+            },
+            "title": "Unit of measurement"
           },
           {
             "name": "Value",
@@ -48,5 +88,5 @@
   ],
   "profile": "data-package",
   "name": "ECO4-6-1",
-  "title": "ECO4-6-1"
+  "title": "Labour force participation by sector"
 }
