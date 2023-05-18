@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: ''
+computation_units: VT (vatu in millions)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -20,8 +20,14 @@ graph_limits: []
 graph_series_breaks: []
 graph_stacked_disaggregation: ''
 graph_target_lines: []
-graph_title: Change in national budget position (deficit/surplus) (GFS Tables)
-graph_titles: []
+graph_title: ''
+graph_titles:
+  - series: Net Operating Balance
+    unit: VT (millions of vatu)
+    title: Change in national budget position (surplus) (GFS Tables)
+  - series: Net Operating Balance Excluding Donors
+    unit: VT (millions of vatu)
+    title: Change in national budget position (deficit) (GFS Tables)
 graph_type: line
 indicator_available: ''
 indicator_name: indicators.ECO1-3-1-title
