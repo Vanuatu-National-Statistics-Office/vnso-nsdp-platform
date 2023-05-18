@@ -6419,24 +6419,23 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Surplus",
-                "Deficit",
+                "Net Operating Balance (surplus)",
+                "Net Operating Balance Excluding Donors (deficit)",
                 ""
               ]
             },
             "title": "Series"
           },
           {
-            "name": "Series.1",
+            "name": "Unit",
             "type": "string",
             "constraints": {
               "enum": [
-                "Net Operating Balance (millions of vatu)",
-                "Net Operating Balance Excluding Donors (millions of vatu)",
+                "VT (millions of vatu)",
                 ""
               ]
             },
-            "title": "Series.1"
+            "title": "Unit"
           },
           {
             "name": "Value",

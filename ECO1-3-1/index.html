@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230518051110">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230518054439">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -490,9 +490,9 @@ data-event-label="high"
   data-indicatorid='indicator_ECO1-3-1'
   data-id="ECO1-3-1"
   data-country="Vanuatu"
-  data-charttitle="Change in national budget position (deficit/surplus) (GFS Tables)"
-  data-charttitles="[]"
-  data-measurementunit=""
+  data-charttitle=""
+  data-charttitles="[{&quot;series&quot;:&quot;Net Operating Balance&quot;,&quot;unit&quot;:&quot;VT (millions of vatu)&quot;,&quot;title&quot;:&quot;Change in national budget position (surplus) (GFS Tables)&quot;},{&quot;series&quot;:&quot;Net Operating Balance Excluding Donors&quot;,&quot;unit&quot;:&quot;VT (millions of vatu)&quot;,&quot;title&quot;:&quot;Change in national budget position (deficit) (GFS Tables)&quot;}]"
+  data-measurementunit="VT (vatu in millions)"
   data-xaxislabel="Years"
   data-showdata="true"
   data-graphtype="line"
@@ -506,7 +506,7 @@ data-event-label="high"
   data-graphtargetlines="[]"
   data-graphseriesbreaks="[]"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Surplus&quot;,&quot;Deficit&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Series&quot;},{&quot;name&quot;:&quot;Series.1&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Net Operating Balance (millions of vatu)&quot;,&quot;Net Operating Balance Excluding Donors (millions of vatu)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Series.1&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Net Operating Balance (surplus)&quot;,&quot;Net Operating Balance Excluding Donors (deficit)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Series&quot;},{&quot;name&quot;:&quot;Unit&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;VT (millions of vatu)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Unit&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
   data-proxy=""
@@ -634,7 +634,7 @@ data-event-label="Change to Table tab"
       <figure role="group">
         <div id="chart-canvas">
           <h4 id="chart-heading" class="chart-title">
-            Change in national budget position (deficit/surplus) (GFS Tables)
+            Change in national budget position (surplus) (GFS Tables)
           </h4>
           <div id="chart" class="plot-container">
             <canvas
@@ -1116,12 +1116,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230518051110'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230518054439'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230518051110"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230518054439"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
