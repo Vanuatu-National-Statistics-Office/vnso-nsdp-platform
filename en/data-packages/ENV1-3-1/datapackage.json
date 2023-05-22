@@ -38,17 +38,6 @@
             "title": "Fruit or Vegetable"
           },
           {
-            "name": "Unit of measurement",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total value (millions of vatu)",
-                ""
-              ]
-            },
-            "title": "Unit of measurement"
-          },
-          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

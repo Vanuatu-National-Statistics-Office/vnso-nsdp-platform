@@ -6357,16 +6357,6 @@
             }
           },
           {
-            "name": "Unit of measurement",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total value (millions of vatu)",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "integer"
           }

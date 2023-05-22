@@ -1,53 +1,53 @@
-Year,Fruit or Vegetable,Unit of measurement,Value
-2021,,Total value (millions of vatu),113
-2020,,Total value (millions of vatu),160
-2019,,Total value (millions of vatu),226
-2018,,Total value (millions of vatu),211
-2021,Cabbage Lettuce,Total value (millions of vatu),0
-2021,Capsicum,Total value (millions of vatu),2
-2021,Carrots and Turnips,Total value (millions of vatu),11
-2021,Cauliflowers and Broccoli,Total value (millions of vatu),3
-2021,Corn,Total value (millions of vatu),0
-2021,Cucumber and Gherkins,Total value (millions of vatu),0
-2021,Onions and Shallots,Total value (millions of vatu),23
-2021,Oranges,Total value (millions of vatu),13
-2021,Potatoes,Total value (millions of vatu),56
-2021,"Pumpkins, Squash, and Gourds",Total value (millions of vatu),0
-2021,Tomatoes,Total value (millions of vatu),4
-2021,Watermelons,Total value (millions of vatu),0
-2020,Cabbage Lettuce,Total value (millions of vatu),0
-2020,Capsicum,Total value (millions of vatu),4
-2020,Carrots and Turnips,Total value (millions of vatu),16
-2020,Cauliflowers and Broccoli,Total value (millions of vatu),4
-2020,Corn,Total value (millions of vatu),1
-2020,Cucumber and Gherkins,Total value (millions of vatu),0
-2020,Onions and Shallots,Total value (millions of vatu),43
-2020,Oranges,Total value (millions of vatu),17
-2020,Potatoes,Total value (millions of vatu),71
-2020,"Pumpkins, Squash, and Gourds",Total value (millions of vatu),0
-2020,Tomatoes,Total value (millions of vatu),4
-2020,Watermelons,Total value (millions of vatu),0
-2019,Cabbage Lettuce,Total value (millions of vatu),0
-2019,Capsicum,Total value (millions of vatu),9
-2019,Carrots and Turnips,Total value (millions of vatu),23
-2019,Cauliflowers and Broccoli,Total value (millions of vatu),9
-2019,Corn,Total value (millions of vatu),1
-2019,Cucumber and Gherkins,Total value (millions of vatu),0
-2019,Onions and Shallots,Total value (millions of vatu),73
-2019,Oranges,Total value (millions of vatu),18
-2019,Potatoes,Total value (millions of vatu),84
-2019,"Pumpkins, Squash, and Gourds",Total value (millions of vatu),0
-2019,Tomatoes,Total value (millions of vatu),9
-2019,Watermelons,Total value (millions of vatu),0
-2018,Cabbage Lettuce,Total value (millions of vatu),1
-2018,Capsicum,Total value (millions of vatu),9
-2018,Carrots and Turnips,Total value (millions of vatu),24
-2018,Cauliflowers and Broccoli,Total value (millions of vatu),12
-2018,Corn,Total value (millions of vatu),1
-2018,Cucumber and Gherkins,Total value (millions of vatu),0
-2018,Onions and Shallots,Total value (millions of vatu),54
-2018,Oranges,Total value (millions of vatu),13
-2018,Potatoes,Total value (millions of vatu),87
-2018,"Pumpkins, Squash, and Gourds",Total value (millions of vatu),0
-2018,Tomatoes,Total value (millions of vatu),9
-2018,Watermelons,Total value (millions of vatu),0
+Year,Fruit or Vegetable,Value
+2021,,113
+2020,,160
+2019,,226
+2018,,211
+2021,Cabbage Lettuce,0
+2021,Capsicum,2
+2021,Carrots and Turnips,11
+2021,Cauliflowers and Broccoli,3
+2021,Corn,0
+2021,Cucumber and Gherkins,0
+2021,Onions and Shallots,23
+2021,Oranges,13
+2021,Potatoes,56
+2021,"Pumpkins, Squash, and Gourds",0
+2021,Tomatoes,4
+2021,Watermelons,0
+2020,Cabbage Lettuce,0
+2020,Capsicum,4
+2020,Carrots and Turnips,16
+2020,Cauliflowers and Broccoli,4
+2020,Corn,1
+2020,Cucumber and Gherkins,0
+2020,Onions and Shallots,43
+2020,Oranges,17
+2020,Potatoes,71
+2020,"Pumpkins, Squash, and Gourds",0
+2020,Tomatoes,4
+2020,Watermelons,0
+2019,Cabbage Lettuce,0
+2019,Capsicum,9
+2019,Carrots and Turnips,23
+2019,Cauliflowers and Broccoli,9
+2019,Corn,1
+2019,Cucumber and Gherkins,0
+2019,Onions and Shallots,73
+2019,Oranges,18
+2019,Potatoes,84
+2019,"Pumpkins, Squash, and Gourds",0
+2019,Tomatoes,9
+2019,Watermelons,0
+2018,Cabbage Lettuce,1
+2018,Capsicum,9
+2018,Carrots and Turnips,24
+2018,Cauliflowers and Broccoli,12
+2018,Corn,1
+2018,Cucumber and Gherkins,0
+2018,Onions and Shallots,54
+2018,Oranges,13
+2018,Potatoes,87
+2018,"Pumpkins, Squash, and Gourds",0
+2018,Tomatoes,9
+2018,Watermelons,0
