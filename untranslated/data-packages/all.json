@@ -6735,7 +6735,7 @@
           }
         ]
       },
-      "title": "SOC2-3-1"
+      "title": "indicators.SOC2-3-1-title"
     },
     {
       "path": "SOC2-2-1/data.csv",

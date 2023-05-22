@@ -1,0 +1,409 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>Disaggregation: Island - SDG data build documentation</title>
+
+            <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.css">
+            <style>
+                .btn-primary {
+                    background-color: #00703c;
+                    padding: 8px 10px 7px;
+                    border: 2px solid transparent;
+                    border-radius: 0;
+                    color: #fff;
+                    box-shadow: 0 2px 0 #002d18;
+                    text-decoration: none;
+                }
+                .btn-primary:visited {
+                    color: #fff;
+                }
+                .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
+                    background-color: #005a30;
+                    text-decoration: none;
+                    border: 2px solid transparent;
+                }
+                .btn-primary:focus:not(:active):not(:hover) {
+                    border-color: #fd0;
+                    color: #0b0c0c;
+                    background-color: #fd0;
+                    box-shadow: 0 2px 0 #0b0c0c;
+                }
+                a {
+                    color: #1D70B8;
+                    text-decoration: underline;
+                }
+                a:hover {
+                    color: #003078;
+                }
+                a:visited {
+                    color: #4c2c92;
+                }
+                .download-info {
+                    margin-left: 12px;
+                }
+                .table-striped tbody tr:nth-of-type(2n+1) {
+                    background-color: #f3f2f1;
+                }
+                #skiplink {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    z-index: 10000;
+                    width: 250px;
+                    margin-left: -125px;
+                    padding: 10px;
+                    background: white;
+                    text-align: center;
+                    border: 1px solid #0b0c0c;
+                    color: #0b0c0c;
+                    display: block;
+                }
+                .sr-only-focusable:not(:focus):not(:focus-within) {
+                    position: absolute !important;
+                    width: 1px !important;
+                    height: 1px !important;
+                    padding: 0 !important;
+                    margin: -1px !important;
+                    overflow: hidden !important;
+                    clip: rect(0, 0, 0, 0) !important;
+                    white-space: nowrap !important;
+                    border: 0 !important;
+                }
+            </style>
+        </head>
+        <body>
+            <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="/vnso-nsdp-platform/data-docs/index.html">SDG data build documentation</a>
+                </div>
+            </nav>
+            <main id="main-content" role="main">
+                <div class="container">
+                    <h1 style="margin:20px 0">Disaggregation: Island</h1>
+                    <div>
+                        
+        <div role="navigation" aria-describedby="contents-heading">
+            <h2 id="contents-heading">On this page</h2>
+            <ul>
+                <li><a href="#values-used">Values used in disaggregation</a></li>
+                <li><a href="#indicators-using">Indicators using disaggregation</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="values-used" tabindex="-1">Values used in disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="values--disaggregation--island.csv" role="button" class="btn btn-primary" aria-describedby="values--disaggregation--island">Download CSV of values used in this disaggregation</a>
+            <div id="values--disaggregation--island" class="download-info">Size: 638 Bytes</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">45</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="values-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Value</th>
+      <th>Disaggregation combinations using this value</th>
+      <th>Number of indicators</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="disaggregation-value--ambae.html">Ambae</a></td>
+      <td>1754</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ambrym.html">Ambrym</a></td>
+      <td>1808</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--aneityum.html">Aneityum</a></td>
+      <td>302</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--aniwa.html">Aniwa</a></td>
+      <td>88</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--aore.html">Aore</a></td>
+      <td>134</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--araki.html">Araki</a></td>
+      <td>40</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--atchin.html">Atchin</a></td>
+      <td>224</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--avock.html">Avock</a></td>
+      <td>96</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--buninga.html">Buninga</a></td>
+      <td>46</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--efate.html">Efate</a></td>
+      <td>4806</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--emae.html">Emae</a></td>
+      <td>182</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--emao.html">Emao</a></td>
+      <td>204</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--epi.html">Epi</a></td>
+      <td>1370</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--erromango.html">Erromango</a></td>
+      <td>582</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--futuna.html">Futuna</a></td>
+      <td>118</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gaua.html">Gaua</a></td>
+      <td>448</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--hiu.html">Hiu</a></td>
+      <td>84</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ifira.html">Ifira</a></td>
+      <td>104</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--lelepa.html">Lelepa</a></td>
+      <td>92</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--loh.html">Loh</a></td>
+      <td>76</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--maewo.html">Maewo</a></td>
+      <td>532</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--makira_.html">Makira</a></td>
+      <td>60</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--malekula.html">Malekula</a></td>
+      <td>4190</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--malo.html">Malo</a></td>
+      <td>926</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--maskelyns.html">Maskelyns</a></td>
+      <td>122</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--matoso.html">Matoso</a></td>
+      <td>22</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--mavea.html">Mavea</a></td>
+      <td>40</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--mere-lava.html">Mere Lava</a></td>
+      <td>246</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--moso.html">Moso</a></td>
+      <td>94</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--mota-lava.html">Mota Lava</a></td>
+      <td>260</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--mota.html">Mota</a></td>
+      <td>138</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--nguna.html">Nguna</a></td>
+      <td>228</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--paama.html">Paama</a></td>
+      <td>484</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--pele.html">Pele</a></td>
+      <td>92</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--pentecost.html">Pentecost</a></td>
+      <td>2518</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--santo.html">Santo</a></td>
+      <td>6490</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--tanna.html">Tanna</a></td>
+      <td>5574</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--toga.html">Toga</a></td>
+      <td>92</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--tongariki.html">Tongariki</a></td>
+      <td>84</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--tongoa.html">Tongoa</a></td>
+      <td>522</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--tutuba.html">Tutuba</a></td>
+      <td>92</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ureparapara.html">Ureparapara</a></td>
+      <td>160</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--uripiv_.html">Uripiv</a></td>
+      <td>90</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vanua-lava.html">Vanua Lava</a></td>
+      <td>586</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vao.html">Vao</a></td>
+      <td>88</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--ambae.html\">Ambae<\/a>","Disaggregation combinations using this value":1754,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ambrym.html\">Ambrym<\/a>","Disaggregation combinations using this value":1808,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--aneityum.html\">Aneityum<\/a>","Disaggregation combinations using this value":302,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--aniwa.html\">Aniwa<\/a>","Disaggregation combinations using this value":88,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--aore.html\">Aore<\/a>","Disaggregation combinations using this value":134,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--araki.html\">Araki<\/a>","Disaggregation combinations using this value":40,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--atchin.html\">Atchin<\/a>","Disaggregation combinations using this value":224,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--avock.html\">Avock<\/a>","Disaggregation combinations using this value":96,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--buninga.html\">Buninga<\/a>","Disaggregation combinations using this value":46,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--efate.html\">Efate<\/a>","Disaggregation combinations using this value":4806,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--emae.html\">Emae<\/a>","Disaggregation combinations using this value":182,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--emao.html\">Emao<\/a>","Disaggregation combinations using this value":204,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--epi.html\">Epi<\/a>","Disaggregation combinations using this value":1370,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--erromango.html\">Erromango<\/a>","Disaggregation combinations using this value":582,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--futuna.html\">Futuna<\/a>","Disaggregation combinations using this value":118,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gaua.html\">Gaua<\/a>","Disaggregation combinations using this value":448,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--hiu.html\">Hiu<\/a>","Disaggregation combinations using this value":84,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ifira.html\">Ifira<\/a>","Disaggregation combinations using this value":104,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--lelepa.html\">Lelepa<\/a>","Disaggregation combinations using this value":92,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--loh.html\">Loh<\/a>","Disaggregation combinations using this value":76,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--maewo.html\">Maewo<\/a>","Disaggregation combinations using this value":532,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--makira_.html\">Makira<\/a>","Disaggregation combinations using this value":60,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--malekula.html\">Malekula<\/a>","Disaggregation combinations using this value":4190,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--malo.html\">Malo<\/a>","Disaggregation combinations using this value":926,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--maskelyns.html\">Maskelyns<\/a>","Disaggregation combinations using this value":122,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--matoso.html\">Matoso<\/a>","Disaggregation combinations using this value":22,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--mavea.html\">Mavea<\/a>","Disaggregation combinations using this value":40,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--mere-lava.html\">Mere Lava<\/a>","Disaggregation combinations using this value":246,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--moso.html\">Moso<\/a>","Disaggregation combinations using this value":94,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--mota-lava.html\">Mota Lava<\/a>","Disaggregation combinations using this value":260,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--mota.html\">Mota<\/a>","Disaggregation combinations using this value":138,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--nguna.html\">Nguna<\/a>","Disaggregation combinations using this value":228,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--paama.html\">Paama<\/a>","Disaggregation combinations using this value":484,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--pele.html\">Pele<\/a>","Disaggregation combinations using this value":92,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--pentecost.html\">Pentecost<\/a>","Disaggregation combinations using this value":2518,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--santo.html\">Santo<\/a>","Disaggregation combinations using this value":6490,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--tanna.html\">Tanna<\/a>","Disaggregation combinations using this value":5574,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--toga.html\">Toga<\/a>","Disaggregation combinations using this value":92,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--tongariki.html\">Tongariki<\/a>","Disaggregation combinations using this value":84,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--tongoa.html\">Tongoa<\/a>","Disaggregation combinations using this value":522,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--tutuba.html\">Tutuba<\/a>","Disaggregation combinations using this value":92,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ureparapara.html\">Ureparapara<\/a>","Disaggregation combinations using this value":160,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--uripiv_.html\">Uripiv<\/a>","Disaggregation combinations using this value":90,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vanua-lava.html\">Vanua Lava<\/a>","Disaggregation combinations using this value":586,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vao.html\">Vao<\/a>","Disaggregation combinations using this value":88,"Number of indicators":1}];
+            </script>
+            
+        </div>
+        <div>
+            <h2 id="indicators-using" tabindex="-1">Indicators using disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="indicators--disaggregation--island.csv" role="button" class="btn btn-primary" aria-describedby="indicators--disaggregation--island">Download CSV of indicators using this disaggregation</a>
+            <div id="indicators--disaggregation--island" class="download-info">Size: 20 Bytes</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">1</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="indicators-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Indicator</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>#SOC2-3-1</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['indicators-table'] = [{"Indicator":"#SOC2-3-1"}];
+            </script>
+            
+        </div>
+        
+                    </div>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script>
+            if (typeof sdgBuild !== 'undefined' && sdgBuild.tables) {
+                var tableIds = Object.keys(sdgBuild.tables);
+                for (var i = 0; i < tableIds.length; i++) {
+                    var tableId = tableIds[i];
+                    $('#' + tableId).openSdgTable(sdgBuild.tables[tableId]).find('td').each(function() {
+                        if (!isNaN($(this).text())) {
+                            $(this).css('text-align', 'right');
+                        }
+                    })
+                }
+            }
+            </script>
+        </html>
+        

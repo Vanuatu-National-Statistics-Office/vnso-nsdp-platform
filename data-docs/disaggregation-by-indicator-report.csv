@@ -22,4 +22,5 @@ Indicator,Disaggregations,Number of disaggregations
 #SOC1-2-3,"Province, Region, Sex",3
 #SOC1-7-1,"Province, Region, Sex",3
 #SOC1-7-2,"Province, Region",2
+#SOC2-3-1,"Province, School Code, SchoolName, Island, Language, Year Level, Year.1, Achievement Level, Gender",9
 #SOC4-2-1,"Province, Sex, Age",3
