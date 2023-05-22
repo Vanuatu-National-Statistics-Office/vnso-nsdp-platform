@@ -15,21 +15,22 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Urban/Rural",
             "type": "string",
             "constraints": {
               "enum": [
-                "Percent",
+                "Urban",
+                "Rural",
                 ""
               ]
             }
           },
           {
-            "name": "Series",
+            "name": "Unit",
             "type": "string",
             "constraints": {
               "enum": [
-                "21131",
+                "Percenatge of population (%)",
                 ""
               ]
             }
@@ -44,5 +45,5 @@
   ],
   "profile": "data-package",
   "name": "ENV1-1-3",
-  "title": "ENV1-1-3"
+  "title": "indicators.ENV1-1-3-title"
 }
