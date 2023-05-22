@@ -1831,16 +1831,6 @@
             }
           },
           {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percenatge of population (%)",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "number"
           }

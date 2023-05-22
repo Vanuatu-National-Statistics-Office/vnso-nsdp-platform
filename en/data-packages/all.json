@@ -1990,17 +1990,6 @@
             "title": "Urban/Rural"
           },
           {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percenatge of population (%)",
-                ""
-              ]
-            },
-            "title": "Unit"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"
