@@ -7513,7 +7513,7 @@
           }
         ]
       },
-      "title": "ENV1-1-1"
+      "title": "indicators.ENV1-1-1-title"
     },
     {
       "path": "SOC5-4-3/data.csv",
