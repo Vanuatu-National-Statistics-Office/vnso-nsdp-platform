@@ -76,16 +76,6 @@
             }
           },
           {
-            "name": "Unit of measurement",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage of working age population (15-65)",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "number"
           }

@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230522033955">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230522041342">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -506,7 +506,7 @@ data-event-label="high"
   data-graphtargetlines="[]"
   data-graphseriesbreaks="[]"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Agriculture, Forestry and Fishery&quot;,&quot;Industry&quot;,&quot;Service&quot;,&quot;Economic Activity not Classified&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Series&quot;},{&quot;name&quot;:&quot;Region&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Port Vila&quot;,&quot;Luganville&quot;,&quot;Torba&quot;,&quot;Sanma&quot;,&quot;Penama&quot;,&quot;Malampa&quot;,&quot;Shefa&quot;,&quot;Tafea&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Region&quot;},{&quot;name&quot;:&quot;Sectors&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Agriculture, Forestry and Fishery&quot;,&quot;Industry&quot;,&quot;Service&quot;,&quot;Economic Activity not Classified&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Sectors&quot;},{&quot;name&quot;:&quot;Sub-Sectors&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Manufacturing&quot;,&quot;Construction&quot;,&quot;MiningandQuarrying;Electricity,GasandWaterSupply&quot;,&quot;WholesaleandRetailTrade&quot;,&quot;HotelsandAccomodations&quot;,&quot;Restaurants,FoodandBeverageServices&quot;,&quot;AdministrativeandSupportServices&quot;,&quot;Education&quot;,&quot;OtherServices&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Sub-Sectors&quot;},{&quot;name&quot;:&quot;Unit of measurement&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Percentage of working age population (15-65)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Unit of measurement&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Agriculture, Forestry and Fishery&quot;,&quot;Industry&quot;,&quot;Service&quot;,&quot;Economic Activity not Classified&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Series&quot;},{&quot;name&quot;:&quot;Region&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Port Vila&quot;,&quot;Luganville&quot;,&quot;Torba&quot;,&quot;Sanma&quot;,&quot;Penama&quot;,&quot;Malampa&quot;,&quot;Shefa&quot;,&quot;Tafea&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Region&quot;},{&quot;name&quot;:&quot;Sectors&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Agriculture, Forestry and Fishery&quot;,&quot;Industry&quot;,&quot;Service&quot;,&quot;Economic Activity not Classified&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Sectors&quot;},{&quot;name&quot;:&quot;Sub-Sectors&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Manufacturing&quot;,&quot;Construction&quot;,&quot;MiningandQuarrying;Electricity,GasandWaterSupply&quot;,&quot;WholesaleandRetailTrade&quot;,&quot;HotelsandAccomodations&quot;,&quot;Restaurants,FoodandBeverageServices&quot;,&quot;AdministrativeandSupportServices&quot;,&quot;Education&quot;,&quot;OtherServices&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Sub-Sectors&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
   data-proxy=""
@@ -542,15 +542,69 @@ data-event-label="high"
   <div id="datatables">
 
     
+    <a href="/vnso-nsdp-platform/en/headline/ECO4-6-1.csv" class="btn btn-primary btn-download" download="indicator_ECO4-6-1.csv" tabindex="0" role="button">Download headline data (.csv)</a>
+    
     <a href="/vnso-nsdp-platform/en/data/ECO4-6-1.csv" class="btn btn-primary btn-download" download='indicator_ECO4-6-1.csv' tabindex='0' role='button'>Download source data (.csv)</a>
 
     <p class="no-js-disaggregation-hint">Download source data for disaggregations (.csv)</p>
 
     
-    <h3>No headline data available</h3>
+    <h3>Headline data</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption></caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col" class="table-value">Series</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>46.3</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
     
   </div>
 
+  
+  <div id="datatableFooter">
+    
+    <p>Source: 2009 Population and Household Census (p111), VNSO</p>
+    
+    
+    <p>Geographical Area: Vanuatu</p>
+    
+    
+    <p>Unit of Measurement: Percentage (%)</p>
+    
+    
+    <p>Footnote: </p>
+    
+  </div>
   
 
 </div>
@@ -1161,12 +1215,12 @@ It is also defined as the section of working population in the age group of 16-6
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230522033955'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230522041342'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230522033955"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230522041342"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

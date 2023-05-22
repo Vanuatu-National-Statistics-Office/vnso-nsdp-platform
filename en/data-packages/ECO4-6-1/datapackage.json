@@ -81,17 +81,6 @@
             "title": "Sub-Sectors"
           },
           {
-            "name": "Unit of measurement",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage of working age population (15-65)",
-                ""
-              ]
-            },
-            "title": "Unit of measurement"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"
