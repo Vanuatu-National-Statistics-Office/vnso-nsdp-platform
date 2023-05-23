@@ -1,9 +1,7 @@
 From,To
-School Code,SchoolName
-SchoolName,Island
+Province,Island
 Island,Language
-Gender,Province
-Language,Year Level
-Year Level,Year.1
-Year.1,Achievement Level
-Achievement Level,Gender
+Language,SchoolName
+SchoolName,Year Level
+Year Level,Gender
+Gender,Achievement Level
