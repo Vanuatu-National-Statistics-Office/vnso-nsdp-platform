@@ -3076,36 +3076,66 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Percent",
+                "houses",
+                "proportion",
                 ""
               ]
             }
           },
           {
-            "name": "Series",
+            "name": "Region",
             "type": "string",
             "constraints": {
               "enum": [
-                "16710",
-                "16711",
-                "16712",
-                "16713",
-                "16714",
+                "vanuatu",
+                "urban",
+                "rural",
+                "torba",
+                "sanma",
+                "penama",
+                "malampa",
+                "shefa",
+                "tafea",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Media Outlets",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "internet",
+                "mobile phone",
+                "tv",
+                "radio",
+                "newspaper",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit of measurement",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "total count",
+                "percentage",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
-      "title": "SOC6-7-1"
+      "title": "indicators.SOC6-7-1-title"
     },
     {
       "path": "ENV2-2-2/data.csv",
