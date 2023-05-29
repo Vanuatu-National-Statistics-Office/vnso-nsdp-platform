@@ -1768,32 +1768,22 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Unit of measurement",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "13220",
+                "Incidence of TB per 100,000 population",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
-      "title": "SOC3-2-2"
+      "title": "indicators.SOC3-2-2-title"
     },
     {
       "path": "ENV1-1-3/data.csv",
@@ -3694,21 +3684,11 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Unit of measurement",
             "type": "string",
             "constraints": {
               "enum": [
-                "Percent",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "13211",
+                "Total number diabetic lower limb amputations",
                 ""
               ]
             }
@@ -3719,7 +3699,7 @@
           }
         ]
       },
-      "title": "SOC3-2-1"
+      "title": "indicators.SOC3-2-1-title"
     },
     {
       "path": "ECO4-6-2/data.csv",
