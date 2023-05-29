@@ -4472,32 +4472,22 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Unit of measurement",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "13120",
+                "Number deaths per 100,000 live births",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
-      "title": "SOC3-1-2"
+      "title": "indicators.SOC3-1-2-title"
     },
     {
       "path": "ECO3-4-1/data.csv",
