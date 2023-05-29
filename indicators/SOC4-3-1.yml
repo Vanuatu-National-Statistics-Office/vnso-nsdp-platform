@@ -20,7 +20,7 @@ graph_limits: []
 graph_series_breaks: []
 graph_stacked_disaggregation: ''
 graph_target_lines: []
-graph_title:
+graph_title: ''
 graph_titles:
   - series: Blindness
     unit: ''
@@ -40,7 +40,7 @@ graph_titles:
   - series: Communicating
     unit: ''
     title: Proportion of population reporting some degree of communicating
-graph_type: line
+graph_type: bar
 indicator_available: ''
 indicator_name: indicators.SOC4-3-1-title
 indicator_number: SOC4-3-1
