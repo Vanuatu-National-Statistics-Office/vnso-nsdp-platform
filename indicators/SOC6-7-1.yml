@@ -32,7 +32,7 @@ graph_titles:
     title: >-
       Proportion of population utilizing media outlets for news including:
       newspapers, mobile phones, radio, television, and internet
-graph_type: line
+graph_type: bar
 indicator_available: ''
 indicator_name: indicators.SOC6-7-1-title
 indicator_number: SOC6-7-1
