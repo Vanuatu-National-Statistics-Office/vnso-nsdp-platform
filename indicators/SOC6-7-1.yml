@@ -54,7 +54,31 @@ publications: []
 related_indicators: []
 reporting_status: complete
 sort: ''
-sources: []
+sources:
+  - organisation: VBos 2016 mini census
+    periodicity: ''
+    earliest_available: ''
+    geographical_coverage: ''
+    url: ''
+    url_text: ''
+    release_date: ''
+    next_release: ''
+    statistical_classification: ''
+    contact: ''
+    other_info: ''
+    logo: ''
+  - organisation: VBoS 2020 National Population & Housing Census
+    periodicity: ''
+    earliest_available: ''
+    geographical_coverage: ''
+    url: ''
+    url_text: ''
+    release_date: ''
+    next_release: ''
+    statistical_classification: ''
+    contact: ''
+    other_info: ''
+    logo: ''
 standalone: false
 tags: []
 x_axis_label: Years
