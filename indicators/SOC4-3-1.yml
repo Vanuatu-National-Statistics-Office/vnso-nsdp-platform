@@ -23,23 +23,23 @@ graph_target_lines: []
 graph_title: ''
 graph_titles:
   - series: Blindness
-    unit: ''
+    unit: percentage (%)
     title: Proportion of population reporting some degree of blindness
   - series: Deafness
-    unit: ''
+    unit: Percentage (%)
     title: Proportion of population reporting some degree of deafness
   - series: Lameness
-    unit: ''
-    title: Proportion of population reporting some degree of lameness
+    unit: percentage (%)
+    title: Proportion of population reporting some degree of blindness
   - series: Senile and/or Amnesic
-    unit: ''
-    title: Proportion of population reporting some degree of Senile and/or amnesic
+    unit: percentage (%)
+    title: Proportion of population reporting some degree of senile and/or amnesic
   - series: Self-Care
-    unit: ''
+    unit: percentage (%)
     title: Proportion of population reporting some degree of self-care
   - series: Communicating
-    unit: ''
-    title: Proportion of population reporting some degree of communicating
+    unit: percentage (%)
+    title: Proportion of population reporting some degree of self-care
 graph_type: bar
 indicator_available: ''
 indicator_name: indicators.SOC4-3-1-title
