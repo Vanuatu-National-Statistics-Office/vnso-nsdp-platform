@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: Percentage of private households (%) & Total number of private households
+computation_units: ''
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -23,12 +23,12 @@ graph_target_lines: []
 graph_title: ''
 graph_titles:
   - series: proportion of households
-    unit: ''
+    unit: percentage (%)
     title: >-
       Proportion of households using renewable energy technology as main source
       of lighting
   - series: Total number of households
-    unit: ''
+    unit: percentage (%)
     title: Total number using renewable energy for lighting
 graph_type: bar
 indicator_available: ''
