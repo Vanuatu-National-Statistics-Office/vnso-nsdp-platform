@@ -7624,26 +7624,45 @@
             "title": "Year"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
             "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tourism in Outer Islands as Proportion to Total",
+                "Total number of visitors",
+                "Proportion of visitors",
                 ""
               ]
             },
             "title": "Series"
+          },
+          {
+            "name": "Island",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tanna",
+                "Santo",
+                "Efate Offshore Islands",
+                "Pentecost",
+                "Malekula",
+                "Ambrym",
+                "Other Islands",
+                ""
+              ]
+            },
+            "title": "Island"
+          },
+          {
+            "name": "Unit of measurement",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total count",
+                "Percentage (%)",
+                ""
+              ]
+            },
+            "title": "Unit of measurement"
           },
           {
             "name": "Value",
@@ -7652,7 +7671,7 @@
           }
         ]
       },
-      "title": "ECO3-2-3"
+      "title": "Proportion of visitors traveling to outer islands"
     },
     {
       "path": "ECO4-8-1/data.csv",
