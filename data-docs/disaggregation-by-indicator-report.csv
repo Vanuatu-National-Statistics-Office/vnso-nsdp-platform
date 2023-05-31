@@ -10,6 +10,7 @@ Indicator,Disaggregations,Number of disaggregations
 #ECO2-1-1,Province,1
 #ECO2-2-1,Region,1
 #ECO3-1-1,Sub-Industry,1
+#ECO3-2-1,"Urban/Rural, Unit",2
 #ECO3-2-3,"Unit of measurement, Island",2
 #ECO4-3-1,"Unit, Exports",2
 #ECO4-6-1,"Region, Sectors, Sub-Sectors",3
