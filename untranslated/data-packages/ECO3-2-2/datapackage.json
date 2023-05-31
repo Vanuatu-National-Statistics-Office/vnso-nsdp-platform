@@ -15,22 +15,34 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
+                "Change in arrivals",
+                "Total number of arrivals",
                 ""
               ]
             }
           },
           {
-            "name": "Series",
+            "name": "Transport Type",
             "type": "string",
             "constraints": {
               "enum": [
-                "33220",
-                "33221",
+                "Airplane",
+                "Cruiseships",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Change in number of arrivals",
+                "Total number of arrivals",
                 ""
               ]
             }

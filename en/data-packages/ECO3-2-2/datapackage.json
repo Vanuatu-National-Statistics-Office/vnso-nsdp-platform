@@ -16,27 +16,40 @@
             "title": "Year"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
             "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Change in Annual Tourism Arrivals by Air",
-                "Change in Annual Tourism Arrivals by Sea",
+                "Change in arrivals",
+                "Total number of arrivals",
                 ""
               ]
             },
             "title": "Series"
+          },
+          {
+            "name": "Transport Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Airplane",
+                "Cruiseships",
+                ""
+              ]
+            },
+            "title": "Transport Type"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Change in number of arrivals",
+                "Total number of arrivals",
+                ""
+              ]
+            },
+            "title": "Unit"
           },
           {
             "name": "Value",
