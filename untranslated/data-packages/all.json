@@ -2184,32 +2184,62 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Percent",
+                "Proportion of population access to improved sanitation facilities",
+                "Population access to improved sanitation facilities",
                 ""
               ]
             }
           },
           {
-            "name": "Series",
+            "name": "Urban/Rural",
             "type": "string",
             "constraints": {
               "enum": [
-                "32220",
+                "Urban",
+                "Rural",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Port Vila",
+                "Luganville",
+                "Torba",
+                "Sanma",
+                "Penama",
+                "Malampa",
+                "Shefa",
+                "Tafea",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage of private households (%)",
+                "Total number of private households",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
-      "title": "ECO2-2-2"
+      "title": "indicators.ECO2-2-2-title"
     },
     {
       "path": "exports/data.csv",
