@@ -1,5 +1,5 @@
 Value,Disaggregation combinations using this value,Number of indicators
-%,97,2
+%,199,3
 "Incidence of TB per 100,000 population",1,1
 Malria incidence per 1000 population,1,1
 "Number deaths per 100,000 live births",1,1
@@ -7,7 +7,7 @@ Percentage of households (%),11,1
 Percentage of private households (%),88,2
 percentage,54,1
 Percentage (%),8,1
-total count,64,2
+total count,83,3
 Total count,8,1
 Total number diabetic lower limb amputations,1,1
 Total number of households,11,1
