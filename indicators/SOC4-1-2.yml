@@ -33,10 +33,10 @@ graph_titles:
     title: Number of decision in which women raising children participate
   - series: Residence
     unit: '% & total count'
-    title: Number of decision in which women
+    title: Number of decision in which women residing in rural or urban participate
   - series: Education
     unit: '% & total count'
-    title: Number of decision in which women
+    title: Number of decision in which women from different education level participate
 graph_type: bar
 indicator_available: ''
 indicator_name: indicators.SOC4-1-2-title
