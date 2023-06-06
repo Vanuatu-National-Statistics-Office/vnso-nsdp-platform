@@ -49,7 +49,7 @@ graph_titles:
   - series: Alphabetisation francrais annee 8
     unit: total count
     title: Total number of Alphabetisation francrais annee 8
-graph_type: line
+graph_type: bar
 indicator_available: ''
 indicator_name: indicators.SOC2-3-1-title
 indicator_number: SOC2-3-1
