@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230621064951">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230621221621">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -519,27 +519,135 @@ data-event-label="high"
     }
 
     // Set values according to this site's configuration.
+    
+      try {
+        var currentValue = normalizeCurrentValue('Proxy', "");
+        var propertyEditor = editor.getEditor('root.Proxy');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Proxy');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Definition', "refers to the percentage or fraction of a population that has the knowledge and abilities to engage in fundamental traditional activities associated with weaving, transportation, construction of housing, farming, and food preparation.\n\nHere's a breakdown of each component:\n\nWeaving: This refers to the skill of creating fabric or textiles by interlacing threads or yarns together. Traditional weaving techniques are often passed down through generations and involve the use of looms or other tools.\n\nTransport: This encompasses the knowledge and skills related to traditional methods of transportation, such as using animals, carts, boats, or other non-motorized means to move people or goods from one place to another.\n\nHousing: This pertains to the skills involved in constructing traditional housing structures using locally available materials and techniques specific to a particular region or culture.\n\nFarming: This includes the basic agricultural skills required for cultivating crops, raising livestock, and managing land using traditional methods and practices, which often rely on manual labor and non-mechanized tools.\n\nFood preparation: This refers to the abilities and knowledge needed to process and prepare food using traditional techniques, such as cooking, preserving, fermenting, and other methods that have been passed down through generations.\n\n");
+        var propertyEditor = editor.getEditor('root.Definition');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Definition');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Concept', "The concept behind the indicator \"Proportion of population possessing common and basic traditional production skills related to weaving, transport, housing, farming, food preparation\" is to assess the extent to which a population retains and maintains traditional knowledge and skills in essential areas of production. It aims to capture the level of proficiency and continuity of traditional practices within a community or society.\n\nThis indicator recognizes the value of traditional production skills that have been passed down through generations and are deeply rooted in cultural heritage. It emphasizes the importance of preserving and promoting these skills, as they often represent sustainable and resource-efficient methods of production that have stood the test of time.");
+        var propertyEditor = editor.getEditor('root.Concept');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Concept');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "household, individual, national, province, region, sex.");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Rationale', "The proportion of population possessing these common and basic traditional production skills indicates the extent to which a particular society or community has retained and continues to practice traditional knowledge and practices in these areas. It can provide insights into cultural heritage, self-sufficiency, and the sustainability of traditional ways of life.\n\nBy measuring the proportion of the population possessing these common and basic traditional production skills, policymakers and researchers can gain insights into several key aspects:\n\nCultural preservation: The indicator reflects the degree to which cultural traditions, practices, and knowledge are maintained within a society. It highlights the continuity of skills that have been developed and refined over generations, contributing to cultural identity and heritage.\n\nSelf-sufficiency and resilience: Traditional production skills often embody self-reliance and resilience, as they are typically adapted to local environments and resources. The indicator assesses the ability of a population to meet its basic needs through traditional methods, which can contribute to food security, housing, and other essential aspects of life.\n\nSustainability and environmental impact: Many traditional production skills are characterized by sustainable practices that minimize environmental impact. For example, traditional farming techniques often prioritize organic farming, agroecological principles, and water conservation. By measuring the proportion of the population possessing these skills, the indicator indirectly reflects the level of sustainable practices within a community.\n\nEconomic implications: Traditional production skills can also have economic significance. They may contribute to local and traditional industries, crafts, tourism, and cultural exchanges. The indicator can help identify opportunities for economic development and support traditional livelihoods.\n\nBy monitoring changes in the proportion of the population possessing these skills over time, policymakers can gauge the impact of modernization, globalization, and other factors that may influence the preservation or decline of traditional knowledge. It can inform the design of policies and interventions aimed at preserving cultural heritage, promoting sustainable practices, and supporting the well-being of communities engaged in traditional production activities.\n\n\n\n\n\n\n\n");
+        var propertyEditor = editor.getEditor('root.Rationale');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Rationale');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "number of people with knowledge of basic traditional production skills related to weaving, transport, housing, farming, food preparation divide by the total sample population surveyed then multiplied by 100 to find the percentage value");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDGAlignment', "11.4\n11.4.1 (Tier 3)");
+        var propertyEditor = editor.getEditor('root.SDGAlignment');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDGAlignment');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Percentage (%)");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "NSDP survey - 5 Years");
+        var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: FrequencyOfCollection');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_1', "2012 Pacific Living Conditions Survey (Hybrid) - VNSO and SPC");
+        var currentValue = normalizeCurrentValue('source_organisation_1', "2010 Pacific Living Conditions Survey (Hybrid) - VNSO and SPC");
         var propertyEditor = editor.getEditor('root.source_organisation_1');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -565,6 +673,18 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "2020 NSDP Survey");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -704,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230621064951'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230621221621'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230621064951"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230621221621"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
