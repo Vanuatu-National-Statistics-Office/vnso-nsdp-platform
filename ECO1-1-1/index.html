@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230622051813">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230625221500">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -741,7 +741,7 @@ data-event-label="high"
   
   <div id="datatableFooter">
     
-    <p>Source: December Quarter Statistical Update 2017 : CPI, VNSO</p>
+    <p>Source: December Quarter Statistical Update 2021 : CPI, VBOS</p>
     
     
     <p>Geographical Area: Vanuatu</p>
@@ -856,9 +856,6 @@ data-event-label="Change to Table tab"
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>Source:</dt>
-        <dd>December Quarter Statistical Update 2017 : CPI, VNSO, December Quarter Statistical Update 2013 : CPI, VNSO, December Quarter Statistical Update 2015 : CPI, VNSO, December Quarter Statistical Update 2016 : CPI, VNSO, December Quarter Statistical Update 2014 : CPI, VNSO, December Quarter Statistical Update 2018 : CPI, VNSO</dd>
-        
 
         
         <dt>Geographical Area:</dt>
@@ -930,9 +927,6 @@ data-event-label="Change to Table tab"
 <div id="selectionTableFooter" class="table-footer-text">
   <h5 class="sr-only">Chart details</h5>
     <dl>
-        
-        <dt>Source:</dt>
-        <dd>December Quarter Statistical Update 2017 : CPI, VNSO, December Quarter Statistical Update 2013 : CPI, VNSO, December Quarter Statistical Update 2015 : CPI, VNSO, December Quarter Statistical Update 2016 : CPI, VNSO, December Quarter Statistical Update 2014 : CPI, VNSO, December Quarter Statistical Update 2018 : CPI, VNSO</dd>
         
 
         
@@ -1071,7 +1065,11 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>Total rate of change of CPI from previouse year</p>
+            <p>The change in underlying inflation rate refers to the difference in the rate of inflation when certain volatile or temporary factors are excluded from the calculation. The purpose of analyzing underlying inflation is to get a clearer picture of the long-term trend in prices by removing the effects of short-term fluctuations that may not reflect the true underlying inflationary pressures in the economy.</p>
+
+<p>Underlying inflation is often calculated by excluding certain volatile components from the inflation index, such as food and energy prices, which can be subject to significant fluctuations due to factors like weather conditions, geopolitical events, or supply disruptions. By excluding these components, economists and policymakers aim to identify the core inflation rate, which provides a more stable measure of price changes.</p>
+
+<p>The change in underlying inflation rate, therefore, refers to the difference in the core inflation rate over a specific period. It could indicate whether inflationary pressures are increasing or decreasing when the effects of volatile factors are removed. This information is valuable for policymakers when formulating monetary policy and for businesses and consumers in their decision-making processes, as it provides insights into the broader trend of price changes in an economy.</p>
 
           
         </td>
@@ -1082,38 +1080,117 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Concept </th>
+        <td>
           
-      
-      
-      
-        
+            <p>The “change in underlying inflation rate” refers to the difference in the rate of inflation after removing volatile or temporary factors from the calculation. It helps identify the long-term trend in prices by excluding fluctuations caused by items like food and energy prices. This indicator focuses on core inflation, which provides a more stable measure of price changes. By analyzing the change in underlying inflation rate, economists, policymakers, businesses, and consumers can understand whether inflationary pressures are increasing or decreasing without the influence of volatile components. This information is valuable for decision-making processes, such as formulating monetary policy or making informed financial and economic choices.</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Disaggregation </th>
+        <td>
           
-      
-      
-      
+            <p>National</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Rationale </th>
+        <td>
           
-      
-      
-      
+            <p>Monitoring change in inflation rate is crucial because it provides insights into the purchasing power of money, helps anticipate future price movements, and informs economic policy decisions.</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Method of Computation </th>
+        <td>
           
-      
-      
-      
+            <p>The basic methodology for calculating the change in inflation rate involves comparing the price levels of a basket of goods and services over two different time periods and determining the percentage difference between them.</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Sustainable Development Goal Indicator Alignment </th>
+        <td>
           
-      
-      
-      
+            <p>8.1
+8.1.1 (R)
+(Tier 1)</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Unit of Measurement </th>
+        <td>
           
+            <p>percentage (%)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Frequency of Collection </th>
+        <td>
+          
+            <p>Quarterly</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1142,235 +1219,6 @@ data-event-label="Change to indicator.sources tab"
 
 
 
-
-  <div class="row">
-  
-    
-    
-    <div class="col-md-6">
-      
-        <h4>Source 1</h4>
-      
-      <table class="table metadata-content">
-  <tbody>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>December Quarter Statistical Update 2017 : CPI, VNSO</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  
-  
-  </tbody>
-</table>
-
-    </div>
-    
-    
-    
-    <div class="col-md-6">
-      
-        <h4>Source 2</h4>
-      
-      <table class="table metadata-content">
-  <tbody>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>December Quarter Statistical Update 2013 : CPI, VNSO</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  </tbody>
-</table>
-
-    </div>
-    
-    
-    
-    <div class="col-md-6">
-      
-        <h4>Source 3</h4>
-      
-      <table class="table metadata-content">
-  <tbody>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>December Quarter Statistical Update 2015 : CPI, VNSO</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  </tbody>
-</table>
-
-    </div>
-    
-    
-    
-    <div class="col-md-6">
-      
-        <h4>Source 4</h4>
-      
-      <table class="table metadata-content">
-  <tbody>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </tbody>
-</table>
-
-    </div>
-    
-    
-    
-    <div class="col-md-6">
-      
-        <h4>Source 5</h4>
-      
-      <table class="table metadata-content">
-  <tbody>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </tbody>
-</table>
-
-    </div>
-    
-    
-    
-    <div class="col-md-6">
-      
-        <h4>Source 6</h4>
-      
-      <table class="table metadata-content">
-  <tbody>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </tbody>
-</table>
-
-    </div>
-    
-  </div>
 
 
             </article>
@@ -1481,12 +1329,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230622051813'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230625221500'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230622051813"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230625221500"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
