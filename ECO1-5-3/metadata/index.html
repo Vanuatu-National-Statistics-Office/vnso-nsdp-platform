@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230626065544">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230626212406">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "country");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "Economists use the Balance of Trade to measure the relative strength of a country's economy.");
+        var currentValue = normalizeCurrentValue('Rationale', "Economists use the Balance of Trade to measure the relative strength of a country's economy. The rationale behind analyzing the balance of trade includes the following points:\n\n1. Trade Surplus or Deficit: The balance of trade reveals whether a country has a trade surplus or a trade deficit. A trade surplus occurs when a country's exports exceed its imports, indicating that it is earning more foreign currency than it is spending. A trade deficit, on the other hand, occurs when imports exceed exports, suggesting that the country is spending more foreign currency than it is earning. The balance of trade helps assess the competitiveness of a nation's industries and its ability to generate wealth through exports.\n\n2. Economic Competitiveness: Analyzing the balance of trade allows policymakers and economists to gauge a country's economic competitiveness in global markets. A consistently positive balance of trade indicates that a country's goods and services are in demand internationally, potentially reflecting its competitive advantage in certain industries. Conversely, a persistent trade deficit may raise concerns about a country's competitiveness and its ability to sustain economic growth.\n\n3. Domestic Production and Consumption: The balance of trade provides insights into the domestic production and consumption patterns of a country. A trade surplus suggests that the country's domestic industries are productive and can meet domestic demand while exporting the surplus. In contrast, a trade deficit might indicate that the country relies heavily on imports to meet domestic consumption, which could have implications for domestic industries and employment.\n\n4. Foreign Exchange Reserves: The balance of trade affects a country's foreign exchange reserves, which are crucial for maintaining currency stability and covering external obligations. A trade surplus leads to an inflow of foreign currency, bolstering a country's foreign exchange reserves and providing greater flexibility in managing its currency. Conversely, a trade deficit implies an outflow of foreign currency, potentially depleting foreign exchange reserves and exposing the country to currency risks.\n\n5. Policy Implications: The balance of trade influences policy decisions. A trade surplus might suggest the need to focus on export promotion, support domestic industries, and potentially implement policies to address currency appreciation. In contrast, a trade deficit may lead to considerations such as import substitution policies, efforts to boost domestic production, or initiatives to enhance export competitiveness.\n\nUnderstanding the balance of trade helps policymakers, economists, and analysts assess a country's economic performance, identify trade patterns, determine areas of strength or weakness, and formulate appropriate policies to address trade imbalances and promote sustainable economic growth.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -591,6 +603,18 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDGAlignment', "17.11\n17.11.1\n(Tier 1)");
+        var propertyEditor = editor.getEditor('root.SDGAlignment');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDGAlignment');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
     
@@ -609,7 +633,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Continuous");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annual");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -623,7 +647,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_1', "");
+        var currentValue = normalizeCurrentValue('source_organisation_1', "VBOS, trade statistics");
         var propertyEditor = editor.getEditor('root.source_organisation_1');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -800,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230626065544'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230626212406'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230626065544"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230626212406"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
