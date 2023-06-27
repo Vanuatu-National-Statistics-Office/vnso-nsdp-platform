@@ -14,12 +14,12 @@ Rationale: >-
   * Depicts the development of tourism sector in Vanuatu (Tourism activities
   developed)
 MethodOfComputation: >+
-  <font size="+2">Annual Change (Air Tourism) = ((Air Arrivals for Year 2020 -
-  Air Arrivals for Year N-2019) / Air Arrivals for Year 2019) * 100</font>
+  Annual Change (Air Tourism) = ((Air Arrivals for Year 2020 - Air Arrivals for
+  Year N-2019) / Air Arrivals for Year 2019) * 100
 
 
-  <font size="+2">Annual Change (Sea Tourism) = ((Sea Arrivals for Year 2020 -
-  Sea Arrivals for Year 2019) / Sea Arrivals for Year 2019) * 100</font>
+  Annual Change (Sea Tourism) = ((Sea Arrivals for Year 2020 - Sea Arrivals for
+  Year 2019) / Sea Arrivals for Year 2019) * 100
 
 SDGAlignment: ''
 UnitOfMeasurement: total count
