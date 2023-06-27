@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230627215945">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230627233100">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "* Tourism sector has created opportunities to surrounding communities to generate income through selling artefacts and other items they produce including food. Annual household income is the measure of the amount of income available to an average household in the area that is earned through tourism activities to generate income.");
+        var currentValue = normalizeCurrentValue('Definition', "\"Average annual household income from tourism\" refers to the average amount of money earned by households within a specific area or region as a result of tourism-related activities over the course of a year. It represents the income generated from various tourism-related sources, such as accommodations, transportation, food and beverage services, entertainment, and other related services.\n\nThis metric provides an indication of the economic impact of tourism on local households. It takes into account the direct and indirect income derived from tourism-related employment or entrepreneurial activities. The average annual household income from tourism reflects the overall financial benefit received by households in a particular area due to the presence and activity of tourists.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "Source of Income that is earned by households annually from tourism activities undertaken especially within the rural communities.");
+        var currentValue = normalizeCurrentValue('Concept', "\nThe concept of \"average annual household income from tourism\" refers to the average amount of money earned by households in a given area or region as a result of their involvement in tourism-related activities over the course of a year. It represents the income generated directly or indirectly from various tourism-related sources, such as accommodations, transportation, food and beverage services, entertainment, and other associated services.\n\nThis concept is used to assess the economic impact of tourism on households within a specific area. It takes into account the income earned by households through their participation in tourism-related employment or entrepreneurial ventures. It provides insights into the financial benefits received by local households due to the presence and activities of tourists.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "urban, rural");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "* Indicates how much the communities earn from tourism activities annually\n* Depicts creativity in toursim activities within the rural communities.\n* Indicates how much the tourism sector impacts the rural communities in terms of annual income per household.\n");
+        var currentValue = normalizeCurrentValue('Rationale', "1.  Indicates how much the communities earn from tourism activities annually\n2.  Depicts creativity in tourism activities within the rural communities.\n3.  Indicates how much the tourism sector impacts the rural communities in terms of annual income per household.\n");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,6 +589,18 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To calculate the average annual household income from tourism, data is collected on the income earned by individual households engaged in tourism-related activities. This data is then aggregated to determine the total income from tourism for all households in the area. This total is divided by the number of households to derive the average income figure.");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
@@ -593,6 +617,18 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "average number");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
@@ -611,7 +647,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_1', "2010 HIES using (p146) total monthly household income from handicrafts divided by total project number of households (50,740) multiplied by 12 for annual estimate, VNSO");
+        var currentValue = normalizeCurrentValue('source_organisation_1', "2020 HIES using (p146) total monthly household income from handicrafts divided by total project number of households (50,740) multiplied by 12 for annual estimate, VBOS");
         var propertyEditor = editor.getEditor('root.source_organisation_1');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -623,8 +659,32 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -764,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230627215945'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230627233100'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230627215945"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230627233100"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
