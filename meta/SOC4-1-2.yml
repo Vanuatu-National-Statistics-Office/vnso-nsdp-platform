@@ -1,21 +1,135 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Women in Decision Making
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: SOC 4.1.2
-OtherDemandSources: null
-PillarName: Society
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
-source_active_1: true
-source_organisation_1: 2013 DHS (p. 227), MoH and VNSO
+﻿Proxy: 'No'
+Definition: >-
+  The number of decisions in which women participate refers to the quantitative
+  measurement or count of the decisions in which women are involved or have a
+  role. It represents the assessment of the extent to which women contribute to
+  decision-making processes in various contexts, such as politics, business,
+  organizations, households, or any other sphere where choices and
+  determinations are made.
+
+
+  This measure typically considers the active involvement and influence of women
+  in decision-making, whether it's through direct participation, representation,
+  or having a voice that can influence the outcome. It can encompass decisions
+  made at different levels, including local, regional, national, or global
+  scales.
+Concept: >-
+  The concept of the "number of decisions in which women participate" emphasizes
+  the importance of gender equality and women's empowerment, aiming to ensure
+  that women have equal opportunities to contribute to and shape the decisions
+  that affect their lives and the broader society. It serves as an indicator to
+  assess progress in achieving gender equality and inclusivity in
+  decision-making processes.
+Disaggregation: >-
+  Age, employment status, number of living children, rural/urban, education
+  level
+Rationale: >-
+  The rationale behind finding the number of decisions in which women
+  participate stems from the recognition that women's inclusion and active
+  involvement in decision-making processes are essential for achieving gender
+  equality, promoting women's rights, and fostering inclusive societies. Here
+  are some key reasons for examining and measuring women's participation in
+  decision-making:
+
+
+  1. Equality and Human Rights: Gender equality is a fundamental human right and
+  a core principle of social justice. Ensuring women's participation in
+  decision-making processes is crucial for upholding this right and creating
+  fair and equitable societies. It acknowledges that women have unique
+  perspectives, experiences, and expertise that should be considered in shaping
+  policies, laws, and decisions that affect them and society as a whole.
+
+
+  2. Representation: Women make up approximately half of the global population,
+  and their interests and needs deserve representation in decision-making
+  bodies. The presence of women in decision-making roles helps ensure that
+  diverse perspectives are considered, enabling more balanced and comprehensive
+  outcomes. It enhances legitimacy and strengthens democratic processes by
+  reflecting the diversity of society in decision-making structures.
+
+
+  3. Effective Decision-Making: Including women in decision-making processes
+  enhances the quality and effectiveness of decisions. Women bring different
+  experiences, insights, and priorities to the table, leading to a broader
+  understanding of issues and more innovative solutions. Diverse decision-making
+  teams are more likely to consider a wider range of perspectives, resulting in
+  more robust and inclusive outcomes.
+
+
+  4. Sustainable Development: Gender equality is recognized as a key driver of
+  sustainable development. Women's participation in decision-making processes is
+  linked to positive social, economic, and environmental outcomes. When women
+  have a say in decisions, it can lead to policies and initiatives that address
+  gender disparities, reduce poverty, improve education and health, and promote
+  environmental sustainability.
+
+
+  5. Empowerment and Well-being: Women's participation in decision-making can
+  contribute to their empowerment, self-confidence, and sense of agency. When
+  women are actively engaged in shaping decisions that affect their lives, it
+  can enhance their well-being, increase their autonomy, and foster a sense of
+  belonging and inclusion.
+
+
+  By measuring the "number of decisions in which women participate,"
+  policymakers, researchers, and advocates can assess progress, identify gaps,
+  and design targeted interventions to enhance women's inclusion in
+  decision-making processes. It helps promote gender-responsive governance,
+  policy formulation, and program implementation, ultimately working towards
+  more inclusive and equitable societies.
+MethodOfComputation: >-
+  The computation of the number of decisions in which women participate, in a
+  Demographic and Health Survey (DHS) typically involves analyzing specific
+  survey questions related to decision-making and women's participation. Here is
+  a general method that can be employed:
+
+
+  1. Survey Questionnaire Design: In the DHS, specific questions related to
+  decision-making are included in the questionnaire. These questions aim to
+  capture the extent of women's involvement in various domains, such as
+  household decisions, healthcare choices, reproductive rights, financial
+  matters, and other relevant areas. The questions are designed to collect data
+  on decision-making power and participation.
+
+
+  2. Data Collection: Trained interviewers administer the survey questionnaire
+  to women within the selected households. The interviewers ask the respondents
+  the relevant questions about decision-making, ensuring accurate and consistent
+  data collection.
+
+
+  3. Data Coding and Cleaning: Once the survey data is collected, it goes
+  through a coding and cleaning process. The responses to decision-making
+  questions are typically coded using specific variables that indicate the level
+  of women's participation in each decision category. For example, a binary
+  variable can be used to code whether a woman has sole decision-making power,
+  shares decision-making power, or has no involvement in a particular decision.
+
+
+  4. Data Analysis: The coded data is then analyzed using statistical software.
+  The analysis involves aggregating the responses to determine the frequency or
+  proportion of women's participation in different decision domains. This
+  analysis provides a quantitative assessment of the number or percentage of
+  decisions in which women participate.
+
+
+  5. Disaggregation and Reporting: To gain a comprehensive understanding, the
+  data can be disaggregated by various factors such as age, education level,
+  marital status, socioeconomic status, and geographic location. This allows for
+  examining variations in women's participation across different subgroups. The
+  findings are then reported in tables, charts, or descriptive narratives,
+  highlighting the specific decisions in which women participate and their level
+  of involvement.
+
+
+  It's important to note that the exact computation and analysis may vary
+  depending on the specific decision-making questions and variables included in
+  the DHS. The survey methodology, sample design, and survey instruments are
+  developed by the organization conducting the DHS in collaboration with
+  relevant stakeholders, following standardized guidelines and protocols.
+SDGAlignment: '5.c.s, 5.c.1(Tier 3)'
+UnitOfMeasurement: total count
+FrequencyOfCollection: ''
+source_organisation_1: '2013 DHS (p. 227), MoH and VNSO'
+source_organisation_2: ''
+source_organisation_3: ''
