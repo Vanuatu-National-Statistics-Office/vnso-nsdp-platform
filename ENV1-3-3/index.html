@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230926231015">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20230926232323">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -698,6 +698,8 @@ data-event-label="high"
   
   <div id="datatableFooter">
     
+    <p>Source: VBOS, Market Survey & CPI Data</p>
+    
     
     <p>Geographical Area: Vanuatu</p>
     
@@ -1008,8 +1010,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Proxy </th>
+        <td>
           
+            <p>No</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1018,7 +1031,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>Food price inflation refers to the condition whereby there exist increase in wholesale price index of essential food item (defined as food basket) relative to the general inflation or the consumer price index.</p>
+            <p>The Food Price Inflation Rate or Food Price Index compared to the national consumer price index measures the changes in the average prices of food items over a specific period relative to the overall price level of goods and services in a country, as represented by the national consumer price index (CPI). It provides insights into the rate at which food prices are increasing or decreasing compared to other goods and services in the economy.</p>
 
           
         </td>
@@ -1034,7 +1047,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Concept </th>
         <td>
           
-            <p>Food prices refer to the average price of particular food commodities globally and across countries. The Consumer Price Index, or CPI, is a tool used to measure how much in dollars consumers need to spend to buy a typical assortment of goods.</p>
+            <p>The Food Price Index specifically focuses on tracking the price movements of a basket of food items, which may include grains, fruits, vegetables, meat, dairy products, and other essential food commodities. It is designed to capture the average changes in food prices over time.</p>
 
           
         </td>
@@ -1045,8 +1058,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Disaggregation </th>
+        <td>
           
+            <p>Port Vila, Luganville</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1055,7 +1079,9 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Rationale </th>
         <td>
           
-            <p>The food price index (FPI) measures the changes in prices that households pay for food.</p>
+            <p>Comparing the Food Price Index to the national consumer price index allows for an understanding of how food prices are evolving in relation to the general price level in the economy. If the Food Price Index increases at a faster rate than the national consumer price index, it indicates that food prices are rising more rapidly compared to other goods and services. Conversely, if the Food Price Index grows at a slower pace or declines compared to the national consumer price index, it suggests that food prices are increasing at a slower rate or experiencing deflation relative to other prices.</p>
+
+<p>Monitoring the Food Price Inflation Rate or Food Price Index compared to the national consumer price index helps policymakers, economists, and consumers assess the affordability of food, understand inflationary pressures, and make informed decisions regarding food consumption, market interventions, and monetary policies.</p>
 
           
         </td>
@@ -1066,8 +1092,39 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Method of Computation </th>
+        <td>
           
+            <p>The computation method for the Food Price Inflation Rate or Food Price Index compared to the national consumer price index involves several steps:</p>
+
+<ol>
+  <li>
+    <p>Selection of Food Basket: A representative basket of food items is chosen to reflect the typical consumption patterns of households. This basket may include various food categories such as grains, fruits, vegetables, meat, dairy products, and other essential food commodities.</p>
+  </li>
+  <li>
+    <p>Data Collection: Price data for the selected food items are collected regularly from various sources such as markets, retailers, or surveys. The data should cover a sufficiently large sample and be representative of different regions or markets within the country.</p>
+  </li>
+  <li>
+    <p>Price Index Calculation: The price index for food is calculated by comparing the current average prices of the food basket with the prices of the same basket in a chosen base period. The index is typically expressed as a percentage.</p>
+  </li>
+  <li>
+    <p>Consumer Price Index (CPI) Calculation: The national consumer price index, which represents the overall price level of goods and services in the economy, is also calculated using a similar methodology. It considers the prices of a broader range of goods and services beyond just food.</p>
+  </li>
+  <li>
+    <p>Comparison of Food Price Index with CPI: The Food Price Index is compared to the national consumer price index to assess the relative price movement of food compared to other goods and services. This comparison provides insights into whether food prices are rising or falling at a different rate compared to the overall price level.</p>
+  </li>
+</ol>
+
+<p>By analyzing the changes in the Food Price Index relative to the CPI over time, it is possible to determine the Food Price Inflation Rate and understand the direction and magnitude of changes in food prices compared to other prices in the economy.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1087,13 +1144,35 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Unit of Measurement </th>
+        <td>
           
-      
-      
-      
-        
+            <p>percentage</p>
+
           
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Frequency of Collection </th>
+        <td>
+          
+            <p>Annually, Quarterly</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1230,12 +1309,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230926231015'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20230926232323'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230926231015"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20230926232323"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
