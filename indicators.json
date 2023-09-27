@@ -1713,6 +1713,22 @@
   },
   {
     "goal": {
+      "id": "book9",
+      "title": "global_indicators.book9-title",
+      "indicators": [
+        
+        {
+          "id": "book9",
+          "title": "global_indicators.book9-title",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/book9/",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "business",
       "title": "business",
       "indicators": [
