@@ -1033,6 +1033,22 @@
   },
   {
     "goal": {
+      "id": "Labour",
+      "title": "global_indicators.Labour-title",
+      "indicators": [
+        
+        {
+          "id": "Labour",
+          "title": "global_indicators.Labour-title",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/Labour/",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "SOC1",
       "title": "A Nation based on traditional governance and Christian principles, which underpin our culture and continue to bestow life skills and knowledge to future generations",
       "indicators": [
