@@ -22,7 +22,6 @@ Indicator,Disaggregations,Number of disaggregations
 #ENV1-3-3,Geographic Location,1
 #ENV2-3-2,"Urban/Rural, Region, Unit of measurement",3
 #ENV3-2-2,"Urban/Rural, Region, Unit of measurement, Technology",4
-#Health,"Region, Sex, Age",3
 #Labour,"Region, Sex, Industry, Employment Status",4
 #SOC1-1-1,"Region, Province, Sex",3
 #SOC1-1-2,"Region, Province, Sex",3

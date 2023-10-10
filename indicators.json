@@ -1017,22 +1017,6 @@
   },
   {
     "goal": {
-      "id": "Health",
-      "title": "global_indicators.Health-title",
-      "indicators": [
-        
-        {
-          "id": "Health",
-          "title": "global_indicators.Health-title",
-          "description": "",
-          "keywords": "",
-          "href": "/vnso-nsdp-platform/Health/",
-          "status": "complete"
-        }]
-    }
-  },
-  {
-    "goal": {
       "id": "Labour",
       "title": "global_indicators.Labour-title",
       "indicators": [
