@@ -12,11 +12,54 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population3+currentlyattendinganeducationalinstitution",
+                "Population15+highestlevelofeducationcompleted",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PortVila",
+                "Luganville",
+                "Torba",
+                "Sanma",
+                "Penama",
+                "Malampa",
+                "Shefa",
+                "Tafea",
+                "Luganvile",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "TypeofSchool",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pre-school",
+                "Primary",
+                "Juniorsecondary",
+                "Seniorsecondary",
+                "Tertiary",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }
