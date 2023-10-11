@@ -2167,8 +2167,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Totalpopulation",
-                "Populationestimates",
+                "Total population",
+                "Population estimates",
                 ""
               ]
             }
