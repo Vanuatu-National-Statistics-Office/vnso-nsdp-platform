@@ -1,6 +1,21 @@
 progress:
-  - target: progress.target1
+  - target: by 2030 - < 4%
     years:
+      - year: 2016
+        status: progress.sunny
+        image: sunny.png
+      - year: 2017
+        status: progress.sunny
+        image: sunny.png
+      - year: 2018
+        status: progress.sunny
+        image: sunnyy.png
+      - year: 2019
+        status: progress.sunny
+        image: sunny.png
+      - year: 2020
+        status: progress.sunny
+        image: sunny.png
       - year: 2021
-        status: progress.cloudy
-        image: cloudy.png
+        status: progress.sunny
+        image: sunny.png
