@@ -68,10 +68,10 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Vanuatu National Statistics Office
+  - title: Vanuatu Bureau of Statistics
     content: ''
     include: vnso-card.html
-    button_label: VNSO Website
+    button_label: VBOS Website
     button_link: 'https://vnso.gov.vu'
     rule_color: ''
   - title: 'Department of Strategic Policy, Planning & Aid Coordination'
@@ -190,8 +190,10 @@ map_options:
     dashArray: '5,5'
 menu:
   - path: /reporting-status/
-    translation_key: EVALUATION
+    translation_key: INFORMATION
     dropdown:
+      - path: /about/
+        translation_key: NSPD ONLINE PLATFORM
       - path: /reporting-status/
         translation_key: DATA AVAILABILITY
       - path: /indicator-overview/
@@ -199,37 +201,53 @@ menu:
       - path: /methodology/
         translation_key: METHODOLOGY
   - path: /2030-agenda/
-    translation_key: INFORMATION
+    translation_key: FINANCE
     dropdown:
-      - path: /about/
-        translation_key: NSPD ONLINE PLATFORM
-      - path: /technical-advice/
-        translation_key: TECHNICAL ADVICE
-  - path: /financial-statistics/
-    translation_key: FINANCIAL STATISTICS
-    dropdown: []
-  - path: /population-profiles/
-    translation_key: PROFILES
+      - path: /government-financial-statistics/
+        translation_key: GOVERNMENT
+      - path: /donor/
+        translation_key: DONOR
+      - path: /vat/
+        translation_key: VAT
+      - path: /business
+        translation_key: BUSINESSES
+  - path: /trades/
+    translation_key: TRADES
     dropdown:
-      - path: /demographics/
-        translation_key: DEMOGRAPHICS
-      - path: /education/
-        translation_key: EDUCATION
-      - path: /labour/
-        translation_key: LABOUR
-      - path: /primary-production
-        translation_key: PRIMARY PRODUCTION
-      - path: /household-facilities/
-        translation_key: HOUSEHOLD FACILITIES
-  - path: /human-development/
-    translation_key: HUMAN DEVELOPMENT
+      - path: /exports/
+        translation_key: EXPORTS
+      - path: /imports/
+        translation_key: IMPORTS
+  - path: /education/
+    translation_key: EDUCATION
     dropdown:
-      - path: /enrolment/
-        translation_key: ENROLMENT
+      - path: /enrolments/
+        translation_key: ENROLMENTS
       - path: /grades/
         translation_key: GRADES
-      - path: /scolarship/
-        translation_key: SCHOLARSHIP
+      - path: /vocational/
+        translation_key: VOCATIONAL
+      - path: /usp/
+        translation_key: USP
+  - path: /2030-agenda/
+    translation_key: DISASTER
+    dropdown:
+      - path: /population/
+        translation_key: POPULATION
+      - path: /health/
+        translation_key: HEALTH
+      - path: /labor/
+        translation_key: LABOR
+      - path: /agriculture/
+        translation_key: AGRICULTURE
+      - path: /infrastructure/
+        translation_key: INFRASTRUCTURE
+      - path: /shelter/
+        translation_key: SHELTER
+      - path: /watersanitation&hygiene/
+        translation_key: WATER SANITATION & HYGIENE
+      - path: /income/
+        translation_key: INCOME
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
