@@ -2,20 +2,20 @@ progress:
   - target: by 2030 - < 4%
     years:
       - year: 2016
-        status: progress.sunny
-        image: sunny.png
+        status: progress.rainy
+        image: rainy.png
       - year: 2017
-        status: progress.sunny
-        image: sunny.png
+        status: progress.rainy
+        image: rainy.png
       - year: 2018
-        status: progress.sunny
-        image: sunny.png
+        status: progress.rainy
+        image: rainy.png
       - year: 2019
-        status: progress.sunny
-        image: sunny.png
+        status: progress.rainy
+        image: rainy.png
       - year: 2020
-        status: progress.sunny
-        image: sunny.png
+        status: progress.rainy
+        image: rainy.png
       - year: 2021
-        status: progress.sunny
-        image: sunny.png
+        status: progress.rainy
+        image: rainy.png
