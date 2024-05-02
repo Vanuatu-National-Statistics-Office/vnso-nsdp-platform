@@ -33,11 +33,17 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 national_geographical_coverage: Vanuatu
-page_content: ''
+page_content: >-
+  The GDP growth rate fluctuated over the years, starting at 4.7% in 2016,
+  dropping to 2.9% in 2018, and reaching a low of -5% in 2020. These
+  fluctuations suggest a volatile economic performance. To achieve the target of
+  an increase by 4% by 2030, there would need to be a significant improvement in
+  economic growth, particularly to recover from the contraction experienced in
+  2020.
 permalink: ''
 placeholder: ''
 precision: []
-progress_status: not_available
+progress_status: challenges_remain
 proxy: ''
 proxy_series: []
 publications: []
