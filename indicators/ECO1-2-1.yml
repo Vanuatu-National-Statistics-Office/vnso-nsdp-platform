@@ -33,11 +33,19 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 national_geographical_coverage: Vanuatu
-page_content: ''
+page_content: >-
+  The government revenue increased by 62.5% from 2016 to 2022, which exceeds the
+  target increase of 30% by 2030. This indicates that the government has been
+  successful in increasing revenue over the specified period and is progressing
+  well towards meeting the target. However, it's important to note that
+  sustaining this growth rate until 2030 will be crucial to meeting the target.
+  Continued efforts to increase revenue through various means such as economic
+  growth, tax reforms, and efficient fiscal management will be necessary to
+  ensure continued progress towards the target.
 permalink: ''
 placeholder: ''
 precision: []
-progress_status: not_available
+progress_status: target_achieved
 proxy: ''
 proxy_series: []
 publications: []
