@@ -25,7 +25,7 @@ In order to be able to present the data in a processed form, the open source pro
 
 The NSDP online platform is a publicly accessible instrument for disseminating and presenting data on the indicators of the Vanuatu National Sustainable Development Plan. 
 
-<iframe width="560" height="315" src="https://youtu.be/frvUcwdHC2Q" title="How to create an Open SDG platform" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/frvUcwdHC2Q?si=XJZfmbmx7ap7tsbe" title="How to create an Open SDG platform" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Sources
 
