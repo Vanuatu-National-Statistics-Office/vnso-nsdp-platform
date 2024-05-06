@@ -1,5 +1,5 @@
 progress:
-  - target: progress.target1
+  - target: By 2030 - increase by 4%
     years:
       - year: 2021
         status: progress.rainy
