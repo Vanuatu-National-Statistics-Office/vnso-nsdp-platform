@@ -40,7 +40,7 @@ indicator_tabs:
   tab_4: ''
 national_geographical_coverage: Vanuatu
 page_content: >
-  ####SURPLUS####
+  ##SURPLUS##
 
   The actual change in the annual budget surplus in 2021 is approximately
   -211.76% of the target increase of 15% by 2030. This indicates that the budget
@@ -48,7 +48,7 @@ page_content: >
   improvements are needed to ensure the target is met by 2030.
 
 
-  ####EXCLUDING DONORS####
+  ##EXCLUDING DONORS##
 
   The actual change in the annual budget position excluding donor contributions
   in 2021 is approximately 85.1% towards the target increase of 15% by 2030.
