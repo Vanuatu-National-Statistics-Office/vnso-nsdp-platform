@@ -33,7 +33,11 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 national_geographical_coverage: Vanuatu
-page_content: ''
+page_content: >-
+  The value in 2023 represents a 22.05% increase from the baseline value in
+  2016, which exceeds the 20% target increase by 2030. Therefore, based on the
+  available data, the target has already been achieved and even exceeded by
+  2023.
 permalink: ''
 placeholder: ''
 precision: []
