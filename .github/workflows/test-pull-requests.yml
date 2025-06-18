@@ -20,6 +20,8 @@ jobs:
         architecture: x64
     - name: Install dependencies
       run: pip install -r requirements.txt
+    - name: Install pytest
+      run: pip install pytest
     - name: Run tests
       run: pytest
       env:
