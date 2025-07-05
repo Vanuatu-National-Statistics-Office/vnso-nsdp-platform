@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20240523220225">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250705002859">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "proportion of the population who report speaking their indigenous language every day. indigenous language simply means that  a language that originated in a specified place and was not brought to that place from elsewhere. ");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Proportion of Population Speaking Indigenous Language Daily\" indicator measures the percentage of the population that uses an indigenous language as their primary language of communication on a daily basis. Indigenous languages are those that are native to a specific region or community and are traditionally spoken by indigenous peoples.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "The concept of speaking indigenous language daily for a nation based on traditional governance is rooted in recognizing the cultural identity and heritage of the people. Language is a significant aspect of a community's culture, and preserving and promoting indigenous languages within the daily lives of the people ensures that their unique heritage is not lost.");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the vitality and daily usage of indigenous languages within a population. Indigenous languages are crucial carriers of cultural identity, traditional knowledge, and community values. The regular use of these languages in daily life indicates their continued relevance and the strength of cultural heritage within the community. The indicator provides insight into the linguistic diversity of a population and the degree to which indigenous languages are maintained and transmitted across generations.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -563,7 +563,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Disaggregation', "National level, Provincial level, regional level, and by gender.");
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
         var propertyEditor = editor.getEditor('root.Disaggregation');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,7 +577,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "Traditional governance is based on cultural practices and values that have been passed down through generations. the use of indigenous language aligns with these cultural practices by providing a means for people to communicate with each other in a way that reflects their cultural identity and values.\nultimately, speaking indigenous language daily is about valuing and preserving the heritage and culture of a community. if the majority of the population speaks indigenous language daily, it is a testament to the richness and diversity of cultures that make up our beautiful island nation.");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the proportion of the population that speaks an indigenous language daily is essential for assessing the health and preservation of these languages. Indigenous languages are often at risk of decline or extinction due to factors such as globalization, urbanization, and the dominance of majority languages.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -591,7 +591,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('MethodOfComputation', "take number of individuals who speaks indigenous language daily over total population or sample population by the above level of disaggregation then using the calculating formula for finding percentages to calculate their percentages over the total population surveyed in the 2012 and 2020 National Population & Housing Census.");
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Proportion of Population Speaking Indigenous Language Daily,\" first collect data on language use through surveys or census, asking respondents about their primary language of communication and the frequency of indigenous language use. Identify the number of individuals who report speaking an indigenous language daily. Calculate the proportion by dividing the number of daily speakers by the total population surveyed, and multiply by 100 to express the result as a percentage.\n**Formula:**\nProportion of Daily Indigenous Language Speakers (% )= (Number of Daily Indigenous Language Speakers/Total Population Surveyed) * 100\n");
         var propertyEditor = editor.getEditor('root.MethodOfComputation');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -647,7 +647,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_1', "2012 Pacific Living Conditions Survey (Hybrid) - VNSO and SPC\n");
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Vanuatu Bureau of Statistics ");
         var propertyEditor = editor.getEditor('root.source_organisation_1');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -661,7 +661,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_2', "2020 NSDP Baseline Survey");
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
         var propertyEditor = editor.getEditor('root.source_organisation_2');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -824,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20240523220225'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250705002859'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20240523220225"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250705002859"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
