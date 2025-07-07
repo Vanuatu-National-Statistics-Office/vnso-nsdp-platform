@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250705011027">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250707122950">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -595,10 +595,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Definition </th>
         <td>
           
-            <ul>
-  <li>Account balance tend to change overtime as prices change, (ie: rise and fall in Aid-for-Trade).</li>
-  <li>Aid for trade - help given to developing countries to address their internal constrains to trade such as cumbersome regulation, poor infrastructure and lack of workforce skills (this is provided through bilateral country and regional program areas. Aid for trade investments can help achieve other development objectives including the economic empowerment of women financial inclusion, health and disability.</li>
-</ul>
+            <p>The “Current Accounts Balance Change” indicator measures the year-over-year or period-over-period change in a country’s current account balance, which is a component of the balance of payments. The current account balance reflects the difference between a country’s savings and its investment, and it includes the trade balance (exports minus imports of goods and services), net income from abroad, and net current transfers (such as remittances).</p>
 
           
         </td>
@@ -614,7 +611,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Concept </th>
         <td>
           
-            <p>An account balance is the amount of money present in a financial repository, such as a savings or checking account at any given moment. The account balance is always the net amount after factoring.</p>
+            <p>This indicator tracks the fluctuations in the current account balance, which is a critical measure of a country’s economic transactions with the rest of the world. A positive current account balance (surplus) indicates that a country is a net lender to the rest of the world, while a negative balance (deficit) suggests that it is a net borrower. The change in the current account balance over time provides insights into the dynamics of international trade, investment income, and transfers, and helps assess the sustainability of a country’s external position.</p>
 
           
         </td>
@@ -625,8 +622,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Disaggregation </th>
+        <td>
           
+            <p>None</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -635,7 +643,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Rationale </th>
         <td>
           
-            <p>Indicates the increase or decrease in trades investment opportunities of the country through the use of Aid for Trades.</p>
+            <p>Monitoring the change in the current account balance is essential for understanding a country’s economic health and its ability to engage in international trade and financial activities. A significant improvement in the current account balance might indicate increased competitiveness, higher savings rates, or favorable terms of trade, while a worsening balance could signal economic vulnerabilities, such as excessive dependence on foreign capital or declining exports.</p>
 
           
         </td>
@@ -646,8 +654,22 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Method of Computation </th>
+        <td>
           
+            <p>To compute the “Current Accounts Balance Change,” first collect data on the country’s current account balance for the current period and the previous period. Then, calculate the change by subtracting the previous period’s balance from the current period’s balance. Express this change in absolute terms or as a percentage by dividing the change by the previous period’s balance and multiplying by 100. This calculation provides insights into how the country’s external economic position has evolved over time.</p>
+
+<p>Formula:
+Percentage Change in Current account Balance= (Current Account Balance (Current Year) – Current Account Balance (Previous Year)/ Current Account Balance (Previous Year))*100</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -656,8 +678,8 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Sustainable Development Goal Indicator Alignment </th>
         <td>
           
-            <p>17.12.1
-(Tier 1)</p>
+            <p>8.a.1
+17.12.1</p>
 
           
         </td>
@@ -668,8 +690,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Unit of Measurement </th>
+        <td>
           
+            <p>Vatu in Millions</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -822,12 +855,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250705011027'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250707122950'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250705011027"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250707122950"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

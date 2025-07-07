@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250705011027">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250707122950">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -890,17 +890,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Definition </th>
         <td>
           
-            <ul>
-  <li>
-    <p>Government Budget for the year. How the budget is used, either spending is within the budget line or exceeds the budget line.</p>
-  </li>
-  <li>
-    <p>Budget Deficit – changes that occur when expenses exceed revenue and indicate the financial health of the country.</p>
-  </li>
-  <li>
-    <p>Budget surplus – government income which come from taxes and duties exceeding its total expenditures</p>
-  </li>
-</ul>
+            <p>The “Change in National Budget Position (Deficit/Surplus) (GFS Tables)” indicator measures the year-over-year or period-over-period change in a country’s national budget position, specifically tracking shifts between a budget deficit or surplus as reported in the Government Finance Statistics (GFS) tables. The budget position is calculated as the difference between total government revenues and total government expenditures. Budget Deficit occurs when government expenditures exceed revenues. Budget Surplus occurs when government revenues exceed expenditures.</p>
 
           
         </td>
@@ -916,7 +906,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Concept </th>
         <td>
           
-            <p>Annual Government budget and allocation within the different government ministries. Allocation spending either exceeds or is less compared to its allocated budget.  Whether the ministries make revenue for the government and is measured through increase in surplus</p>
+            <p>This indicator tracks the fluctuation in a country’s budget position, reflecting the balance between government income and spending. A change in the budget position indicates whether the government is moving towards a higher deficit, reducing its deficit, or moving into or out of a surplus position. The GFS tables provide standardized financial data that allow for consistent monitoring of the government’s fiscal health.</p>
 
           
         </td>
@@ -927,8 +917,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Disaggregation </th>
+        <td>
           
+            <p>Revenue Source</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -937,14 +938,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Rationale </th>
         <td>
           
-            <ul>
-  <li>
-    <p>Captures the expenses of the government over the year.</p>
-  </li>
-  <li>
-    <p>Depicts the government revenue.</p>
-  </li>
-</ul>
+            <p>Monitoring the change in the national budget position is crucial for assessing the government’s fiscal discipline and sustainability. A budget deficit can indicate the need for borrowing and potential increases in public debt, while a surplus may allow for debt reduction, savings, or additional investments.</p>
 
           
         </td>
@@ -955,8 +949,22 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Method of Computation </th>
+        <td>
           
+            <p>To compute the “Change in National Budget Position (Deficit/Surplus) (GFS Tables),” first collect data on total government revenues and expenditures for the current and previous years from the Government Finance Statistics (GFS) tables. Calculate the budget position for each year by subtracting total expenditures from total revenues. Then, determine the change in the budget position by subtracting the previous year’s budget position from the current years. Express this change in either absolute terms or as a percentage.</p>
+
+<p>Formula:
+Percentage Change in Budget Position= (Budget Position (Current Year) – Budget Position (Previous Year)/ Budget Position (Previous Year))*100</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -965,7 +973,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Sustainable Development Goal Indicator Alignment </th>
         <td>
           
-            <p>17.4.1 (Tier 1)</p>
+            <p>17.4.1</p>
 
           
         </td>
@@ -976,8 +984,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Unit of Measurement </th>
+        <td>
           
+            <p>Percentage</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1132,12 +1151,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250705011027'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250707122950'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250705011027"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250707122950"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
