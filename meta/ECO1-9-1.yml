@@ -1,19 +1,46 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Understanding of Basic Principles of Personal Financial Accounting
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: ECO 1.9.1
-OtherDemandSources: null
-PillarName: Economy
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Proportion of Population with an Understanding of Very Basic Principles
+  of Personal Financial Accounting" indicator measures the percentage of the
+  population that possesses a foundational understanding of personal financial
+  accounting concepts. This includes knowledge of basic financial tasks such as
+  budgeting, saving, managing expenses, and understanding financial statements.
+Concept: >-
+  This indicator assesses the level of financial literacy among the general
+  population. It focuses on the ability of individuals to understand and apply
+  basic financial principles to manage their personal finances effectively. This
+  includes knowledge of creating and following a budget, understanding the
+  importance of saving, managing debts, and making informed financial decisions.
+Disaggregation: Percentage
+Rationale: >-
+  Monitoring the proportion of the population with an understanding of very
+  basic principles of personal financial accounting is essential for evaluating
+  the effectiveness of financial education programs and the overall financial
+  literacy of a society. A higher proportion indicates that a larger segment of
+  the population is equipped to make sound financial decisions, contributing to
+  individual financial well-being and economic stability. Conversely, a lower
+  proportion may suggest a need for enhanced financial education initiatives to
+  improve financial literacy and empower individuals to manage their finances
+  better.
+MethodOfComputation: >
+  To compute the "Proportion of Population with an Understanding of Very Basic
+  Principles of Personal Financial Accounting," first conduct a survey to assess
+  the population's understanding of basic financial concepts. Identify the
+  respondents who demonstrate a basic understanding by meeting a predetermined
+  threshold score. Then, calculate the proportion by dividing the number of
+  respondents with a basic understanding by the total number of respondents, and
+  multiply by 100 to express it as a percentage.
+
+
+  Formula:
+
+  Proportion with Basic Understanding= (Number of Respondents with Basic
+  Understanding/Total Number of Respondents)*100
+SDGAlignment: |-
+  8.10.1
+  8.10.2
+UnitOfMeasurement: Percentage
+FrequencyOfCollection: Annually
+source_organisation_1: 'Ministry of Finance & Economic Management '
+source_organisation_2: ''
+source_organisation_3: ''
