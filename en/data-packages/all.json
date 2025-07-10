@@ -4555,30 +4555,6 @@
       "title": "ECO3-1-1"
     },
     {
-      "path": "ECO2-7-0/data.csv",
-      "name": "ECO2-7-0",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "string",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "ECO2-7-0"
-    },
-    {
       "path": "shelter/data.csv",
       "name": "shelter",
       "profile": "tabular-data-resource",
@@ -5240,6 +5216,30 @@
         ]
       },
       "title": "ENV1-4-2"
+    },
+    {
+      "path": "ECO2-7-1/data.csv",
+      "name": "ECO2-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": " Total number of external audits undertaken to establish compliance with conventions and standards and expose nonconformity"
     },
     {
       "path": "ECO4-8-1/data.csv",
@@ -9379,30 +9379,6 @@
         ]
       },
       "title": "ECO1-8-1"
-    },
-    {
-      "path": "ECO2-7-1/data.csv",
-      "name": "ECO2-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": " Total number of external audits undertaken to establish compliance with conventions and standards and expose nonconformity"
     },
     {
       "path": "infrastructure/data.csv",
