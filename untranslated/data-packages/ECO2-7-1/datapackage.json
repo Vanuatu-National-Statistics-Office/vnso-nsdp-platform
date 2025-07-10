@@ -12,19 +12,17 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
-            "title": "Year"
+            "type": "number"
           },
           {
             "name": "Value",
-            "type": "number",
-            "title": "Value"
+            "type": "number"
           }
         ]
       }
     }
   ],
   "profile": "data-package",
-  "name": "ECO2-7-1 ",
+  "name": "ECO2-7-1",
   "title": "indicators.ECO2-7-1-title"
 }
