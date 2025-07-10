@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250709145859">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250710000545">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -519,28 +519,172 @@ data-event-label="high"
     }
 
     // Set values according to this site's configuration.
+    
+      try {
+        var currentValue = normalizeCurrentValue('Proxy', "No");
+        var propertyEditor = editor.getEditor('root.Proxy');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Proxy');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Definition', "The \"Proportion of New Buildings in Compliance with the Building Code\" indicator measures the percentage of newly constructed buildings that meet the standards and regulations set forth in the local or national building code. Compliance with the building code ensures that buildings are constructed safely, sustainably, and in a manner that protects the health and welfare of the occupants and the public.");
+        var propertyEditor = editor.getEditor('root.Definition');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Definition');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the adherence of new buildings to the established building codes, which set out the minimum acceptable standards for construction, including structural integrity, fire safety, electrical and plumbing systems, energy efficiency, and accessibility. The building code is designed to ensure that all new buildings are constructed to a standard that guarantees safety, durability, and sustainability. By measuring compliance, this indicator provides insight into the effectiveness of building regulations and enforcement mechanisms.");
+        var propertyEditor = editor.getEditor('root.Concept');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Concept');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the proportion of new buildings in compliance with the building code is crucial for ensuring public safety, environmental sustainability, and the long-term resilience of infrastructure. Buildings that do not comply with the code may pose significant risks, including structural failures, fire hazards, and other safety concerns. Compliance with building codes also promotes energy efficiency, accessibility, and environmental protection.");
+        var propertyEditor = editor.getEditor('root.Rationale');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Rationale');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Proportion of New Buildings in Compliance with the Building Code,\" first collect data from building inspections to determine the number of new buildings that comply with the building code. Then, calculate the proportion by dividing the number of compliant buildings by the total number of new buildings inspected, and multiply by 100 to express it as a percentage.\n\nFormula:\nProportion of New Buildings in Compliance= (Number of Compliant New Buildings/Total Number of New Buildings Inspected)*100\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDGAlignment', "9.1.1\n11.2.1");
+        var propertyEditor = editor.getEditor('root.SDGAlignment');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDGAlignment');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Percentage");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
+        var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: FrequencyOfCollection');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Ministry of Infrastructure and Public Utilities ");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -680,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250709145859'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250710000545'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250709145859"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250710000545"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

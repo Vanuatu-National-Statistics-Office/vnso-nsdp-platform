@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250709145859">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250710000545">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -521,7 +521,7 @@ data-event-label="high"
     // Set values according to this site's configuration.
     
       try {
-        var currentValue = normalizeCurrentValue('Proxy', "");
+        var currentValue = normalizeCurrentValue('Proxy', "No");
         var propertyEditor = editor.getEditor('root.Proxy');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "·      The proportion of an amount loaned which a lender charges as interest to the borrower, normally expressed as an annual percentage.\n\n ·      It is the rate a bank or other lender charges to borrow its money, or the rate a bank pays its savers for keeping money in an account.A bank rate is the interest rate at which a nation’s central bank lends money to domestic banks, often in the form of very short-term loans.");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Interest Rate Level (Average Bank Rate)\" indicator measures the average interest rate set by commercial banks for loans and deposits within a country over a specific period, typically expressed as an annual percentage rate (APR). This rate reflects the cost of borrowing money from banks and the return on savings or deposits made with banks.\n\n ");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "·      Interest rate is the rate at which interest is paid by a borrower for the use of money that they borrow from a lender. ·      A rental payment for the use of credit by borrowers.");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the general level of interest rates within the banking sector, providing an average of the rates applied by banks to their lending and deposit-taking activities. The average bank rate is a critical component of a country’s monetary policy environment and influences the overall cost of credit, investment decisions, and savings behaviour. It includes rates for various financial products, such as personal loans, mortgages, and savings accounts.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Bank");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "·      Interest rate guides economic because it is a vital tool of monetary policy.\n\n·      Interest rate directly impacts economic choices such as spending, investment, and consumption. When interest rates decrease, investment and spending increase. When interest rates increase, investments decrease which causes the national income to fall.\n\n·      It determines the strength of an economy and the economic well-being of its citizen.");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the average bank interest rate level is essential for understanding the monetary conditions within an economy. Interest rates directly impact consumer spending, business investment, inflation, and economic growth. Higher interest rates typically reduce borrowing and spending, while lower rates encourage them.\n\n");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Interest Rate Level (Average Bank Rate),\" first collect interest rate data from a representative sample of commercial banks within the country, including rates for various types of loans and deposits. Then, calculate the average bank rate by summing the interest rates from the selected banks and dividing by the number of banks in the sample. If detailed data is available, compute a weighted average by considering the volume of loans or deposits associated with each rate.\n\nFormula:\nAverage Bank Rate= (Total Interest Rates from Selected Banks/Number of Banks in Sample)\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "8.10.1 (tier1), 8.10.2(tier2)");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "8.10.1 & 8.10.2");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,11 +617,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Percentage");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Quarterly");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250709145859'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250710000545'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250709145859"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250710000545"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

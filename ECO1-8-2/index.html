@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250709145859">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250710000545">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -574,8 +574,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Proxy </th>
+        <td>
           
+            <p>No</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -584,9 +595,8 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>·      The proportion of an amount loaned which a lender charges as interest to the borrower, normally expressed as an annual percentage.</p>
+            <p>The “Interest Rate Level (Average Bank Rate)” indicator measures the average interest rate set by commercial banks for loans and deposits within a country over a specific period, typically expressed as an annual percentage rate (APR). This rate reflects the cost of borrowing money from banks and the return on savings or deposits made with banks.</p>
 
-<p>·      It is the rate a bank or other lender charges to borrow its money, or the rate a bank pays its savers for keeping money in an account.A bank rate is the interest rate at which a nation’s central bank lends money to domestic banks, often in the form of very short-term loans.</p>
 
           
         </td>
@@ -602,7 +612,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Concept </th>
         <td>
           
-            <p>·      Interest rate is the rate at which interest is paid by a borrower for the use of money that they borrow from a lender. ·      A rental payment for the use of credit by borrowers.</p>
+            <p>This indicator tracks the general level of interest rates within the banking sector, providing an average of the rates applied by banks to their lending and deposit-taking activities. The average bank rate is a critical component of a country’s monetary policy environment and influences the overall cost of credit, investment decisions, and savings behaviour. It includes rates for various financial products, such as personal loans, mortgages, and savings accounts.</p>
 
           
         </td>
@@ -613,8 +623,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Disaggregation </th>
+        <td>
           
+            <p>Bank</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -623,11 +644,8 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Rationale </th>
         <td>
           
-            <p>·      Interest rate guides economic because it is a vital tool of monetary policy.</p>
+            <p>Monitoring the average bank interest rate level is essential for understanding the monetary conditions within an economy. Interest rates directly impact consumer spending, business investment, inflation, and economic growth. Higher interest rates typically reduce borrowing and spending, while lower rates encourage them.</p>
 
-<p>·      Interest rate directly impacts economic choices such as spending, investment, and consumption. When interest rates decrease, investment and spending increase. When interest rates increase, investments decrease which causes the national income to fall.</p>
-
-<p>·      It determines the strength of an economy and the economic well-being of its citizen.</p>
 
           
         </td>
@@ -638,8 +656,22 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Method of Computation </th>
+        <td>
           
+            <p>To compute the “Interest Rate Level (Average Bank Rate),” first collect interest rate data from a representative sample of commercial banks within the country, including rates for various types of loans and deposits. Then, calculate the average bank rate by summing the interest rates from the selected banks and dividing by the number of banks in the sample. If detailed data is available, compute a weighted average by considering the volume of loans or deposits associated with each rate.</p>
+
+<p>Formula:
+Average Bank Rate= (Total Interest Rates from Selected Banks/Number of Banks in Sample)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -648,7 +680,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Sustainable Development Goal Indicator Alignment </th>
         <td>
           
-            <p>8.10.1 (tier1), 8.10.2(tier2)</p>
+            <p>8.10.1 &amp; 8.10.2</p>
 
           
         </td>
@@ -659,8 +691,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Unit of Measurement </th>
+        <td>
           
+            <p>Percentage</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -669,7 +712,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Frequency of Collection </th>
         <td>
           
-            <p>Annually</p>
+            <p>Quarterly</p>
 
           
         </td>
@@ -813,12 +856,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250709145859'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250710000545'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250709145859"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250710000545"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
