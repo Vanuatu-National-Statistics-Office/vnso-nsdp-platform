@@ -8735,6 +8735,28 @@
       "title": "ECO1-8-1"
     },
     {
+      "path": "ECO2-7-1/data.csv",
+      "name": "ECO2-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "indicators.ECO2-7-1-title"
+    },
+    {
       "path": "infrastructure/data.csv",
       "name": "infrastructure",
       "profile": "tabular-data-resource",
@@ -8865,28 +8887,6 @@
         ]
       },
       "title": " Vanuatu household Incomes"
-    },
-    {
-      "path": "ECO2-7-1/data.csv",
-      "name": "ECO2-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "indicators.ECO2-7-1-title"
     },
     {
       "path": "donor/data.csv",
