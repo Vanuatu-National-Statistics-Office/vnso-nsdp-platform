@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250710052936">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250711034854">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "Government facilities (ie: hospitals, schools, aid posts etc.) located in the provincial areas are accessible and are at convenient distance for access by the people in the provinces. ");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Average Travelling Distance to the Nearest School, Health Facility, Police Post by Provinces\" indicator measures the average distance that residents in each province must travel to reach the nearest essential public services, including schools, health facilities, and police posts. This indicator provides a snapshot of the accessibility of these critical services across different regions.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "* Government services delivered to the provincial area are accessible to all people in the provinces especially the location of government facilities and distance for people to travel to and from the government services to their place of stay.\n* The distance taken for individuals to travel from place of residence to gain access to government services such as schools and health facilities in relation to the population in the area is a indicator that that government uses to build better roads, and other important infrastructure that will allow easy access of that particular population to utilise these services. ");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the accessibility of essential public services—education, healthcare, and law enforcement—by measuring the average distance residents must travel to access them. Accessibility to these services is a key determinant of the quality of life and overall well-being of a population. Longer distances can indicate challenges in service provision and may highlight the need for improved infrastructure or additional service points in certain areas. The indicator is disaggregated by province to provide a regional analysis of service accessibility.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "* Indicates how government services are decentralised throughout the provinces.\n* Depicts the implementation of the Decentralisation Act and its impact on the people in the provinces.\n*Increase employment for people in the provinces. \n* Information is delivered from the national level through the provincial level.");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the average travelling distance to the nearest school, health facility, and police post is crucial for understanding disparities in service access and identifying areas where infrastructure or service provision needs to be improved. Shorter distances generally indicate better access to essential services, which can lead to improved educational outcomes, better health, and enhanced security for the population. Conversely, longer distances can pose significant barriers to accessing these services, particularly in rural or remote areas.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Average Travelling Distance to the Nearest School, Health Facility, Police Post by Provinces,\" first collect data on the locations of these services and the distribution of the population within each province. Then, measure the distance from each residential area or population point to the nearest school, health facility, or police post. Sum these distances for all areas within the province and divide by the total number of areas or population points considered to calculate the average distance. This process should be repeated separately for each type of service (school, health facility, and police post) to obtain the average distance for each service by province.\n\nFormula\nAverage Distance to Nearest Service (Province X)= (Total Distance from Residential Area to Nearest Service in Province X/Number of Residential Areas or Household Points in Province X)\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "1.4.1  (Tier 3)");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "1.4.1\n11.a.1");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,11 +617,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Kilometers");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Every 5 years");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Vanuatu Bureau of Statistics ");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250710052936'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250711034854'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250710052936"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250711034854"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

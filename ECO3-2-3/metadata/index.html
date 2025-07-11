@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250710052936">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250711034854">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -521,7 +521,7 @@ data-event-label="high"
     // Set values according to this site's configuration.
     
       try {
-        var currentValue = normalizeCurrentValue('Proxy', "");
+        var currentValue = normalizeCurrentValue('Proxy', "No");
         var propertyEditor = editor.getEditor('root.Proxy');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "Number of tourist travelling to outer islands in cooperative relation to the total number of tourist visitors into the country");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Proportion of Visitors Traveling to Outer Islands\" indicator measures the percentage of total visitors who travel from the main island or primary tourist destinations to outer islands within a country or region. This indicator reflects the distribution of tourism activity across different geographic areas, particularly the less accessible or more remote parts of the country.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "Number of tourists visiting the outer islands of Vanuatu either for a day pass or spend the night apart from the total number of tourist’s visitors into the country.");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the extent to which visitors explore beyond the main island or primary tourist hubs and visit outer islands. Outer islands often offer unique cultural, natural, and recreational experiences that differ from those available on the main island. By measuring the proportion of visitors who venture to these areas, the indicator provides insight into the appeal of outer islands as tourist destinations and the effectiveness of efforts to promote tourism in these regions. It also highlights the potential for spreading the economic benefits of tourism more evenly across the country.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -563,7 +563,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Disaggregation', "");
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
         var propertyEditor = editor.getEditor('root.Disaggregation');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,7 +577,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "* Indicates the impacts of tourism in the economy.\n* Depicts the development of the tourism sector in the outer islands and the rural communities. ");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the proportion of visitors traveling to outer islands is crucial for understanding the spatial distribution of tourism and its economic impact on different regions. A higher proportion of visitors traveling to outer islands indicates that tourism benefits are being distributed more widely, supporting local economies, preserving cultural heritage, and reducing pressure on the main island’s infrastructure. Conversely, a lower proportion may suggest that more efforts are needed to promote these areas or improve access.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -591,7 +591,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('MethodOfComputation', "Total number of visitors travelling to outer islands divide total number of tourist coming into the country then multiply by 100 to give value in percentage.");
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Proportion of Visitors Traveling to Outer Islands,\" first collect data on the number of visitors who travel to outer islands during the reporting period and the total number of visitors to the country or region. Calculate the proportion by dividing the number of visitors to outer islands by the total number of visitors, and multiply by 100 to express it as a percentage.\n\nFormula:\nProportion of Visitors Traveling to Outer Islands (%)= (Number of Visitors to Outer Islands/Total Number of Visitors)*100\n");
         var propertyEditor = editor.getEditor('root.MethodOfComputation');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -605,7 +605,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "8.9.1\n8.9.2\n17.17.1");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -619,7 +619,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "");
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Percentage");
         var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -633,7 +633,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Monthly, Annually");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Monthly");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -647,7 +647,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_1', "2017 International Arrivals Statistics Monthly Report (December), VNSO");
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Department of Customs & Inland Revenue");
         var propertyEditor = editor.getEditor('root.source_organisation_1');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -661,7 +661,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_2', "2018 International Arrivals Statistics Monthly Report (December), VNSO");
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
         var propertyEditor = editor.getEditor('root.source_organisation_2');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -824,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250710052936'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250711034854'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250710052936"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250711034854"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
