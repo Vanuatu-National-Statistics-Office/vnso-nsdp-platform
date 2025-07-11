@@ -1,54 +1,38 @@
-﻿Proxy: ''
+﻿Proxy: 'No'
 Definition: >-
-  "Average annual household income from tourism" refers to the average amount of
-  money earned by households within a specific area or region as a result of
-  tourism-related activities over the course of a year. It represents the income
-  generated from various tourism-related sources, such as accommodations,
-  transportation, food and beverage services, entertainment, and other related
-  services.
-
-
-  This metric provides an indication of the economic impact of tourism on local
-  households. It takes into account the direct and indirect income derived from
-  tourism-related employment or entrepreneurial activities. The average annual
-  household income from tourism reflects the overall financial benefit received
-  by households in a particular area due to the presence and activity of
-  tourists.
+  The "Average Annual Household Income from Tourism" indicator measures the
+  average income earned by households from tourism-related activities and
+  businesses over the course of a year. This income may come from various
+  sources, such as providing accommodation, food services, transportation,
+  guiding services, or selling goods and services to tourists.
 Concept: >-
-
-  The concept of "average annual household income from tourism" refers to the
-  average amount of money earned by households in a given area or region as a
-  result of their involvement in tourism-related activities over the course of a
-  year. It represents the income generated directly or indirectly from various
-  tourism-related sources, such as accommodations, transportation, food and
-  beverage services, entertainment, and other associated services.
-
-
-  This concept is used to assess the economic impact of tourism on households
-  within a specific area. It takes into account the income earned by households
-  through their participation in tourism-related employment or entrepreneurial
-  ventures. It provides insights into the financial benefits received by local
-  households due to the presence and activities of tourists.
-Disaggregation: 'urban, rural'
-Rationale: >
-  1.  Indicates how much the communities earn from tourism activities annually
-
-  2.  Depicts creativity in tourism activities within the rural communities.
-
-  3.  Indicates how much the tourism sector impacts the rural communities in
-  terms of annual income per household.
+  This indicator tracks the economic benefits that households derive from the
+  tourism industry. Tourism can be a significant source of income, particularly
+  in regions that attract a large number of visitors. The indicator provides
+  insight into how tourism contributes to household income, which is important
+  for understanding the broader economic impact of the tourism sector on local
+  communities. The income measured includes direct earnings from tourism-related
+  jobs, self-employment in tourism, and income from tourism-dependent businesses
+  operated by households.
+Disaggregation: Region
+Rationale: >-
+  Monitoring the average annual household income from tourism is crucial for
+  assessing the economic impact of the tourism sector on local communities and
+  households. A higher average income from tourism indicates that the sector is
+  providing substantial economic benefits to the population, contributing to
+  poverty alleviation, economic growth, and improved living standards.
 MethodOfComputation: >-
   To calculate the average annual household income from tourism, data is
   collected on the income earned by individual households engaged in
   tourism-related activities. This data is then aggregated to determine the
   total income from tourism for all households in the area. This total is
   divided by the number of households to derive the average income figure.
-SDGAlignment: ''
-UnitOfMeasurement: average number
-FrequencyOfCollection: Annually
-source_organisation_1: >-
-  2020 HIES using (p146) total monthly household income from handicrafts divided
-  by total project number of households (50,740) multiplied by 12 for annual
-  estimate, VBOS
+SDGAlignment: |-
+  8.9.1
+  8.9.2
+  17.17.1
+UnitOfMeasurement: vatu
+FrequencyOfCollection: Every Five Years
+source_organisation_1: Vanuatu Bureau of Statistics
 source_organisation_2: ''
 source_organisation_3: ''
