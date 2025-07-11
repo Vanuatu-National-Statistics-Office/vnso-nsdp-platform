@@ -1,19 +1,47 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Business Participation in Annual Agri-Tourism Festival
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: ECO 3.1.2
-OtherDemandSources: null
-PillarName: Economy
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Number of Businesses Participating in the Annual Agritourism Festival by
+  Sector" indicator measures the total count of businesses that participate in
+  the annual agritourism festival, categorized by their specific sector (e.g.,
+  agriculture, tourism, food processing, crafts, hospitality). This indicator
+  reflects the level of engagement and representation of various sectors in the
+  agritourism festival.
+Concept: >-
+  This indicator tracks the involvement of businesses from different sectors in
+  an annual agritourism festival, which serves as a platform to showcase
+  agricultural products, tourism services, and other related industries.
+  Agritourism combines agricultural and tourism activities, allowing visitors to
+  experience farm life, purchase local produce, and learn about sustainable
+  practices. The participation of businesses from various sectors in the
+  festival indicates the strength and diversity of the agritourism industry and
+  highlights the interconnection between agriculture, tourism, and other related
+  sectors.
+Disaggregation: Region
+Rationale: >-
+  Monitoring the number of businesses participating in the annual agritourism
+  festival by sector is crucial for understanding the festival's impact on
+  promoting local businesses, fostering sectoral collaboration, and driving
+  economic growth in the region. A high level of participation from diverse
+  sectors can indicate strong support for agritourism, increased opportunities
+  for business growth, and enhanced visibility for local products and services.
+MethodOfComputation: >
+  To compute the "Number of Businesses Participating in the Annual Agritourism
+  Festival by Sector," first collect data on the number of businesses that
+  participate in the festival, categorized by sector. Then, sum the total number
+  of participating businesses for each sector to determine the overall level of
+  participation by industry.
+
+
+  Formula:
+
+  Number of Businesses Participating by Sector= The Sum of Businesses in Sector
+  X Participating in the Festival
+SDGAlignment: |-
+  8.9.1
+  8.9.2
+  17.17.1
+UnitOfMeasurement: Number
+FrequencyOfCollection: Annually
+source_organisation_1: Department of Agriculture & Rural Development
+source_organisation_2: ''
+source_organisation_3: ''
