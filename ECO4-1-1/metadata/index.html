@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250711034854">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250711054233">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "·      Gross fixed capital formation (net investment) is the net amount of fixed capital accumulation.\nIt measures the increase in the capital stock less the disposal of fixed assets\n\n·      GFCF measures the net increase in fixed capital. It is a component of the Expenditure method of calculating GDP");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Growth in Gross Fixed Capital Formation\" (GFCF) indicator measures the percentage change in the value of investments in fixed assets within an economy over a specific period, usually year-over-year. Fixed assets include infrastructure, machinery, equipment, and buildings that are used in the production of goods and services. This indicator reflects the level of investment in long-term assets that contribute to future economic productivity.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "Gross fixed capital formation includes spending on land improvements for instance fences, drains, machinery and equipment purchases, the construction of roads, railways, private residential dwellings, and commercial and industrial buildings. ");
+        var currentValue = normalizeCurrentValue('Concept', "Gross Fixed Capital Formation represents the net increase in physical assets within an economy, excluding inventory changes. It is a critical component of gross domestic product (GDP) and is used to assess the level of investment in the economy. Growth in GFCF indicates the expansion of an economy's productive capacity, as more capital is being allocated to infrastructure, machinery, and other long-term assets that support economic growth. This indicator helps track how much of an economy’s resources are being devoted to investment in fixed capital, which is essential for sustaining and enhancing productivity.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "None");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "* Reason for capturing Gross Fixed Capital Formation, there should be a way to measure the growth of capital assets as money is reinvested\n\n* Capital Formation is a term used to capture the net change gain; this include increases in fixed assets.");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the growth in Gross Fixed Capital Formation is essential for understanding the dynamics of economic development and the potential for future growth. High growth in GFCF suggests strong investor confidence and increased capacity for economic output, which can lead to job creation, technological advancements, and improved standards of living. Conversely, low or negative growth in GFCF may indicate economic stagnation or declining investment levels, which can hinder long-term economic growth.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Growth in Gross Fixed Capital Formation,\" first collect data on the value of Gross Fixed Capital Formation for the current and previous periods. Then, calculate the growth rate by subtracting the previous period’s GFCF from the current period’s GFCF, dividing the difference by the previous period’s GFCF, and multiplying by 100 to express it as a percentage. This percentage reflects the change in investment in fixed assets within the economy.\n\nFormula:\nGrowth in GFCF (%)= ((GFCF in Current Period – GFCF in Previous Period)/GFCF in Previous Period)*100\n\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "8.2.1(tier1), 17.5.1");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "8.2.1");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,6 +617,18 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Percentage");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
@@ -611,7 +647,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_1', "2017 Statistical Release: GDP Highlights (p11), VNSO");
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Department of Finance & Treasury ");
         var propertyEditor = editor.getEditor('root.source_organisation_1');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -623,8 +659,32 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -764,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250711034854'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250711054233'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250711034854"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250711054233"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

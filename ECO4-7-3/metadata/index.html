@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250711034854">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250711054233">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -521,7 +521,7 @@ data-event-label="high"
     // Set values according to this site's configuration.
     
       try {
-        var currentValue = normalizeCurrentValue('Proxy', "");
+        var currentValue = normalizeCurrentValue('Proxy', "No");
         var propertyEditor = editor.getEditor('root.Proxy');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "* Remittances is the financial or in-kind transfers made by migrants to friends and relatives back in communities of origin. \n* It is a transfer of money, often by a foreign worker to an individual in their home country.");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Total Annual Remittances as a Proportion of GDP\" indicator measures the total value of remittances sent by individuals working abroad to their home country over the course of a year, expressed as a percentage of the country’s Gross Domestic Product (GDP). Remittances include funds transferred by migrant workers to family members or others in their country of origin.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "* Remittances usually flows to developing countries\n* Money sent home through remittances competes with international aid as one of the largest financial inflows to developing countries. Workers’ remittances are a significant part of international capital flow, especially with regard to labour-exporting countries.");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the significance of remittances in relation to the overall economy by comparing the total value of remittances received to the country’s GDP. Remittances are an important source of income for many households, contributing to poverty alleviation, household spending, and investment in education, health, and housing. By expressing remittances as a proportion of GDP, this indicator provides insight into the extent to which remittances contribute to the national economy and how dependent the country is on external financial inflows from its diaspora");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Country of remittance");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "* Workers’ remittances have become a major source of external development finance especially to the communities which assist government financial development to rural settings specially to alleviate the problem of poverty on individual basis.\n* This will also enable the community on how best to manage and strengthen their remittances.");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring total annual remittances as a proportion of GDP is essential for understanding the economic impact of remittances on the national economy. High remittance inflows relative to GDP can indicate a significant reliance on external income sources, which can have both positive and negative implications. Positively, remittances can help stabilize the economy by providing a steady flow of foreign currency and supporting household consumption. However, a high dependence on remittances may also suggest vulnerabilities, such as exposure to economic downturns in countries where the diaspora is concentrated.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute \"Total Annual Remittances as a Proportion of GDP,\" first collect data on the total value of remittances received by the country and the GDP for the same year. Then, calculate the proportion by dividing the total remittances by the GDP and multiplying by 100 to express the result as a percentage.\n\nFormula:\nRemittances as a Proportion of GDP (%) = (Total Annual Remittances/GDP) * 100\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "8.8.1\n8.8.2");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,11 +617,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Percentage");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Quarterly");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Reserve Bank Vanuatu");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250711034854'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250711054233'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250711034854"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250711054233"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

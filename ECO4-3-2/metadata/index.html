@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250711034854">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250711054233">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "·      Export commodities are substances or good that are produced in a country, then shipped to others for distribution and sale abroad. (processed export commodities include agricultural products that have been extracted and modify using certain chemical to alter the product to preserved the produce but at the same time add more value to the product)\n·      A raw material is an unprocessed material, or primary commodity, it is a basic material that is used to produce goods or finished products.");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Ratio of Processed Export Commodities Including Coconut, Kava, Cocoa, Coffee to Raw Exports\" indicator measures the proportion of value-added, processed export commodities to raw, unprocessed export commodities within a given period, typically expressed as a ratio. This indicator focuses on key agricultural products such as coconut, kava, cocoa, and coffee, comparing the volume or value of these commodities that have undergone processing before export to those exported in their raw form.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "* The term commodities are generally understood as goods that are essentially the same no matter where they are produced. \n* Raw material extracted from the environment directly without further process but is export directly to other country.\n");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the level of value addition in the export of key agricultural commodities. Processing raw agricultural products before export can significantly enhance their value, increase revenue, and create additional employment opportunities within the country. The ratio of processed to raw exports reflects the extent to which the economy is moving up the value chain in agricultural production, shifting from being a supplier of raw materials to a producer of higher-value goods.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Type of commodity");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "* To understand which two process of export has the most impact on the economy of Vanuatu \n* What major goods are being exported ");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the ratio of processed export commodities to raw exports is crucial for understanding the progress of industrialization and economic diversification within the agricultural sector. A higher ratio indicates a greater emphasis on value addition, which can lead to higher export revenues, better market positioning, and reduced vulnerability to fluctuations in raw commodity prices.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,6 +589,18 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Ratio of Processed Export Commodities to Raw Exports,\" first gather data on the total value of processed export commodities, such as coconut oil, kava extracts, cocoa powder, and roasted coffee. Then, collect data on the total value of raw exports for the same commodities, such as raw coconut, unprocessed kava, raw cocoa beans, and green coffee beans. Finally, divide the total value of processed exports by the total value of raw exports, and express the result as a ratio.\n\nFormula:\nRatio of Processed to Raw Exports= Total Value of Processed Exports/Total Value of Raw Exports\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
@@ -593,6 +617,18 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Ratio");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Department of Customs & Inland Revenue");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250711034854'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250711054233'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250711034854"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250711054233"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

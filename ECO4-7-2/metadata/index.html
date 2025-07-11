@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250711034854">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250711054233">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -521,7 +521,7 @@ data-event-label="high"
     // Set values according to this site's configuration.
     
       try {
-        var currentValue = normalizeCurrentValue('Proxy', "");
+        var currentValue = normalizeCurrentValue('Proxy', "No");
         var propertyEditor = editor.getEditor('root.Proxy');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', " - labour market flows show the movements of individuals between employment, unemployment and economic inactivity.\n- Labour market is the availability of employment and Labour in terms of supply and demand.");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Labour Market Flows\" indicator measures the movements of individuals into and out of employment, unemployment, and the labour force over a specific period. These flows include transitions between employment, unemployment, and inactivity (people not actively seeking work), providing a dynamic view of labour market activity.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "A labour market in an economy functions with demand and supply of labour, in a market the labour demand is the firm’s demand for labour and supply is the worker’s supply of labour. ");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator captures the fluidity and dynamics of the labour market by tracking the rates at which people enter or exit employment, move between jobs, become unemployed, or leave the labour force altogether. Labour market flows are crucial for understanding the underlying factors affecting employment levels, such as economic conditions, job creation, layoffs, and labour force participation rates. The indicator helps to assess the stability of the labour market, the effectiveness of job matching processes, and the responsiveness of the labour market to economic changes.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "Labour market flows help to understand and interpret changes in the levels of labour market indicators");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring labour market flows is essential for gaining insights into the health and efficiency of the labour market. High flows into employment can indicate strong job creation and economic growth, while high flows into unemployment may signal economic distress or inefficiencies in the labour market. Similarly, tracking flows out of the labour force can provide information on discouraged workers or changing demographics.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute \"Labour Market Flows,\" first collect data on the number of individuals transitioning between employment, unemployment, and out of the labour force over a specified period. Classify these transitions into flow categories such as Employment to Unemployment or Unemployment to Employment. Calculate the flow rates by dividing the number of individuals in each flow category by the total labour market population and multiply by 100 to express it as a percentage.\n\nFormula:\nFlow Rate (%) = (Number of Individuals in Flow Category/Total Number of Individuals in the Labour Market) * 100\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "8.8.1\n8.8.2");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,11 +617,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Percentage");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "* Census & NSDP Baseline survey (10 years)\n* Reserve Bank of Vanuatu quarterly report.");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Department of Labour");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250711034854'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250711054233'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250711034854"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250711054233"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
