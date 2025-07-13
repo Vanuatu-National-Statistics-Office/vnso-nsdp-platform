@@ -30,14 +30,15 @@ MethodOfComputation: >
   number of knowledgeable individuals by the total population surveyed, and
   multiply by 100 to express the result as a percentage.
 
+
   Formula:
 
   Proportion of Population with Cultural Knowledge (%) = (Number of Individuals
   with Knowledge of Traditional Stories, Dances, Songs and Games/Total
   Population Surveyed) * 100
 SDGAlignment: |-
-  11.4
-  11.4.1(Tier 3)
+
+  11.4.1
 UnitOfMeasurement: Percentage (%)
 FrequencyOfCollection: Every 5-10 years
 source_organisation_1: Vanuatu Bureau of Statistics
