@@ -1,19 +1,46 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Religious Affiliation of Health Services
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: SOC 1.5.1
-OtherDemandSources: null
-PillarName: Society
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Proportion of National Formal and Informal Educational Institutions and
+  Health Facilities with Religious Affiliation and Support" indicator measures
+  the percentage of educational institutions (both formal and informal) and
+  health facilities across the country that are affiliated with or receive
+  support from religious organizations. This includes schools, universities,
+  community education programs, hospitals, clinics, and other health centres.
+Concept: >-
+  This indicator tracks the extent to which religious organizations are involved
+  in the provision of education and healthcare services. Religious affiliation
+  and support can involve financial contributions, governance participation,
+  provision of facilities, and influence over curricula or health programs. The
+  indicator reflects the role of religious organizations in shaping the
+  educational and healthcare landscape within a country, highlighting their
+  contribution to social services and community well-being.
+Disaggregation: Region
+Rationale: >-
+  Monitoring the proportion of educational institutions and health facilities
+  with religious affiliation and support is important for understanding the
+  influence and reach of religious organizations in these sectors. Religious
+  organizations often play a significant role in providing education and
+  healthcare, especially in areas where government resources are limited.
+MethodOfComputation: >
+  To compute the "Proportion of National Formal and Informal Educational
+  Institutions and Health Facilities with Religious Affiliation and Support,"
+  first identify and list all relevant educational institutions and health
+  facilities within the country. Then, gather data on the number of these
+  institutions and facilities that are affiliated with or receive support from
+  religious organizations. Next, divide the number of institutions with
+  religious affiliation and support by the total number of such institutions and
+  facilities identified. Finally, multiply the result by 100 to express the
+  proportion as a percentage.
+
+
+  Formula:
+
+  Proportion of Institutions/Facilities with Religious Affiliation (%) = (Number
+  of Religiously Affiliated/Supported Institutions and Facilities/Total Number
+  of Educational and Health Institutions and Facilities) * 100
+SDGAlignment: ''
+UnitOfMeasurement: Percentage
+FrequencyOfCollection: Annually
+source_organisation_1: Ministry of Education & Training
+source_organisation_2: ' Ministry of Health'
+source_organisation_3: ''
