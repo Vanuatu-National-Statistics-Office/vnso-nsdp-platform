@@ -1,34 +1,34 @@
-﻿TargetDescription: |2-
-   By 2020, the incidence of TB in Vanuatu has reduced by 20% compared to 2015 
-   By 2025-50% reduction 
-   By 2030- 80% reduction
-SDGAlignment: '' 
+﻿Proxy: 'No'
 Definition: >-
-  The tuberculosis incidence per 100,000 population as defined as the estimated
-  number of new and relapse TB cases (all forms of TB, including cases in people
-  living with HIV) arising in a given year, expressed as a rate per 100 000
-  population.
+  The "Incidence of Tuberculosis (TB) per 100,000 Population" indicator measures
+  the number of new and relapse cases of tuberculosis (TB) that occur in a
+  population over a specified period, usually one year, expressed per 100,000
+  individuals. TB is a contagious bacterial infection caused by Mycobacterium
+  tuberculosis that primarily affects the lungs but can also affect other parts
+  of the body.
 Concept: >-
-  Direct measurement requires high-quality surveillance systems in which
-  underreporting is negligible, and strong health systems so that
-  under-diagnosis is also negligible; otherwise indirect estimates are based on
-  notification data and estimates of levels of underreporting and
-  under-diagnosis.
-Rationale: >-
-  The overall goal is to “End the global tuberculosis epidemic”, and
-  correspondingly ambitious targets for reductions in tuberculosis deaths and
-  cases are set for 2030 (80% reduction in incidence rate compared with the
-  level of 2015) and 2035 (90% reduction in incidence rate), in the context of
-  the SDGs.
-ComputationMethod: (number of TB incidence) / (total pop) X 100
-ComputationUnit: Percentage (%)
-Proxy: 'Yes'
-Disaggregation: |-
-  •  Age
-  • Geographic location
-  • Sex
-DataSource: Health Information System  (HIS)
-FrequencyOfCollection: Monthly & Annually
-source_organisation_1: 'Vanuatu Ministry of Health - Health Data, TB/Leprosy Unit (from M&E framework)'
+  This indicator tracks the rate at which TB is occurring in the population,
+  providing a measure of the burden of the disease and the effectiveness of
+  public health interventions aimed at preventing and controlling TB. The
+  incidence rate is a key metric for understanding the spread of TB within a
+  community and assessing the impact of TB control programs.
+Disaggregation: Region
+Rationale: ''
+MethodOfComputation: >
+  To compute the "Incidence of TB per 100,000 Population," first collect data on
+  the number of new and relapse TB cases diagnosed within the specified period.
+  Then, obtain the total population size for the same period. Next, divide the
+  total number of TB cases by the total population, and multiply the result by
+  100,000 to express the incidence rate per 100,000 population.
+
+
+  Formula:
+
+  TB Incidence Rate (per 100,000 population) = (Number of New and Relapse TB
+  Cases/Total Population) * 100,000
+SDGAlignment: '3.3.2, 3.3.3, 3.3.4, 3.3.5, & 3.4.1'
+UnitOfMeasurement: 'Incidence per 100,000 population'
+FrequencyOfCollection: Annually
+source_organisation_1: Ministry of Health
 source_organisation_2: ''
 source_organisation_3: ''
