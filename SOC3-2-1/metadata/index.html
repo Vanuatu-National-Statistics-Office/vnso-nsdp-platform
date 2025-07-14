@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250714045326">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250714193548">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "The number of People living with diabetes, they have an increased risk of lower limb amputation. ");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Number of Diabetic (NCD) Related Amputations\" indicator measures the total number of amputations performed due to complications arising from diabetes, a non-communicable disease (NCD). These amputations are typically the result of severe, uncontrolled diabetes leading to conditions such as peripheral artery disease, neuropathy, and infections that do not heal properly.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "A nonhealing ulcer that causes severe damage to tissues and bone may require surgical removal (amputation) of a toe, foot or part of a leg. Some people with diabetes are more at risk than others. Factors that lead to an increased risk of an amputation include High blood sugar levels.");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the prevalence of severe diabetes-related complications within a population. Diabetes is a chronic condition that, when poorly managed, can lead to serious health issues, including the need for limb amputation. Monitoring the number of diabetic-related amputations provides insight into the burden of diabetes on the healthcare system and the effectiveness of diabetes management and preventive care programs.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -563,7 +563,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Disaggregation', "•\tAge\n•\tGeographic location\n•\tSex");
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
         var propertyEditor = editor.getEditor('root.Disaggregation');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,7 +577,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "In some cases, diabetes can lead to peripheral artery disease (PAD). PAD causes your blood vessels to narrow and reduces blood flow to your legs and feet. It may also cause nerve damage, known as peripheral neuropathy. The most common amputations in people with diabetes are the toes, feet, and lower legs.");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the number of diabetic-related amputations is crucial for assessing the impact of diabetes on public health and the effectiveness of interventions aimed at controlling diabetes and preventing complications. High rates of amputations suggest inadequate diabetes management, lack of access to healthcare, or delayed treatment of complications.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -589,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Number of Diabetic (NCD) Related Amputations,\" first collect data on the total number of amputations performed within the specified period that are attributed to diabetes complications. Verify that each amputation counted is directly related to diabetes by reviewing medical records or diagnoses. Finally, sum the total number of diabetic-related amputations within the period.\n\n\nFormula:\nNumber of Diabetic-Related Amputations = Sum of All Amputations Due to Diabetic Complications\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "3.3.2, 3.3.3, 3.3.4, 3.3.5, 3.4.1");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -605,6 +617,18 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Number");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
@@ -623,7 +647,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_1', "");
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Ministry of Health");
         var propertyEditor = editor.getEditor('root.source_organisation_1');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -800,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250714045326'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250714193548'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250714045326"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250714193548"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

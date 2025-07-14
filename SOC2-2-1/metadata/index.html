@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250714045326">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250714193548">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "Schools which formerly had very little say in financial management now receive grants directly from the central authorities. Educational management theories assume that grants will have other advantages resulting in less bureaucracy, fewer leakages in the distribution of funds, and more appropriate and selective use of funds by schools for their self-improvement, as well as a greater impact if more money reaches disadvantaged schools. Finally, grants may influence school-community relations and enhance school autonomy and capacity.");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Percentage of Schools Demonstrating Effective Implementation and Management of School Grants\" indicator measures the proportion of schools that successfully implement and manage school grants according to established guidelines and best practices. Effective implementation and management include appropriate allocation, utilization, reporting, and monitoring of grant funds to support educational activities and improve school performance.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "The Department of Education may offer grants to organisations or individuals, to support the programs on early child care, childhood education, school education, higher education, vocational education and training, international education.");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the ability of schools to manage financial resources provided through grants efficiently and transparently. School grants are often allocated to support specific educational goals, such as improving infrastructure, acquiring teaching materials, and enhancing student learning outcomes. Effective management of these grants is crucial to ensure that funds are used appropriately and achieve the intended impact.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "[1]The purpose of this School Grants Scheme is to guide the Ministry, Provincial Education Offices, and Education Authorities, School Councils/committees and schools in proper administration and accountability for government grants and school fees.  [2]To increase access to education for all children in Vanuatu in order to achieve the second Millennium Development Goal (universal primary education) by removing financial barriers that prevent parents from enrolling their children in primary school. [3]To provide funding by way of school grants directly to Vanuatu schools in order to reduce and over time eventually eliminate costs to parents of paying school fees to contribute to the costs of their children’s education");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the percentage of schools demonstrating effective implementation and management of school grants is essential for assessing the overall accountability and financial management capacity within the education sector. Proper use of school grants is key to improving educational quality and ensuring that resources are allocated where they are most needed.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Percentage of Schools Demonstrating Effective Implementation and Management of School Grants,\" first establish specific criteria for effective grant management. Conduct audits or evaluations to identify which schools meet these criteria. Calculate the proportion by dividing the number of schools that demonstrate effective grant management by the total number of schools that received grants, and multiply by 100 to express the result as a percentage.\n\nFormula:\nPercentage of Schools Demonstrating Effective Grant Management (%) = (Number of Schools Meeting Grant Management Criteria/Total Number of Schools Receiving Grants) * 100\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "4.c.1 (R) (Tier 1)");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "4.c.1");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,11 +617,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Percentage");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "half yearly");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Ministry of Education & Training ");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250714045326'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250714193548'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250714045326"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250714193548"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
