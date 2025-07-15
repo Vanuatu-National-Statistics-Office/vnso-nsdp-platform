@@ -1,21 +1,42 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Women in Decision Making
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: SOC 4.1.2
-OtherDemandSources: null
-PillarName: Society
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
-source_active_1: true
-source_organisation_1: 2013 DHS (p. 227), MoH and VNSO
+﻿Proxy: 'No'
+Definition: >-
+  The "Number of Decisions in Which Women Participate" indicator measures the
+  total count of formal decisions made within an organization, institution, or
+  governing body in which women actively participate. Participation can include
+  involvement in discussions, voting, or influencing outcomes in decision-making
+  processes.
+Concept: >-
+  This indicator tracks the level of involvement of women in decision-making
+  processes across various sectors, including government, business, civil
+  society, and other organizations. The participation of women in
+  decision-making is crucial for ensuring that diverse perspectives are
+  considered and that decisions are more representative of the entire
+  population. This indicator reflects the extent to which gender inclusivity is
+  being practiced in leadership and governance.
+Disaggregation: Sector
+Rationale: >-
+  Monitoring the number of decisions in which women participate is essential for
+  assessing progress toward gender equality in leadership and decision-making
+  roles. Women's participation in decision-making processes contributes to more
+  equitable and inclusive outcomes, which are vital for addressing the needs and
+  interests of all members of society.
+MethodOfComputation: >
+  To compute the "Number of Decisions in Which Women Participate," first
+  identify and list all relevant decision-making bodies within the specified
+  organization or sector. Then, collect data on the number of decisions made
+  during a specified period and record instances where women were actively
+  involved in the decision-making process. Finally, sum the total number of
+  decisions in which women participated across all identified decision-making
+  bodies during the period.
+
+
+  Formula:
+
+  Number of Decisions in Which Women Participate = Sum of All Decisions Where
+  Women Actively Contributed 
+SDGAlignment: '5.5.1, 5.5.2, 5.a.1 & 5.c.1'
+UnitOfMeasurement: Number
+FrequencyOfCollection: Annually
+source_organisation_1: 'Public Service Commission '
+source_organisation_2: ''
+source_organisation_3: ''

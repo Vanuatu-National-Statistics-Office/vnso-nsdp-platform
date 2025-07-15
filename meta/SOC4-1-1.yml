@@ -1,19 +1,47 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Gender Responsive Policies in Government
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: SOC 4.1.1
-OtherDemandSources: null
-PillarName: Society
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Proportion of Government Departments with Gender-Responsive Policies,
+  Legislation, and Programs" indicator measures the percentage of government
+  departments that have developed, implemented, and actively maintain policies,
+  legislation, and programs specifically designed to address gender equality and
+  the needs of different genders. Gender-responsive approaches are those that
+  recognize and address the different needs, opportunities, and challenges faced
+  by all genders, with a focus on promoting equality and inclusion.
+Concept: >-
+  This indicator tracks the extent to which government departments are
+  integrating gender considerations into their policies, laws, and programs.
+  Gender-responsive policies and programs aim to reduce gender disparities,
+  promote equal opportunities, and ensure that the impacts of government actions
+  are equitable across all genders. The indicator reflects the commitment of
+  government institutions to mainstream gender equality across all areas of
+  public administration.
+Disaggregation: Region
+Rationale: >-
+  Monitoring the proportion of government departments with gender-responsive
+  policies, legislation, and programs is essential for assessing the
+  government's commitment to gender equality. It provides insight into how well
+  gender considerations are being integrated into the broader policy and
+  legislative framework. High proportions indicate that gender equality is being
+  systematically addressed across government departments, which is crucial for
+  creating an inclusive society.
+MethodOfComputation: >
+  To compute the "Proportion of Government Departments with Gender-Responsive
+  Policies, Legislation, and Programs," first identify and list all relevant
+  government departments. Then, assess each department to determine whether they
+  have developed and implemented gender-responsive policies, legislation, and
+  programs. Next, count the number of departments that meet this criterion and
+  divide it by the total number of departments identified. Finally, multiply the
+  result by 100 to express the proportion as a percentage.
+
+
+  Formula:
+
+  Proportion of Government Departments with Gender Responsive Policies (%) =
+  (Number of Departments with Gender Responsive Measures/Total Number of
+  Departments Assessed) * 100
+SDGAlignment: '5.5.1, 5.5.2, 5.a.1 & 5.c.1 '
+UnitOfMeasurement: Percentage
+FrequencyOfCollection: Annually
+source_organisation_1: Department of Women’s Affairs
+source_organisation_2: ''
+source_organisation_3: ''

@@ -1,19 +1,41 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Government Support of Organized Sport
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: SOC 4.7.2
-OtherDemandSources: null
-PillarName: Society
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Number of Government Sponsored or Partnered Sporting Events in the Last
+  12 Months" indicator measures the total count of sporting events that were
+  organized, sponsored, or partnered by the government within a specified
+  12-month period. This includes events fully funded by the government as well
+  as those where the government acted as a partner with private organizations,
+  NGOs, or other entities.
+Concept: >-
+  This indicator tracks the level of government involvement in promoting and
+  supporting sports through the organization or sponsorship of sporting events.
+  Government-sponsored or partnered sporting events can range from local
+  community sports tournaments to national and international competitions. Such
+  events are critical for promoting physical activity, fostering community
+  spirit, and encouraging participation in sports at all levels of society.
+Disaggregation: 'Government Ministry '
+Rationale: >-
+  Monitoring the number of government-sponsored or partnered sporting events
+  provides insights into the government's commitment to promoting sports and
+  physical activity. A higher number of events indicates active government
+  involvement in providing opportunities for citizens to engage in sports, which
+  is essential for public health, social cohesion, and national pride.
+MethodOfComputation: >
+  To compute the "Number of Government Sponsored or Partnered Sporting Events in
+  the Last 12 Months," first identify and list all sporting events that occurred
+  within the specified period and were sponsored or partnered by the government.
+  Then, verify the government's involvement in each event through records,
+  agreements, or official announcements. Finally, count the total number of
+  these events to determine the indicator value.
+
+
+  Formula:
+
+  Total Number of Government-Sponsored or Partnered Sporting Events = Sum of All
+  Sporting Events Organized or Partnered by Government in 12 months
+SDGAlignment: ''
+UnitOfMeasurement: Number
+FrequencyOfCollection: Annually
+source_organisation_1: 'Public Service Commission '
+source_organisation_2: ''
+source_organisation_3: ''
