@@ -1,21 +1,52 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Support Services for Child Human Rights Violations, Sexual Abuse
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: SOC 4.6.1
-OtherDemandSources: null
-PillarName: Society
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
-source_active_1: true
-source_organisation_1: 2013 DHS (p243), VNSO
+﻿Proxy: 'No'
+Definition: >-
+  The "Total Number of Cases with Children Experiencing Human Rights Violations
+  in the Following Areas: Sexual Abuse, Neglect, Physical Abuse, Exploitation,
+  Emotional Abuse (Disseminate by These Areas) Accessing Support Services"
+  indicator measures the total count of cases where children who have
+  experienced specific types of human rights violations—namely sexual abuse,
+  neglect, physical abuse, exploitation, or emotional abuse—have accessed
+  support services. The data is disaggregated by the type of abuse to provide
+  detailed insights into the areas of violation.
+Concept: >-
+  This indicator tracks the responsiveness of support systems to children who
+  have experienced human rights violations, particularly in the areas of abuse
+  and exploitation. Support services may include medical care, psychological
+  counselling, legal aid, child protective services, shelter, and rehabilitation
+  programs. By disaggregating data by type of abuse, the indicator provides a
+  clearer understanding of the nature and extent of violations children face and
+  the availability and utilization of services to support them.
+Disaggregation: 'Type of human rights violation '
+Rationale: >-
+  Monitoring the total number of cases with children experiencing human rights
+  violations who access support services is critical for evaluating the
+  effectiveness of child protection systems. High numbers of children accessing
+  support services can indicate awareness and availability of these services,
+  while low numbers may suggest barriers to access, underreporting, or gaps in
+  service provision. Disaggregating the data by type of abuse helps identify
+  specific areas where additional resources or targeted interventions are
+  needed.
+MethodOfComputation: >
+  To compute the "Total Number of Cases with Children Experiencing Human Rights
+  Violations in the Following Areas: Sexual Abuse, Neglect, Physical Abuse,
+  Exploitation, Emotional Abuse Accessing Support Services," first identify and
+  classify all reported cases where children have experienced these specific
+  types of violations. Then, collect data on the number of these cases where
+  children have accessed support services. Disaggregate the data by each type of
+  violation to determine the number of cases in each category that have accessed
+  services. Finally, sum the totals to provide the overall number of cases,
+  disaggregated by the type of abuse.
+
+
+
+  Formula:
+
+  Total Number of Cases Accessing Support Services = Sum of All (Cases of Sexual
+  Abuse + Cases of Neglect + Cases of Physical Abuse + Cases of Exploitation +
+  Cases of Emotional Abuse)
+SDGAlignment: 16.2.1
+UnitOfMeasurement: Number
+FrequencyOfCollection: Annually
+source_organisation_1: Vanuatu Police Force
+source_organisation_2: ''
+source_organisation_3: ''

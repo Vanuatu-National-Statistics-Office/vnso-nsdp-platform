@@ -1,19 +1,48 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Reported Cases of Violence Against Women Addressed
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: SOC 4.2.3
-OtherDemandSources: null
-PillarName: Society
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Percentage of Reported Cases of Violence Against Women, Children, and
+  Vulnerable People Addressed" indicator measures the proportion of officially
+  reported cases of violence against women, children, and vulnerable individuals
+  that have been effectively addressed. Addressing a case involves taking
+  appropriate actions, such as investigation, legal proceedings, provision of
+  support services, or resolution, within a specified period.
+Concept: >-
+  This indicator tracks the responsiveness of law enforcement, social services,
+  and other relevant agencies in handling cases of violence against women,
+  children, and vulnerable populations. Addressing a case means not only
+  initiating an investigation but also providing necessary support services
+  (e.g., counselling, legal aid, medical care) and ensuring that justice and
+  protection are delivered to the victims. The indicator reflects the efficiency
+  and effectiveness of the system in responding to reports of violence and in
+  protecting vulnerable individuals.
+Disaggregation: Region
+Rationale: >-
+  Monitoring the percentage of reported cases of violence that are addressed is
+  crucial for assessing the effectiveness of the justice system, social
+  services, and protection mechanisms in safeguarding vulnerable populations. A
+  high percentage indicates that reported cases are being actively managed and
+  resolved, which is essential for maintaining public trust in the system and
+  for ensuring the safety and well-being of victims. Conversely, a low
+  percentage may indicate systemic challenges such as under-resourcing, lack of
+  capacity, or barriers to accessing justice and support.
+MethodOfComputation: >-
+  To compute the "Percentage of Reported Cases of Violence Against Women,
+  Children, and Vulnerable People Addressed," first collect data on the total
+  number of reported cases within a specified period. Then, gather data on how
+  many of these cases have been addressed through actions such as investigation,
+  legal proceedings, or support services. Next, divide the number of addressed
+  cases by the total number of reported cases, and multiply the result by 100 to
+  express the proportion as a percentage.
+
+
+
+  Formula:
+
+  Percentage of Reported Cases Addressed (%) = (Number of Cases Addressed/Total
+  Number of Reported Cases) * 100
+SDGAlignment: '5.1.1, 5.2.1 & 5.2.2'
+UnitOfMeasurement: Percentage
+FrequencyOfCollection: Annually
+source_organisation_1: Vanuatu Police Force
+source_organisation_2: ''
+source_organisation_3: ''

@@ -1,19 +1,49 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Disability Accessible Public Infrastructure
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: SOC 4.5.1
-OtherDemandSources: null
-PillarName: Society
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Proportion of Government Offices and Public Facilities with Ramp Access
+  or Some Disability-Friendly Rating" indicator measures the percentage of
+  government offices and public facilities that are equipped with ramps or have
+  received a disability-friendly rating based on accessibility standards. This
+  includes physical modifications such as ramps, elevators, accessible
+  restrooms, and other features that ensure accessibility for people with
+  disabilities.
+Concept: >-
+  This indicator tracks the accessibility of public buildings and facilities for
+  people with disabilities. Accessibility is a critical aspect of inclusivity,
+  enabling people with mobility challenges or other disabilities to access
+  public services, participate in civic activities, and utilize government
+  facilities. A disability-friendly rating is typically based on criteria that
+  assess whether a building or facility meets specific standards for
+  accessibility.
+Disaggregation: Type of Ministry
+Rationale: >-
+  Monitoring the proportion of government offices and public facilities with
+  ramp access or a disability-friendly rating is essential for assessing
+  progress towards creating an inclusive and accessible environment for all
+  citizens. High levels of accessibility in public facilities indicate a
+  commitment to inclusivity and the rights of people with disabilities, ensuring
+  they have equal access to public services and opportunities.
+MethodOfComputation: >-
+  To compute the "Proportion of Government Offices and Public Facilities with
+  Ramp Access or Some Disability-Friendly Rating," first identify and list all
+  relevant government offices and public facilities within the specified area.
+  Then, assess each facility for the presence of accessibility features such as
+  ramps or whether it meets the criteria for a disability-friendly rating. Next,
+  collect data on the number of facilities that have ramp access or a
+  disability-friendly rating, and divide this by the total number of facilities
+  assessed. Finally, multiply the result by 100 to express the proportion as a
+  percentage.
+
+
+
+  Formula:
+
+  Proportion of Accessible Facilities (%) = (Number of Accessible Government
+  Offices and Public Facilities/Total Number of Government Offices and Public
+  Facilities Assessed) * 100
+SDGAlignment: 10.3.1
+UnitOfMeasurement: Percentage
+FrequencyOfCollection: Annually
+source_organisation_1: 'Ministry of Infrastructure & Public Utilities '
+source_organisation_2: ''
+source_organisation_3: ''

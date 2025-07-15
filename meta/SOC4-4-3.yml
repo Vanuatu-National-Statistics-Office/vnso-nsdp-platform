@@ -1,19 +1,45 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Bias Review of National Laws
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: SOC 4.4.3
-OtherDemandSources: null
-PillarName: Society
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Proportion of Laws Reviewed on the Basis of Discriminatory and Gender
+  Biased Principles" indicator measures the percentage of existing laws and
+  legal provisions that have been formally reviewed to identify and address
+  elements of discrimination or gender bias. This review process typically
+  involves analyzing the legal text, its application, and its impact to ensure
+  that it promotes equality and does not perpetuate discrimination based on
+  gender or other protected characteristics.
+Concept: >-
+  This indicator tracks the efforts made by a country or legal body to assess
+  and reform its legal framework to eliminate discriminatory and gender-biased
+  provisions. Discriminatory laws are those that create or perpetuate
+  inequalities between different groups, often to the disadvantage of women or
+  marginalized populations. Gender bias in laws can manifest in unequal
+  treatment or outcomes for different genders, particularly in areas such as
+  family law, labour law, and criminal law.
+Disaggregation: 'Type of law (civil, criminal, labour, family law)'
+Rationale: >-
+  Monitoring the proportion of laws reviewed for discrimination and gender bias
+  is crucial for promoting a legal system that upholds the principles of
+  equality and justice. The review and revision of discriminatory laws are key
+  steps in ensuring that legal frameworks protect the rights of all citizens,
+  regardless of gender.
+MethodOfComputation: >
+  To compute the "Proportion of Laws Reviewed on the Basis of Discriminatory and
+  Gender Biased Principles," first identify and list all relevant laws that may
+  require review for discriminatory and gender-biased content. Then, conduct a
+  formal review of these laws. Next, collect data on the number of laws that
+  have been reviewed and divide this by the total number of relevant laws.
+  Finally, multiply the result by 100 to express the proportion of reviewed laws
+  as a percentage.
+
+
+
+  Formula:
+
+  Proportion of Laws Reviewed (%) = (Number of Laws Reviewed for Discrimination
+  and Gender Bias/Total Number of Relevant Laws) * 100
+SDGAlignment: 16.a.1
+UnitOfMeasurement: Percentage
+FrequencyOfCollection: Annually
+source_organisation_1: Parliament of Vanuatu
+source_organisation_2: ''
+source_organisation_3: ''
