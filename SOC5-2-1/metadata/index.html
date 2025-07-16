@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250715175709">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716063112">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -519,28 +519,172 @@ data-event-label="high"
     }
 
     // Set values according to this site's configuration.
+    
+      try {
+        var currentValue = normalizeCurrentValue('Proxy', "No");
+        var propertyEditor = editor.getEditor('root.Proxy');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Proxy');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Definition', "The \"Number of Anti-Corruption Committee Submissions Acted Upon\" indicator measures the total number of reports, recommendations, or submissions made by an anti-corruption committee that have resulted in concrete actions or responses by relevant authorities or institutions. This includes investigations, policy changes, disciplinary actions, or any other formal response triggered by the committee's submissions.");
+        var propertyEditor = editor.getEditor('root.Definition');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Definition');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the effectiveness and impact of an anti-corruption committee in addressing corruption issues. Anti-corruption committees typically receive reports, investigate allegations, and make recommendations for action to combat corruption. The indicator reflects the extent to which these efforts lead to tangible outcomes, such as legal proceedings, reforms, or other corrective measures.");
+        var propertyEditor = editor.getEditor('root.Concept');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Concept');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the number of anti-corruption committee submissions acted upon is crucial for assessing the responsiveness of the government and other relevant bodies to corruption-related issues. A higher number of submissions acted upon indicates that the committee's work is leading to concrete actions and potentially reducing corruption. Conversely, a low number may suggest that the committee's recommendations are not being taken seriously or that there are barriers to implementing anti-corruption measures.");
+        var propertyEditor = editor.getEditor('root.Rationale');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Rationale');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Number of Anti-Corruption Committee Submissions Acted Upon,\" first identify and list all submissions made by the anti-corruption committee within the specified time period. Then, collect data on the number of these submissions that have resulted in concrete actions by relevant authorities or institutions. Finally, count the total number of submissions that have been acted upon to determine the indicator value.\n\n\nFormula:\nNumber of ACC Submissions Acted Upon = Sum of All Submissions Resulting in Actions \n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDGAlignment', "16.5.1 & 16.5.2");
+        var propertyEditor = editor.getEditor('root.SDGAlignment');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDGAlignment');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Number");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
+        var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: FrequencyOfCollection');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Ministry of Justice & Community Services");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -680,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250715175709'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716063112'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250715175709"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716063112"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

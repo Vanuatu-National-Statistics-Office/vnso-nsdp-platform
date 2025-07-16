@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250715175709">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716063112">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -519,28 +519,172 @@ data-event-label="high"
     }
 
     // Set values according to this site's configuration.
+    
+      try {
+        var currentValue = normalizeCurrentValue('Proxy', "No");
+        var propertyEditor = editor.getEditor('root.Proxy');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Proxy');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Definition', "The \"Annual Change in Number of Magistrate and Supreme Court Pending Cases\" indicator measures the difference in the total number of unresolved cases (pending cases) in the Magistrate and Supreme Courts at the end of a given year compared to the number of pending cases at the end of the previous year. This indicator reflects the year-over-year variation in the backlog of cases within the judicial system.");
+        var propertyEditor = editor.getEditor('root.Definition');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Definition');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the efficiency and effectiveness of the judicial system in processing and resolving cases. A pending case is any legal matter that has been filed in court but has not yet reached a final judgment or resolution. The annual change in the number of pending cases can indicate whether the court system is becoming more efficient (reducing the backlog) or less efficient (increasing the backlog).");
+        var propertyEditor = editor.getEditor('root.Concept');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Concept');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the annual change in the number of pending cases is crucial for understanding the performance of the judiciary. A growing number of pending cases may indicate delays in the justice process, insufficient judicial resources, or other systemic issues that hinder the timely resolution of cases. Conversely, a reduction in pending cases suggests improvements in court efficiency, which is essential for ensuring timely access to justice.");
+        var propertyEditor = editor.getEditor('root.Rationale');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Rationale');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Annual Change in Number of Magistrate and Supreme Court Pending Cases,\" first collect data on the total number of pending cases in both courts at the end of the current year and the previous year. Then, subtract the number of pending cases at the end of the previous year from the number at the end of the current year to determine the annual change. A positive result indicates an increase in the number of pending cases, while a negative result indicates a decrease.\n\nFormula:\nAnnual Change in Pending Cases=Pending Cases at End of Current Year – Pending Cases at End of Previous Year\nPercentage Change in Pending Cases (%) = (Annual Change in Pending Cases/Pending Cases at End of Previous Year) * 100\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDGAlignment', "16.3.1");
+        var propertyEditor = editor.getEditor('root.SDGAlignment');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDGAlignment');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Number");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
+        var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: FrequencyOfCollection');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -680,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250715175709'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716063112'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250715175709"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716063112"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

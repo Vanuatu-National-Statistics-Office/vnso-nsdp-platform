@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250715175709">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716063112">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "Security forces - National security or national defence is the security and defence of a nation state, including its citizens, economy, and institutions, which is regarded as a duty of government.");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Total Number of National Security Forces per 1,000 Population\" indicator measures the number of personnel serving in national security forces, including the military, police, and other relevant security agencies, relative to every 1,000 people in the population. This indicator reflects the density of security personnel available to maintain law and order, defend the nation, and respond to emergencies.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "Originally conceived as protection against military attack, national security is now widely understood to include also non-military dimensions, including the security from terrorism, minimization of crime, economic security, energy security, environmental security, food security, cyber-security etc. Similarly, national security risks include, in addition to the actions of other nation states, action by violent non-state actors, by narcotic cartels, and by multinational corporations, and also the effects of natural disasters.");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the availability and distribution of national security personnel in relation to the population size. The national security forces typically include armed forces, police, and other law enforcement agencies responsible for maintaining internal security, enforcing the law, and protecting the country from external threats. The indicator helps in understanding how well a country is staffed in terms of security personnel relative to its population, which can influence the overall effectiveness of security operations and public safety.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Type of security force (police, military, other)");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "This study will depict the total number of national security forces per 1,000 people inside Vanuatu and the difference between the total number of security forces and the target which is 900 by 2020. ");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the number of national security forces per 1,000 population is crucial for assessing a country's capacity to ensure security and public order. A higher ratio of security personnel may indicate a robust security presence, which can deter crime and enhance the ability to respond to security threats. Conversely, a lower ratio might signal potential vulnerabilities in maintaining law and order, especially in areas with large or growing populations.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,6 +589,18 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Total Number of National Security Forces per 1,000 Population,\" first collect data on the total number of personnel in the national security forces. Then, obtain the total population size for the same period. Next, divide the number of security personnel by the total population and multiply the result by 1,000 to express the number of security personnel per 1,000 population.\n\nFormula:\nSecurity Forces per 1,000 Population = (Total Number of National Security Forces/Total Population) * 1,000\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
@@ -593,6 +617,18 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Number per 1,000 population");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Vanuatu Police Force & Vanuatu Army");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250715175709'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716063112'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250715175709"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716063112"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

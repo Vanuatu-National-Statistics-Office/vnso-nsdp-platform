@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250715175709">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716063112">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -519,27 +519,135 @@ data-event-label="high"
     }
 
     // Set values according to this site's configuration.
+    
+      try {
+        var currentValue = normalizeCurrentValue('Proxy', "No");
+        var propertyEditor = editor.getEditor('root.Proxy');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Proxy');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Definition', "The \"Average Cost of Legal Fees/Services for a Court Case\" indicator measures the average amount of money that individuals or entities spend on legal fees and related services to pursue or defend a case in court. This includes payments to lawyers, court fees, expert witness fees, and other associated legal expenses.");
+        var propertyEditor = editor.getEditor('root.Definition');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Definition');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the financial burden associated with accessing legal services in the court system. Legal fees can vary widely depending on the complexity of the case, the jurisdiction, the lawyer's experience, and other factors. Understanding the average cost provides insight into the affordability and accessibility of legal representation, which is a key component of the right to fair and equal access to justice.");
+        var propertyEditor = editor.getEditor('root.Concept');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Concept');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Case type (criminal, civil, family, etc)");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the average cost of legal fees and services is crucial for assessing the affordability of the judicial system for the general population. High legal costs can be a significant barrier to justice, especially for low-income individuals and marginalized groups.");
+        var propertyEditor = editor.getEditor('root.Rationale');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Rationale');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Average Cost of Legal Fees/Services for a Court Case,\" first collect data on the legal fees and associated costs for a representative sample of court cases. Classify the data by type of case and jurisdiction to account for cost variations. Then, sum the total legal costs for all sampled cases and divide by the total number of cases to determine the average cost. This provides insight into the financial burden of accessing legal services in the court system.\n\n\nFormula:\nAverage Cost of Legal Fees/Services = (Total Legal Fees/Service Costs for All Cases/Total Number of Cases)\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDGAlignment', "16.3.1");
+        var propertyEditor = editor.getEditor('root.SDGAlignment');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDGAlignment');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Vatu");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
+        var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: FrequencyOfCollection');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_1', "2010 HIES, VNSO");
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Ministry of Justice & Community Services");
         var propertyEditor = editor.getEditor('root.source_organisation_1');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -551,8 +659,32 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -692,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250715175709'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716063112'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250715175709"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716063112"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
