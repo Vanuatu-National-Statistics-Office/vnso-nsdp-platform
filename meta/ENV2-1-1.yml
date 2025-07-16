@@ -1,19 +1,48 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: '''Green Infrastructure'' Projects'
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: ENV 2.1.1
-OtherDemandSources: null
-PillarName: Environment
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: ''
+Definition: >-
+  The "Proportion of 'Blue-Green Growth Friendly' National Policies Fully
+  Implemented" indicator measures the percentage of national policies aimed at
+  promoting sustainable economic growth that aligns with environmental
+  protection (both marine and terrestrial) that have been fully implemented.
+  "Blue-green growth" refers to strategies that promote sustainable use of ocean
+  (blue) and land (green) resources while ensuring economic development.
+Concept: >-
+  This indicator tracks the extent to which a country has implemented its
+  national policies that are designed to support blue-green growth. These
+  policies typically address issues such as marine conservation, sustainable
+  fisheries, renewable energy, biodiversity protection, sustainable agriculture,
+  and pollution control. The indicator provides insights into the country's
+  commitment to and progress in achieving sustainable development goals through
+  the integration of environmental and economic policies.
+Disaggregation: Sector
+Rationale: >-
+  Monitoring the implementation of blue-green growth-friendly policies is
+  critical for assessing a country’s efforts to achieve sustainable development.
+  Fully implementing these policies is essential for balancing economic growth
+  with environmental sustainability, ensuring that natural resources are
+  preserved for future generations. This indicator helps policymakers,
+  stakeholders, and the public understand the effectiveness of government
+  initiatives aimed at promoting sustainability, identify gaps in policy
+  implementation, and guide future actions to enhance environmental stewardship
+  while fostering economic growth.
+MethodOfComputation: >
+  To compute the "Proportion of 'Blue-Green Growth Friendly' National Policies
+  Fully Implemented," first identify and compile a list of all national policies
+  that are classified as "blue-green growth friendly." Then, assess the
+  implementation status of each policy to determine whether it has been fully
+  implemented. Next, divide the number of fully implemented policies by the
+  total number of such policies identified. Finally, multiply the result by 100
+  to express the proportion as a percentage.
+
+
+  Formula:
+
+  Proportion of Policies Fully Implemented (%) = (Number of Fully Implemented
+  Blue-Green Growth Policies/Total Number of Identified Blue-Green Growth
+  Policies) * 100
+SDGAlignment: '7.a.1, 15.9.1 & 15.a.1'
+UnitOfMeasurement: Percentage (%)
+FrequencyOfCollection: Annually
+source_organisation_1: 'Department of Strategic, Policy, Planning & Aid Coordination'
+source_organisation_2: ''
+source_organisation_3: ''
