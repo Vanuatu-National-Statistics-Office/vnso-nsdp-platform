@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716130822">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716221651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -521,7 +521,7 @@ data-event-label="high"
     // Set values according to this site's configuration.
     
       try {
-        var currentValue = normalizeCurrentValue('Proxy', "");
+        var currentValue = normalizeCurrentValue('Proxy', "No");
         var propertyEditor = editor.getEditor('root.Proxy');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "1. Renewable energy technologies enable us to create electricity, heat and fuel from renewable sources. Solar, wind, hydro, wave, heat-exchange, tidal, wave and bioenergy technologies are all powered by the sun, directly or indirectly.  2. Tidal and wave energy technologies are also powered by the moon. Geothermal technologies are powered by deep heat from the Earth's core.   3.  Bioenergy technologies allow us to convert the solar energy stored in plants, food wastes, farm wastes, forest wastes, sewage, and algae into heat, electricity and fuel, using a variety of approaches                            ");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Proportion of Households Using Renewable Energy Technology as Main Source of Lighting\" indicator measures the percentage of households within a specific region or country that use renewable energy technologies, such as solar, wind, or biogas, as their primary source of lighting. This indicator reflects the adoption and reliance on sustainable energy sources for household lighting needs.  ");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "These technologies allow us to heat and cool our buildings, generate electricity, and to travel by land, sea, and potentially also by air without generating dangerous greenhouse gases and other forms of pollution");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the extent to which households have transitioned from conventional, non-renewable energy sources (such as kerosene, coal, or grid electricity generated from fossil fuels) to renewable energy technologies for lighting. Renewable energy technologies offer a sustainable alternative that reduces dependence on fossil fuels, lowers greenhouse gas emissions, and supports energy security. The indicator provides insights into the progress of energy transition efforts and the spread of clean energy technologies at the household level.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -563,7 +563,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Disaggregation', "National level, Provincial level, and two main urban areas");
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
         var propertyEditor = editor.getEditor('root.Disaggregation');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,7 +577,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "The main rationale behind proportion of household using renewable energy technology as main source of lighting is a clear indication that more families are becoming more aware of its sustainable impacts on the environment as well as better understanding the renewable energy has that can really improve lives and easily made affordable to the general population through the government incentive programs and awareness.");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the proportion of households using renewable energy for lighting is crucial for assessing the effectiveness of policies and programs aimed at promoting clean energy adoption. High levels of renewable energy use for lighting contribute to environmental sustainability, reduce household energy costs, and improve access to reliable lighting, especially in remote or off-grid areas.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -591,7 +591,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('MethodOfComputation', "extract number of private households by main source of lighting by the above level of disaggregation then using the calculating  formula for finding percentages to calculate their percentages over the total number of households recorded in the 2009 and 2020 National Population & Housing Census.");
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Proportion of Households Using Renewable Energy Technology as Main Source of Lighting,\" first collect data on the total number of households within the region or country. Then, gather data on the number of households that use renewable energy technologies, such as solar, wind, or biogas, as their primary source of lighting. Next, divide the number of households using renewable energy for lighting by the total number of households. Finally, multiply the result by 100 to express the proportion as a percentage.\n\nFormula:\nProportion of Households Using Renewable Energy for Lighting (%) = (Number of Households Using Renewable Energy for Lighting/Total Number of Households) * 100\n");
         var propertyEditor = editor.getEditor('root.MethodOfComputation');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -605,7 +605,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "7.3.1 (R)\n (Tier 1)");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "7.1.2, 7.2.1, 7.3.1 & 7.b.1");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -619,7 +619,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "number of houses\npercentage of number of houses");
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Percentage");
         var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -633,7 +633,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "10 years");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Every 10 years");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -647,7 +647,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_1', "2020 Population and Housing Census (table 9.14, p.328)");
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Vanuatu Bureau of Statistics  ");
         var propertyEditor = editor.getEditor('root.source_organisation_1');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -661,7 +661,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_2', "2009 Population and Housing Census (p181), VNSO");
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
         var propertyEditor = editor.getEditor('root.source_organisation_2');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -824,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716130822'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716221651'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716130822"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716221651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

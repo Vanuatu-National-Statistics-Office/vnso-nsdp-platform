@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716130822">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716221651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "Waste management (or waste disposal) are the activities and actions required to manage waste from its inception to its final disposal. This includes the collection, transport, treatment and disposal of waste, together with monitoring and regulation of the waste management process.");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Number of Controlled Waste Disposal Facilities\" indicator measures the total count of waste disposal sites that are managed and regulated according to specific environmental and safety standards. These facilities are designed to handle various types of waste in a manner that minimizes environmental impact, prevents contamination, and protects public health.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "*Controlled waste disposal facilities are put in place to combat the growing source and extent of pollution and waste disposal throughout the urban areas and the six other provinces.\n*Without these facilities, Vanuatu efforts to maintain healthy societies, to stimulate tourism, development and new investment and a sustainable future for its people may be severely undermined.  ");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the availability and distribution of waste disposal facilities that operate under controlled conditions. Controlled waste disposal facilities include sanitary landfills, incinerators, and specialized treatment plants that adhere to established guidelines for the safe and environmentally sound management of waste. The indicator reflects the infrastructure in place to manage waste in a manner that complies with legal and environmental regulations, ensuring that waste is processed, treated, and disposed of safely.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "The purpose of this study is to depict the precise number of waste disposal facilities throughout the provinces or islands of Vanuatu aside from the two facilities found in Port Vila and Luganville. So that we can be able to identify the reduction of waste and pollution are reduce to what extent? This study will also indicate whether Vanuatu do really foster sustainable growth and development through low impact industries and modern technologies which ensures the wellbeing of future generations or not. ");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the number of controlled waste disposal facilities is essential for understanding a country's capacity to manage waste effectively and sustainably. Controlled facilities are critical for preventing environmental pollution, protecting public health, and ensuring that waste is managed in a way that minimizes its impact on the environment.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Number of Controlled Waste Disposal Facilities,\" first gather data on all waste disposal facilities within the region or country from environmental agencies, local authorities, or waste management companies. Then, verify that each facility is operational and complies with environmental regulations and safety standards. Finally, count the total number of facilities that meet the criteria for being classified as controlled waste disposal facilities.\n\nFormula:\nNumber of Controlled Waste Disposal Facilities= Total Verified Controlled Waste Disposal Facilities");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "11.6.1 (Tier 2)");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "11.6.1 & 11.6.2");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,6 +617,18 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Number");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Ministry of Infrastructure & Public Utilities ");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716130822'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716221651'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716130822"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716221651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

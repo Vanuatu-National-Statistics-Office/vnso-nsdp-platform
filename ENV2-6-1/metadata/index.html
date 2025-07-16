@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716130822">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716221651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "* Part or share of funding that is requested by the Department of Environmental Protection and Conservation (DEPC) to the government budget through New Project Proposals (NPP) and is approved by the government (NPP Committee) for implementation of Environmental activities to promote a sustainable environment for the country.\n\n* New initiatives that are requested by DEPC to the government as part of environmental sustainability activities is considered by the government to promote a clean environment and to support sustainable development aspirations");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Proportion of Funding Requested by the Department of Environmental Protection & Conservation (DEPC) in Support of Sustainable Development Approved Through the National Planning Process (NPP)/Percentage of Government Expenditure for Environmental Activities\" indicator measures the percentage of funding requested by the DEPC for sustainable development initiatives that is approved through the National Planning Process. It also measures the proportion of total government expenditure allocated to environmental activities.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "* The idea of creating new environmental initiatives is increasing to support our sustainable environment development aspirations. For instance, “Ban of Plastic Bags” this is an initiative that DEPC has requested the Government for its support through NPP’s to support the ban and at the same time promote a clean Environment for all. Such initiatives require the governments input through funding to successfully implement the activities especially in the Environmental sector.\n\n* Innovative thinking for sustainability – meeting the needs of the present without compromising the ability of the future generations to meet their needs – environmentally, socially, economically: (Planet, People, Profits). ");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks two key aspects of environmental funding: (1) the success rate of the DEPC in securing funding for sustainable development projects through the NPP, and (2) the share of government spending dedicated to environmental activities. It reflects the government's commitment to supporting environmental protection and sustainable development through adequate budget allocations.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "* Promote a sustainable and clean Environment for all\n* Promote management of environment resources and other natural resources for future utilisation \n* Depicts the risk of environmental degradation if resources are not managed well and poor environmental management");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the proportion of funding approved for DEPC initiatives and the percentage of government expenditure allocated to environmental activities is essential for assessing the prioritization of environmental sustainability in national budgeting and planning processes. Adequate funding is critical for the DEPC to implement effective policies, programs, and projects aimed at conserving natural resources, reducing pollution, and promoting sustainable development.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Proportion of Funding Requested by DEPC Approved Through the National Planning Process\" and the \"Percentage of Government Expenditure for Environmental Activities,\" first collect data on the total amount of funding requested by the DEPC and the amount approved through the NPP. Then, gather data on the total government expenditure and the portion allocated to environmental activities. For the DEPC funding proportion, divide the approved amount by the requested amount, and for the government expenditure percentage, divide the expenditure on environmental activities by the total government expenditure. Finally, multiply both results by 100 to express them as percentages.\n\n\nFormula:\nProportion of Approved Funding (%) = (Amount of DEPC Funding Approved Through NPP/Total Amount of DEPC Funding Requested) * 100\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "13.a.1 (R) (Tier 3) , 17.7.1 (Tier 3)");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "13.a.1 , 17.7.1");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,11 +617,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Percentage (%)");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Department of Strategic Policy Planning & Aid Coordination  ");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716130822'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716221651'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716130822"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716221651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

@@ -8735,6 +8735,28 @@
       "title": "ECO2-1-1"
     },
     {
+      "path": "ENV2-4-3/data.csv",
+      "name": "ENV2-4-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "indicators.ENV2-4-3-title"
+    },
+    {
       "path": "usp/data.csv",
       "name": "usp",
       "profile": "tabular-data-resource",
@@ -8931,28 +8953,6 @@
         ]
       },
       "title": "Value added tax on goods and services in Vanuatu"
-    },
-    {
-      "path": "ENV2-4-3/data.csv",
-      "name": "ENV2-4-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "indicators.ENV2-4-3-title"
     },
     {
       "path": "disaster-statistics/data.csv",
