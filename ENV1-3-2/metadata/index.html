@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716064150">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716112008">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -521,7 +521,7 @@ data-event-label="high"
     // Set values according to this site's configuration.
     
       try {
-        var currentValue = normalizeCurrentValue('Proxy', "");
+        var currentValue = normalizeCurrentValue('Proxy', "No");
         var propertyEditor = editor.getEditor('root.Proxy');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "This Indicator is part of the FAO Suite of Food Security indicator in the dimension access.");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Domestic Food Price Level\" indicator measures the average price of a basket of commonly consumed food items within a country over a specified period. This indicator reflects the cost of food in the domestic market and is typically monitored on a monthly, quarterly, or annual basis to track changes in food prices.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "Consumer food price indices are used by variety of national labour and statistical agencies, as well as large international organisations such as FAO and ILO");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator provides an overview of the cost of food in a domestic economy, which is a key factor in assessing food affordability and accessibility for households. The basket of food items used for this indicator usually includes staple foods such as grains, vegetables, fruits, meat, dairy products, and other essential food products. The indicator helps to capture the fluctuations in food prices due to various factors, including supply and demand dynamics, inflation, production levels, import prices, and other economic conditions.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Food type");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "Domestic food price level index is an important indicator for global monitoring of food security because it compares the relative’s price of food across countries and over time");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the domestic food price level is crucial for understanding the economic burden of food on households, particularly low-income families. High food prices can lead to food insecurity, especially among low-income households, and can contribute to inflationary pressures in the economy. Conversely, stable or decreasing food prices can improve access to nutrition and support economic stability.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "Method of computation:\nTo compute the \"Domestic Food Price Level,\" first collect data on the prices of a basket of commonly consumed food items. Then, calculate the average price level by taking the weighted or unweighted average of the prices of these items. The weights, if used, should reflect the importance of each item in the average household's diet. This average represents the domestic food price level, which can be compared over time to monitor changes in food prices and assess their impact on food security and the cost of living.\n\nFormula:\n**Domestic Food Price Level = (Total Price of Food Itemi * Weighti/ Total Weighti)**\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "2.3.1 (Tier 3 ),  2.3.2 (Tier 3 )");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "2.b.1, 2.b.2, 2.3.1, 2.3.2 & 2.c.1");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,11 +617,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Index");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -611,7 +647,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_1', "2012 CPI Report 4th Quarter, VNSO");
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Vanuatu Bureau of Statistics");
         var propertyEditor = editor.getEditor('root.source_organisation_1');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -625,7 +661,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_2', "2017 CPI Report 4th Quarter, VNSO");
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
         var propertyEditor = editor.getEditor('root.source_organisation_2');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -639,7 +675,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_3', "2010 CPI Report 4th Quarter, VNSO");
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
         var propertyEditor = editor.getEditor('root.source_organisation_3');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -788,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716064150'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716112008'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716064150"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716112008"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

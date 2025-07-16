@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716064150">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716112008">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "Food storage and preservation is all about caring or treating food in a way that it will keep in good condition for a long period of time or for future use. Food preservation usually involves preventing the growth bacteria, fungi or other micro-organisms into the food.");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Total Number of People Receiving Training in Food Storage and Preservation Per Year\" indicator measures the total count of individuals who have participated in training programs focused on food storage and preservation within a given year. These training programs are organized or supported by the Ministry of Agriculture, Livestock, Forestry, Fisheries, & Biosecurity (MALFFB), non-governmental organizations (NGOs), or other partnered initiatives.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "Food storage and preservation can sustain food production and improve household production. The skills of food storage and preservation is very important and finding the number of people who are trained can be helpful in strengthening the nation’s capacity to improve its food and nutrition security needs.");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the participation in training programs that aim to enhance knowledge and skills in food storage and preservation techniques. Effective food storage and preservation are critical for reducing food waste, extending the shelf life of food products, and ensuring food security, especially in regions where food production is seasonal or where access to fresh food may be limited. The training provided through MALFFB, NGOs, and other partners is designed to empower individuals, particularly those in rural and agricultural communities, with the skills necessary to safely store and preserve food, thereby improving household food security and resilience.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "Depicts the total number of people receiving training in food storage and preservation out of all other trainings conducted by MALFFB and NGOs");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the total number of people receiving training in food storage and preservation is essential for assessing the outreach and effectiveness of capacity-building initiatives aimed at improving food security. Training in these areas is crucial for reducing post-harvest losses, ensuring the availability of nutritious food throughout the year, and supporting sustainable agricultural practices.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Total Number of People Receiving Training in Food Storage and Preservation Per Year,\" first collect data on the number of participants in each training program organized or supported by the Ministry of Agriculture, Livestock, Forestry, Fisheries, & Biosecurity (MALFFB), NGOs, and partnered initiatives. Verify that the training programs focus on food storage and preservation techniques. Then, sum the total number of individuals who completed the training across all programs within the year.\n\n\nFormula\nTotal Number of People Trained= Total Number of Participants in Each Training \n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "14.4.1 (R) (Tier 1)");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "12.8.1, 12.a.1 & 14.4.1");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,6 +617,18 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Number of individuals trained per year");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Ministry of Agriculture, Livestock, Forestry, Fisheries, & Biosecurity");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716064150'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716112008'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716064150"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716112008"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

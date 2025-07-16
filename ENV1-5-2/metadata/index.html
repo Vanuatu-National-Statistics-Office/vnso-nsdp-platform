@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716064150">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716112008">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "Crop diversity index is the average number of varieties planted of crops (Fruits and vegetables) by province through traditional agricultural practices, focusing on disaster rick reduction and climate change adaptation.");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Crop Diversity Index with a Focus on Fruit and Vegetables (Average Number of Varieties Planted of Crops by Province)\" indicator measures the average number of different crop varieties, particularly fruits and vegetables, planted across provinces. This index reflects the level of biodiversity in agricultural practices within each province and focuses on the variety of crops being cultivated to ensure a diverse and resilient food system");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "Crop diversity loss threatens global food security, as the world's human population depends on a diminishing number of varieties of a diminishing number of crop species");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the diversity of crop varieties grown, with an emphasis on fruits and vegetables, across different provinces. Crop diversity is a crucial aspect of agricultural sustainability, as it enhances ecosystem resilience, supports food security, and reduces the risks associated with monoculture practices. By focusing on the number of different varieties planted, the indicator provides insights into the richness of agricultural biodiversity and the extent to which different crop varieties are being preserved and utilized.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "It is central to food security. It underpins today’s production and provides the raw material needed for ensuring continuing supplies tomorrow, in the face of a rapidly changing world");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the crop diversity index is essential for promoting sustainable agriculture and ensuring food security. A diverse range of crops, especially fruits and vegetables, contributes to a balanced diet, supports environmental health, and reduces vulnerability to pests, diseases, and climate change. High crop diversity can also improve soil fertility and provide economic benefits by offering a broader range of marketable products. It also supports food security by ensuring a variety of food sources and contributes to nutritional diversity, which is important for public health.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Crop Diversity Index with a Focus on Fruit and Vegetables (Average Number of Varieties Planted of Crops by Province),\" first collect data on the number of different varieties of fruit and vegetable crops planted within each province. Then, calculate the average number of varieties by summing the total number of different varieties planted and dividing by the total number of crops reported. Aggregate the data by province to obtain the average number of crop varieties planted per province.\n\nFormula:\nCrop Diversity Index (Average Number of Varieties) = Total Number of Different Fruit and Vegetable Varieties Planted/Total Number of Crops Planted\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "12.8.1 (Tier 3)");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "2.3.1, 2.3.2 & 12.8.1");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,11 +617,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Index");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Every 10 years");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Vanuatu Bureau of Statistics ");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716064150'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716112008'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716064150"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716112008"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

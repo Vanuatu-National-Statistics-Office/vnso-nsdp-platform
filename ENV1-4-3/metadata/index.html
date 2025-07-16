@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716064150">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716112008">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "Land-use capability maps are maps created to represent the potential uses of a “unit” of land. They are measured using various indicators, although the most common are five physical factors (rock type, soil type, slope, erosion degree and type and vegetation).");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Establishment of Land Use Capability Mapping Systems to Determine Which Crops and Farming Systems Are Best Suited to Different Areas\" indicator measures the development and implementation of mapping systems designed to assess land use capabilities. These systems analyze soil types, topography, climate, and other environmental factors to identify the most suitable crops and farming systems for different regions within a country or area.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "Land-use capability maps must not be confused with land-use maps. Capability maps shows the potential uses usually in relation to farming) whilst the land-use maps show the actual use for the land at the present time.");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator focuses on the establishment of tools and methodologies that allow for the systematic assessment of land's agricultural potential. Land use capability mapping systems are essential for optimizing agricultural productivity by ensuring that land resources are used in a manner that maximizes crop yields and sustainability. These systems help in matching specific crops and farming practices to the most appropriate areas based on environmental conditions and land characteristics.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "To establish land-use capability maps to help find suitable areas that are available for crops and farming systems throughout the islands of Vanuatu");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the establishment of land use capability mapping systems is crucial for promoting sustainable agriculture and efficient land use management. By aligning agricultural activities with the land's natural capabilities, these systems help to increase productivity, reduce environmental degradation, and promote the efficient use of resources. Monitoring this indicator helps assess the progress of efforts to enhance agricultural planning and sustainability through science-based land management practices.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "Method of computation:\nTo assess the \"Establishment of Land Use Capability Mapping Systems to Determine Which Crops and Farming Systems Are Best Suited to Different Areas,\" first determine whether the mapping systems have been fully developed, including the analysis of environmental and soil factors. Then, verify that these systems are operational and being used to guide agricultural planning and decision-making. If the systems meet both criteria—development and operational status—they are categorized as \"established and operational.\"\n\n**Formula:**\nThis indicator is typically qualitative rather than quantitative, and it does not require a mathematical formula. Instead, it involves a checklist or categorical assessment based on the following criteria: mapping system development, implementation, and use\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "14.4.1 (R) (Tier 1)");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "12.8.1, 12.a.1 & 14.4.1");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,11 +617,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Yes/No");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "6 Monthly, Annually");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Ministry of Lands & Natural Resources");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716064150'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716112008'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716064150"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716112008"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

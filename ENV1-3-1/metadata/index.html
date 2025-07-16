@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716064150">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716112008">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "Annual Volume of imports of food and products targeted by the Department of Agriculture and Rural Development (DARD) that can be produced domestically in Vanuatu.");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Total Annual Volume of Imports of Food and Products Targeted by DARD as Those That Can Be Produced Domestically (Including ‘Value-Added Products)\" indicator measures the total quantity of imported food and related products that have been identified by the Department of Agriculture and Rural Development (DARD) as items that could be produced within the country. This includes both raw food products and value-added products, which have undergone some form of processing or enhancement.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "Department of Agriculture and Rural Development have to work and decrease number of imported foods that Vanuatu can Produce domestically.");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the reliance on imports for food and products that could potentially be produced domestically. It focuses on identifying opportunities for reducing imports by increasing domestic production capabilities, thereby promoting food security, supporting local industries, and reducing the trade deficit. The inclusion of value-added products emphasizes the importance of not only producing raw goods domestically but also enhancing them through processing, which adds economic value.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Import");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "Importing of food costs, the country a lot of money every year, Vanuatu consumes a lot of imported food, this cause high number of Non-Communicable Disease (NCD) affecting most people in the communities.");
+        var currentValue = normalizeCurrentValue('Rationale', "Reducing dependency on imported food and products that can be produced domestically is essential for strengthening food security, enhancing economic resilience, and supporting local agricultural and industrial sectors. Monitoring the total annual volume of these imports helps policymakers and stakeholders understand the scale of reliance on foreign products and identify areas where domestic production can be expanded. This indicator supports the strategic goals of DARD to promote self-sufficiency, reduce the outflow of foreign currency, and create jobs through the development of local value chains.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Total Annual Volume and Value of Imports of Food and Products Targeted by DARD as Those That Can Be Produced Domestically,\" first collect data on the total annual volume and value of imported food and related products. Verify that these imports are within the categories identified by DARD as capable of being produced domestically. Then, calculate the total annual volume by summing the quantities of these targeted imports, and calculate the total annual value by summing the monetary worth of these imports.\n\n\nFormula:\n*Total Annual Volume= Sum of the quantities of all targeted imported products over the year\n\n*Total Annual Value= Sum of the monetary values of all targeted imported products over the year");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', ", 2.b.1, 2.b.2");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "2.b.1, 2.b.2, 2.3.1, 2.3.2 & 2.c.1");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,11 +617,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Vatu in millions, Kilograms in tonnes");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Vanuatu Bureau of Statistics ");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716064150'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716112008'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716064150"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716112008"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

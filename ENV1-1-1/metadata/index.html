@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716064150">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716112008">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -521,7 +521,7 @@ data-event-label="high"
     // Set values according to this site's configuration.
     
       try {
-        var currentValue = normalizeCurrentValue('Proxy', "");
+        var currentValue = normalizeCurrentValue('Proxy', "No");
         var propertyEditor = editor.getEditor('root.Proxy');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "Food production is the process of transforming raw ingredients into prepared food products. Food production includes industries that take raw food products and convert them into marketable food items.");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Proportion of Households Engaged in Production of Food for Own Consumption\" indicator measures the percentage of households within a given population that are involved in the production of food primarily for their own consumption. This includes activities such as home gardening, subsistence farming, livestock rearing, and other forms of food production intended to meet the household's dietary needs.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "Production means growing the plants we harvest or raising the animals we use for food. Most food comes from domesticated animals and plants, and their production occurs on farms or ranches. Some foods are caught or harvested from the wild, such as fish, pigs, cows, etc.");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the extent to which households rely on self-produced food as a part of their food security strategy. In many regions, particularly in rural areas, households engage in food production to reduce their dependence on market-purchased food, enhance food security, and maintain traditional agricultural practices. The indicator provides insight into the prevalence of subsistence farming and the role of household food production in ensuring access to nutritious food.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "Own production of food consumption , is related to the production of food and agricultural products. This includes crop production, livestock production, fisheries and aquaculture production, and from forestry production. ");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the proportion of households engaged in food production for own consumption is essential for understanding food security, rural livelihoods, and agricultural practices within a population. A higher proportion of households engaged in such activities may indicate a reliance on subsistence farming, which can be critical for food security, particularly in areas with limited access to markets or during times of economic hardship. Conversely, a lower proportion might suggest a shift towards market dependency for food or increased urbanization.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Proportion of Households Engaged in Production of Food for Own Consumption,\" first collect data on the number of households involved in food production primarily for their own dietary needs. Then, obtain the total number of households in the population or region being studied. Calculate the proportion by dividing the number of households engaged in food production by the total number of households, and multiply by 100 to express it as a percentage.\n\nFormula:\nProportion of Households Engaged in Food Production (%) = (Number Households Engaged in Food Production for Own Consumption/Total Number of Households) * 100\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "2.3.1 (Tier 3),  2.3.2 (Tier 3)");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "2.3.1,  2.3.2");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,11 +617,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Percentage");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "10 years (census)\n5 years (minicensus)\nNSDP Baseline 1st phase");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Every 5-10 years");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -611,7 +647,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_1', "2009 Population and Housing Census, VNSO (published figure in 2014 Socio-Economic Atlas p 52)");
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Vanuatu Bureau of Statistics");
         var propertyEditor = editor.getEditor('root.source_organisation_1');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -625,7 +661,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_2', "2014 National Accounts Annual Report Vol 4 (p29), VNSO");
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
         var propertyEditor = editor.getEditor('root.source_organisation_2');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -639,7 +675,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('source_organisation_3', "2007 Agriculture Census (p23), VNSO and DARD");
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
         var propertyEditor = editor.getEditor('root.source_organisation_3');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -788,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716064150'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716112008'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716064150"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716112008"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
