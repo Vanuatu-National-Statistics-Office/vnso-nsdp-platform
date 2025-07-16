@@ -1,19 +1,47 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Donor Partner Support for Climate Change Adaptation and DRM
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: ENV 3.5.1
-OtherDemandSources: null
-PillarName: Environment
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Proportion of Annual Spending on Climate Change Adaptation and Disaster
+  Risk Management Funded with Budget Support from Donor Partners to the
+  Government" indicator measures the percentage of total government expenditure
+  on climate change adaptation and disaster risk management (DRM) that is
+  financed through budget support provided by international donor partners. This
+  indicator reflects the extent to which government efforts in these areas are
+  supported by external funding sources.
+Concept: >-
+  This indicator tracks the reliance on external financial support from donor
+  partners for government initiatives related to climate change adaptation and
+  disaster risk management. Budget support refers to direct financial
+  contributions provided by donor partners to the government, which are used to
+  fund specific programs and activities aimed at enhancing climate resilience
+  and reducing disaster risks. The indicator provides insights into the degree
+  of international collaboration and financial support for the country’s climate
+  and disaster management strategies.
+Disaggregation: Sector
+Rationale: >-
+  Monitoring the proportion of spending on climate change adaptation and DRM
+  that is funded by donor partners is crucial for understanding the financial
+  sustainability and international support for these initiatives. External
+  funding plays a significant role in enabling governments, particularly in
+  developing countries, to implement large-scale adaptation and risk management
+  programs that might otherwise be unaffordable.
+MethodOfComputation: >
+  To compute the "Proportion of Annual Spending on Climate Change Adaptation and
+  Disaster Risk Management Funded with Budget Support from Donor Partners to the
+  Government," first collect data on the total annual government expenditure on
+  climate change adaptation and DRM. Then, gather data on the amount of budget
+  support provided by donor partners for these purposes. Next, divide the amount
+  of donor-funded budget support by the total government expenditure on climate
+  change adaptation and DRM. Finally, multiply the result by 100 to express the
+  proportion as a percentage.
+
+
+  Formula:
+
+  Proportion of Spending Funded by Donors (%) = (Amount of Donor-Funded Budget
+  Support/Total Annual Spending on Climate Change and DRM) * 100
+SDGAlignment: 13.a.1
+UnitOfMeasurement: Percentage
+FrequencyOfCollection: Annually
+source_organisation_1: Department of Strategic Policy Planning & Aid Coordination
+source_organisation_2: ''
+source_organisation_3: ''
