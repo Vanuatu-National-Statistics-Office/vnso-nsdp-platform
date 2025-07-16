@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716063112">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716064150">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "VIPAM – The role and function of the Vanuatu Institute of Administration and the public administration management unit is to assist people connected to the Vanuatu Public Service build their general knowledge and skills and provide advice on HRD policies. PSC training courses are coordinated and managed by VIPAM unit");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Annual Number of Public Officials Receiving Relevant Qualifications Through VIPAM and Other Government Programs\" indicator measures the total number of public officials who have successfully completed and received certifications or qualifications through the Vanuatu Institute of Public Administration and Management (VIPAM) or other government-sponsored training programs within a calendar year.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "Annual number of public officials receiving relevant qualifications through VIPAMS and other government programs will determine whether or not there is enough capacity and accountability of public officials and whether or not there is impartiality and effectiveness of the performance management systems.");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the capacity-building efforts aimed at enhancing the skills, knowledge, and competencies of public officials through formal education and training programs. VIPAM and other government programs provide targeted training and professional development opportunities to improve the effectiveness, efficiency, and professionalism of public servants. The qualifications received can include diplomas, certificates, or other recognized credentials that contribute to the officials' ability to perform their duties more effectively.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Qualification type");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "To depict the total number of public officials receiving relevant qualifications through VIPAM and other government programs each year to identify any increase over the years or not at all.");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the annual number of public officials receiving relevant qualifications is crucial for assessing the government's commitment to professionalizing the public service and building institutional capacity. By investing in the education and training of public officials, the government ensures that its workforce is equipped with the necessary skills and knowledge to address the challenges of public administration and deliver high-quality services to citizens.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Annual Number of Public Officials Receiving Relevant Qualifications Through VIPAM and Other Government Programs,\" first collect data on the number of public officials who have successfully completed qualification courses offered by VIPAM and other government-sponsored training programs within the specified year. Finally, count the total number of public officials who received these qualifications to determine the indicator value.\n\nFormula:\nTotal Number of Qualified Public Officials = Sum of Number of Officials Receiving Relevant Qualifications in One Year");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "16.6.2 (Tier 3)");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "16.6.1");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,6 +617,18 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Number");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Vanuatu Institute of Public Administration and Management");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716063112'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716064150'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716063112"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716064150"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
