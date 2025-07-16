@@ -1,19 +1,46 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Change in Annual Pending Court Cases
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: SOC 5.1.2
-OtherDemandSources: null
-PillarName: Society
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Annual Change in Number of Magistrate and Supreme Court Pending Cases"
+  indicator measures the difference in the total number of unresolved cases
+  (pending cases) in the Magistrate and Supreme Courts at the end of a given
+  year compared to the number of pending cases at the end of the previous year.
+  This indicator reflects the year-over-year variation in the backlog of cases
+  within the judicial system.
+Concept: >-
+  This indicator tracks the efficiency and effectiveness of the judicial system
+  in processing and resolving cases. A pending case is any legal matter that has
+  been filed in court but has not yet reached a final judgment or resolution.
+  The annual change in the number of pending cases can indicate whether the
+  court system is becoming more efficient (reducing the backlog) or less
+  efficient (increasing the backlog).
+Disaggregation: Region
+Rationale: >-
+  Monitoring the annual change in the number of pending cases is crucial for
+  understanding the performance of the judiciary. A growing number of pending
+  cases may indicate delays in the justice process, insufficient judicial
+  resources, or other systemic issues that hinder the timely resolution of
+  cases. Conversely, a reduction in pending cases suggests improvements in court
+  efficiency, which is essential for ensuring timely access to justice.
+MethodOfComputation: >
+  To compute the "Annual Change in Number of Magistrate and Supreme Court
+  Pending Cases," first collect data on the total number of pending cases in
+  both courts at the end of the current year and the previous year. Then,
+  subtract the number of pending cases at the end of the previous year from the
+  number at the end of the current year to determine the annual change. A
+  positive result indicates an increase in the number of pending cases, while a
+  negative result indicates a decrease.
+
+
+  Formula:
+
+  Annual Change in Pending Cases=Pending Cases at End of Current Year – Pending
+  Cases at End of Previous Year
+
+  Percentage Change in Pending Cases (%) = (Annual Change in Pending
+  Cases/Pending Cases at End of Previous Year) * 100
+SDGAlignment: 16.3.1
+UnitOfMeasurement: Number
+FrequencyOfCollection: Annually
+source_organisation_1: ''
+source_organisation_2: ''
+source_organisation_3: ''
