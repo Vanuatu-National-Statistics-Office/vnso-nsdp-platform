@@ -1,19 +1,46 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Foreign Aid Reflected in National Budget
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: SOC 6.8.1
-OtherDemandSources: null
-PillarName: Society
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Percentage of Aid to the Government Sector Reported on the Government’s
+  Budget" indicator measures the proportion of total aid received by the
+  government sector that is recorded in the national budget. This indicator
+  reflects the extent to which aid is transparently incorporated into the
+  government's financial planning and reporting processes.
+Concept: >-
+  This indicator tracks the integration of external aid into the government's
+  official budgetary framework. Aid to the government sector includes financial
+  resources provided by external donors, including bilateral, multilateral, and
+  international organizations, intended to support government programs and
+  projects. Properly recording this aid in the government’s budget ensures that
+  all resources are accounted for, enhances transparency, and allows for better
+  alignment of aid with national priorities.
+Disaggregation: 'Sector '
+Rationale: >-
+  Monitoring the percentage of aid reported on the government’s budget is
+  crucial for assessing the transparency and accountability of government
+  financial management. When aid is fully reported in the government’s budget,
+  it indicates that there is a clear and transparent process for tracking
+  external resources, which is essential for effective planning, monitoring, and
+  evaluation of government expenditures. Conversely, a lower percentage may
+  indicate gaps in financial reporting, challenges in aid coordination, or a
+  lack of integration between donor funds and the government’s financial
+  systems.
+MethodOfComputation: >
+  To compute the "Percentage of Aid to the Government Sector Reported on the
+  Government’s Budget," first collect data on the total amount of aid received
+  by the government sector during the reporting period. Then, collect data on
+  the amount of aid that is officially recorded in the government’s budget for
+  the same period. Divide the amount of aid reported in the budget by the total
+  amount of aid received, and multiply the result by 100 to express the
+  proportion as a percentage.
+
+
+  Formula:
+
+  Percentage of Aid Reported on Budget (%) = (Aid Reported in the Government
+  Budget/Total Aid Received by the Government Sector) * 100
+SDGAlignment: 10.b.1
+UnitOfMeasurement: Percentage
+FrequencyOfCollection: Annually
+source_organisation_1: Department of Finance & Treasury
+source_organisation_2: ''
+source_organisation_3: ''
