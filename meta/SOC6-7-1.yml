@@ -1,27 +1,47 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Population Use of Radio
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: SOC 6.7.1
-OtherDemandSources: null
-PillarName: Society
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
-source_active_1: true
-source_active_2: true
-source_active_3: true
-source_active_4: true
-source_organisation_1: 2016 Mini Census, VNSO
-source_organisation_2: 2009 Population and Housing Census, VNSO
-source_organisation_3: 2010 HIES (p68), VNSO, Household Proportion with mobile phones
-source_organisation_4: 2010 HIES (p68), VNSO
+﻿Proxy: 'No'
+Definition: >-
+  The "Proportion of Population Utilizing Media Outlets for News Including:
+  Newspapers, Mobile Phones, Radio, Television, and Internet" indicator measures
+  the percentage of the population that regularly uses various media
+  outlets—such as newspapers, mobile phones, radio, television, and the
+  internet—to access news and information. This indicator provides insights into
+  the media consumption habits of the population.
+Concept: >-
+  This indicator tracks the usage of different media platforms by the population
+  for obtaining news. The media outlets considered include traditional forms
+  like newspapers, radio, and television, as well as modern digital platforms
+  such as mobile phones and the internet. Understanding how people access news
+  is important for evaluating the reach and influence of different media types
+  and for ensuring that information dissemination is effective and inclusive
+  across various demographic groups.
+Disaggregation: Region
+Rationale: >-
+  Monitoring the proportion of the population that uses various media outlets
+  for news is crucial for assessing the accessibility and effectiveness of
+  information dissemination in society. High usage of diverse media platforms
+  indicates that a wide range of the population is staying informed through
+  various channels, which is essential for an informed citizenry. It also
+  highlights the penetration of digital media and the continued relevance of
+  traditional media. Conversely, low usage of certain media outlets may suggest
+  barriers to access, such as cost, literacy, or infrastructure limitations.
+MethodOfComputation: >
+  To compute the "Proportion of Population Utilizing Media Outlets for News
+  Including: Newspapers, Mobile Phones, Radio, Television, and Internet," first
+  design and administer a survey that asks respondents about their use of
+  various media outlets to access news. Then, identify and count the number of
+  respondents who report using each media outlet. Divide the number of
+  respondents using each outlet by the total number of respondents, and multiply
+  the result by 100 to express the proportion as a percentage.
+
+
+
+  Formula:
+
+  Proportion of Population Using Media Outlets (%) = (Number of People Using Any
+  Media Outlet for News/Total Population) * 100
+SDGAlignment: '16.10.1, 16.10.2'
+UnitOfMeasurement: Percentage
+FrequencyOfCollection: Every 5-10 years
+source_organisation_1: 'Vanuatu Bureau of Statistics '
+source_organisation_2: ''
+source_organisation_3: ''
