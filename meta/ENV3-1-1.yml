@@ -1,19 +1,48 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Government Ministries with CC & DRM Policies, Budgets and Legislation
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: ENV 3.1.1
-OtherDemandSources: null
-PillarName: Environment
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Proportion of Government Ministries with Policies, Budgets, and
+  Legislation for Climate Change (CC) & Disaster Risk Management (DRM)"
+  indicator measures the percentage of government ministries that have formally
+  adopted policies, allocated budgets, and enacted legislation specifically
+  addressing Climate Change (CC) and Disaster Risk Management (DRM). This
+  indicator reflects the level of integration of CC and DRM considerations
+  across different sectors of government.
+Concept: >-
+  This indicator tracks the extent to which government ministries are equipped
+  with the necessary frameworks—policies, budgets, and legislation—to address
+  climate change and disaster risk management. It assesses whether these
+  ministries have developed specific strategies, allocated financial resources,
+  and passed relevant laws to effectively manage climate risks and reduce
+  vulnerabilities to disasters. The indicator provides insights into the
+  government's commitment to mainstreaming climate change adaptation and
+  disaster risk reduction across all sectors.
+Disaggregation: Sector
+Rationale: >-
+  Monitoring the proportion of government ministries with CC and DRM policies,
+  budgets, and legislation is essential for evaluating the comprehensiveness and
+  effectiveness of a government's response to climate change and disaster risks.
+  An integrated approach, where all relevant ministries are actively engaged in
+  CC and DRM efforts, is critical for building resilience, protecting
+  communities, and ensuring sustainable development.
+MethodOfComputation: >
+  To compute the "Proportion of Government Ministries with Policies, Budgets,
+  and Legislation for Climate Change (CC) & Disaster Risk Management (DRM),"
+  first identify the total number of relevant government ministries. Then,
+  collect data on whether each ministry has established policies, allocated
+  budgets, and enacted legislation specifically for CC and DRM. Next, count the
+  number of ministries that have all three elements in place. Finally, divide
+  this number by the total number of relevant ministries and multiply the result
+  by 100 to express the proportion as a percentage.
+
+
+  Formula:
+
+  Proportion of Ministries with CC & DRM Frameworks (%) = (Number of Ministries
+  with Policies, Budgets, and Legislation for CC & DRM / Total Number of
+  Ministries) × 100
+SDGAlignment: 13.2.1
+UnitOfMeasurement: Vatu in millions
+FrequencyOfCollection: Annually
+source_organisation_1: Department of Strategic Policy Planning & Aid Coordination
+source_organisation_2: ''
+source_organisation_3: ''
