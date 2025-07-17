@@ -1,12 +1,12 @@
 ﻿composite_breakdown_label: ''
-computation_units: '% (percentage)'
+computation_units: ''
 copyright: ''
-data_footnote: 'Source: Vanuatu Cultural Center'
+data_footnote: ''
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
-data_show_map: false
+data_show_map: true
 data_start_values: []
 embedded_feature_footer: ''
 embedded_feature_html: ''
@@ -20,12 +20,12 @@ graph_limits: []
 graph_series_breaks: []
 graph_stacked_disaggregation: ''
 graph_target_lines: []
-graph_title: Proportion of endangered languages documented
+graph_title: Proportion of population speaking indigenous language daily
 graph_titles: []
-graph_type: bar
+graph_type: line
 indicator_available: ''
-indicator_name: indicators.SOC1-1-3-title
-indicator_number: SOC1-1-3
+indicator_name: indicators.SOC1-1-1-title
+indicator_number: SOC1-1-1
 indicator_tabs:
   override: false
   tab_1: ''
