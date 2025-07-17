@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716221651">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250717000608">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -521,7 +521,7 @@ data-event-label="high"
     // Set values according to this site's configuration.
     
       try {
-        var currentValue = normalizeCurrentValue('Proxy', "");
+        var currentValue = normalizeCurrentValue('Proxy', "No");
         var propertyEditor = editor.getEditor('root.Proxy');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "Multi-hazard warning system is a major element of disaster risk reduction. It can prevent loss of life and reduce the economic and material impacts of hazardous events including disasters");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Establishment of Multi-Hazard Warning Systems with Maintenance Plans in Place\" indicator measures the progress in developing, implementing, and maintaining multi-hazard warning systems that provide timely and effective alerts for various types of hazards, such as natural disasters (e.g., floods, earthquakes, tsunamis, cyclones) and other emergencies. This indicator also tracks whether these systems have comprehensive maintenance plans to ensure their continuous functionality and reliability.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "To be effective, early warning systems need to actively involve the people and communities at risk from a range of hazards, facilitate public education and awareness of risks, disseminate messages and warnings efficiently and ensure that there is a constant state of preparedness and that early action is enabled with maintenance plans in place.");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator focuses on the establishment of integrated warning systems that can detect, monitor, and provide alerts for multiple hazards. A multi-hazard warning system is designed to serve as an early warning mechanism, helping to mitigate the impacts of disasters by providing critical information to communities, governments, and response agencies. The inclusion of maintenance plans ensures that these systems remain operational, are regularly tested, and are capable of providing accurate warnings when needed.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Sector");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "Strengthened monitoring and assessment of natural hazards and improved forecasting and warning services have contributed to this progress. Just as important, people increasingly understand the risks posed by natural hazards and the measures they should take to protect themselves and their families.");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the establishment of multi-hazard warning systems with maintenance plans is crucial for enhancing disaster preparedness and resilience. Effective warning systems save lives, reduce economic losses, and minimize the damage caused by disasters. Having a maintenance plan in place is equally important, as it ensures that the systems are regularly checked, updated, and functioning optimally when disasters strike.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Establishment of Multi-Hazard Warning Systems with Maintenance Plans in Place,\" first identify all the multi-hazard warning systems that have been established within the region or country. Verify that these systems are fully operational and capable of issuing timely alerts for various hazards. Then, assess whether formal maintenance plans are in place for each system. Calculate the proportion by dividing the number of warning systems with maintenance plans by the total number of established systems, and multiply by 100 to express the result as a percentage.\n\nFormula:\nProportion of Established Systems with Maintenance Plans (%) = (Number of Multi-Hazard Warning Systems with Maintenance Plans/Total Number of Established Multi-Hazard Warning Systems) * 100\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "13.1.1  (Tier 2) , 13.1.2 \n(R)(Tier 2)");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "13.1.1 , 13.1.2");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,11 +617,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Percentage");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Ministry of Climate Change and Adaptation");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716221651'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250717000608'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716221651"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250717000608"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

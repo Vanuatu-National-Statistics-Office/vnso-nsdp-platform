@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250716221651">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250717000608">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -519,28 +519,172 @@ data-event-label="high"
     }
 
     // Set values according to this site's configuration.
+    
+      try {
+        var currentValue = normalizeCurrentValue('Proxy', "No");
+        var propertyEditor = editor.getEditor('root.Proxy');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Proxy');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Proxy'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Definition', "The \"Number of Climate and Disaster Finance Funds to Which Vanuatu is Formally Accredited\" indicator measures the total count of international and regional climate and disaster finance funds to which Vanuatu has gained formal accreditation. Accreditation typically means that Vanuatu is recognized as an eligible entity to access and manage financial resources provided by these funds to support climate change adaptation, mitigation, and disaster risk management projects.");
+        var propertyEditor = editor.getEditor('root.Definition');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Definition');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Definition'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks Vanuatu's ability to engage with and access financial resources from various climate and disaster finance mechanisms. Accreditation is often required for a country to directly receive and manage funds from international finance bodies, such as the Green Climate Fund (GCF), Adaptation Fund, or other regional disaster risk management funds. The indicator reflects the country's readiness and capacity to participate in global and regional financial mechanisms that support climate resilience and disaster preparedness.");
+        var propertyEditor = editor.getEditor('root.Concept');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Concept');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Sector");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the number of climate and disaster finance funds to which Vanuatu is formally accredited is important for understanding the country’s access to critical financial resources needed for climate change adaptation and disaster risk management. Accreditation allows Vanuatu to secure funding for national and community-level projects that address environmental vulnerabilities and enhance resilience.");
+        var propertyEditor = editor.getEditor('root.Rationale');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Rationale');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Number of Climate and Disaster Finance Funds to Which Vanuatu is Formally Accredited,\" first identify and list all relevant international and regional climate and disaster finance funds that offer accreditation. Then, verify whether Vanuatu has achieved formal accreditation for each of these funds. Finally, count the total number of funds to which Vanuatu is formally accredited.\n\n\nFormula:\nTotal Number of Accredited Funds = Sum of All Climate and Disaster Finance Funds to Which Vanuatu is Accredited\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDGAlignment', "13.a.1");
+        var propertyEditor = editor.getEditor('root.SDGAlignment');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDGAlignment');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Number");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
+        var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: FrequencyOfCollection');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Ministry of Climate Change and Adaptation");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -680,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250716221651'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250717000608'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250716221651"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250717000608"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
