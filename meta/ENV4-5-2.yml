@@ -1,19 +1,40 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Commercial Coastal Sand Mines
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: ENV 4.5.2
-OtherDemandSources: null
-PillarName: Environment
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Number of Commercial Sand Mines" indicator measures the total count of
+  sand mining operations that are conducted for commercial purposes within a
+  specified region or country. These operations involve the extraction of sand
+  from various environments, such as riverbeds, beaches, and dunes, for use in
+  construction, manufacturing, and other industries.
+Concept: >-
+  This indicator tracks the presence and growth of commercial sand mining
+  activities, which are a significant part of the construction and industrial
+  sectors. Sand is a critical resource used in concrete production, glass
+  manufacturing, and other construction-related activities. The indicator
+  reflects the extent of sand extraction operations and provides insights into
+  the economic activities related to natural resource utilization.
+Disaggregation: Region
+Rationale: >-
+  Monitoring the number of commercial sand mines is essential for understanding
+  the scale of sand extraction and its potential environmental and
+  socio-economic impacts. While sand mining is crucial for economic development,
+  it can lead to environmental degradation, including habitat destruction,
+  riverbed erosion, and coastal erosion, if not managed sustainably.
+MethodOfComputation: >
+  To compute the "Number of Commercial Sand Mines," first identify all active
+  sand mines within the region or country by reviewing permits and licenses
+  issued by regulatory agencies. Verify that these sand mines are commercially
+  operated, meaning they extract sand for sale or industrial use. Then, count
+  the total number of commercial sand mines that are operational within the
+  reporting period.
+
+
+  Formula:
+
+  Total Number of Commercial Sand Mines = Sum of All Verified Commercial Sand
+  Mines
+SDGAlignment: 14.5.1
+UnitOfMeasurement: Number
+FrequencyOfCollection: Annually
+source_organisation_1: 'Department of Geology & Mines '
+source_organisation_2: ''
+source_organisation_3: ''

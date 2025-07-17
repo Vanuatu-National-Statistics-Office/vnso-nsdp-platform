@@ -1,19 +1,44 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Estimated Area (square km) of Reforestation and Rehabilitation
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: ENV 4.6.1
-OtherDemandSources: null
-PillarName: Environment
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Annual Estimated Area (Square Km) of Reforestation and Rehabilitation"
+  indicator measures the total area, in square kilometres, that has been
+  reforested or rehabilitated within a specific year. Reforestation refers to
+  the process of planting trees on land that was previously forested but has
+  been cleared or degraded, while rehabilitation involves restoring degraded
+  land to a more natural state, often through planting native vegetation or
+  other restorative actions.
+Concept: >-
+  This indicator tracks the efforts to restore forest ecosystems and
+  rehabilitate degraded lands within a given year. Reforestation and
+  rehabilitation are critical components of sustainable land management,
+  contributing to biodiversity conservation, carbon sequestration, soil
+  stabilization, water regulation, and the overall enhancement of ecosystem
+  services. The indicator provides insights into the scale and effectiveness of
+  restoration activities, helping to assess progress toward environmental
+  sustainability goals.
+Disaggregation: Region
+Rationale: >-
+  Monitoring the annual estimated area of reforestation and rehabilitation is
+  crucial for evaluating the success of environmental restoration programs and
+  policies. Forests play a vital role in mitigating climate change, supporting
+  biodiversity, and providing resources and livelihoods for communities.
+MethodOfComputation: >
+  To compute the "Annual Estimated Area (Square km) of Reforestation and
+  Rehabilitation," first identify all reforestation and rehabilitation projects
+  carried out within the year. Estimate the total area covered by these projects
+  by reviewing relevant reports, satellite imagery, and GIS data. Then, sum the
+  estimated areas of all identified projects to obtain the total area reforested
+  or rehabilitated within the year, expressed in square kilometres.
+
+
+
+  Formula:
+
+  Total Area of Reforestation and Rehabilitation (sq km) = Sum of Area Covered
+  by Each Reforestation/Rehabilitation Project (sq km) 
+SDGAlignment: 15.2.1
+UnitOfMeasurement: 'Square kilometres '
+FrequencyOfCollection: Annually
+source_organisation_1: ''
+source_organisation_2: ''
+source_organisation_3: ''
