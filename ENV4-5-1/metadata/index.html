@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250717024110">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250717054412">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -521,7 +521,7 @@ data-event-label="high"
     // Set values according to this site's configuration.
     
       try {
-        var currentValue = normalizeCurrentValue('Proxy', "");
+        var currentValue = normalizeCurrentValue('Proxy', "No");
         var propertyEditor = editor.getEditor('root.Proxy');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -535,7 +535,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Definition', "A fisheries management plan is a public document which clearly outlines future management directions and arrangements for recreational and/or commercial fishing for a given water body or species.");
+        var currentValue = normalizeCurrentValue('Definition', "The \"Total Number of Approved Fisheries Management Plans for Designated Fisheries\" indicator measures the total count of fisheries management plans that have been formally approved and are in place for specific, designated fisheries. These management plans are comprehensive documents that outline strategies, regulations, and measures aimed at ensuring the sustainable use and conservation of fishery resources.");
         var propertyEditor = editor.getEditor('root.Definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -549,7 +549,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('Concept', "The integrated process of information gathering, analysis, planning, consultation, decision-making, allocation of resources and formulation and implementation, with enforcement as necessary, of regulations or rules which govern fisheries activities in order to ensure the continued productivity of the resources and the accomplishment of other fisheries objectives.");
+        var currentValue = normalizeCurrentValue('Concept', "This indicator tracks the development and formal approval of Fisheries Management Plans (FMPs) that are designed to guide the sustainable management of specific fisheries. An FMP typically includes regulations on fishing methods, quotas, seasons, habitat protection, monitoring, and enforcement mechanisms. The plans are essential tools for preventing overfishing, protecting marine ecosystems, and ensuring that fishery resources are managed in a way that balances ecological health with economic and social benefits.");
         var propertyEditor = editor.getEditor('root.Concept');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -561,11 +561,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Concept'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('Disaggregation', "Region");
+        var propertyEditor = editor.getEditor('root.Disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: Disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Disaggregation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('Rationale', "The Fisheries management plan should be done because it is,to maintain the target species at or above the levels necessary to ensure their continued productivity (biological),to minimise the impacts of fishing on the physical environment and on non-target (bycatch), associated and dependent species (ecological);to maximise the net incomes of the participating fishers (economic); and to maximise employment opportunities for those dependent on the fishery for their livelihoods (social).");
+        var currentValue = normalizeCurrentValue('Rationale', "Monitoring the total number of approved Fisheries Management Plans is critical for assessing the effectiveness of fisheries governance and the commitment to sustainable fisheries management. FMPs play a vital role in conserving fish stocks, protecting marine habitats, and ensuring that fishing practices are sustainable in the long term.");
         var propertyEditor = editor.getEditor('root.Rationale');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -577,11 +589,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.Rationale'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('MethodOfComputation', "To compute the \"Total Number of Approved Fisheries Management Plans for Designated Fisheries,\" first identify all designated fisheries for which Fisheries Management Plans are required or have been developed. Verify that these plans have been formally approved by reviewing official records and documentation. Then, count the total number of approved plans for the designated fisheries within the reporting period.\n\n\nFormula:\nTotal Number of Approved FMPs = Sum of All Verified Approved Fisheries Management Plans\n");
+        var propertyEditor = editor.getEditor('root.MethodOfComputation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: MethodOfComputation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.MethodOfComputation'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDGAlignment', "14.5.1 (Tier 1)");
+        var currentValue = normalizeCurrentValue('SDGAlignment', "14.5.1");
         var propertyEditor = editor.getEditor('root.SDGAlignment');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -593,11 +617,23 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDGAlignment'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UnitOfMeasurement', "Number");
+        var propertyEditor = editor.getEditor('root.UnitOfMeasurement');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UnitOfMeasurement');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UnitOfMeasurement'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "");
+        var currentValue = normalizeCurrentValue('FrequencyOfCollection', "Annually");
         var propertyEditor = editor.getEditor('root.FrequencyOfCollection');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -609,10 +645,46 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FrequencyOfCollection'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_1', "Department of Fisheries ");
+        var propertyEditor = editor.getEditor('root.source_organisation_1');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_1');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_1'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_2', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_2');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_2');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_2'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('source_organisation_3', "");
+        var propertyEditor = editor.getEditor('root.source_organisation_3');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: source_organisation_3');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.source_organisation_3'));
 
     
@@ -752,12 +824,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250717024110'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250717054412'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250717024110"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250717054412"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
