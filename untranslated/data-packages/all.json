@@ -1857,7 +1857,7 @@
           }
         ]
       },
-      "title": "SOC1-1-1"
+      "title": "indicators.SOC1-1-1-title"
     },
     {
       "path": "SOC1-1-3/data.csv",
