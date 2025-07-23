@@ -146,7 +146,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250723233240">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250723234124">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -660,6 +660,8 @@ data-event-label="high"
   
   <div id="datatableFooter">
     
+    <p>Source: Department of Customs and Inland Revenue </p>
+    
     
     <p>Geographical Area: Vanuatu</p>
     
@@ -977,43 +979,118 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Definition </th>
+        <td>
+          
+            <p>The indicator “Exports by Commodity and Country” measures the total value, quantity, and unit price of goods exported from the country, disaggregated by commodity type and destination country. It reflects the composition and destination of national export flows.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Concept </th>
+        <td>
+          
+            <p>The indicator is based on the concept of export-led growth and trade performance monitoring. Exports are a critical driver of economic development, foreign exchange earnings, and sectoral competitiveness. Disaggregating exports by commodity allows for sector-specific insights (e.g. agriculture, manufacturing), while analysis by country reveals trading relationships, market access, and export concentration risk. The inclusion of unit prices enables assessment of product competitiveness and value-addition trends.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
       
       
+      
+      <tr>
+        <th scope="row">Rationale </th>
+        <td>
+          
+            <p>Monitoring exports is essential to understand how the national economy engages in international markets. Increases in export value may reflect improved global demand, increased production, or enhanced trade terms. Tracking exports by product supports sectoral planning (e.g. boosting cocoa or kava exports), while tracking by country highlights dependency on specific markets or emerging trade opportunities. Unit prices provide further context, helping identify price competitiveness and market positioning of key commodities.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Method of Computation </th>
+        <td>
+          
+            <p>Export Value: Sum the reported value of each exported commodity by year and destination country, based on customs declarations.
+Export Quantity: Sum the total physical quantity (in kg/tonnes/litres) of each commodity exported.
+Unit Price: Divide export value by quantity to calculate the price per unit.</p>
+
+<p>Formula: 
+Total Export Value (VUV) = ∑ Export value by commodity and country
+Total Export Quantity (kg/tonnes/litres) = ∑ Export quantity by commodity
+Unit Price = Export Value ÷ Export Quantity</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Unit of Measurement </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Export Value: Million Vatu (VUV)
+Quantity: Kilograms or tonnes (as applicable)
+Unit Price: Vatu per kilogram/litre</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Frequency of Collection </th>
+        <td>
           
-      
-      
-      
+            <p>Annually</p>
+
+          
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
   
   
   
@@ -1152,12 +1229,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250723233240'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250723234124'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250723233240"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250723234124"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
