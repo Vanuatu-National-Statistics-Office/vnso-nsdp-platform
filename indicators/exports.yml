@@ -22,20 +22,18 @@ graph_stacked_disaggregation: ''
 graph_target_lines: []
 graph_title: ''
 graph_titles:
-  - series: values of principle exports to main countries of destination in vatu
+  - series: Value in million (Vatu)
     unit: VUV
-    title: values of principle exports to main countries of destination
-  - series: 'Quantity '
+    title: Export values of principle exports in million (Vatu
+  - series: Quantity (in tonnes kilogram)
     unit: tonnes kilogram
-    title: Quantity of principle exports to main countries destination
-  - series: Price per unit
+    title: Quantity of principle exports in tonnes (kilogram)
+  - series: Price per unit (vatu per kilogram/litre)
     unit: vatu per kilogram/litre
-    title: >-
-      Graph showing price per unit of principle exports to main countries
-      destinations
+    title: price per unit in vatu per kilogram/litre
 graph_type: line
 indicator_available: ''
-indicator_name: Exports by Commodity and Country
+indicator_name: Vanuatu Trades Exports
 indicator_number: exports trades
 indicator_tabs:
   override: false
