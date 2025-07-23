@@ -1,168 +1,701 @@
-Year,Series,Principal Export,Main Country of Destination,Units,Value
-2017,Total Value,,,Millions in Vatu (VUV),4645
-2017,Total Value,Beef,,Millions in Vatu (VUV),178
-2017,Total Value,Cocoa,,Millions in Vatu (VUV),164
-2017,Total Value,Coconut oil,,Millions in Vatu (VUV),814
-2017,Total Value,Copra,,Millions in Vatu (VUV),1811
-2017,Total Value,Kava,,Millions in Vatu (VUV),1277
-2017,Total Value,Wood,,Millions in Vatu (VUV),401
-2017,Export by Country,Beef,Japan,Millions in Vatu (VUV),91
-2017,Export by Country,Beef,Papua New Guinea,Millions in Vatu (VUV),50
-2017,Export by Country,Beef,Sri Lanka,Millions in Vatu (VUV),38
-2017,Export by Country,Cocoa,Netherlands,Millions in Vatu (VUV),141
-2017,Export by Country,Cocoa,Australia,Millions in Vatu (VUV),18
-2017,Export by Country,Cocoa,Belgium,Millions in Vatu (VUV),2
-2017,Export by Country,Cocoa,United Kingdom,Millions in Vatu (VUV),2
-2017,Export by Country,Cocoa,New Zealand,Millions in Vatu (VUV),1
-2017,Export by Country,Coconut oil,Malaysia,Millions in Vatu (VUV),622
-2017,Export by Country,Coconut oil,Taiwan,Millions in Vatu (VUV),124
-2017,Export by Country,Coconut oil,New Zealand,Millions in Vatu (VUV),51
-2017,Export by Country,Coconut oil,Australia,Millions in Vatu (VUV),12
-2017,Export by Country,Coconut oil,New Caledonia,Millions in Vatu (VUV),4
-2017,Export by Country,Copra,Philippines,Millions in Vatu (VUV),1715
-2017,Export by Country,Copra,Bangladesh,Millions in Vatu (VUV),96
-2017,Export by Country,Copra,Australia,Millions in Vatu (VUV),0
-2017,Export by Country,Copra,New Caledonia,Millions in Vatu (VUV),0
-2017,Export by Country,Kava,Kiribati,Millions in Vatu (VUV),383
-2017,Export by Country,Kava,France,Millions in Vatu (VUV),307
-2017,Export by Country,Kava,United States of America,Millions in Vatu (VUV),291
-2017,Export by Country,Kava,New Caledonia,Millions in Vatu (VUV),236
-2017,Export by Country,Kava,China,Millions in Vatu (VUV),31
-2017,Export by Country,Wood,China,Millions in Vatu (VUV),302
-2017,Export by Country,Wood,Hong Kong,Millions in Vatu (VUV),72
-2017,Export by Country,Wood,Australia,Millions in Vatu (VUV),23
-2017,Export by Country,Wood,New Caledonia,Millions in Vatu (VUV),3
-2017,Export by Country,Wood,Fiji,Millions in Vatu (VUV),1
-2018,Total Value,,,Millions in Vatu (VUV),3774
-2018,Total Value,Beef,,Millions in Vatu (VUV),66
-2018,Total Value,Cocoa,,Millions in Vatu (VUV),193
-2018,Total Value,Coconut oil,,Millions in Vatu (VUV),402
-2018,Total Value,Copra,,Millions in Vatu (VUV),424
-2018,Total Value,Kava,,Millions in Vatu (VUV),2514
-2018,Total Value,Wood,,Millions in Vatu (VUV),175
-2018,Export by Country,Beef,Japan,Millions in Vatu (VUV),41
-2018,Export by Country,Beef,Solomon Islands,Millions in Vatu (VUV),9
-2018,Export by Country,Beef,Papua New Guinea,Millions in Vatu (VUV),8
-2018,Export by Country,Beef,Australia,Millions in Vatu (VUV),8
-2018,Export by Country,Cocoa,Malaysia,Millions in Vatu (VUV),153
-2018,Export by Country,Cocoa,Indonesia,Millions in Vatu (VUV),15
-2018,Export by Country,Cocoa,Italy,Millions in Vatu (VUV),12
-2018,Export by Country,Cocoa,Australia,Millions in Vatu (VUV),6
-2018,Export by Country,Cocoa,New Zealand,Millions in Vatu (VUV),3
-2018,Export by Country,Coconut oil,Malaysia,Millions in Vatu (VUV),372
-2018,Export by Country,Coconut oil,New Zealand,Millions in Vatu (VUV),17
-2018,Export by Country,Coconut oil,Australia,Millions in Vatu (VUV),11
-2018,Export by Country,Coconut oil,New Caledonia,Millions in Vatu (VUV),1
-2018,Export by Country,Coconut oil,French Polynesia,Millions in Vatu (VUV),0
-2018,Export by Country,Copra,Philippines,Millions in Vatu (VUV),239
-2018,Export by Country,Copra,Bangladesh,Millions in Vatu (VUV),185
-2018,Export by Country,Copra,Australia,Millions in Vatu (VUV),0
-2018,Export by Country,Kava,United States of America,Millions in Vatu (VUV),768
-2018,Export by Country,Kava,Fiji,Millions in Vatu (VUV),616
-2018,Export by Country,Kava,Kiribati,Millions in Vatu (VUV),583
-2018,Export by Country,Kava,New Caledonia,Millions in Vatu (VUV),396
-2018,Export by Country,Kava,China,Millions in Vatu (VUV),129
-2018,Export by Country,Wood,Hong Kong,Millions in Vatu (VUV),73
-2018,Export by Country,Wood,China,Millions in Vatu (VUV),69
-2018,Export by Country,Wood,Vietnam,Millions in Vatu (VUV),27
-2018,Export by Country,Wood,New Caledonia,Millions in Vatu (VUV),6
-2018,Export by Country,Wood,Fiji,Millions in Vatu (VUV),0
-2019,Total Value,,,Millions in Vatu (VUV),3986
-2019,Total Value,Beef,,Millions in Vatu (VUV),96
-2019,Total Value,Cocoa,,Millions in Vatu (VUV),270
-2019,Total Value,Coconut oil,,Millions in Vatu (VUV),284
-2019,Total Value,Copra,,Millions in Vatu (VUV),265
-2019,Total Value,Kava,,Millions in Vatu (VUV),2972
-2019,Total Value,Wood,,Millions in Vatu (VUV),100
-2019,Export by Country,Beef,Australia,Millions in Vatu (VUV),47
-2019,Export by Country,Beef,Japan,Millions in Vatu (VUV),40
-2019,Export by Country,Beef,Solomon Islands,Millions in Vatu (VUV),9
-2019,Export by Country,Cocoa,Malaysia,Millions in Vatu (VUV),246
-2019,Export by Country,Cocoa,Indonesia,Millions in Vatu (VUV),7
-2019,Export by Country,Cocoa,Australia,Millions in Vatu (VUV),6
-2019,Export by Country,Cocoa,New Zealand,Millions in Vatu (VUV),4
-2019,Export by Country,Cocoa,United Kingdom,Millions in Vatu (VUV),3
-2019,Export by Country,Coconut oil,Malaysia,Millions in Vatu (VUV),121
-2019,Export by Country,Coconut oil,Bangladesh,Millions in Vatu (VUV),115
-2019,Export by Country,Coconut oil,India,Millions in Vatu (VUV),28
-2019,Export by Country,Coconut oil,Singapore,Millions in Vatu (VUV),10
-2019,Export by Country,Coconut oil,New Zealand,Millions in Vatu (VUV),5
-2019,Export by Country,Copra,Philippines,Millions in Vatu (VUV),244
-2019,Export by Country,Copra,Bangladesh,Millions in Vatu (VUV),21
-2019,Export by Country,Copra,Australia,Millions in Vatu (VUV),0
-2019,Export by Country,Kava,Fiji,Millions in Vatu (VUV),963
-2019,Export by Country,Kava,Kiribati,Millions in Vatu (VUV),694
-2019,Export by Country,Kava,New Caledonia,Millions in Vatu (VUV),471
-2019,Export by Country,Kava,United States of America,Millions in Vatu (VUV),401
-2019,Export by Country,Kava,China,Millions in Vatu (VUV),165
-2019,Export by Country,Wood,China,Millions in Vatu (VUV),73
-2019,Export by Country,Wood,Vietnam,Millions in Vatu (VUV),14
-2019,Export by Country,Wood,New Caledonia,Millions in Vatu (VUV),6
-2019,Export by Country,Wood,Australia,Millions in Vatu (VUV),5
-2019,Export by Country,Wood,France,Millions in Vatu (VUV),1
-2020,Total Value,,,Millions in Vatu (VUV),4653
-2020,Total Value,Beef,,Millions in Vatu (VUV),159
-2020,Total Value,Cocoa,,Millions in Vatu (VUV),393
-2020,Total Value,Coconut oil,,Millions in Vatu (VUV),150
-2020,Total Value,Copra,,Millions in Vatu (VUV),845
-2020,Total Value,Kava,,Millions in Vatu (VUV),2557
-2020,Total Value,Wood,,Millions in Vatu (VUV),549
-2020,Export by Country,Beef,Japan,Millions in Vatu (VUV),47
-2020,Export by Country,Beef,Australia,Millions in Vatu (VUV),22
-2020,Export by Country,Beef,Solomon Islands,Millions in Vatu (VUV),16
-2020,Export by Country,Cocoa,Malaysia,Millions in Vatu (VUV),150
-2020,Export by Country,Cocoa,Indonesia,Millions in Vatu (VUV),19
-2020,Export by Country,Cocoa,Italy,Millions in Vatu (VUV),3
-2020,Export by Country,Cocoa,New Zealand,Millions in Vatu (VUV),3
-2020,Export by Country,Cocoa,Australia,Millions in Vatu (VUV),1
-2020,Export by Country,Coconut oil,Sri Lanka,Millions in Vatu (VUV),95
-2020,Export by Country,Coconut oil,Malaysia,Millions in Vatu (VUV),48
-2020,Export by Country,Coconut oil,Australia,Millions in Vatu (VUV),14
-2020,Export by Country,Coconut oil,Netherlands,Millions in Vatu (VUV),6
-2020,Export by Country,Coconut oil,Singapore,Millions in Vatu (VUV),3
-2020,Export by Country,Copra,Philippines,Millions in Vatu (VUV),290
-2020,Export by Country,Copra,Bangladesh,Millions in Vatu (VUV),46
-2020,Export by Country,Kava,Fiji,Millions in Vatu (VUV),787
-2020,Export by Country,Kava,New Caledonia,Millions in Vatu (VUV),531
-2020,Export by Country,Kava,Kiribati,Millions in Vatu (VUV),475
-2020,Export by Country,Kava,United States of America,Millions in Vatu (VUV),473
-2020,Export by Country,Kava,China,Millions in Vatu (VUV),227
-2020,Export by Country,Wood,New Caledonia,Millions in Vatu (VUV),6
-2020,Export by Country,Wood,China,Millions in Vatu (VUV),1
-2020,Export by Country,Wood,Czech Republic,Millions in Vatu (VUV),0
-2020,Export by Country,Wood,Australia,Millions in Vatu (VUV),1
-2020,Export by Country,Wood,Fiji,Millions in Vatu (VUV),0
-2021,Total Value,,,Millions in Vatu (VUV),4653
-2021,Total Value,Beef,,Millions in Vatu (VUV),159
-2021,Total Value,Cocoa,,Millions in Vatu (VUV),393
-2021,Total Value,Coconut oil,,Millions in Vatu (VUV),150
-2021,Total Value,Copra,,Millions in Vatu (VUV),845
-2021,Total Value,Kava,,Millions in Vatu (VUV),2557
-2021,Total Value,Wood,,Millions in Vatu (VUV),549
-2021,Export by Country,Beef,Japan,Millions in Vatu (VUV),12
-2021,Export by Country,Beef,New Zealand,Millions in Vatu (VUV),24
-2021,Export by Country,Beef,Papua New Guinea,Millions in Vatu (VUV),79
-2021,Export by Country,Beef,Solomon Islands,Millions in Vatu (VUV),44
-2021,Export by Country,Cocoa,Malaysia,Millions in Vatu (VUV),247
-2021,Export by Country,Cocoa,Indonesia,Millions in Vatu (VUV),120
-2021,Export by Country,Cocoa,New Caledonia,Millions in Vatu (VUV),20
-2021,Export by Country,Cocoa,Australia,Millions in Vatu (VUV),2
-2021,Export by Country,Cocoa,French Polynesia,Millions in Vatu (VUV),1
-2021,Export by Country,Coconut oil,Malaysia,Millions in Vatu (VUV),61
-2021,Export by Country,Coconut oil,Sri Lanka,Millions in Vatu (VUV),40
-2021,Export by Country,Coconut oil,Singapore,Millions in Vatu (VUV),32
-2021,Export by Country,Coconut oil,Fiji,Millions in Vatu (VUV),9
-2021,Export by Country,Coconut oil,Australia,Millions in Vatu (VUV),6
-2021,Export by Country,Copra,Philippines,Millions in Vatu (VUV),705
-2021,Export by Country,Copra,Bangladesh,Millions in Vatu (VUV),96
-2021,Export by Country,Copra,United Arab Emirates,Millions in Vatu (VUV),36
-2021,Export by Country,Copra,Malaysia,Millions in Vatu (VUV),8
-2021,Export by Country,Kava,Fiji,Millions in Vatu (VUV),691
-2021,Export by Country,Kava,Kiribati,Millions in Vatu (VUV),607
-2021,Export by Country,Kava,United States of America,Millions in Vatu (VUV),486
-2021,Export by Country,Kava,New Caledonia,Millions in Vatu (VUV),425
-2021,Export by Country,Kava,China,Millions in Vatu (VUV),193
-2021,Export by Country,Wood,China,Millions in Vatu (VUV),535
-2021,Export by Country,Wood,Hong Kong,Millions in Vatu (VUV),8
-2021,Export by Country,Wood,Australia,Millions in Vatu (VUV),4
-2021,Export by Country,Wood,New Caledonia,Millions in Vatu (VUV),2
+Year,Series,Commodity,Country,Unnamed: 5,Value
+2017,Value (in million vatu),,,,4645.0
+2017,Value (in million vatu),Beef,,,178.0
+2017,Value (in million vatu),Cocoa,,,164.0
+2017,Value (in million vatu),Coconut oil,,,814.0
+2017,Value (in million vatu),Copra,,,1811.0
+2017,Value (in million vatu),Kava,,,1277.0
+2017,Value (in million vatu),Wood ,,,401.0
+2017,Value (in million vatu),Beef,Japan,,91.0
+2017,Value (in million vatu),Beef,Papua New Guinea,,50.0
+2017,Value (in million vatu),Beef,Solomon Islands,,38.0
+2017,Value (in million vatu),Cocoa,Malaysia,,141.0
+2017,Value (in million vatu),Cocoa,Australia,,18.0
+2017,Value (in million vatu),Cocoa,Belgium,,2.0
+2017,Value (in million vatu),Cocoa,United Kingdom,,2.0
+2017,Value (in million vatu),Cocoa,New Zealand,,1.0
+2017,Value (in million vatu),Coconut oil,Malaysia,,622.0
+2017,Value (in million vatu),Coconut oil,Taiwan,,124.0
+2017,Value (in million vatu),Coconut oil,New Zealand,,51.0
+2017,Value (in million vatu),Coconut oil,Australia,,12.0
+2017,Value (in million vatu),Coconut oil,New Caledonia,,4.0
+2017,Value (in million vatu),Copra,Philippines,,1715.0
+2017,Value (in million vatu),Copra,Bangladesh,,96.0
+2017,Value (in million vatu),Kava,Kiribati,,383.0
+2017,Value (in million vatu),Kava,Fiji,,307.0
+2017,Value (in million vatu),Kava,United States of America,,291.0
+2017,Value (in million vatu),Kava,New Caledonia,,236.0
+2017,Value (in million vatu),Kava,China,,31.0
+2017,Value (in million vatu),Wood,China,,302.0
+2017,Value (in million vatu),Wood,Hong Kong,,72.0
+2017,Value (in million vatu),Wood,Australia,,23.0
+2017,Value (in million vatu),Wood,New Caledonia,,3.0
+2018,Value (in million vatu),,,,3774.0
+2018,Value (in million vatu),Beef,,,66.0
+2018,Value (in million vatu),Cocoa,,,193.0
+2018,Value (in million vatu),Coconut oil,,,402.0
+2018,Value (in million vatu),Copra,,,424.0
+2018,Value (in million vatu),Kava,,,2514.0
+2018,Value (in million vatu),Wood,,,175.0
+2018,Value (in million vatu),Beef,Japan,,41.0
+2018,Value (in million vatu),Beef,Solomon Islands,,9.0
+2018,Value (in million vatu),Beef,Papua New Guinea,,8.0
+2018,Value (in million vatu),Beef,Australia,,8.0
+2018,Value (in million vatu),Cocoa,Malaysia,,153.0
+2018,Value (in million vatu),Cocoa,Indonesia,,15.0
+2018,Value (in million vatu),Cocoa,Italy,,12.0
+2018,Value (in million vatu),Cocoa,Australia,,6.0
+2018,Value (in million vatu),Cocoa,New Zealand,,3.0
+2018,Value (in million vatu),Coconut oil,Malaysia,,372.0
+2018,Value (in million vatu),Coconut oil,New Zealand,,17.0
+2018,Value (in million vatu),Coconut oil,Australia,,11.0
+2018,Value (in million vatu),Coconut oil,New Caledonia,,1.0
+2018,Value (in million vatu),Copra,Philippines,,239.0
+2018,Value (in million vatu),Copra,Bangladesh,,185.0
+2018,Value (in million vatu),Kava,United States of America,,768.0
+2018,Value (in million vatu),Kava,Fiji,,616.0
+2018,Value (in million vatu),Kava,Kiribati,,583.0
+2018,Value (in million vatu),Kava,New Caledonia,,396.0
+2018,Value (in million vatu),Kava,China,,129.0
+2018,Value (in million vatu),Wood,Hong Kong,,73.0
+2018,Value (in million vatu),Wood,China,,69.0
+2018,Value (in million vatu),Wood,Vietnam,,27.0
+2018,Value (in million vatu),Wood,New Caledonia,,6.0
+2019,Value (in million vatu),,,,3986.0
+2019,Value (in million vatu),Beef,,,96.0
+2019,Value (in million vatu),Cocoa,,,270.0
+2019,Value (in million vatu),Coconut oil,,,284.0
+2019,Value (in million vatu),Copra,,,265.0
+2019,Value (in million vatu),Kava,,,2972.0
+2019,Value (in million vatu),Wood,,,100.0
+2019,Value (in million vatu),Beef,Australia,,47.0
+2019,Value (in million vatu),Beef,Japan,,40.0
+2019,Value (in million vatu),Beef,Solomon Islands,,9.0
+2019,Value (in million vatu),Cocoa,Malaysia,,246.0
+2019,Value (in million vatu),Cocoa,Indonesia,,7.0
+2019,Value (in million vatu),Cocoa,Australia,,6.0
+2019,Value (in million vatu),Cocoa,New Zealand,,4.0
+2019,Value (in million vatu),Cocoa,United Kingdom,,3.0
+2019,Value (in million vatu),Coconut oil,Malaysia,,121.0
+2019,Value (in million vatu),Coconut oil,Bangladesh,,115.0
+2019,Value (in million vatu),Coconut oil,India,,28.0
+2019,Value (in million vatu),Coconut oil,Singapore,,10.0
+2019,Value (in million vatu),Coconut oil,New Zealand,,5.0
+2019,Value (in million vatu),Copra,Philippines,,244.0
+2019,Value (in million vatu),Copra,Bangladesh,,21.0
+2019,Value (in million vatu),Kava,Fiji,,963.0
+2019,Value (in million vatu),Kava,Kiribati,,694.0
+2019,Value (in million vatu),Kava,New Caledonia,,471.0
+2019,Value (in million vatu),Kava,United States of America,,401.0
+2019,Value (in million vatu),Kava,China,,165.0
+2019,Value (in million vatu),Wood,China,,73.0
+2019,Value (in million vatu),Wood,Vietnam,,14.0
+2019,Value (in million vatu),Wood,New Caledonia,,6.0
+2019,Value (in million vatu),Wood,Australia,,5.0
+2020,Value (in million vatu),,,,3372.0
+2020,Value (in million vatu),Beef,,,85.0
+2020,Value (in million vatu),Cocoa,,,175.0
+2020,Value (in million vatu),Coconut oil,,,166.0
+2020,Value (in million vatu),Copra,,,336.0
+2020,Value (in million vatu),Kava,,,2601.0
+2020,Value (in million vatu),Wood,,,9.0
+2020,Value (in million vatu),Beef,Japan,,47.0
+2020,Value (in million vatu),Beef,Australia,,22.0
+2020,Value (in million vatu),Beef,Solomon Islands,,16.0
+2020,Value (in million vatu),Cocoa,Malaysia,,150.0
+2020,Value (in million vatu),Cocoa,Indonesia,,19.0
+2020,Value (in million vatu),Cocoa,Italy,,3.0
+2020,Value (in million vatu),Cocoa,New Zealand,,3.0
+2020,Value (in million vatu),Cocoa,Australia,,1.0
+2020,Value (in million vatu),Coconut oil,Sri Lanka,,95.0
+2020,Value (in million vatu),Coconut oil,Malaysia,,48.0
+2020,Value (in million vatu),Coconut oil,Australia,,14.0
+2020,Value (in million vatu),Coconut oil,Netherlands,,6.0
+2020,Value (in million vatu),Coconut oil,Singapore,,3.0
+2020,Value (in million vatu),Copra,Philippines,,290.0
+2020,Value (in million vatu),Copra,Bangladesh,,46.0
+2020,Value (in million vatu),Kava,Fiji,,787.0
+2020,Value (in million vatu),Kava,New Caledonia,,531.0
+2020,Value (in million vatu),Kava,Kiribati,,475.0
+2020,Value (in million vatu),Kava,United States of America,,473.0
+2020,Value (in million vatu),Kava,China,,227.0
+2020,Value (in million vatu),Wood,New Caledonia,,6.0
+2020,Value (in million vatu),Wood,China,,1.0
+2020,Value (in million vatu),Wood,Australia,,1.0
+2021,Value (in million vatu),,,,4652.0
+2021,Value (in million vatu),Beef,,,159.0
+2021,Value (in million vatu),Cocoa,,,393.0
+2021,Value (in million vatu),Coconut oil,,,149.0
+2021,Value (in million vatu),Copra,,,845.0
+2021,Value (in million vatu),Kava,,,2557.0
+2021,Value (in million vatu),Wood,,,549.0
+2021,Value (in million vatu),Beef,Japan,,12.0
+2021,Value (in million vatu),Beef,New Zealand,,24.0
+2021,Value (in million vatu),Beef,Papua New Guinea,,79.0
+2021,Value (in million vatu),Beef,Solomon Islands,,44.0
+2021,Value (in million vatu),Cocoa,Malaysia,,247.0
+2021,Value (in million vatu),Cocoa,Indonesia,,120.0
+2021,Value (in million vatu),Cocoa,New Caledonia,,20.0
+2021,Value (in million vatu),Cocoa,Australia,,2.0
+2021,Value (in million vatu),Cocoa,French Polynesia,,1.0
+2021,Value (in million vatu),Coconut oil,Malaysia,,61.0
+2021,Value (in million vatu),Coconut oil,Sri Lanka,,40.0
+2021,Value (in million vatu),Coconut oil,Singapore,,32.0
+2021,Value (in million vatu),Coconut oil,Fiji,,9.0
+2021,Value (in million vatu),Coconut oil,Australia,,6.0
+2021,Value (in million vatu),Copra,Philippines,,705.0
+2021,Value (in million vatu),Copra,Bangladesh,,96.0
+2021,Value (in million vatu),Copra,United Arab Emirates,,36.0
+2021,Value (in million vatu),Copra,Malaysia,,8.0
+2021,Value (in million vatu),Kava,Fiji,,691.0
+2021,Value (in million vatu),Kava,Kiribati,,607.0
+2021,Value (in million vatu),Kava,United States of America,,486.0
+2021,Value (in million vatu),Kava,New Caledonia,,425.0
+2021,Value (in million vatu),Kava,China,,193.0
+2021,Value (in million vatu),Wood,China,,535.0
+2021,Value (in million vatu),Wood,Hong Kong,,8.0
+2021,Value (in million vatu),Wood,Australia,,4.0
+2021,Value (in million vatu),Wood,New Caledonia,,2.0
+2022,Value (in million vatu),,,,3837.0
+2022,Value (in million vatu),Beef,,,137.0
+2022,Value (in million vatu),Cocoa,,,168.0
+2022,Value (in million vatu),Coconut oil,,,357.0
+2022,Value (in million vatu),Copra,,,578.0
+2022,Value (in million vatu),Kava,,,2543.0
+2022,Value (in million vatu),Wood,,,54.0
+2022,Value (in million vatu),Beef,New Zealand,,17.0
+2022,Value (in million vatu),Beef,Papua New Guinea,,101.0
+2022,Value (in million vatu),Beef,Solomon Islands,,19.0
+2022,Value (in million vatu),Cocoa,Malaysia,,168.0
+2022,Value (in million vatu),Coconut Oil,Australia,,25.0
+2022,Value (in million vatu),Coconut Oil,Fiji,,5.0
+2022,Value (in million vatu),Coconut Oil,Malaysia,,112.0
+2022,Value (in million vatu),Coconut Oil,Philippines,,196.0
+2022,Value (in million vatu),Coconut Oil,Singapore,,19.0
+2022,Value (in million vatu),Copra,Bangladesh,,12.0
+2022,Value (in million vatu),Copra,Malaysia,,70.0
+2022,Value (in million vatu),Copra,Philippines,,496.0
+2022,Value (in million vatu),Kava,China,,344.0
+2022,Value (in million vatu),Kava,Fiji,,413.0
+2022,Value (in million vatu),Kava,Kiribati,,818.0
+2022,Value (in million vatu),Kava,New Caledonia,,282.0
+2022,Value (in million vatu),Kava,United States of America,,492.0
+2022,Value (in million vatu),Wood,China,,42.0
+2022,Value (in million vatu),Wood,Hong Kong,,11.0
+2022,Value (in million vatu),Wood,New Caledonia,,1.0
+2023,Value (in million vatu),,,,5377.0
+2023,Value (in million vatu),Beef,,,67.0
+2023,Value (in million vatu),Cocoa,,,295.0
+2023,Value (in million vatu),Coconut oil,,,203.0
+2023,Value (in million vatu),Copra,,,456.0
+2023,Value (in million vatu),Kava,,,4097.0
+2023,Value (in million vatu),Wood,,,259.0
+2023,Value (in million vatu),Beef,Papua New Guinea,,57.0
+2023,Value (in million vatu),Beef,Solomon Islands,,9.0
+2023,Value (in million vatu),Cocoa,Indonesia,,94.0
+2023,Value (in million vatu),Cocoa,Malaysia,,183.0
+2023,Value (in million vatu),Cocoa,New Caledonia,,14.0
+2023,Value (in million vatu),Coconut Oil,Australia,,27.0
+2023,Value (in million vatu),Coconut Oil,Malaysia,,91.0
+2023,Value (in million vatu),Coconut Oil,Singapore,,23.0
+2023,Value (in million vatu),Coconut Oil,Taiwan,,58.0
+2023,Value (in million vatu),Copra,Bangladesh,,18.0
+2023,Value (in million vatu),Copra,Malaysia,,34.0
+2023,Value (in million vatu),Copra,Philippines,,404.0
+2023,Value (in million vatu),Kava,China,,924.0
+2023,Value (in million vatu),Kava,Fiji,,332.0
+2023,Value (in million vatu),Kava,Kiribati,,1505.0
+2023,Value (in million vatu),Kava,New Caledonia,,406.0
+2023,Value (in million vatu),Kava,United States of America,,528.0
+2023,Value (in million vatu),Wood,China,,258.0
+2024,Value (in million vatu),,,,6034.0
+2024,Value (in million vatu),Beef,,,44.0
+2024,Value (in million vatu),Cocoa,,,718.0
+2024,Value (in million vatu),Coconut oil,,,190.0
+2024,Value (in million vatu),Copra,,,184.0
+2024,Value (in million vatu),Kava,,,4760.0
+2024,Value (in million vatu),Wood,,,138.0
+2024,Value (in million vatu),Beef,Papua New Guinea,,19.0
+2024,Value (in million vatu),Beef,Solomon Islands,,15.0
+2024,Value (in million vatu),Beef,Australia,,9.0
+2024,Value (in million vatu),Cocoa,Malaysia,,475.0
+2024,Value (in million vatu),Cocoa,Indonesia,,174.0
+2024,Value (in million vatu),Cocoa,India,,51.0
+2024,Value (in million vatu),Cocoa,New Caledonia,,7.0
+2024,Value (in million vatu),Cocoa,United States of America,,11.0
+2024,Value (in million vatu),Coconut Oil,Malaysia,,93.0
+2024,Value (in million vatu),Coconut Oil,Singapore,,37.0
+2024,Value (in million vatu),Coconut Oil,Taiwan,,46.0
+2024,Value (in million vatu),Coconut Oil,Australia,,14.0
+2024,Value (in million vatu),Copra,Philippines,,184.0
+2024,Value (in million vatu),Kava,Kiribati,,1649.0
+2024,Value (in million vatu),Kava,United States of America,,1245.0
+2024,Value (in million vatu),Kava,China,,829.0
+2024,Value (in million vatu),Kava,Fiji,,615.0
+2024,Value (in million vatu),Kava,New Caledonia,,422.0
+2024,Value (in million vatu),Wood,China,,137.0
+2024,Value (in million vatu),Wood,Hong Kong,,1.0
+2017,Quantity (in tonnes kilogram),,,,31821.0
+2017,Quantity (in tonnes kilogram),Beef,,,329.0
+2017,Quantity (in tonnes kilogram),Cocoa,,,1010.0
+2017,Quantity (in tonnes kilogram),Coconut oil,,,6750.0
+2017,Quantity (in tonnes kilogram),Copra,,,22443.0
+2017,Quantity (in tonnes kilogram),Kava,,,1152.0
+2017,Quantity (in tonnes kilogram),Wood ,,,137.0
+2017,Quantity (in tonnes kilogram),Beef,Japan,,162.0
+2017,Quantity (in tonnes kilogram),Beef,Papua New Guinea,,95.0
+2017,Quantity (in tonnes kilogram),Beef,Solomon Islands,,71.0
+2017,Quantity (in tonnes kilogram),Cocoa,Malaysia,,896.0
+2017,Quantity (in tonnes kilogram),Cocoa,Australia,,90.0
+2017,Quantity (in tonnes kilogram),Cocoa,Belgium,,13.0
+2017,Quantity (in tonnes kilogram),Cocoa,United Kingdom,,6.0
+2017,Quantity (in tonnes kilogram),Cocoa,New Zealand,,5.0
+2017,Quantity (in tonnes kilogram),Coconut oil,Malaysia,,5107.0
+2017,Quantity (in tonnes kilogram),Coconut oil,Taiwan,,840.0
+2017,Quantity (in tonnes kilogram),Coconut oil,New Zealand,,617.0
+2017,Quantity (in tonnes kilogram),Coconut oil,Australia,,128.0
+2017,Quantity (in tonnes kilogram),Coconut oil,New Caledonia,,53.0
+2017,Quantity (in tonnes kilogram),Copra,Philippines,,21225.0
+2017,Quantity (in tonnes kilogram),Copra,Bangladesh,,1218.0
+2017,Quantity (in tonnes kilogram),Kava,Kiribati,,375.0
+2017,Quantity (in tonnes kilogram),Kava,Fiji,,246.0
+2017,Quantity (in tonnes kilogram),Kava,United States of America,,270.0
+2017,Quantity (in tonnes kilogram),Kava,New Caledonia,,209.0
+2017,Quantity (in tonnes kilogram),Kava,China,,25.0
+2017,Quantity (in tonnes kilogram),Wood,China,,108.0
+2017,Quantity (in tonnes kilogram),Wood,Hong Kong,,21.0
+2017,Quantity (in tonnes kilogram),Wood,Australia,,6.0
+2017,Quantity (in tonnes kilogram),Wood,New Caledonia,,1.0
+2018,Quantity (in tonnes kilogram),,,,12742.0
+2018,Quantity (in tonnes kilogram),Beef,,,134.0
+2018,Quantity (in tonnes kilogram),Cocoa,,,1059.0
+2018,Quantity (in tonnes kilogram),Coconut oil,,,3669.0
+2018,Quantity (in tonnes kilogram),Copra,,,6940.0
+2018,Quantity (in tonnes kilogram),Kava,,,811.0
+2018,Quantity (in tonnes kilogram),Wood,,,128.0
+2018,Quantity (in tonnes kilogram),Beef,Japan,,87.0
+2018,Quantity (in tonnes kilogram),Beef,Solomon Islands,,19.0
+2018,Quantity (in tonnes kilogram),Beef,Papua New Guinea,,14.0
+2018,Quantity (in tonnes kilogram),Beef,Australia,,14.0
+2018,Quantity (in tonnes kilogram),Cocoa,Malaysia,,823.0
+2018,Quantity (in tonnes kilogram),Cocoa,Indonesia,,95.0
+2018,Quantity (in tonnes kilogram),Cocoa,Italy,,42.0
+2018,Quantity (in tonnes kilogram),Cocoa,Australia,,60.0
+2018,Quantity (in tonnes kilogram),Cocoa,New Zealand,,20.0
+2018,Quantity (in tonnes kilogram),Coconut oil,Malaysia,,3400.0
+2018,Quantity (in tonnes kilogram),Coconut oil,New Zealand,,149.0
+2018,Quantity (in tonnes kilogram),Coconut oil,Australia,,112.0
+2018,Quantity (in tonnes kilogram),Coconut oil,New Caledonia,,4.0
+2018,Quantity (in tonnes kilogram),Copra,Philippines,,4627.0
+2018,Quantity (in tonnes kilogram),Copra,Bangladesh,,2313.0
+2018,Quantity (in tonnes kilogram),Kava,United States of America,,278.0
+2018,Quantity (in tonnes kilogram),Kava,Fiji,,185.0
+2018,Quantity (in tonnes kilogram),Kava,Kiribati,,164.0
+2018,Quantity (in tonnes kilogram),Kava,New Caledonia,,136.0
+2018,Quantity (in tonnes kilogram),Kava,China,,40.0
+2018,Quantity (in tonnes kilogram),Wood,Hong Kong,,26.0
+2018,Quantity (in tonnes kilogram),Wood,China,,67.0
+2018,Quantity (in tonnes kilogram),Wood,Vietnam,,10.0
+2018,Quantity (in tonnes kilogram),Wood,New Caledonia,,26.0
+2019,Quantity (in tonnes kilogram),,,,14242.0
+2019,Quantity (in tonnes kilogram),Beef,,,170.0
+2019,Quantity (in tonnes kilogram),Cocoa,,,1708.0
+2019,Quantity (in tonnes kilogram),Coconut oil,,,3498.0
+2019,Quantity (in tonnes kilogram),Copra,,,7426.0
+2019,Quantity (in tonnes kilogram),Kava,,,875.0
+2019,Quantity (in tonnes kilogram),Wood,,,566.0
+2019,Quantity (in tonnes kilogram),Beef,Australia,,84.0
+2019,Quantity (in tonnes kilogram),Beef,Japan,,71.0
+2019,Quantity (in tonnes kilogram),Beef,Solomon Islands,,15.0
+2019,Quantity (in tonnes kilogram),Cocoa,Malaysia,,1578.0
+2019,Quantity (in tonnes kilogram),Cocoa,Indonesia,,58.0
+2019,Quantity (in tonnes kilogram),Cocoa,Australia,,24.0
+2019,Quantity (in tonnes kilogram),Cocoa,New Zealand,,13.0
+2019,Quantity (in tonnes kilogram),Cocoa,United Kingdom,,15.0
+2019,Quantity (in tonnes kilogram),Coconut oil,Malaysia,,1540.0
+2019,Quantity (in tonnes kilogram),Coconut oil,Bangladesh,,1444.0
+2019,Quantity (in tonnes kilogram),Coconut oil,India,,336.0
+2019,Quantity (in tonnes kilogram),Coconut oil,Singapore,,84.0
+2019,Quantity (in tonnes kilogram),Coconut oil,New Zealand,,42.0
+2019,Quantity (in tonnes kilogram),Copra,Philippines,,7071.0
+2019,Quantity (in tonnes kilogram),Copra,Bangladesh,,354.0
+2019,Quantity (in tonnes kilogram),Kava,Fiji,,303.0
+2019,Quantity (in tonnes kilogram),Kava,Kiribati,,182.0
+2019,Quantity (in tonnes kilogram),Kava,New Caledonia,,154.0
+2019,Quantity (in tonnes kilogram),Kava,United States of America,,116.0
+2019,Quantity (in tonnes kilogram),Kava,China,,44.0
+2019,Quantity (in tonnes kilogram),Wood,China,,529.0
+2019,Quantity (in tonnes kilogram),Wood,Vietnam,,3.0
+2019,Quantity (in tonnes kilogram),Wood,New Caledonia,,30.0
+2019,Quantity (in tonnes kilogram),Wood,Australia,,2.0
+2020,Quantity (in tonnes kilogram),,,,11464.0
+2020,Quantity (in tonnes kilogram),Beef,,,154.0
+2020,Quantity (in tonnes kilogram),Cocoa,,,913.0
+2020,Quantity (in tonnes kilogram),Coconut oil,,,1738.0
+2020,Quantity (in tonnes kilogram),Copra,,,7793.0
+2020,Quantity (in tonnes kilogram),Kava,,,762.0
+2020,Quantity (in tonnes kilogram),Wood,,,104.0
+2020,Quantity (in tonnes kilogram),Beef,Japan,,83.0
+2020,Quantity (in tonnes kilogram),Beef,Australia,,43.0
+2020,Quantity (in tonnes kilogram),Beef,Solomon Islands,,28.0
+2020,Quantity (in tonnes kilogram),Cocoa,Malaysia,,772.0
+2020,Quantity (in tonnes kilogram),Cocoa,Indonesia,,120.0
+2020,Quantity (in tonnes kilogram),Cocoa,Italy,,15.0
+2020,Quantity (in tonnes kilogram),Cocoa,New Zealand,,3.0
+2020,Quantity (in tonnes kilogram),Cocoa,Australia,,2.0
+2020,Quantity (in tonnes kilogram),Coconut oil,Sri Lanka,,941.0
+2020,Quantity (in tonnes kilogram),Coconut oil,Malaysia,,578.0
+2020,Quantity (in tonnes kilogram),Coconut oil,Australia,,125.0
+2020,Quantity (in tonnes kilogram),Coconut oil,Netherlands,,45.0
+2020,Quantity (in tonnes kilogram),Coconut oil,Singapore,,49.0
+2020,Quantity (in tonnes kilogram),Copra,Philippines,,7044.0
+2020,Quantity (in tonnes kilogram),Copra,Bangladesh,,749.0
+2020,Quantity (in tonnes kilogram),Kava,Fiji,,305.0
+2020,Quantity (in tonnes kilogram),Kava,New Caledonia,,172.0
+2020,Quantity (in tonnes kilogram),Kava,Kiribati,,109.0
+2020,Quantity (in tonnes kilogram),Kava,United States of America,,65.0
+2020,Quantity (in tonnes kilogram),Kava,China,,95.0
+2020,Quantity (in tonnes kilogram),Wood,New Caledonia,,79.0
+2020,Quantity (in tonnes kilogram),Wood,China,,19.0
+2020,Quantity (in tonnes kilogram),Wood,Australia,,1.0
+2021,Quantity (in tonnes kilogram),,,,55623.0
+2021,Quantity (in tonnes kilogram),Beef,,,294.0
+2021,Quantity (in tonnes kilogram),Cocoa,,,46906.0
+2021,Quantity (in tonnes kilogram),Coconut oil,,,1302.0
+2021,Quantity (in tonnes kilogram),Copra,,,5901.0
+2021,Quantity (in tonnes kilogram),Kava,,,762.0
+2021,Quantity (in tonnes kilogram),Wood,,,458.0
+2021,Quantity (in tonnes kilogram),Beef,Japan,,26.0
+2021,Quantity (in tonnes kilogram),Beef,New Zealand,,42.0
+2021,Quantity (in tonnes kilogram),Beef,Papua New Guinea,,151.0
+2021,Quantity (in tonnes kilogram),Beef,Solomon Islands,,74.0
+2021,Quantity (in tonnes kilogram),Cocoa,Malaysia,,1245.0
+2021,Quantity (in tonnes kilogram),Cocoa,Indonesia,,45540.0
+2021,Quantity (in tonnes kilogram),Cocoa,New Caledonia,,105.0
+2021,Quantity (in tonnes kilogram),Cocoa,Australia,,9.0
+2021,Quantity (in tonnes kilogram),Cocoa,French Polynesia,,2.0
+2021,Quantity (in tonnes kilogram),Coconut oil,Malaysia,,558.0
+2021,Quantity (in tonnes kilogram),Coconut oil,Sri Lanka,,391.0
+2021,Quantity (in tonnes kilogram),Coconut oil,Singapore,,241.0
+2021,Quantity (in tonnes kilogram),Coconut oil,Fiji,,68.0
+2021,Quantity (in tonnes kilogram),Coconut oil,Australia,,43.0
+2021,Quantity (in tonnes kilogram),Copra,Philippines,,4419.0
+2021,Quantity (in tonnes kilogram),Copra,Bangladesh,,1020.0
+2021,Quantity (in tonnes kilogram),Copra,United Arab Emirates,,351.0
+2021,Quantity (in tonnes kilogram),Copra,Malaysia,,111.0
+2021,Quantity (in tonnes kilogram),Kava,Fiji,,295.0
+2021,Quantity (in tonnes kilogram),Kava,Kiribati,,118.0
+2021,Quantity (in tonnes kilogram),Kava,United States of America,,89.0
+2021,Quantity (in tonnes kilogram),Kava,New Caledonia,,160.0
+2021,Quantity (in tonnes kilogram),Kava,China,,72.0
+2021,Quantity (in tonnes kilogram),Wood,China,,403.0
+2021,Quantity (in tonnes kilogram),Wood,Hong Kong,,3.0
+2021,Quantity (in tonnes kilogram),Wood,Australia,,36.0
+2021,Quantity (in tonnes kilogram),Wood,New Caledonia,,16.0
+2022,Quantity (in tonnes kilogram),,,,7749.0
+2022,Quantity (in tonnes kilogram),Beef,,,226.0
+2022,Quantity (in tonnes kilogram),Cocoa,,,857.0
+2022,Quantity (in tonnes kilogram),Coconut oil,,,1412.0
+2022,Quantity (in tonnes kilogram),Copra,,,4500.0
+2022,Quantity (in tonnes kilogram),Kava,,,715.0
+2022,Quantity (in tonnes kilogram),Wood,,,39.0
+2022,Quantity (in tonnes kilogram),Beef,New Zealand,,29.0
+2022,Quantity (in tonnes kilogram),Beef,Papua New Guinea,,169.0
+2022,Quantity (in tonnes kilogram),Beef,Solomon Islands,,29.0
+2022,Quantity (in tonnes kilogram),Cocoa,Malaysia,,855.0
+2022,Quantity (in tonnes kilogram),Coconut Oil,Australia,,168.0
+2022,Quantity (in tonnes kilogram),Coconut Oil,Fiji,,46.0
+2022,Quantity (in tonnes kilogram),Coconut Oil,Malaysia,,510.0
+2022,Quantity (in tonnes kilogram),Coconut Oil,Philippines,,555.0
+2022,Quantity (in tonnes kilogram),Coconut Oil,Singapore,,133.0
+2022,Quantity (in tonnes kilogram),Copra,Bangladesh,,111.0
+2022,Quantity (in tonnes kilogram),Copra,Malaysia,,710.0
+2022,Quantity (in tonnes kilogram),Copra,Philippines,,3679.0
+2022,Quantity (in tonnes kilogram),Kava,China,,172.0
+2022,Quantity (in tonnes kilogram),Kava,Fiji,,167.0
+2022,Quantity (in tonnes kilogram),Kava,Kiribati,,145.0
+2022,Quantity (in tonnes kilogram),Kava,New Caledonia,,111.0
+2022,Quantity (in tonnes kilogram),Kava,United States of America,,91.0
+2022,Quantity (in tonnes kilogram),Wood,China,,30.0
+2022,Quantity (in tonnes kilogram),Wood,Hong Kong,,5.0
+2022,Quantity (in tonnes kilogram),Wood,New Caledonia,,5.0
+2023,Quantity (in tonnes kilogram),,,,
+2023,Quantity (in tonnes kilogram),Beef,,,102.0
+2023,Quantity (in tonnes kilogram),Cocoa,,,896.0
+2023,Quantity (in tonnes kilogram),Coconut oil,,,2026.0
+2023,Quantity (in tonnes kilogram),Copra,,,8969.0
+2023,Quantity (in tonnes kilogram),Kava,,,994.0
+2023,Quantity (in tonnes kilogram),Wood,,,997.0
+2023,Quantity (in tonnes kilogram),Beef,Papua New Guinea,,89.0
+2023,Quantity (in tonnes kilogram),Beef,Solomon Islands,,13.0
+2023,Quantity (in tonnes kilogram),Cocoa,Indonesia,,300.0
+2023,Quantity (in tonnes kilogram),Cocoa,Malaysia,,540.0
+2023,Quantity (in tonnes kilogram),Cocoa,New Caledonia,,50.0
+2023,Quantity (in tonnes kilogram),Coconut Oil,Australia,,141.0
+2023,Quantity (in tonnes kilogram),Coconut Oil,Malaysia,,1016.0
+2023,Quantity (in tonnes kilogram),Coconut Oil,Singapore,,282.0
+2023,Quantity (in tonnes kilogram),Coconut Oil,Taiwan,,544.0
+2023,Quantity (in tonnes kilogram),Copra,Bangladesh,,218.0
+2023,Quantity (in tonnes kilogram),Copra,Malaysia,,450.0
+2023,Quantity (in tonnes kilogram),Copra,Philippines,,8302.0
+2023,Quantity (in tonnes kilogram),Kava,China,,326.0
+2023,Quantity (in tonnes kilogram),Kava,Fiji,,133.0
+2023,Quantity (in tonnes kilogram),Kava,Kiribati,,247.0
+2023,Quantity (in tonnes kilogram),Kava,New Caledonia,,166.0
+2023,Quantity (in tonnes kilogram),Kava,United States of America,,80.0
+2023,Quantity (in tonnes kilogram),Wood,China,,997.0
+2024,Quantity (in tonnes kilogram),,,,81450.0
+2024,Quantity (in tonnes kilogram),Beef,,,384.0
+2024,Quantity (in tonnes kilogram),Cocoa,,,49694.0
+2024,Quantity (in tonnes kilogram),Coconut oil,,,5565.0
+2024,Quantity (in tonnes kilogram),Copra,,,19523.0
+2024,Quantity (in tonnes kilogram),Kava,,,3557.0
+2024,Quantity (in tonnes kilogram),Wood,,,2727.0
+2024,Quantity (in tonnes kilogram),Beef,Papua New Guinea,,256.0
+2024,Quantity (in tonnes kilogram),Beef,Solomon Islands,,87.0
+2024,Quantity (in tonnes kilogram),Beef,Australia,,41.0
+2024,Quantity (in tonnes kilogram),Cocoa,Malaysia,,3328.0
+2024,Quantity (in tonnes kilogram),Cocoa,Indonesia,,46109.0
+2024,Quantity (in tonnes kilogram),Cocoa,India,,74.0
+2024,Quantity (in tonnes kilogram),Cocoa,New Caledonia,,180.0
+2024,Quantity (in tonnes kilogram),Cocoa,United States of America,,3.0
+2024,Quantity (in tonnes kilogram),Coconut Oil,Malaysia,,2963.0
+2024,Quantity (in tonnes kilogram),Coconut Oil,Singapore,,1048.0
+2024,Quantity (in tonnes kilogram),Coconut Oil,Taiwan,,1088.0
+2024,Quantity (in tonnes kilogram),Coconut Oil,Australia,,466.0
+2024,Quantity (in tonnes kilogram),Copra,Philippines,,19523.0
+2024,Quantity (in tonnes kilogram),Kava,Kiribati,,790.0
+2024,Quantity (in tonnes kilogram),Kava,United States of America,,496.0
+2024,Quantity (in tonnes kilogram),Kava,China,,827.0
+2024,Quantity (in tonnes kilogram),Kava,Fiji,,846.0
+2024,Quantity (in tonnes kilogram),Kava,New Caledonia,,598.0
+2024,Quantity (in tonnes kilogram),Wood,China,,2719.0
+2024,Quantity (in tonnes kilogram),Wood,Hong Kong,,8.0
+2017,Price per unit (vatu per kilogram/litre),Beef,,,543.0
+2017,Price per unit (vatu per kilogram/litre),Cocoa,,,162.0
+2017,Price per unit (vatu per kilogram/litre),Coconut oil,,,121.0
+2017,Price per unit (vatu per kilogram/litre),Copra,,,81.0
+2017,Price per unit (vatu per kilogram/litre),Kava,,,1108.0
+2017,Price per unit (vatu per kilogram/litre),Wood ,,,2924.0
+2017,Price per unit (vatu per kilogram/litre),Beef,Japan,,559.0
+2017,Price per unit (vatu per kilogram/litre),Beef,Papua New Guinea,,526.0
+2017,Price per unit (vatu per kilogram/litre),Beef,Solomon Islands,,529.0
+2017,Price per unit (vatu per kilogram/litre),Cocoa,Malaysia,,157.0
+2017,Price per unit (vatu per kilogram/litre),Cocoa,Australia,,197.0
+2017,Price per unit (vatu per kilogram/litre),Cocoa,Belgium,,194.0
+2017,Price per unit (vatu per kilogram/litre),Cocoa,United Kingdom,,250.0
+2017,Price per unit (vatu per kilogram/litre),Cocoa,New Zealand,,243.0
+2017,Price per unit (vatu per kilogram/litre),Coconut oil,Malaysia,,122.0
+2017,Price per unit (vatu per kilogram/litre),Coconut oil,Taiwan,,148.0
+2017,Price per unit (vatu per kilogram/litre),Coconut oil,New Zealand,,82.0
+2017,Price per unit (vatu per kilogram/litre),Coconut oil,Australia,,96.0
+2017,Price per unit (vatu per kilogram/litre),Coconut oil,New Caledonia,,72.0
+2017,Price per unit (vatu per kilogram/litre),Copra,Philippines,,81.0
+2017,Price per unit (vatu per kilogram/litre),Copra,Bangladesh,,79.0
+2017,Price per unit (vatu per kilogram/litre),Kava,Kiribati,,1021.0
+2017,Price per unit (vatu per kilogram/litre),Kava,Fiji,,1247.0
+2017,Price per unit (vatu per kilogram/litre),Kava,United States of America,,1078.0
+2017,Price per unit (vatu per kilogram/litre),Kava,New Caledonia,,1131.0
+2017,Price per unit (vatu per kilogram/litre),Kava,China,,1245.0
+2017,Price per unit (vatu per kilogram/litre),Wood,China,,2788.0
+2017,Price per unit (vatu per kilogram/litre),Wood,Hong Kong,,3471.0
+2017,Price per unit (vatu per kilogram/litre),Wood,Australia,,4059.0
+2017,Price per unit (vatu per kilogram/litre),Wood,New Caledonia,,1982.0
+2018,Price per unit (vatu per kilogram/litre),Beef,,,492.0
+2018,Price per unit (vatu per kilogram/litre),Cocoa,,,182.0
+2018,Price per unit (vatu per kilogram/litre),Coconut oil,,,110.0
+2018,Price per unit (vatu per kilogram/litre),Copra,,,61.0
+2018,Price per unit (vatu per kilogram/litre),Kava,,,3098.0
+2018,Price per unit (vatu per kilogram/litre),Wood,,,1367.0
+2018,Price per unit (vatu per kilogram/litre),Beef,Japan,,474.0
+2018,Price per unit (vatu per kilogram/litre),Beef,Solomon Islands,,485.0
+2018,Price per unit (vatu per kilogram/litre),Beef,Papua New Guinea,,552.0
+2018,Price per unit (vatu per kilogram/litre),Beef,Australia,,552.0
+2018,Price per unit (vatu per kilogram/litre),Cocoa,Malaysia,,186.0
+2018,Price per unit (vatu per kilogram/litre),Cocoa,Indonesia,,155.0
+2018,Price per unit (vatu per kilogram/litre),Cocoa,Italy,,284.0
+2018,Price per unit (vatu per kilogram/litre),Cocoa,Australia,,106.0
+2018,Price per unit (vatu per kilogram/litre),Cocoa,New Zealand,,143.0
+2018,Price per unit (vatu per kilogram/litre),Coconut oil,Malaysia,,109.0
+2018,Price per unit (vatu per kilogram/litre),Coconut oil,New Zealand,,114.0
+2018,Price per unit (vatu per kilogram/litre),Coconut oil,Australia,,98.0
+2018,Price per unit (vatu per kilogram/litre),Coconut oil,New Caledonia,,312.0
+2018,Price per unit (vatu per kilogram/litre),Copra,Philippines,,52.0
+2018,Price per unit (vatu per kilogram/litre),Copra,Bangladesh,,80.0
+2018,Price per unit (vatu per kilogram/litre),Kava,United States of America,,2760.0
+2018,Price per unit (vatu per kilogram/litre),Kava,Fiji,,3323.0
+2018,Price per unit (vatu per kilogram/litre),Kava,Kiribati,,3560.0
+2018,Price per unit (vatu per kilogram/litre),Kava,New Caledonia,,2900.0
+2018,Price per unit (vatu per kilogram/litre),Kava,China,,3191.0
+2018,Price per unit (vatu per kilogram/litre),Wood,Hong Kong,,2816.0
+2018,Price per unit (vatu per kilogram/litre),Wood,China,,1038.0
+2018,Price per unit (vatu per kilogram/litre),Wood,Vietnam,,2791.0
+2018,Price per unit (vatu per kilogram/litre),Wood,New Caledonia,,221.0
+2019,Price per unit (vatu per kilogram/litre),Beef,,,564.0
+2019,Price per unit (vatu per kilogram/litre),Cocoa,,,158.0
+2019,Price per unit (vatu per kilogram/litre),Coconut oil,,,81.0
+2019,Price per unit (vatu per kilogram/litre),Copra,,,36.0
+2019,Price per unit (vatu per kilogram/litre),Kava,,,3395.0
+2019,Price per unit (vatu per kilogram/litre),Wood,,,177.0
+2019,Price per unit (vatu per kilogram/litre),Beef,Australia,,556.0
+2019,Price per unit (vatu per kilogram/litre),Beef,Japan,,562.0
+2019,Price per unit (vatu per kilogram/litre),Beef,Solomon Islands,,614.0
+2019,Price per unit (vatu per kilogram/litre),Cocoa,Malaysia,,156.0
+2019,Price per unit (vatu per kilogram/litre),Cocoa,Indonesia,,126.0
+2019,Price per unit (vatu per kilogram/litre),Cocoa,Australia,,275.0
+2019,Price per unit (vatu per kilogram/litre),Cocoa,New Zealand,,300.0
+2019,Price per unit (vatu per kilogram/litre),Cocoa,United Kingdom,,189.0
+2019,Price per unit (vatu per kilogram/litre),Coconut oil,Malaysia,,78.0
+2019,Price per unit (vatu per kilogram/litre),Coconut oil,Bangladesh,,80.0
+2019,Price per unit (vatu per kilogram/litre),Coconut oil,India,,84.0
+2019,Price per unit (vatu per kilogram/litre),Coconut oil,Singapore,,113.0
+2019,Price per unit (vatu per kilogram/litre),Coconut oil,New Zealand,,114.0
+2019,Price per unit (vatu per kilogram/litre),Copra,Philippines,,34.0
+2019,Price per unit (vatu per kilogram/litre),Copra,Bangladesh,,58.0
+2019,Price per unit (vatu per kilogram/litre),Kava,Fiji,,3180.0
+2019,Price per unit (vatu per kilogram/litre),Kava,Kiribati,,3810.0
+2019,Price per unit (vatu per kilogram/litre),Kava,New Caledonia,,3063.0
+2019,Price per unit (vatu per kilogram/litre),Kava,United States of America,,3457.0
+2019,Price per unit (vatu per kilogram/litre),Kava,China,,3752.0
+2019,Price per unit (vatu per kilogram/litre),Wood,China,,138.0
+2019,Price per unit (vatu per kilogram/litre),Wood,Vietnam,,4588.0
+2019,Price per unit (vatu per kilogram/litre),Wood,New Caledonia,,212.0
+2019,Price per unit (vatu per kilogram/litre),Wood,Australia,,2346.0
+2020,Price per unit (vatu per kilogram/litre),Beef,,,552.0
+2020,Price per unit (vatu per kilogram/litre),Cocoa,,,192.0
+2020,Price per unit (vatu per kilogram/litre),Coconut oil,,,96.0
+2020,Price per unit (vatu per kilogram/litre),Copra,,,43.0
+2020,Price per unit (vatu per kilogram/litre),Kava,,,3412.0
+2020,Price per unit (vatu per kilogram/litre),Wood,,,87.0
+2020,Price per unit (vatu per kilogram/litre),Beef,Japan,,567.0
+2020,Price per unit (vatu per kilogram/litre),Beef,Australia,,518.0
+2020,Price per unit (vatu per kilogram/litre),Beef,Solomon Islands,,561.0
+2020,Price per unit (vatu per kilogram/litre),Cocoa,Malaysia,,194.0
+2020,Price per unit (vatu per kilogram/litre),Cocoa,Indonesia,,156.0
+2020,Price per unit (vatu per kilogram/litre),Cocoa,Italy,,194.0
+2020,Price per unit (vatu per kilogram/litre),Cocoa,New Zealand,,847.0
+2020,Price per unit (vatu per kilogram/litre),Cocoa,Australia,,291.0
+2020,Price per unit (vatu per kilogram/litre),Coconut oil,Sri Lanka,,101.0
+2020,Price per unit (vatu per kilogram/litre),Coconut oil,Malaysia,,83.0
+2020,Price per unit (vatu per kilogram/litre),Coconut oil,Australia,,109.0
+2020,Price per unit (vatu per kilogram/litre),Coconut oil,Netherlands,,128.0
+2020,Price per unit (vatu per kilogram/litre),Coconut oil,Singapore,,68.0
+2020,Price per unit (vatu per kilogram/litre),Copra,Philippines,,41.0
+2020,Price per unit (vatu per kilogram/litre),Copra,Bangladesh,,61.0
+2020,Price per unit (vatu per kilogram/litre),Kava,Fiji,,2581.0
+2020,Price per unit (vatu per kilogram/litre),Kava,New Caledonia,,3090.0
+2020,Price per unit (vatu per kilogram/litre),Kava,Kiribati,,4352.0
+2020,Price per unit (vatu per kilogram/litre),Kava,United States of America,,7328.0
+2020,Price per unit (vatu per kilogram/litre),Kava,China,,2385.0
+2020,Price per unit (vatu per kilogram/litre),Wood,New Caledonia,,81.0
+2020,Price per unit (vatu per kilogram/litre),Wood,China,,77.0
+2020,Price per unit (vatu per kilogram/litre),Wood,Australia,,608.0
+2021,Price per unit (vatu per kilogram/litre),Beef,,,543.0
+2021,Price per unit (vatu per kilogram/litre),Cocoa,,,8.0
+2021,Price per unit (vatu per kilogram/litre),Coconut oil,,,115.0
+2021,Price per unit (vatu per kilogram/litre),Copra,,,143.0
+2021,Price per unit (vatu per kilogram/litre),Kava,,,3354.0
+2021,Price per unit (vatu per kilogram/litre),Wood,,,1200.0
+2021,Price per unit (vatu per kilogram/litre),Beef,Japan,,480.0
+2021,Price per unit (vatu per kilogram/litre),Beef,New Zealand,,566.0
+2021,Price per unit (vatu per kilogram/litre),Beef,Papua New Guinea,,520.0
+2021,Price per unit (vatu per kilogram/litre),Beef,Solomon Islands,,597.0
+2021,Price per unit (vatu per kilogram/litre),Cocoa,Malaysia,,199.0
+2021,Price per unit (vatu per kilogram/litre),Cocoa,Indonesia,,3.0
+2021,Price per unit (vatu per kilogram/litre),Cocoa,New Caledonia,,194.0
+2021,Price per unit (vatu per kilogram/litre),Cocoa,Australia,,228.0
+2021,Price per unit (vatu per kilogram/litre),Cocoa,French Polynesia,,524.0
+2021,Price per unit (vatu per kilogram/litre),Coconut oil,Malaysia,,109.0
+2021,Price per unit (vatu per kilogram/litre),Coconut oil,Sri Lanka,,103.0
+2021,Price per unit (vatu per kilogram/litre),Coconut oil,Singapore,,134.0
+2021,Price per unit (vatu per kilogram/litre),Coconut oil,Fiji,,140.0
+2021,Price per unit (vatu per kilogram/litre),Coconut oil,Australia,,134.0
+2021,Price per unit (vatu per kilogram/litre),Copra,Philippines,,160.0
+2021,Price per unit (vatu per kilogram/litre),Copra,Bangladesh,,94.0
+2021,Price per unit (vatu per kilogram/litre),Copra,United Arab Emirates,,101.0
+2021,Price per unit (vatu per kilogram/litre),Copra,Malaysia,,70.0
+2021,Price per unit (vatu per kilogram/litre),Kava,Fiji,,2341.0
+2021,Price per unit (vatu per kilogram/litre),Kava,Kiribati,,5122.0
+2021,Price per unit (vatu per kilogram/litre),Kava,United States of America,,5456.0
+2021,Price per unit (vatu per kilogram/litre),Kava,New Caledonia,,2654.0
+2021,Price per unit (vatu per kilogram/litre),Kava,China,,2689.0
+2021,Price per unit (vatu per kilogram/litre),Wood,China,,1329.0
+2021,Price per unit (vatu per kilogram/litre),Wood,Hong Kong,,3266.0
+2021,Price per unit (vatu per kilogram/litre),Wood,Australia,,102.0
+2021,Price per unit (vatu per kilogram/litre),Wood,New Caledonia,,93.0
+2022,Price per unit (vatu per kilogram/litre),Beef,,,606.0
+2022,Price per unit (vatu per kilogram/litre),Cocoa,,,197.0
+2022,Price per unit (vatu per kilogram/litre),Coconut oil,,,253.0
+2022,Price per unit (vatu per kilogram/litre),Copra,,,129.0
+2022,Price per unit (vatu per kilogram/litre),Kava,,,3558.0
+2022,Price per unit (vatu per kilogram/litre),Wood,,,1388.0
+2022,Price per unit (vatu per kilogram/litre),Beef,New Zealand,,613.0
+2022,Price per unit (vatu per kilogram/litre),Beef,Papua New Guinea,,596.0
+2022,Price per unit (vatu per kilogram/litre),Beef,Solomon Islands,,650.0
+2022,Price per unit (vatu per kilogram/litre),Cocoa,Malaysia,,196.0
+2022,Price per unit (vatu per kilogram/litre),Coconut Oil,Australia,,146.0
+2022,Price per unit (vatu per kilogram/litre),Coconut Oil,Fiji,,111.0
+2022,Price per unit (vatu per kilogram/litre),Coconut Oil,Malaysia,,220.0
+2022,Price per unit (vatu per kilogram/litre),Coconut Oil,Philippines,,353.0
+2022,Price per unit (vatu per kilogram/litre),Coconut Oil,Singapore,,143.0
+2022,Price per unit (vatu per kilogram/litre),Copra,Bangladesh,,107.0
+2022,Price per unit (vatu per kilogram/litre),Copra,Malaysia,,99.0
+2022,Price per unit (vatu per kilogram/litre),Copra,Philippines,,135.0
+2022,Price per unit (vatu per kilogram/litre),Kava,China,,2003.0
+2022,Price per unit (vatu per kilogram/litre),Kava,Fiji,,2476.0
+2022,Price per unit (vatu per kilogram/litre),Kava,Kiribati,,5658.0
+2022,Price per unit (vatu per kilogram/litre),Kava,New Caledonia,,2549.0
+2022,Price per unit (vatu per kilogram/litre),Kava,United States of America,,5411.0
+2022,Price per unit (vatu per kilogram/litre),Wood,China,,1432.0
+2022,Price per unit (vatu per kilogram/litre),Wood,Hong Kong,,2330.0
+2022,Price per unit (vatu per kilogram/litre),Wood,New Caledonia,,155.0
+2023,Price per unit (vatu per kilogram/litre),Beef,,,658.0
+2023,Price per unit (vatu per kilogram/litre),Cocoa,,,329.0
+2023,Price per unit (vatu per kilogram/litre),Coconut Oil,,,100.0
+2023,Price per unit (vatu per kilogram/litre),Copra,,,51.0
+2023,Price per unit (vatu per kilogram/litre),Kava,,,4123.0
+2023,Price per unit (vatu per kilogram/litre),Wood,,,260.0
+2023,Price per unit (vatu per kilogram/litre),Beef,Papua New Guinea,,646.0
+2023,Price per unit (vatu per kilogram/litre),Beef,Solomon Islands,,744.0
+2023,Price per unit (vatu per kilogram/litre),Cocoa,Indonesia,,315.0
+2023,Price per unit (vatu per kilogram/litre),Cocoa,Malaysia,,338.0
+2023,Price per unit (vatu per kilogram/litre),Cocoa,New Caledonia,,288.0
+2023,Price per unit (vatu per kilogram/litre),Coconut Oil,Australia,,191.0
+2023,Price per unit (vatu per kilogram/litre),Coconut Oil,Malaysia,,90.0
+2023,Price per unit (vatu per kilogram/litre),Coconut Oil,Singapore,,81.0
+2023,Price per unit (vatu per kilogram/litre),Coconut Oil,Taiwan,,107.0
+2023,Price per unit (vatu per kilogram/litre),Copra,Bangladesh,,82.0
+2023,Price per unit (vatu per kilogram/litre),Copra,Malaysia,,75.0
+2023,Price per unit (vatu per kilogram/litre),Copra,Philippines,,49.0
+2023,Price per unit (vatu per kilogram/litre),Kava,China,,2839.0
+2023,Price per unit (vatu per kilogram/litre),Kava,Fiji,,2489.0
+2023,Price per unit (vatu per kilogram/litre),Kava,Kiribati,,6087.0
+2023,Price per unit (vatu per kilogram/litre),Kava,New Caledonia,,2452.0
+2023,Price per unit (vatu per kilogram/litre),Kava,United States of America,,6618.0
+2023,Price per unit (vatu per kilogram/litre),Wood,China,,259.0
+2024,Price per unit (vatu per kilogram/litre),Beef,,,115.0
+2024,Price per unit (vatu per kilogram/litre),Cocoa,,,14.0
+2024,Price per unit (vatu per kilogram/litre),Coconut oil,,,34.0
+2024,Price per unit (vatu per kilogram/litre),Copra,,,9.0
+2024,Price per unit (vatu per kilogram/litre),Kava,,,1338.0
+2024,Price per unit (vatu per kilogram/litre),Wood,,,51.0
+2024,Price per unit (vatu per kilogram/litre),Beef,Papua New Guinea,,76.0
+2024,Price per unit (vatu per kilogram/litre),Beef,Solomon Islands,,171.0
+2024,Price per unit (vatu per kilogram/litre),Beef,Australia,,223.0
+2024,Price per unit (vatu per kilogram/litre),Cocoa,Malaysia,,143.0
+2024,Price per unit (vatu per kilogram/litre),Cocoa,Indonesia,,4.0
+2024,Price per unit (vatu per kilogram/litre),Cocoa,India,,694.0
+2024,Price per unit (vatu per kilogram/litre),Cocoa,New Caledonia,,37.0
+2024,Price per unit (vatu per kilogram/litre),Cocoa,United States of America,,3523.0
+2024,Price per unit (vatu per kilogram/litre),Coconut Oil,Malaysia,,31.0
+2024,Price per unit (vatu per kilogram/litre),Coconut Oil,Singapore,,36.0
+2024,Price per unit (vatu per kilogram/litre),Coconut Oil,Taiwan,,42.0
+2024,Price per unit (vatu per kilogram/litre),Coconut Oil,Australia,,29.0
+2024,Price per unit (vatu per kilogram/litre),Copra,Philippines,,9.0
+2024,Price per unit (vatu per kilogram/litre),Kava,Kiribati,,2087.0
+2024,Price per unit (vatu per kilogram/litre),Kava,United States of America,,2510.0
+2024,Price per unit (vatu per kilogram/litre),Kava,China,,1002.0
+2024,Price per unit (vatu per kilogram/litre),Kava,Fiji,,727.0
+2024,Price per unit (vatu per kilogram/litre),Kava,New Caledonia,,706.0
+2024,Price per unit (vatu per kilogram/litre),Wood,China,,50.0
+2024,Price per unit (vatu per kilogram/litre),Wood,Hong Kong,,128.0

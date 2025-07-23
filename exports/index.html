@@ -146,7 +146,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250723040331">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250723210052">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -461,7 +461,7 @@ data-event-label="high"
   data-graphtargetlines="[]"
   data-graphseriesbreaks="[]"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Total Value&quot;,&quot;Export by Country&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Series&quot;},{&quot;name&quot;:&quot;Principal Export&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Beef&quot;,&quot;Cocoa&quot;,&quot;Coconut oil&quot;,&quot;Copra&quot;,&quot;Kava&quot;,&quot;Wood&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Principal Export&quot;},{&quot;name&quot;:&quot;Main Country of Destination&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Japan&quot;,&quot;Papua New Guinea&quot;,&quot;Sri Lanka&quot;,&quot;Netherlands&quot;,&quot;Australia&quot;,&quot;Belgium&quot;,&quot;United Kingdom&quot;,&quot;New Zealand&quot;,&quot;Malaysia&quot;,&quot;Taiwan&quot;,&quot;New Caledonia&quot;,&quot;Philippines&quot;,&quot;Bangladesh&quot;,&quot;Kiribati&quot;,&quot;France&quot;,&quot;United States of America&quot;,&quot;China&quot;,&quot;Hong Kong&quot;,&quot;Fiji&quot;,&quot;Solomon Islands&quot;,&quot;Indonesia&quot;,&quot;Italy&quot;,&quot;French Polynesia&quot;,&quot;Vietnam&quot;,&quot;India&quot;,&quot;Singapore&quot;,&quot;Czech Republic&quot;,&quot;United Arab Emirates&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Main Country of Destination&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Millions in Vatu (VUV)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Value (in million vatu)&quot;,&quot;Quantity (in tonnes kilogram)&quot;,&quot;Price per unit (vatu per kilogram/litre)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Series&quot;},{&quot;name&quot;:&quot;Commodity&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Beef&quot;,&quot;Cocoa&quot;,&quot;Coconut oil&quot;,&quot;Copra&quot;,&quot;Kava&quot;,&quot;Wood &quot;,&quot;Wood&quot;,&quot;Coconut Oil&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Commodity&quot;},{&quot;name&quot;:&quot;Country&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Japan&quot;,&quot;Papua New Guinea&quot;,&quot;Solomon Islands&quot;,&quot;Malaysia&quot;,&quot;Australia&quot;,&quot;Belgium&quot;,&quot;United Kingdom&quot;,&quot;New Zealand&quot;,&quot;Taiwan&quot;,&quot;New Caledonia&quot;,&quot;Philippines&quot;,&quot;Bangladesh&quot;,&quot;Kiribati&quot;,&quot;Fiji&quot;,&quot;United States of America&quot;,&quot;China&quot;,&quot;Hong Kong&quot;,&quot;Indonesia&quot;,&quot;Italy&quot;,&quot;Vietnam&quot;,&quot;India&quot;,&quot;Singapore&quot;,&quot;Sri Lanka&quot;,&quot;Netherlands&quot;,&quot;French Polynesia&quot;,&quot;United Arab Emirates&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Country&quot;},{&quot;name&quot;:&quot;Unnamed: 5&quot;,&quot;type&quot;:&quot;number&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;]},&quot;title&quot;:&quot;Unnamed: 5&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
   data-proxy=""
@@ -518,10 +518,6 @@ data-event-label="high"
         
         
         
-        <th scope="col">Units</th>
-        
-        
-        
         <th scope="col" class="table-value">Series</th>
         
         
@@ -535,15 +531,11 @@ data-event-label="high"
           
           
           
-          <td>4645</td>
+          <td>4645.0</td>
           
           
           
-          <td>Millions in Vatu (VUV)</td>
-          
-          
-          
-          <td class="table-value">Total Value</td>
+          <td class="table-value">Value (in million vatu)</td>
           
           
         </tr>
@@ -555,15 +547,11 @@ data-event-label="high"
           
           
           
-          <td>3774</td>
+          <td>3774.0</td>
           
           
           
-          <td>Millions in Vatu (VUV)</td>
-          
-          
-          
-          <td class="table-value">Total Value</td>
+          <td class="table-value">Value (in million vatu)</td>
           
           
         </tr>
@@ -575,15 +563,11 @@ data-event-label="high"
           
           
           
-          <td>3986</td>
+          <td>3986.0</td>
           
           
           
-          <td>Millions in Vatu (VUV)</td>
-          
-          
-          
-          <td class="table-value">Total Value</td>
+          <td class="table-value">Value (in million vatu)</td>
           
           
         </tr>
@@ -595,15 +579,11 @@ data-event-label="high"
           
           
           
-          <td>4653</td>
+          <td>3372.0</td>
           
           
           
-          <td>Millions in Vatu (VUV)</td>
-          
-          
-          
-          <td class="table-value">Total Value</td>
+          <td class="table-value">Value (in million vatu)</td>
           
           
         </tr>
@@ -615,15 +595,187 @@ data-event-label="high"
           
           
           
-          <td>4653</td>
+          <td>4652.0</td>
           
           
           
-          <td>Millions in Vatu (VUV)</td>
+          <td class="table-value">Value (in million vatu)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2022</td>
           
           
           
-          <td class="table-value">Total Value</td>
+          <td>3837.0</td>
+          
+          
+          
+          <td class="table-value">Value (in million vatu)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2023</td>
+          
+          
+          
+          <td>5377.0</td>
+          
+          
+          
+          <td class="table-value">Value (in million vatu)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2024</td>
+          
+          
+          
+          <td>6034.0</td>
+          
+          
+          
+          <td class="table-value">Value (in million vatu)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>31821.0</td>
+          
+          
+          
+          <td class="table-value">Quantity (in tonnes kilogram)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>12742.0</td>
+          
+          
+          
+          <td class="table-value">Quantity (in tonnes kilogram)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>14242.0</td>
+          
+          
+          
+          <td class="table-value">Quantity (in tonnes kilogram)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>11464.0</td>
+          
+          
+          
+          <td class="table-value">Quantity (in tonnes kilogram)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2021</td>
+          
+          
+          
+          <td>55623.0</td>
+          
+          
+          
+          <td class="table-value">Quantity (in tonnes kilogram)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2022</td>
+          
+          
+          
+          <td>7749.0</td>
+          
+          
+          
+          <td class="table-value">Quantity (in tonnes kilogram)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2023</td>
+          
+          
+          
+          <td></td>
+          
+          
+          
+          <td class="table-value">Quantity (in tonnes kilogram)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2024</td>
+          
+          
+          
+          <td>81450.0</td>
+          
+          
+          
+          <td class="table-value">Quantity (in tonnes kilogram)</td>
           
           
         </tr>
@@ -1128,12 +1280,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250723040331'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250723210052'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250723040331"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250723210052"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

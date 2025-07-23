@@ -15,8 +15,64 @@
             "type": "number"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Vistors arrivals",
+                "Purpose",
+                "Usual country of residence",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Arrivals",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Plane (residents)",
+                "Plane (visitors)",
+                "Cruise",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Purpose of Visit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Holidays",
+                "Visiting friends and relatives",
+                "Business, meetings & conferences",
+                "Stop over",
+                "Others, education, sports",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Australia",
+                "New Zealand",
+                "New Caledonia",
+                "Other Pacific Countries",
+                "Europe",
+                "North America",
+                "Japan",
+                "China",
+                "Other Countries",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "number"
+            "type": "string"
           }
         ]
       }

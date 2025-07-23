@@ -20,74 +20,54 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total Value",
-                "Import by Country",
+                "Value (in million vatu)",
+                "Quantity (in tonnes kilogram)",
+                "Price per unit (vatu per kilogram/litre)",
                 ""
               ]
             },
             "title": "Series"
           },
           {
-            "name": "Principal Import",
+            "name": "Commodity",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alcoholic Drinks",
-                "Cigarettes and Tobacco",
-                "Medicaments",
-                "Petroleum Oils and Gasesous",
-                "Fish",
-                "Rice",
-                "Alcholic drinks",
                 "Alcoholic drinks",
+                "Iron or steel",
+                "Medicaments",
+                "Petroleum oils",
+                "Rice",
                 ""
               ]
             },
-            "title": "Principal Import"
+            "title": "Commodity"
           },
           {
-            "name": "Main Country of Origin",
+            "name": "Country",
             "type": "string",
             "constraints": {
               "enum": [
-                "Australia",
+                "China",
                 "France",
-                "New Zealand",
-                "New Caledonia",
-                "United Kingdom",
-                "Indonesia",
                 "Singapore",
-                "Hong Kong",
+                "Solomon Islands",
+                "United Kingdom",
+                "Australia",
+                "Japan",
+                "New Zealand",
                 "Fiji",
                 "India",
                 "United States of America",
-                "Netherlands",
                 "United Arab Emirates",
                 "Malaysia",
-                "Solomon Islands",
-                "Thailand",
-                "China",
-                "Papua New Guinea",
-                "Viet nam",
-                "French Polynesia",
-                "Switzerland",
                 "Taiwan",
-                "Turkey",
+                "Vietnam",
+                "Thailand",
                 ""
               ]
             },
-            "title": "Main Country of Origin"
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Millions of Vatu (VUV)",
-                ""
-              ]
-            },
-            "title": "Unit"
+            "title": "Country"
           },
           {
             "name": "Value",

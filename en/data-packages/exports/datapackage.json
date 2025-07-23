@@ -20,15 +20,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total Value",
-                "Export by Country",
+                "Value (in million vatu)",
+                "Quantity (in tonnes kilogram)",
+                "Price per unit (vatu per kilogram/litre)",
                 ""
               ]
             },
             "title": "Series"
           },
           {
-            "name": "Principal Export",
+            "name": "Commodity",
             "type": "string",
             "constraints": {
               "enum": [
@@ -37,64 +38,63 @@
                 "Coconut oil",
                 "Copra",
                 "Kava",
+                "Wood ",
                 "Wood",
+                "Coconut Oil",
                 ""
               ]
             },
-            "title": "Principal Export"
+            "title": "Commodity"
           },
           {
-            "name": "Main Country of Destination",
+            "name": "Country",
             "type": "string",
             "constraints": {
               "enum": [
                 "Japan",
                 "Papua New Guinea",
-                "Sri Lanka",
-                "Netherlands",
+                "Solomon Islands",
+                "Malaysia",
                 "Australia",
                 "Belgium",
                 "United Kingdom",
                 "New Zealand",
-                "Malaysia",
                 "Taiwan",
                 "New Caledonia",
                 "Philippines",
                 "Bangladesh",
                 "Kiribati",
-                "France",
+                "Fiji",
                 "United States of America",
                 "China",
                 "Hong Kong",
-                "Fiji",
-                "Solomon Islands",
                 "Indonesia",
                 "Italy",
-                "French Polynesia",
                 "Vietnam",
                 "India",
                 "Singapore",
-                "Czech Republic",
+                "Sri Lanka",
+                "Netherlands",
+                "French Polynesia",
                 "United Arab Emirates",
                 ""
               ]
             },
-            "title": "Main Country of Destination"
+            "title": "Country"
           },
           {
-            "name": "Units",
-            "type": "string",
+            "name": "Unnamed: 5",
+            "type": "number",
             "constraints": {
               "enum": [
-                "Millions in Vatu (VUV)",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Unnamed: 5"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

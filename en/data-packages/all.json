@@ -2653,15 +2653,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total Value",
-                "Export by Country",
+                "Value (in million vatu)",
+                "Quantity (in tonnes kilogram)",
+                "Price per unit (vatu per kilogram/litre)",
                 ""
               ]
             },
             "title": "Series"
           },
           {
-            "name": "Principal Export",
+            "name": "Commodity",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2670,64 +2671,63 @@
                 "Coconut oil",
                 "Copra",
                 "Kava",
+                "Wood ",
                 "Wood",
+                "Coconut Oil",
                 ""
               ]
             },
-            "title": "Principal Export"
+            "title": "Commodity"
           },
           {
-            "name": "Main Country of Destination",
+            "name": "Country",
             "type": "string",
             "constraints": {
               "enum": [
                 "Japan",
                 "Papua New Guinea",
-                "Sri Lanka",
-                "Netherlands",
+                "Solomon Islands",
+                "Malaysia",
                 "Australia",
                 "Belgium",
                 "United Kingdom",
                 "New Zealand",
-                "Malaysia",
                 "Taiwan",
                 "New Caledonia",
                 "Philippines",
                 "Bangladesh",
                 "Kiribati",
-                "France",
+                "Fiji",
                 "United States of America",
                 "China",
                 "Hong Kong",
-                "Fiji",
-                "Solomon Islands",
                 "Indonesia",
                 "Italy",
-                "French Polynesia",
                 "Vietnam",
                 "India",
                 "Singapore",
-                "Czech Republic",
+                "Sri Lanka",
+                "Netherlands",
+                "French Polynesia",
                 "United Arab Emirates",
                 ""
               ]
             },
-            "title": "Main Country of Destination"
+            "title": "Country"
           },
           {
-            "name": "Units",
-            "type": "string",
+            "name": "Unnamed: 5",
+            "type": "number",
             "constraints": {
               "enum": [
-                "Millions in Vatu (VUV)",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Unnamed: 5"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
@@ -4556,74 +4556,54 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total Value",
-                "Import by Country",
+                "Value (in million vatu)",
+                "Quantity (in tonnes kilogram)",
+                "Price per unit (vatu per kilogram/litre)",
                 ""
               ]
             },
             "title": "Series"
           },
           {
-            "name": "Principal Import",
+            "name": "Commodity",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alcoholic Drinks",
-                "Cigarettes and Tobacco",
-                "Medicaments",
-                "Petroleum Oils and Gasesous",
-                "Fish",
-                "Rice",
-                "Alcholic drinks",
                 "Alcoholic drinks",
+                "Iron or steel",
+                "Medicaments",
+                "Petroleum oils",
+                "Rice",
                 ""
               ]
             },
-            "title": "Principal Import"
+            "title": "Commodity"
           },
           {
-            "name": "Main Country of Origin",
+            "name": "Country",
             "type": "string",
             "constraints": {
               "enum": [
-                "Australia",
+                "China",
                 "France",
-                "New Zealand",
-                "New Caledonia",
-                "United Kingdom",
-                "Indonesia",
                 "Singapore",
-                "Hong Kong",
+                "Solomon Islands",
+                "United Kingdom",
+                "Australia",
+                "Japan",
+                "New Zealand",
                 "Fiji",
                 "India",
                 "United States of America",
-                "Netherlands",
                 "United Arab Emirates",
                 "Malaysia",
-                "Solomon Islands",
-                "Thailand",
-                "China",
-                "Papua New Guinea",
-                "Viet nam",
-                "French Polynesia",
-                "Switzerland",
                 "Taiwan",
-                "Turkey",
+                "Vietnam",
+                "Thailand",
                 ""
               ]
             },
-            "title": "Main Country of Origin"
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Millions of Vatu (VUV)",
-                ""
-              ]
-            },
-            "title": "Unit"
+            "title": "Country"
           },
           {
             "name": "Value",
@@ -9245,6 +9225,90 @@
       "title": "SOC6-6-1"
     },
     {
+      "path": "tourism/data.csv",
+      "name": "tourism",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Vistors arrivals",
+                "Purpose",
+                "Usual country of residence",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Arrivals",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Plane (residents)",
+                "Plane (visitors)",
+                "Cruise",
+                ""
+              ]
+            },
+            "title": "Arrivals"
+          },
+          {
+            "name": "Purpose of Visit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Holidays",
+                "Visiting friends and relatives",
+                "Business, meetings & conferences",
+                "Stop over",
+                "Others, education, sports",
+                ""
+              ]
+            },
+            "title": "Purpose of Visit"
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Australia",
+                "New Zealand",
+                "New Caledonia",
+                "Other Pacific Countries",
+                "Europe",
+                "North America",
+                "Japan",
+                "China",
+                "Other Countries",
+                ""
+              ]
+            },
+            "title": "Country"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Tourism in Vanuatu"
+    },
+    {
       "path": "SOC5-1-1/data.csv",
       "name": "SOC5-1-1",
       "profile": "tabular-data-resource",
@@ -9416,30 +9480,6 @@
         ]
       },
       "title": "Proportion of revised National Waste Management Strategy and Action Plan implemented"
-    },
-    {
-      "path": "tourism/data.csv",
-      "name": "tourism",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Tourism in Vanuatu"
     },
     {
       "path": "usp/data.csv",
