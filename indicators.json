@@ -2065,6 +2065,22 @@
   },
   {
     "goal": {
+      "id": "tourism",
+      "title": "Tourism in Vanuatu",
+      "indicators": [
+        
+        {
+          "id": "tourism",
+          "title": "Tourism in Vanuatu",
+          "description": "",
+          "keywords": "",
+          "href": "/vnso-nsdp-platform/tourism/",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "usp",
       "title": "University of the South Pacific",
       "indicators": [
