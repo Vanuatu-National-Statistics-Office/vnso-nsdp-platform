@@ -219,8 +219,7 @@ menu:
       - path: /imports/
         translation_key: IMPORTS
       - path: /tourism/
-        translation_key: TOURISM
-        
+        translation_key: TOURISM        
   - path: /education/
     translation_key: EDUCATION
     dropdown:
