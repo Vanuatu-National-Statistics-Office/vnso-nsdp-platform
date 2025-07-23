@@ -35,7 +35,7 @@ graph_titles:
       destinations
 graph_type: line
 indicator_available: ''
-indicator_name: exports
+indicator_name: Exports by Commodity and Country
 indicator_number: exports trades
 indicator_tabs:
   override: false
