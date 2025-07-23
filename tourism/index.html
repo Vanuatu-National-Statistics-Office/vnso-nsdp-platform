@@ -146,7 +146,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250723215019">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250723221726">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -43876,6 +43876,8 @@ data-event-label="high"
   
   <div id="datatableFooter">
     
+    <p>Source: Department of Customs and Inland Revenue </p>
+    
     
     <p>Geographical Area: Vanuatu</p>
     
@@ -44193,43 +44195,118 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Definition </th>
+        <td>
+          
+            <p>The indicator “Visitor Arrivals by Mode of Transport, Purpose of Visit, and Country of Residence” measures the total number of visitors arriving in the country, disaggregated by mode of transport (e.g. cruise, plane), purpose of visit (e.g. holiday, business, visiting friends), and country of usual residence. It provides a comprehensive picture of tourism inflows and visitor characteristics.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Concept </th>
+        <td>
+          
+            <p>Tourism arrivals are a key metric for economic development, service sector performance, and foreign exchange earnings, especially in Small Island Developing States (SIDS). Disaggregating arrivals by mode of entry helps assess infrastructure needs (airports vs. ports), while purpose of visit offers insight into the structure of demand (leisure, business, family). Country of residence allows analysis of target markets, seasonality, and geopolitical trends.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
       
       
+      
+      <tr>
+        <th scope="row">Rationale </th>
+        <td>
+          
+            <p>Tourism is a vital sector for employment, economic diversification, and cultural exchange. Tracking visitor arrivals supports planning and investment in tourism infrastructure, services, and marketing. Growth in total arrivals may reflect improved connectivity, promotion, or global travel conditions. Changes in purpose or origin may suggest shifts in demand, international relations, or niche market opportunities.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Method of Computation </th>
+        <td>
+          
+            <p>Total Visitor Arrivals: Sum of all arrivals recorded at points of entry, regardless of purpose or origin.
+Mode of Transport: Count of arrivals recorded as entering by cruise ship, plane (residents and visitors separately).
+Purpose of Visit: Total number of arrivals classified under each purpose category.
+Country of Residence: Total number of visitors whose usual country of residence is reported.</p>
+
+<p>Formula: 
+Total Arrivals (per year) = Σ (all visitor entries at all borders)
+Arrivals by Mode = Σ (entries by cruise, plane – residents, plane – visitors)
+Arrivals by Purpose = Σ (holiday + business + visiting friends + other)
+Arrivals by Country = Σ (visitors from each reported country of residence)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Unit of Measurement </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Number</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Frequency of Collection </th>
+        <td>
           
-      
-      
-      
+            <p>Annually</p>
+
+          
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
   
   
   
@@ -44368,12 +44445,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250723215019'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250723221726'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250723215019"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250723221726"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
