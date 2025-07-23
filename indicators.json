@@ -2033,22 +2033,6 @@
   },
   {
     "goal": {
-      "id": "projection",
-      "title": "global_indicators.projection-title",
-      "indicators": [
-        
-        {
-          "id": "projection",
-          "title": "global_indicators.projection-title",
-          "description": "",
-          "keywords": "",
-          "href": "/vnso-nsdp-platform/projection/",
-          "status": "complete"
-        }]
-    }
-  },
-  {
-    "goal": {
       "id": "",
       "title": "",
       "indicators": [
