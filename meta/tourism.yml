@@ -1,0 +1,53 @@
+﻿Proxy: ''
+Definition: >-
+  The indicator “Visitor Arrivals by Mode of Transport, Purpose of Visit, and
+  Country of Residence” measures the total number of visitors arriving in the
+  country, disaggregated by mode of transport (e.g. cruise, plane), purpose of
+  visit (e.g. holiday, business, visiting friends), and country of usual
+  residence. It provides a comprehensive picture of tourism inflows and visitor
+  characteristics.
+Concept: >-
+  Tourism arrivals are a key metric for economic development, service sector
+  performance, and foreign exchange earnings, especially in Small Island
+  Developing States (SIDS). Disaggregating arrivals by mode of entry helps
+  assess infrastructure needs (airports vs. ports), while purpose of visit
+  offers insight into the structure of demand (leisure, business, family).
+  Country of residence allows analysis of target markets, seasonality, and
+  geopolitical trends.
+Disaggregation: ''
+Rationale: >-
+  Tourism is a vital sector for employment, economic diversification, and
+  cultural exchange. Tracking visitor arrivals supports planning and investment
+  in tourism infrastructure, services, and marketing. Growth in total arrivals
+  may reflect improved connectivity, promotion, or global travel conditions.
+  Changes in purpose or origin may suggest shifts in demand, international
+  relations, or niche market opportunities.
+MethodOfComputation: >
+  Total Visitor Arrivals: Sum of all arrivals recorded at points of entry,
+  regardless of purpose or origin.
+
+  Mode of Transport: Count of arrivals recorded as entering by cruise ship,
+  plane (residents and visitors separately).
+
+  Purpose of Visit: Total number of arrivals classified under each purpose
+  category.
+
+  Country of Residence: Total number of visitors whose usual country of
+  residence is reported.
+
+
+  Formula: 
+
+  Total Arrivals (per year) = Σ (all visitor entries at all borders)
+
+  Arrivals by Mode = Σ (entries by cruise, plane – residents, plane – visitors)
+
+  Arrivals by Purpose = Σ (holiday + business + visiting friends + other)
+
+  Arrivals by Country = Σ (visitors from each reported country of residence)
+SDGAlignment: ''
+UnitOfMeasurement: Number
+FrequencyOfCollection: Annually
+source_organisation_1: 'Department of Customs and Inland Revenue '
+source_organisation_2: ''
+source_organisation_3: ''
