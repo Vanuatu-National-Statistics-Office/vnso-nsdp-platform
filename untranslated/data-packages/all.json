@@ -4082,80 +4082,6 @@
       "title": "SOC4-4-3"
     },
     {
-      "path": "population/data.csv",
-      "name": "population",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total population",
-                "Population estimates",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Torba",
-                "Sanma",
-                "Penama",
-                "Malampa",
-                "Shefa",
-                "Tafea",
-                "PortVila",
-                "Luganville",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0--4",
-                "5--9",
-                "10--14",
-                "15--19",
-                "20--24",
-                "25--29",
-                "30--34",
-                "35--39",
-                "40--44",
-                "45--49",
-                "50--54",
-                "55--59",
-                "60--64",
-                "65--69",
-                "70+",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Vanuatu Demographics"
-    },
-    {
       "path": "SOC1-7-1/data.csv",
       "name": "SOC1-7-1",
       "profile": "tabular-data-resource",
@@ -9039,6 +8965,28 @@
         ]
       },
       "title": "Value added tax on goods and services in Vanuatu"
+    },
+    {
+      "path": "population/data.csv",
+      "name": "population",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Vanuatu Demographics"
     },
     {
       "path": "disaster-statistics/data.csv",

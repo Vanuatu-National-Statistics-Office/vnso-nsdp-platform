@@ -146,7 +146,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250723005537">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20250723010916">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -466,7 +466,7 @@ data-event-label="high"
   data-graphtargetlines="[]"
   data-graphseriesbreaks="[]"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Total population&quot;,&quot;Population estimates&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Series&quot;},{&quot;name&quot;:&quot;Region&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Torba&quot;,&quot;Sanma&quot;,&quot;Penama&quot;,&quot;Malampa&quot;,&quot;Shefa&quot;,&quot;Tafea&quot;,&quot;PortVila&quot;,&quot;Luganville&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Region&quot;},{&quot;name&quot;:&quot;Age&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;0--4&quot;,&quot;5--9&quot;,&quot;10--14&quot;,&quot;15--19&quot;,&quot;20--24&quot;,&quot;25--29&quot;,&quot;30--34&quot;,&quot;35--39&quot;,&quot;40--44&quot;,&quot;45--49&quot;,&quot;50--54&quot;,&quot;55--59&quot;,&quot;60--64&quot;,&quot;65--69&quot;,&quot;70+&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Age&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
   data-proxy=""
@@ -502,307 +502,15 @@ data-event-label="high"
   <div id="datatables">
 
     
-    <a href="/vnso-nsdp-platform/en/headline/population.csv" class="btn btn-primary btn-download" download="indicator_population.csv" tabindex="0" role="button">Download headline data (.csv)</a>
-    
     <a href="/vnso-nsdp-platform/en/data/population.csv" class="btn btn-primary btn-download" download='indicator_population.csv' tabindex='0' role='button'>Download source data (.csv)</a>
 
     <p class="no-js-disaggregation-hint">Download source data for disaggregations (.csv)</p>
 
     
-    <h3>Headline data</h3>
-    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Vanuatu Population Growth </caption>
-      <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col">Value</th>
-        
-        
-        
-        <th scope="col" class="table-value">Series</th>
-        
-        
-      </thead>
-      <tbody>
-        
-        <tr>
-          
-          
-          <td>1967</td>
-          
-          
-          
-          <td>77710</td>
-          
-          
-          
-          <td class="table-value">Total population</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>1979</td>
-          
-          
-          
-          <td>111251</td>
-          
-          
-          
-          <td class="table-value">Total population</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>1989</td>
-          
-          
-          
-          <td>142419</td>
-          
-          
-          
-          <td class="table-value">Total population</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>1999</td>
-          
-          
-          
-          <td>186678</td>
-          
-          
-          
-          <td class="table-value">Total population</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2009</td>
-          
-          
-          
-          <td>234023</td>
-          
-          
-          
-          <td class="table-value">Total population</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>
-          
-          
-          
-          <td>272459</td>
-          
-          
-          
-          <td class="table-value">Total population</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2020</td>
-          
-          
-          
-          <td>300019</td>
-          
-          
-          
-          <td class="table-value">Total population</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2021</td>
-          
-          
-          
-          <td>307000</td>
-          
-          
-          
-          <td class="table-value">Population estimates</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2022</td>
-          
-          
-          
-          <td>314142</td>
-          
-          
-          
-          <td class="table-value">Population estimates</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2023</td>
-          
-          
-          
-          <td>321451</td>
-          
-          
-          
-          <td class="table-value">Population estimates</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2024</td>
-          
-          
-          
-          <td>328931</td>
-          
-          
-          
-          <td class="table-value">Population estimates</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2025</td>
-          
-          
-          
-          <td>336584</td>
-          
-          
-          
-          <td class="table-value">Population estimates</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2026</td>
-          
-          
-          
-          <td>344415</td>
-          
-          
-          
-          <td class="table-value">Population estimates</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2027</td>
-          
-          
-          
-          <td>352428</td>
-          
-          
-          
-          <td class="table-value">Population estimates</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2028</td>
-          
-          
-          
-          <td>360628</td>
-          
-          
-          
-          <td class="table-value">Population estimates</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2029</td>
-          
-          
-          
-          <td>369018</td>
-          
-          
-          
-          <td class="table-value">Population estimates</td>
-          
-          
-        </tr>
-        
-      </tbody>
-    </table>
+    <h3>No headline data available</h3>
     
   </div>
 
-  
-  <div id="datatableFooter">
-    
-    
-    <p>Geographical Area: Vanuatu</p>
-    
-    
-    <p>Unit of Measurement: </p>
-    
-    
-    <p>Footnote: </p>
-    
-  </div>
   
 
 </div>
@@ -1285,12 +993,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250723005537'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20250723010916'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250723005537"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20250723010916"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
