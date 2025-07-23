@@ -24,7 +24,9 @@ graph_title: Vanuatu Tourism Insights
 graph_titles: []
 graph_type: line
 indicator_available: ''
-indicator_name: Tourism in Vanuatu
+indicator_name: >-
+  Visitor Arrivals by Mode of Transport, Purpose of Visit, and Country of
+  Residence
 indicator_number: Vanuatu Tourism
 indicator_tabs:
   override: false
