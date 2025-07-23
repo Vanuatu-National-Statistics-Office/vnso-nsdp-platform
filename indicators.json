@@ -2066,12 +2066,12 @@
   {
     "goal": {
       "id": "tourism",
-      "title": "Tourism in Vanuatu",
+      "title": "Visitor Arrivals by Mode of Transport, Purpose of Visit, and Country of Residence",
       "indicators": [
         
         {
           "id": "tourism",
-          "title": "Tourism in Vanuatu",
+          "title": "Visitor Arrivals by Mode of Transport, Purpose of Visit, and Country of Residence",
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/tourism/",
