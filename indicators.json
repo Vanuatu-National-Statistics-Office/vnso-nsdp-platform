@@ -1834,12 +1834,12 @@
   {
     "goal": {
       "id": "exports",
-      "title": "Exports by Commodity and Country",
+      "title": "Vanuatu Trades Exports",
       "indicators": [
         
         {
           "id": "exports",
-          "title": "Exports by Commodity and Country",
+          "title": "Vanuatu Trades Exports",
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/exports/",
