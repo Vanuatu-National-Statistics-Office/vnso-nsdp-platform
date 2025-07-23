@@ -22,9 +22,9 @@ graph_stacked_disaggregation: ''
 graph_target_lines: []
 graph_title: 'Vanuatu Population Growth '
 graph_titles: []
-graph_type: line
+graph_type: bar
 indicator_available: ''
-indicator_name: Vanuatu Demographics
+indicator_name: Vanuatu projections
 indicator_number: population demographics
 indicator_tabs:
   override: false
