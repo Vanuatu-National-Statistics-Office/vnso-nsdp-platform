@@ -2018,12 +2018,12 @@
   {
     "goal": {
       "id": "population",
-      "title": "Vanuatu Demographics",
+      "title": "Vanuatu projections",
       "indicators": [
         
         {
           "id": "population",
-          "title": "Vanuatu Demographics",
+          "title": "Vanuatu projections",
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/population/",
