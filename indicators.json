@@ -1834,12 +1834,12 @@
   {
     "goal": {
       "id": "exports",
-      "title": "exports",
+      "title": "Exports by Commodity and Country",
       "indicators": [
         
         {
           "id": "exports",
-          "title": "exports",
+          "title": "Exports by Commodity and Country",
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/exports/",
