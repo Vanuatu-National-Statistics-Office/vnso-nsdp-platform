@@ -21,18 +21,7 @@ graph_series_breaks: []
 graph_stacked_disaggregation: ''
 graph_target_lines: []
 graph_title: Vanuatu Tourism Insights
-graph_titles:
-  - series: values of principle imports to main countries of destination in vatu
-    unit: VUV
-    title: values of principle imports to main countries of destination
-  - series: 'Quantity '
-    unit: tonnes kilogram
-    title: Quantity of principle imports to main countries destination
-  - series: Price per unit
-    unit: vatu per kilogram/litre
-    title: >-
-      Graph showing price per unit of principle imports to main countries
-      destinations
+graph_titles: []
 graph_type: line
 indicator_available: ''
 indicator_name: Tourism in Vanuatu
