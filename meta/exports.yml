@@ -1,0 +1,49 @@
+﻿Proxy: ''
+Definition: >-
+  The indicator “Exports by Commodity and Country” measures the total value,
+  quantity, and unit price of goods exported from the country, disaggregated by
+  commodity type and destination country. It reflects the composition and
+  destination of national export flows.
+Concept: >-
+  The indicator is based on the concept of export-led growth and trade
+  performance monitoring. Exports are a critical driver of economic development,
+  foreign exchange earnings, and sectoral competitiveness. Disaggregating
+  exports by commodity allows for sector-specific insights (e.g. agriculture,
+  manufacturing), while analysis by country reveals trading relationships,
+  market access, and export concentration risk. The inclusion of unit prices
+  enables assessment of product competitiveness and value-addition trends.
+Disaggregation: ''
+Rationale: >-
+  Monitoring exports is essential to understand how the national economy engages
+  in international markets. Increases in export value may reflect improved
+  global demand, increased production, or enhanced trade terms. Tracking exports
+  by product supports sectoral planning (e.g. boosting cocoa or kava exports),
+  while tracking by country highlights dependency on specific markets or
+  emerging trade opportunities. Unit prices provide further context, helping
+  identify price competitiveness and market positioning of key commodities.
+MethodOfComputation: >
+  Export Value: Sum the reported value of each exported commodity by year and
+  destination country, based on customs declarations.
+
+  Export Quantity: Sum the total physical quantity (in kg/tonnes/litres) of each
+  commodity exported.
+
+  Unit Price: Divide export value by quantity to calculate the price per unit.
+
+
+  Formula: 
+
+  Total Export Value (VUV) = ∑ Export value by commodity and country
+
+  Total Export Quantity (kg/tonnes/litres) = ∑ Export quantity by commodity
+
+  Unit Price = Export Value ÷ Export Quantity
+SDGAlignment: ''
+UnitOfMeasurement: |
+  Export Value: Million Vatu (VUV)
+  Quantity: Kilograms or tonnes (as applicable)
+  Unit Price: Vatu per kilogram/litre
+FrequencyOfCollection: Annually
+source_organisation_1: 'Department of Customs and Inland Revenue '
+source_organisation_2: ''
+source_organisation_3: ''
