@@ -1738,12 +1738,12 @@
   {
     "goal": {
       "id": "business",
-      "title": "business",
+      "title": "Number of Business Licenses Issued by Industry",
       "indicators": [
         
         {
           "id": "business",
-          "title": "business",
+          "title": "Number of Business Licenses Issued by Industry",
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/business/",
