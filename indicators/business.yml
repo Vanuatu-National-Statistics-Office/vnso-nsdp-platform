@@ -33,7 +33,7 @@ graph_titles:
     title: businesses by minor industries
 graph_type: line
 indicator_available: ''
-indicator_name: business
+indicator_name: Number of Business Licenses Issued by Industry
 indicator_number: business license
 indicator_tabs:
   override: false
