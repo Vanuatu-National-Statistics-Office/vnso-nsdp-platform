@@ -24,8 +24,8 @@ graph_title: Government Financial Statistics
 graph_titles: []
 graph_type: line
 indicator_available: ''
-indicator_name: ''
-indicator_number: ''
+indicator_name: Government Budget Allocation by Ministry
+indicator_number: government finance
 indicator_tabs:
   override: false
   tab_1: ''
@@ -59,8 +59,13 @@ permalink: ''
 placeholder: ''
 precision: []
 progress_status: not_available
+proxy: ''
+proxy_series: []
+publications: []
+related_indicators: []
 reporting_status: complete
 sort: ''
+sources: []
 standalone: true
 tags: []
 x_axis_label: ''
