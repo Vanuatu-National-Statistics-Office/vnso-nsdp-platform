@@ -4721,28 +4721,6 @@
       "title": "ENV2-6-2"
     },
     {
-      "path": "ENV1-5-3/data.csv",
-      "name": "ENV1-5-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "indicators.ENV1-5-3-title"
-    },
-    {
       "path": "SOC1-1-2/data.csv",
       "name": "SOC1-1-2",
       "profile": "tabular-data-resource",
@@ -5739,6 +5717,28 @@
         ]
       },
       "title": "indicators.ECO2-7-1-title"
+    },
+    {
+      "path": "ENV1-5-3/data.csv",
+      "name": "ENV1-5-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "indicators.ENV1-5-3-title"
     },
     {
       "path": "ECO4-6-2/data.csv",
