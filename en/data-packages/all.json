@@ -6011,6 +6011,30 @@
       "title": "Proportion of population with access to technologies that convey early warnings"
     },
     {
+      "path": "ECO1-3-2/data.csv",
+      "name": "ECO1-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Debt ratio to GDP (inclusive of SOE generated debt)"
+    },
+    {
       "path": "shelter/data.csv",
       "name": "shelter",
       "profile": "tabular-data-resource",
@@ -6471,30 +6495,6 @@
         ]
       },
       "title": "ENV4-1-2"
-    },
-    {
-      "path": "ECO1-3-2/data.csv",
-      "name": "ECO1-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "string",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "ECO1-3-2"
     },
     {
       "path": "ENV3-3-2/data.csv",
