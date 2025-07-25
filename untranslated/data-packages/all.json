@@ -3142,25 +3142,24 @@
             "type": "integer"
           },
           {
-            "name": "Country",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Fiji",
-                "Papua New Guinea",
-                "Solomon Islands",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "TradeType",
+            "name": "Trade Type",
             "type": "string",
             "constraints": {
               "enum": [
                 "Exports",
                 "Imports",
-                "Balance",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Fiji",
+                "Papua New Giunea",
+                "Solomon Islands",
                 ""
               ]
             }
@@ -5523,15 +5522,30 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Province",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Torba",
+                "Sanma",
+                "Penama",
+                "Malampa",
+                "Shefa",
+                "Tafea",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "ECO1-7-2"
+      "title": "indicators.ECO1-7-2-title"
     },
     {
       "path": "ENV3-2-2/data.csv",

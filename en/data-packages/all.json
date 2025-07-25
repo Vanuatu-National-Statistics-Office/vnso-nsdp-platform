@@ -3364,30 +3364,29 @@
             "title": "Year"
           },
           {
-            "name": "Country",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Fiji",
-                "Papua New Guinea",
-                "Solomon Islands",
-                ""
-              ]
-            },
-            "title": "Country"
-          },
-          {
-            "name": "TradeType",
+            "name": "Trade Type",
             "type": "string",
             "constraints": {
               "enum": [
                 "Exports",
                 "Imports",
-                "Balance",
                 ""
               ]
             },
-            "title": "TradeType"
+            "title": "Trade Type"
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Fiji",
+                "Papua New Giunea",
+                "Solomon Islands",
+                ""
+              ]
+            },
+            "title": "Country"
           },
           {
             "name": "Value",
@@ -5952,17 +5951,33 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "Province",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "Torba",
+                "Sanma",
+                "Penama",
+                "Malampa",
+                "Shefa",
+                "Tafea",
+                ""
+              ]
+            },
+            "title": "Province"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "ECO1-7-2"
+      "title": "Change in volume of business licenses issued to Ni-Vanuatu"
     },
     {
       "path": "ENV3-2-2/data.csv",

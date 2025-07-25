@@ -4,10 +4,11 @@ Indicator,Disaggregations,Number of disaggregations
 #ECO1-3-1,Unit,1
 #ECO1-4-1,Trade,1
 #ECO1-5-1,"Country, Trade Type",2
-#ECO1-5-2,"Country, TradeType",2
+#ECO1-5-2,"Country, Trade Type",2
 #ECO1-5-3,Country,1
 #ECO1-6-2,Trade,1
 #ECO1-7-1,Major Commodity,1
+#ECO1-7-2,Province,1
 #ECO2-1-1,Province,1
 #ECO2-2-1,Region,1
 #ECO2-2-2,"Region, Urban/Rural, Unit",3
