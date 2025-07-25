@@ -1936,6 +1936,43 @@
       "title": "ENV4-3-1"
     },
     {
+      "path": "ECO3-4-1/data.csv",
+      "name": "ECO3-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Province",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Torba",
+                "Sanma",
+                "Penama",
+                "Malampa",
+                "Shefa",
+                "Tafea",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "indicators.ECO3-4-1-title"
+    },
+    {
       "path": "SOC5-5-3/data.csv",
       "name": "SOC5-5-3",
       "profile": "tabular-data-resource",
@@ -6504,43 +6541,6 @@
         ]
       },
       "title": "indicators.SOC6-7-1-title"
-    },
-    {
-      "path": "ECO3-4-1/data.csv",
-      "name": "ECO3-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Province",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Torba",
-                "Sanma",
-                "Penama",
-                "Malampa",
-                "Shefa",
-                "Tafea",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "indicators.ECO3-4-1-title"
     },
     {
       "path": "ECO4-5-1/data.csv",
