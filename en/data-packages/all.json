@@ -3733,17 +3733,29 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "Series",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "Change (%)",
+                "Value (million vatu)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "ECO1-4-2"
+      "title": "Current Accounts balance change"
     },
     {
       "path": "ENV5-3-1/data.csv",
