@@ -5051,17 +5051,17 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "ENV1-5-3"
+      "title": "Proportion of farmers involved in integrated farming practices"
     },
     {
       "path": "SOC1-1-2/data.csv",
@@ -7028,17 +7028,33 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "Province",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "Torba",
+                "Sanma",
+                "Penama",
+                "Malampa",
+                "Shefa",
+                "Tafea",
+                ""
+              ]
+            },
+            "title": "Province"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "ECO3-4-1"
+      "title": "Total annual number of agricultural extension services per capita by province"
     },
     {
       "path": "ECO4-5-1/data.csv",

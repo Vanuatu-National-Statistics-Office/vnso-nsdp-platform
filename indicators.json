@@ -339,7 +339,7 @@
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/ECO3-4-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO3-4-2",
@@ -595,7 +595,7 @@
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/ENV1-5-3/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

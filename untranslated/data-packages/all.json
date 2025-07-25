@@ -4695,15 +4695,15 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "ENV1-5-3"
+      "title": "indicators.ENV1-5-3-title"
     },
     {
       "path": "SOC1-1-2/data.csv",
@@ -6517,15 +6517,30 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Province",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Torba",
+                "Sanma",
+                "Penama",
+                "Malampa",
+                "Shefa",
+                "Tafea",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "ECO3-4-1"
+      "title": "indicators.ECO3-4-1-title"
     },
     {
       "path": "ECO4-5-1/data.csv",
