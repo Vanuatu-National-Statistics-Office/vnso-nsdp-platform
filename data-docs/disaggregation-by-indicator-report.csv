@@ -23,6 +23,7 @@ Indicator,Disaggregations,Number of disaggregations
 #ENV1-1-1,"Region, Urban/Rural, Unit of measurement",3
 #ENV1-1-3,Urban/Rural,1
 #ENV1-3-1,Fruit or Vegetable,1
+#ENV1-3-2,Food Basket,1
 #ENV1-3-3,Geographic Location,1
 #ENV2-3-2,"Region, Urban/Rural, Unit of measurement",3
 #ENV3-2-2,"Region, Urban/Rural, Unit of measurement, Technology",4
