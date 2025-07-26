@@ -2625,15 +2625,15 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "ENV4-5-2"
+      "title": "indicators.ENV4-5-2-title"
     },
     {
       "path": "ENV2-3-2/data.csv",

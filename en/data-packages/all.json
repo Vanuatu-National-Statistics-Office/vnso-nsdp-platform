@@ -2810,17 +2810,17 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "ENV4-5-2"
+      "title": "Number of commercial sand mines"
     },
     {
       "path": "ENV2-3-2/data.csv",
