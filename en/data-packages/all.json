@@ -1525,17 +1525,28 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "Series",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "Area (hectares)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "ENV4-6-1"
+      "title": "Annual estimated area (square km) of reforestation and rehabilitation"
     },
     {
       "path": "SOC1-1-1/data.csv",

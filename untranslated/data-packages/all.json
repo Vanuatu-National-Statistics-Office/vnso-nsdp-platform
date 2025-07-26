@@ -1420,15 +1420,25 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Area (hectares)",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "ENV4-6-1"
+      "title": "indicators.ENV4-6-1-title"
     },
     {
       "path": "SOC1-1-1/data.csv",
