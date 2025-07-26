@@ -4311,15 +4311,25 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "EIA Permits",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "ENV2-2-1"
+      "title": "indicators.ENV2-2-1-title"
     },
     {
       "path": "SOC3-1-1/data.csv",
