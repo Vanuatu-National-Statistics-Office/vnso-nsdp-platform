@@ -7226,7 +7226,7 @@
           }
         ]
       },
-      "title": "ENV5-1-2"
+      "title": "Total number of environmental guidelines in place"
     },
     {
       "path": "SOC6-7-1/data.csv",
@@ -7536,7 +7536,7 @@
           }
         ]
       },
-      "title": "ENV5-3-2"
+      "title": "Number of threatened species legally protected"
     },
     {
       "path": "ECO4-7-3/data.csv",

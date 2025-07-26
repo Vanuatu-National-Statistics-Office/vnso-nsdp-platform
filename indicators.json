@@ -963,7 +963,7 @@
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/ENV5-1-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ENV5-2-1",
@@ -995,7 +995,7 @@
           "description": "",
           "keywords": "",
           "href": "/vnso-nsdp-platform/ENV5-3-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ENV5-4-1",
