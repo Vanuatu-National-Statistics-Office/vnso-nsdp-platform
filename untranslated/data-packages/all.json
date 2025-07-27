@@ -2530,28 +2530,6 @@
       "title": "ENV3-5-2"
     },
     {
-      "path": "ENV5-1-2/data.csv",
-      "name": "ENV5-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "string"
-          }
-        ]
-      },
-      "title": "indicators.ENV5-1-2-title"
-    },
-    {
       "path": "SOC3-1-2/data.csv",
       "name": "SOC3-1-2",
       "profile": "tabular-data-resource",
@@ -4296,28 +4274,6 @@
         ]
       },
       "title": "ECO3-6-2"
-    },
-    {
-      "path": "ENV5-3-2/data.csv",
-      "name": "ENV5-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "string"
-          }
-        ]
-      },
-      "title": "indicators.ENV5-3-2-title"
     },
     {
       "path": "ECO1-7-1/data.csv",
@@ -6123,28 +6079,6 @@
       "title": "SOC3-1-3"
     },
     {
-      "path": "ENV4-7-1/data.csv",
-      "name": "ENV4-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "string"
-          }
-        ]
-      },
-      "title": "indicators.ENV4-7-1-title"
-    },
-    {
       "path": "SOC5-3-1/data.csv",
       "name": "SOC5-3-1",
       "profile": "tabular-data-resource",
@@ -6710,6 +6644,28 @@
       "title": "ECO4-8-1"
     },
     {
+      "path": "ENV5-1-2/data.csv",
+      "name": "ENV5-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "indicators.ENV5-1-2-title"
+    },
+    {
       "path": "SOC6-7-1/data.csv",
       "name": "SOC6-7-1",
       "profile": "tabular-data-resource",
@@ -6973,6 +6929,28 @@
       "title": "indicators.ENV1-1-3-title"
     },
     {
+      "path": "ENV5-3-2/data.csv",
+      "name": "ENV5-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "indicators.ENV5-3-2-title"
+    },
+    {
       "path": "ECO4-7-3/data.csv",
       "name": "ECO4-7-3",
       "profile": "tabular-data-resource",
@@ -7028,11 +7006,11 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
@@ -8218,6 +8196,28 @@
         ]
       },
       "title": "ENV3-1-1"
+    },
+    {
+      "path": "ENV4-7-1/data.csv",
+      "name": "ENV4-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "indicators.ENV4-7-1-title"
     },
     {
       "path": "demographics/data.csv",
