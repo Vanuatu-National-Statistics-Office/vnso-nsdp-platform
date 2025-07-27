@@ -12,11 +12,23 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Loan to Deposit Ratio (%)",
+                "Deposit to Liability Ratio (%)",
+                "Deposit to Asset Ratio (%)",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       }
