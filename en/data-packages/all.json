@@ -3531,30 +3531,6 @@
       "title": "ECO4-7-2"
     },
     {
-      "path": "SOC1-3-1/data.csv",
-      "name": "SOC1-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "string",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Total number of sites with cultural and/or historical significance newly identified, registered and preserved"
-    },
-    {
       "path": "SOC6-8-1/data.csv",
       "name": "SOC6-8-1",
       "profile": "tabular-data-resource",
@@ -6563,6 +6539,46 @@
         ]
       },
       "title": "ENV4-5-3"
+    },
+    {
+      "path": "SOC1-3-1/data.csv",
+      "name": "SOC1-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Province",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Torba",
+                "Sanma",
+                "Penama",
+                "Malampa",
+                "Shefa",
+                "Tafea",
+                ""
+              ]
+            },
+            "title": "Province"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Total number of sites with cultural and/or historical significance newly identified, registered and preserved"
     },
     {
       "path": "book9/data.csv",
