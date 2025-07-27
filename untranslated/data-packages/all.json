@@ -7029,15 +7029,28 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Province",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Torba",
+                "Sanma",
+                "Shefa",
+                "Tafea",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "SOC2-4-1"
+      "title": "indicators.SOC2-4-1-title"
     },
     {
       "path": "ECO1-8-3/data.csv",

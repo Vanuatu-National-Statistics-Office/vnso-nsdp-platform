@@ -7584,17 +7584,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "Province",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "Torba",
+                "Sanma",
+                "Shefa",
+                "Tafea",
+                ""
+              ]
+            },
+            "title": "Province"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "SOC2-4-1"
+      "title": "No. of technical and vocational schools that are certified and registered under the Vanuatu Qualifications Authority to operate"
     },
     {
       "path": "ECO1-8-3/data.csv",

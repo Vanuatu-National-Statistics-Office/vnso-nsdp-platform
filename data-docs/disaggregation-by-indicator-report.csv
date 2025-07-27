@@ -39,6 +39,7 @@ Indicator,Disaggregations,Number of disaggregations
 #SOC1-7-1,"Province, Region, Sex",3
 #SOC1-7-2,"Province, Region",2
 #SOC2-3-1,"Province, Sex, Language, Year level",4
+#SOC2-4-1,Province,1
 #SOC3-1-2,Unit of measurement,1
 #SOC3-2-1,Unit of measurement,1
 #SOC3-2-2,Unit of measurement,1
