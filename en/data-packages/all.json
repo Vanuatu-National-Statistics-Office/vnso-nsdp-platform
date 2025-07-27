@@ -1338,17 +1338,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "Court",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "Court of Appeal",
+                "Supreme Court",
+                "Magistrates Court",
+                "Island Court",
+                ""
+              ]
+            },
+            "title": "Court"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "SOC5-1-2"
+      "title": "Annual change in number of Magistrate and Supreme Court pending cases"
     },
     {
       "path": "ENV4-2-2/data.csv",
@@ -3888,17 +3902,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "Province",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "Sanma",
+                "Malampa",
+                "Shefa",
+                "Tafea",
+                ""
+              ]
+            },
+            "title": "Province"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "SOC5-4-2"
+      "title": "Percentage of licensed vessels which have trained observers on board"
     },
     {
       "path": "SOC1-5-1/data.csv",

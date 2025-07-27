@@ -1246,15 +1246,28 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Court",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Court of Appeal",
+                "Supreme Court",
+                "Magistrates Court",
+                "Island Court",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "SOC5-1-2"
+      "title": "indicators.SOC5-1-2-title"
     },
     {
       "path": "ENV4-2-2/data.csv",
@@ -3624,15 +3637,28 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Province",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sanma",
+                "Malampa",
+                "Shefa",
+                "Tafea",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "SOC5-4-2"
+      "title": "indicators.SOC5-4-2-title"
     },
     {
       "path": "SOC1-5-1/data.csv",
