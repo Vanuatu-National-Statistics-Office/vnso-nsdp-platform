@@ -1,5 +1,57 @@
-computation_units: null
-data_non_statistical: false
-graph_title: Percentage of NSDS strategic objectives achieved
+﻿composite_breakdown_label: ''
+computation_units: ''
+copyright: ''
+data_footnote: ''
+data_non_statistical: true
+data_notice_class: ''
+data_notice_heading: ''
+data_notice_text: ''
+data_show_map: false
+data_start_values: []
+embedded_feature_footer: ''
+embedded_feature_html: ''
+embedded_feature_tab_title: ''
+embedded_feature_title: ''
+embedded_feature_url: ''
+expected_disaggregations: []
+footer_fields: []
+graph_annotations: []
+graph_limits: []
+graph_series_breaks: []
+graph_stacked_disaggregation: ''
+graph_target_lines: []
+graph_title: ''
+graph_titles: []
 graph_type: bar
-reporting_status: notstarted
+indicator_available: ''
+indicator_name: indicators.SOC6-9-2-title
+indicator_number: SOC6-9-2
+indicator_tabs:
+  override: false
+  tab_1: ''
+  tab_2: ''
+  tab_3: ''
+  tab_4: ''
+national_geographical_coverage: Vanuatu
+page_content: >
+  All strategic objectives of the National Strategy for the Development of
+  Statistics (NSDS) are currently under implementation. However, it is difficult
+  to report them as fully achieved, as the NSDS represents an ongoing process of
+  strengthening and coordinating the Vanuatu National Statistics System. This
+  continuous effort is also mandated under the Statistics Act, which emphasizes
+  the long-term institutional collaboration required to deliver quality
+  statistics across sectors.
+permalink: ''
+placeholder: ''
+precision: []
+progress_status: not_available
+proxy: ''
+proxy_series: []
+publications: []
+related_indicators: []
+reporting_status: complete
+sort: ''
+sources: []
+standalone: false
+tags: []
+x_axis_label: ''
