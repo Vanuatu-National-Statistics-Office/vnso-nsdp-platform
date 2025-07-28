@@ -1,0 +1,39 @@
+﻿Proxy: ''
+Definition: >-
+  The indicator “Enrolment in Vocational Training Programmes” measures the total
+  number of individuals enrolled in accredited vocational training programmes
+  during a given year. It includes enrolments across different qualification
+  levels (e.g., Certificate, Diploma, Bachelor) and is disaggregated by island
+  and field of study or course.
+Concept: >-
+  Vocational training refers to education that prepares individuals for specific
+  trades, crafts, and careers at various levels. It includes both technical and
+  non-technical fields and is commonly delivered by Technical and Vocational
+  Education and Training (TVET) institutions. "Enrolment" refers to the official
+  registration of students in these programmes during the reference year.
+  Disaggregation by course and island provides insights into geographic and
+  sectoral demand for skills development across Vanuatu.
+Disaggregation: ''
+Rationale: >-
+  This indicator helps assess the accessibility and uptake of vocational
+  education, which is a key driver for employment, economic development, and
+  lifelong learning. It also informs policies related to workforce development,
+  education planning, and decentralization of training services. High or growing
+  enrolment figures in specific fields can indicate emerging labour market needs
+  or successful training outreach efforts.
+MethodOfComputation: >
+  The indicator is calculated by aggregating administrative data from TVET
+  institutions and education authorities. Enrolment numbers are summed for each
+  course and island for the specified year. The data includes both new and
+  continuing students.
+
+
+  Formula: 
+
+  None required, the indicator is a direct count of children attending school.
+SDGAlignment: ''
+UnitOfMeasurement: Number
+FrequencyOfCollection: Annually
+source_organisation_1: 'Ministry of Education & Training  '
+source_organisation_2: ''
+source_organisation_3: ''
