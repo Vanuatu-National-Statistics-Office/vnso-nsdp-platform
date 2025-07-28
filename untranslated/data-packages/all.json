@@ -2006,6 +2006,101 @@
       "title": "Number of Business Licenses Issued by Industry"
     },
     {
+      "path": "vocational/data.csv",
+      "name": "vocational",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Certificate",
+                "Bachelor",
+                "Diploma",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Island",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Santo",
+                "Efate",
+                "Pentecost",
+                "Ambae",
+                "Tanna",
+                "Malekula",
+                "Education",
+                "Automotive Engineering",
+                "Building Construction",
+                "Business",
+                "Climate Change",
+                "Electro-technology",
+                "Hospitality",
+                "Mechanical Engineering",
+                "Tourism",
+                "Computing",
+                "Finance",
+                "Electrical Engineering",
+                "Information and Communication Technology",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Course",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Agriculture",
+                "Aquaculture",
+                "Forestry",
+                "Livestock",
+                "Building Construction",
+                "Business",
+                "Computing",
+                "Electro-technology",
+                "Mechanical Engineering",
+                "Tourism",
+                "Automotive Engineering",
+                "Nursing",
+                "Climate Change",
+                "Hospitality",
+                "Fine Arts and Crafts",
+                "Finance",
+                "Joinery, Furniture and Cabinet Making",
+                "Education",
+                "Electrical Engineering",
+                "Information and Communication Technology",
+                "Midwifery",
+                "Plumbing",
+                "Efate",
+                "Ambae",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Vanuatu Vocational Education"
+    },
+    {
       "path": "ENV4-3-1/data.csv",
       "name": "ENV4-3-1",
       "profile": "tabular-data-resource",
@@ -8955,28 +9050,6 @@
         ]
       },
       "title": "University of the South Pacific"
-    },
-    {
-      "path": "vocational/data.csv",
-      "name": "vocational",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Vanuatu Vocational Education"
     },
     {
       "path": "income/data.csv",
