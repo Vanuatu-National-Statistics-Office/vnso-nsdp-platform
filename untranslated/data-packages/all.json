@@ -58,7 +58,7 @@
           }
         ]
       },
-      "title": "ENV1-1-2"
+      "title": "indicators.ENV1-1-2-title"
     },
     {
       "path": "SOC6-2-1/data.csv",
@@ -2584,7 +2584,7 @@
           }
         ]
       },
-      "title": "SOC6-9-1"
+      "title": "indicators.SOC6-9-1-title"
     },
     {
       "path": "SOC6-4-1/data.csv",
@@ -5070,7 +5070,7 @@
           }
         ]
       },
-      "title": "SOC6-9-2"
+      "title": "indicators.SOC6-9-2-title"
     },
     {
       "path": "ECO3-2-2/data.csv",
@@ -5213,7 +5213,7 @@
           }
         ]
       },
-      "title": "ENV1-2-1"
+      "title": "indicators.ENV1-2-1-title"
     },
     {
       "path": "ENV3-2-3/data.csv",
