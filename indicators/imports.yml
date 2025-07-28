@@ -44,7 +44,17 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 national_geographical_coverage: Vanuatu
-page_content: ''
+page_content: >-
+  ### Trade- Imports
+
+  Vanuatu’s total imports rose from 9.7 billion Vatu in 2021 to a peak of 17.1
+  billion in 2023, before reducing to 11.5 billion in 2024. Key import
+  commodities include petroleum oils, iron and steel, medicaments, and
+  rice—highlighting the country’s reliance on external sources for energy,
+  construction, health, and staple foods. The 2023 spike likely reflects
+  post-pandemic recovery, infrastructure activity, and global price pressures.
+  These trends underscore Vanuatu’s structural import dependency and the
+  importance of resilient, diversified supply chains.
 permalink: ''
 placeholder: ''
 precision: []
