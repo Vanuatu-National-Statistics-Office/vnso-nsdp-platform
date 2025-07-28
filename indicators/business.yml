@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: ''
+computation_units: Nummber
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -42,7 +42,16 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 national_geographical_coverage: Vanuatu
-page_content: ''
+page_content: >-
+  ### Finance- Business License
+
+  The number of business licenses issued increased gradually from 7,400 in 2015
+  to over 9,200 by 2019, then dropped sharply to 5,000 in 2021—likely due to
+  pandemic-related disruptions. In 2022 and 2023, licensing surged to over
+  27,000 and 26,000 respectively, suggesting a significant rebound in formal
+  business activity or possible changes in reporting or enforcement. Dominant
+  sectors include accommodation, retail trade, and services, reflecting areas of
+  economic concentration.
 permalink: ''
 placeholder: ''
 precision: []
