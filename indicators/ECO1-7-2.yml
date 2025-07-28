@@ -33,7 +33,14 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 national_geographical_coverage: Vanuatu
-page_content: ''
+page_content: >-
+  The total value for this indicator declined from 14,075 in 2022 to 13,374 in
+  2023, reflecting a modest decrease at the national level. Shefa Province
+  consistently contributed the largest share, though its value dropped
+  significantly from 10,665 in 2022 to 8,383 in 2023. In contrast, Sanma
+  Province experienced a notable increase, rising from 1,632 to 2,894 over the
+  same period. The shift in contributions between provinces suggests a
+  redistribution of economic activity or project investments across regions.
 permalink: ''
 placeholder: ''
 precision: []

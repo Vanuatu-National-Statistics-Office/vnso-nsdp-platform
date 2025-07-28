@@ -33,7 +33,13 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 national_geographical_coverage: Vanuatu
-page_content: ''
+page_content: >+
+  In 2021, the estimated total trade value under trade agreements accounted for
+  3.4% of Vanuatu’s GDP, down slightly from 3.7% in 2020. Export contributions
+  remained steady at 0.8% in both years, while imports declined from 2.9% to
+  2.7% of GDP. This suggests a minor contraction in trade flows covered by
+  agreements, potentially reflecting broader trade or economic disruptions.
+
 permalink: ''
 placeholder: ''
 precision: []
