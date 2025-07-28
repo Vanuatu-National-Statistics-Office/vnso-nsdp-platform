@@ -33,7 +33,16 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 national_geographical_coverage: Vanuatu
-page_content: ''
+page_content: >-
+  ### Education- Enrolment 
+
+  School attendance steadily increased from 87,500 in 2018 to nearly 99,000 in
+  2021, with stable figures maintained into 2022. This suggests a sustained
+  effort in ensuring access to education, even during periods of broader social
+  and economic disruption. Attendance data disaggregated by class and geography
+  helps identify dropout risks and regional disparities, particularly in remote
+  islands. These trends support planning for teacher allocation, infrastructure
+  needs, and targeted interventions in underserved areas.
 permalink: ''
 placeholder: ''
 precision: []
