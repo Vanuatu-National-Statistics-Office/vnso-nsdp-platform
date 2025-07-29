@@ -1,369 +1,369 @@
-Year,Series,Commodity,Country,Value
-2021,Value (in million vatu),,,9704
-2021,Value (in million vatu),Alcoholic drinks,,576
-2021,Value (in million vatu),Iron or steel,,1253
-2021,Value (in million vatu),Medicaments,,495
-2021,Value (in million vatu),Petroleum oils,,6495
-2021,Value (in million vatu),Rice,,885
-2021,Value (in million vatu),Alcoholic drinks,China,291
-2021,Value (in million vatu),Alcoholic drinks,France,173
-2021,Value (in million vatu),Alcoholic drinks,Singapore,60
-2021,Value (in million vatu),Alcoholic drinks,Solomon Islands,42
-2021,Value (in million vatu),Alcoholic drinks,United Kingdom,11
-2021,Value (in million vatu),Iron or steel,China,381
-2021,Value (in million vatu),Iron or steel,Australia,658
-2021,Value (in million vatu),Iron or steel,Japan,0
-2021,Value (in million vatu),Iron or steel,New Zealand,144
-2021,Value (in million vatu),Iron or steel,Fiji,69
-2021,Value (in million vatu),Medicaments,Australia,152
-2021,Value (in million vatu),Medicaments,New Zealand,170
-2021,Value (in million vatu),Medicaments,India,116
-2021,Value (in million vatu),Medicaments,United States of America,37
-2021,Value (in million vatu),Medicaments,Fiji,19
-2021,Value (in million vatu),Petroleum oils,Singapore,6210
-2021,Value (in million vatu),Petroleum oils,Australia,94
-2021,Value (in million vatu),Petroleum oils,New Zealand,61
-2021,Value (in million vatu),Petroleum oils,United Arab Emirates,87
-2021,Value (in million vatu),Petroleum oils,Malaysia,44
-2021,Value (in million vatu),Rice,China,406
-2021,Value (in million vatu),Rice,Taiwan,288
-2021,Value (in million vatu),Rice,Vietnam,142
-2021,Value (in million vatu),Rice,Fiji,28
-2021,Value (in million vatu),Rice,Thailand,21
-2022,Value (in million vatu),,,9820
-2022,Value (in million vatu),Alcoholic drinks,,396
-2022,Value (in million vatu),Iron or steel,,862
-2022,Value (in million vatu),Medicaments,,403
-2022,Value (in million vatu),Petroleum oils,,7509
-2022,Value (in million vatu),Rice,,650
-2022,Value (in million vatu),Alcoholic drinks,China,202
-2022,Value (in million vatu),Alcoholic drinks,France,112
-2022,Value (in million vatu),Alcoholic drinks,Singapore,48
-2022,Value (in million vatu),Alcoholic drinks,Solomon Islands,28
-2022,Value (in million vatu),Alcoholic drinks,United Kingdom,6
-2022,Value (in million vatu),Iron or steel,China,296
-2022,Value (in million vatu),Iron or steel,Australia,494
-2022,Value (in million vatu),Iron or steel,Japan,0
-2022,Value (in million vatu),Iron or steel,New Zealand,28
-2022,Value (in million vatu),Iron or steel,Fiji,43
-2022,Value (in million vatu),Medicaments,Australia,104
-2022,Value (in million vatu),Medicaments,New Zealand,114
-2022,Value (in million vatu),Medicaments,India,129
-2022,Value (in million vatu),Medicaments,United States of America,37
-2022,Value (in million vatu),Medicaments,Fiji,19
-2022,Value (in million vatu),Petroleum oils,Singapore,7320
-2022,Value (in million vatu),Petroleum oils,Australia,48
-2022,Value (in million vatu),Petroleum oils,New Zealand,66
-2022,Value (in million vatu),Petroleum oils,United Arab Emirates,35
-2022,Value (in million vatu),Petroleum oils,Malaysia,39
-2022,Value (in million vatu),Rice,China,319
-2022,Value (in million vatu),Rice,Taiwan,269
-2022,Value (in million vatu),Rice,Vietnam,42
-2022,Value (in million vatu),Rice,Fiji,15
-2022,Value (in million vatu),Rice,Thailand,5
-2023,Value (in million vatu),,,17110
-2023,Value (in million vatu),Alcoholic drinks,,1319
-2023,Value (in million vatu),Iron or steel,,1236
-2023,Value (in million vatu),Medicaments,,507
-2023,Value (in million vatu),Petroleum oils,,12679
-2023,Value (in million vatu),Rice,,1369
-2023,Value (in million vatu),Alcoholic drinks,China,648
-2023,Value (in million vatu),Alcoholic drinks,France,393
-2023,Value (in million vatu),Alcoholic drinks,Singapore,128
-2023,Value (in million vatu),Alcoholic drinks,Solomon Islands,63
-2023,Value (in million vatu),Alcoholic drinks,United Kingdom,86
-2023,Value (in million vatu),Iron or steel,China,733
-2023,Value (in million vatu),Iron or steel,Australia,294
-2023,Value (in million vatu),Iron or steel,Japan,59
-2023,Value (in million vatu),Iron or steel,New Zealand,69
-2023,Value (in million vatu),Iron or steel,Fiji,81
-2023,Value (in million vatu),Medicaments,Australia,134
-2023,Value (in million vatu),Medicaments,New Zealand,130
-2023,Value (in million vatu),Medicaments,India,118
-2023,Value (in million vatu),Medicaments,United States of America,40
-2023,Value (in million vatu),Medicaments,Fiji,84
-2023,Value (in million vatu),Petroleum oils,Singapore,12344
-2023,Value (in million vatu),Petroleum oils,Australia,134
-2023,Value (in million vatu),Petroleum oils,New Zealand,105
-2023,Value (in million vatu),Petroleum oils,United Arab Emirates,50
-2023,Value (in million vatu),Petroleum oils,Malaysia,45
-2023,Value (in million vatu),Rice,China,675
-2023,Value (in million vatu),Rice,Taiwan,292
-2023,Value (in million vatu),Rice,Vietnam,353
-2023,Value (in million vatu),Rice,Fiji,30
-2023,Value (in million vatu),Rice,Thailand,19
-2024,Value (in million vatu),,,11498
-2024,Value (in million vatu),Alcoholic drinks,,898
-2024,Value (in million vatu),Iron or steel,,1464
-2024,Value (in million vatu),Medicaments,,489
-2024,Value (in million vatu),Petroleum oils,,7294
-2024,Value (in million vatu),Rice,,1353
-2024,Value (in million vatu),Alcoholic drinks,China,439
-2024,Value (in million vatu),Alcoholic drinks,France,252
-2024,Value (in million vatu),Alcoholic drinks,Singapore,92
-2024,Value (in million vatu),Alcoholic drinks,Solomon Islands,54
-2024,Value (in million vatu),Alcoholic drinks,United Kingdom,60
-2024,Value (in million vatu),Iron or steel,China,818
-2024,Value (in million vatu),Iron or steel,Australia,242
-2024,Value (in million vatu),Iron or steel,Japan,302
-2024,Value (in million vatu),Iron or steel,New Zealand,62
-2024,Value (in million vatu),Iron or steel,Fiji,41
-2024,Value (in million vatu),Medicaments,Australia,216
-2024,Value (in million vatu),Medicaments,New Zealand,116
-2024,Value (in million vatu),Medicaments,India,103
-2024,Value (in million vatu),Medicaments,United States of America,36
-2024,Value (in million vatu),Medicaments,Fiji,17
-2024,Value (in million vatu),Petroleum oils,Singapore,6908
-2024,Value (in million vatu),Petroleum oils,Australia,108
-2024,Value (in million vatu),Petroleum oils,New Zealand,145
-2024,Value (in million vatu),Petroleum oils,United Arab Emirates,84
-2024,Value (in million vatu),Petroleum oils,Malaysia,48
-2024,Value (in million vatu),Rice,China,131
-2024,Value (in million vatu),Rice,Taiwan,519
-2024,Value (in million vatu),Rice,Vietnam,648
-2024,Value (in million vatu),Rice,Fiji,20
-2024,Value (in million vatu),Rice,Thailand,34
-2021,Quantity (in tonnes kilogram),,,120981
-2021,Quantity (in tonnes kilogram),Alcoholic drinks,,2698
-2021,Quantity (in tonnes kilogram),Iron or steel,,5202
-2021,Quantity (in tonnes kilogram),Medicaments,,184
-2021,Quantity (in tonnes kilogram),Petroleum oils,,97025
-2021,Quantity (in tonnes kilogram),Rice,,15872
-2021,Quantity (in tonnes kilogram),Alcoholic drinks,China,1612
-2021,Quantity (in tonnes kilogram),Alcoholic drinks,France,664
-2021,Quantity (in tonnes kilogram),Alcoholic drinks,Singapore,233
-2021,Quantity (in tonnes kilogram),Alcoholic drinks,Solomon Islands,177
-2021,Quantity (in tonnes kilogram),Alcoholic drinks,United Kingdom,12
-2021,Quantity (in tonnes kilogram),Iron or steel,China,2707
-2021,Quantity (in tonnes kilogram),Iron or steel,Australia,1635
-2021,Quantity (in tonnes kilogram),Iron or steel,Japan,0
-2021,Quantity (in tonnes kilogram),Iron or steel,New Zealand,556
-2021,Quantity (in tonnes kilogram),Iron or steel,Fiji,303
-2021,Quantity (in tonnes kilogram),Medicaments,Australia,142
-2021,Quantity (in tonnes kilogram),Medicaments,New Zealand,9
-2021,Quantity (in tonnes kilogram),Medicaments,India,17
-2021,Quantity (in tonnes kilogram),Medicaments,United States of America,7
-2021,Quantity (in tonnes kilogram),Medicaments,Fiji,9
-2021,Quantity (in tonnes kilogram),Petroleum oils,Singapore,95312
-2021,Quantity (in tonnes kilogram),Petroleum oils,Australia,546
-2021,Quantity (in tonnes kilogram),Petroleum oils,New Zealand,718
-2021,Quantity (in tonnes kilogram),Petroleum oils,United Arab Emirates,280
-2021,Quantity (in tonnes kilogram),Petroleum oils,Malaysia,169
-2021,Quantity (in tonnes kilogram),Rice,China,6227
-2021,Quantity (in tonnes kilogram),Rice,Taiwan,5163
-2021,Quantity (in tonnes kilogram),Rice,Vietnam,3994
-2021,Quantity (in tonnes kilogram),Rice,Fiji,296
-2021,Quantity (in tonnes kilogram),Rice,Thailand,192
-2022,Quantity (in tonnes kilogram),,,68917
-2022,Quantity (in tonnes kilogram),Alcoholic drinks,,1580
-2022,Quantity (in tonnes kilogram),Iron or steel,,2303
-2022,Quantity (in tonnes kilogram),Medicaments,,129
-2022,Quantity (in tonnes kilogram),Petroleum oils,,56373
-2022,Quantity (in tonnes kilogram),Rice,,8532
-2022,Quantity (in tonnes kilogram),Alcoholic drinks,China,863
-2022,Quantity (in tonnes kilogram),Alcoholic drinks,France,422
-2022,Quantity (in tonnes kilogram),Alcoholic drinks,Singapore,179
-2022,Quantity (in tonnes kilogram),Alcoholic drinks,Solomon Islands,108
-2022,Quantity (in tonnes kilogram),Alcoholic drinks,United Kingdom,7
-2022,Quantity (in tonnes kilogram),Iron or steel,China,1487
-2022,Quantity (in tonnes kilogram),Iron or steel,Australia,636
-2022,Quantity (in tonnes kilogram),Iron or steel,Japan,0
-2022,Quantity (in tonnes kilogram),Iron or steel,New Zealand,31
-2022,Quantity (in tonnes kilogram),Iron or steel,Fiji,148
-2022,Quantity (in tonnes kilogram),Medicaments,Australia,88
-2022,Quantity (in tonnes kilogram),Medicaments,New Zealand,7
-2022,Quantity (in tonnes kilogram),Medicaments,India,24
-2022,Quantity (in tonnes kilogram),Medicaments,United States of America,4
-2022,Quantity (in tonnes kilogram),Medicaments,Fiji,7
-2022,Quantity (in tonnes kilogram),Petroleum oils,Singapore,55572
-2022,Quantity (in tonnes kilogram),Petroleum oils,Australia,164
-2022,Quantity (in tonnes kilogram),Petroleum oils,New Zealand,402
-2022,Quantity (in tonnes kilogram),Petroleum oils,United Arab Emirates,106
-2022,Quantity (in tonnes kilogram),Petroleum oils,Malaysia,130
-2022,Quantity (in tonnes kilogram),Rice,China,4085
-2022,Quantity (in tonnes kilogram),Rice,Taiwan,3657
-2022,Quantity (in tonnes kilogram),Rice,Vietnam,609
-2022,Quantity (in tonnes kilogram),Rice,Fiji,152
-2022,Quantity (in tonnes kilogram),Rice,Thailand,29
-2023,Quantity (in tonnes kilogram),,,136997
-2023,Quantity (in tonnes kilogram),Alcoholic drinks,,4237
-2023,Quantity (in tonnes kilogram),Iron or steel,,5508
-2023,Quantity (in tonnes kilogram),Medicaments,,82
-2023,Quantity (in tonnes kilogram),Petroleum oils,,109082
-2023,Quantity (in tonnes kilogram),Rice,,18088
-2023,Quantity (in tonnes kilogram),Alcoholic drinks,China,2233
-2023,Quantity (in tonnes kilogram),Alcoholic drinks,France,1189
-2023,Quantity (in tonnes kilogram),Alcoholic drinks,Singapore,459
-2023,Quantity (in tonnes kilogram),Alcoholic drinks,Solomon Islands,260
-2023,Quantity (in tonnes kilogram),Alcoholic drinks,United Kingdom,97
-2023,Quantity (in tonnes kilogram),Iron or steel,China,4408
-2023,Quantity (in tonnes kilogram),Iron or steel,Australia,495
-2023,Quantity (in tonnes kilogram),Iron or steel,Japan,280
-2023,Quantity (in tonnes kilogram),Iron or steel,New Zealand,104
-2023,Quantity (in tonnes kilogram),Iron or steel,Fiji,221
-2023,Quantity (in tonnes kilogram),Medicaments,Australia,55
-2023,Quantity (in tonnes kilogram),Medicaments,New Zealand,6
-2023,Quantity (in tonnes kilogram),Medicaments,India,14
-2023,Quantity (in tonnes kilogram),Medicaments,United States of America,1
-2023,Quantity (in tonnes kilogram),Medicaments,Fiji,6
-2023,Quantity (in tonnes kilogram),Petroleum oils,Singapore,107640
-2023,Quantity (in tonnes kilogram),Petroleum oils,Australia,481
-2023,Quantity (in tonnes kilogram),Petroleum oils,New Zealand,696
-2023,Quantity (in tonnes kilogram),Petroleum oils,United Arab Emirates,121
-2023,Quantity (in tonnes kilogram),Petroleum oils,Malaysia,143
-2023,Quantity (in tonnes kilogram),Rice,China,8491
-2023,Quantity (in tonnes kilogram),Rice,Taiwan,4298
-2023,Quantity (in tonnes kilogram),Rice,Vietnam,4868
-2023,Quantity (in tonnes kilogram),Rice,Fiji,284
-2023,Quantity (in tonnes kilogram),Rice,Thailand,146
-2024,Quantity (in tonnes kilogram),,,92331
-2024,Quantity (in tonnes kilogram),Alcoholic drinks,,2778
-2024,Quantity (in tonnes kilogram),Iron or steel,,6577
-2024,Quantity (in tonnes kilogram),Medicaments,,60
-2024,Quantity (in tonnes kilogram),Petroleum oils,,67580
-2024,Quantity (in tonnes kilogram),Rice,,15336
-2024,Quantity (in tonnes kilogram),Alcoholic drinks,China,1525
-2024,Quantity (in tonnes kilogram),Alcoholic drinks,France,654
-2024,Quantity (in tonnes kilogram),Alcoholic drinks,Singapore,318
-2024,Quantity (in tonnes kilogram),Alcoholic drinks,Solomon Islands,218
-2024,Quantity (in tonnes kilogram),Alcoholic drinks,United Kingdom,63
-2024,Quantity (in tonnes kilogram),Iron or steel,China,5486
-2024,Quantity (in tonnes kilogram),Iron or steel,Australia,331
-2024,Quantity (in tonnes kilogram),Iron or steel,Japan,560
-2024,Quantity (in tonnes kilogram),Iron or steel,New Zealand,88
-2024,Quantity (in tonnes kilogram),Iron or steel,Fiji,111
-2024,Quantity (in tonnes kilogram),Medicaments,Australia,35
-2024,Quantity (in tonnes kilogram),Medicaments,New Zealand,6
-2024,Quantity (in tonnes kilogram),Medicaments,India,15
-2024,Quantity (in tonnes kilogram),Medicaments,United States of America,0
-2024,Quantity (in tonnes kilogram),Medicaments,Fiji,4
-2024,Quantity (in tonnes kilogram),Petroleum oils,Singapore,65892
-2024,Quantity (in tonnes kilogram),Petroleum oils,Australia,350
-2024,Quantity (in tonnes kilogram),Petroleum oils,New Zealand,954
-2024,Quantity (in tonnes kilogram),Petroleum oils,United Arab Emirates,222
-2024,Quantity (in tonnes kilogram),Petroleum oils,Malaysia,162
-2024,Quantity (in tonnes kilogram),Rice,China,1467
-2024,Quantity (in tonnes kilogram),Rice,Taiwan,6683
-2024,Quantity (in tonnes kilogram),Rice,Vietnam,6686
-2024,Quantity (in tonnes kilogram),Rice,Fiji,170
-2024,Quantity (in tonnes kilogram),Rice,Thailand,330
-2021,Price per unit (vatu per kilogram/litre),Alcoholic drinks,,213
-2021,Price per unit (vatu per kilogram/litre),Iron or steel,,241
-2021,Price per unit (vatu per kilogram/litre),Medicaments,,2690
-2021,Price per unit (vatu per kilogram/litre),Petroleum oils,,67
-2021,Price per unit (vatu per kilogram/litre),Rice,,56
-2021,Price per unit (vatu per kilogram/litre),Alcoholic drinks,China,181
-2021,Price per unit (vatu per kilogram/litre),Alcoholic drinks,France,260
-2021,Price per unit (vatu per kilogram/litre),Alcoholic drinks,Singapore,258
-2021,Price per unit (vatu per kilogram/litre),Alcoholic drinks,Solomon Islands,235
-2021,Price per unit (vatu per kilogram/litre),Alcoholic drinks,United Kingdom,878
-2021,Price per unit (vatu per kilogram/litre),Iron or steel,China,141
-2021,Price per unit (vatu per kilogram/litre),Iron or steel,Australia,402
-2021,Price per unit (vatu per kilogram/litre),Iron or steel,Japan,1468
-2021,Price per unit (vatu per kilogram/litre),Iron or steel,New Zealand,260
-2021,Price per unit (vatu per kilogram/litre),Iron or steel,Fiji,229
-2021,Price per unit (vatu per kilogram/litre),Medicaments,Australia,1073
-2021,Price per unit (vatu per kilogram/litre),Medicaments,New Zealand,19206
-2021,Price per unit (vatu per kilogram/litre),Medicaments,India,6811
-2021,Price per unit (vatu per kilogram/litre),Medicaments,United States of America,5365
-2021,Price per unit (vatu per kilogram/litre),Medicaments,Fiji,2141
-2021,Price per unit (vatu per kilogram/litre),Petroleum oils,Singapore,65
-2021,Price per unit (vatu per kilogram/litre),Petroleum oils,Australia,172
-2021,Price per unit (vatu per kilogram/litre),Petroleum oils,New Zealand,85
-2021,Price per unit (vatu per kilogram/litre),Petroleum oils,United Arab Emirates,309
-2021,Price per unit (vatu per kilogram/litre),Petroleum oils,Malaysia,258
-2021,Price per unit (vatu per kilogram/litre),Rice,China,65
-2021,Price per unit (vatu per kilogram/litre),Rice,Taiwan,56
-2021,Price per unit (vatu per kilogram/litre),Rice,Vietnam,36
-2021,Price per unit (vatu per kilogram/litre),Rice,Fiji,95
-2021,Price per unit (vatu per kilogram/litre),Rice,Thailand,109
-2022,Price per unit (vatu per kilogram/litre),Alcoholic drinks,,251
-2022,Price per unit (vatu per kilogram/litre),Iron or steel,,374
-2022,Price per unit (vatu per kilogram/litre),Medicaments,,3124
-2022,Price per unit (vatu per kilogram/litre),Petroleum oils,,133
-2022,Price per unit (vatu per kilogram/litre),Rice,,76
-2022,Price per unit (vatu per kilogram/litre),Alcoholic drinks,China,234
-2022,Price per unit (vatu per kilogram/litre),Alcoholic drinks,France,265
-2022,Price per unit (vatu per kilogram/litre),Alcoholic drinks,Singapore,268
-2022,Price per unit (vatu per kilogram/litre),Alcoholic drinks,Solomon Islands,256
-2022,Price per unit (vatu per kilogram/litre),Alcoholic drinks,United Kingdom,899
-2022,Price per unit (vatu per kilogram/litre),Iron or steel,China,199
-2022,Price per unit (vatu per kilogram/litre),Iron or steel,Australia,777
-2022,Price per unit (vatu per kilogram/litre),Iron or steel,Japan,2707
-2022,Price per unit (vatu per kilogram/litre),Iron or steel,New Zealand,908
-2022,Price per unit (vatu per kilogram/litre),Iron or steel,Fiji,292
-2022,Price per unit (vatu per kilogram/litre),Medicaments,Australia,1188
-2022,Price per unit (vatu per kilogram/litre),Medicaments,New Zealand,16594
-2022,Price per unit (vatu per kilogram/litre),Medicaments,India,5388
-2022,Price per unit (vatu per kilogram/litre),Medicaments,United States of America,9822
-2022,Price per unit (vatu per kilogram/litre),Medicaments,Fiji,2964
-2022,Price per unit (vatu per kilogram/litre),Petroleum oils,Singapore,132
-2022,Price per unit (vatu per kilogram/litre),Petroleum oils,Australia,292
-2022,Price per unit (vatu per kilogram/litre),Petroleum oils,New Zealand,165
-2022,Price per unit (vatu per kilogram/litre),Petroleum oils,United Arab Emirates,335
-2022,Price per unit (vatu per kilogram/litre),Petroleum oils,Malaysia,302
-2022,Price per unit (vatu per kilogram/litre),Rice,China,78
-2022,Price per unit (vatu per kilogram/litre),Rice,Taiwan,74
-2022,Price per unit (vatu per kilogram/litre),Rice,Vietnam,68
-2022,Price per unit (vatu per kilogram/litre),Rice,Fiji,100
-2022,Price per unit (vatu per kilogram/litre),Rice,Thailand,186
-2023,Price per unit (vatu per kilogram/litre),Alcoholic drinks,,311
-2023,Price per unit (vatu per kilogram/litre),Iron or steel,,224
-2023,Price per unit (vatu per kilogram/litre),Medicaments,,6183
-2023,Price per unit (vatu per kilogram/litre),Petroleum oils,,116
-2023,Price per unit (vatu per kilogram/litre),Rice,,76
-2023,Price per unit (vatu per kilogram/litre),Alcoholic drinks,China,290
-2023,Price per unit (vatu per kilogram/litre),Alcoholic drinks,France,331
-2023,Price per unit (vatu per kilogram/litre),Alcoholic drinks,Singapore,279
-2023,Price per unit (vatu per kilogram/litre),Alcoholic drinks,Solomon Islands,243
-2023,Price per unit (vatu per kilogram/litre),Alcoholic drinks,United Kingdom,893
-2023,Price per unit (vatu per kilogram/litre),Iron or steel,China,166
-2023,Price per unit (vatu per kilogram/litre),Iron or steel,Australia,595
-2023,Price per unit (vatu per kilogram/litre),Iron or steel,Japan,210
-2023,Price per unit (vatu per kilogram/litre),Iron or steel,New Zealand,662
-2023,Price per unit (vatu per kilogram/litre),Iron or steel,Fiji,366
-2023,Price per unit (vatu per kilogram/litre),Medicaments,Australia,2434
-2023,Price per unit (vatu per kilogram/litre),Medicaments,New Zealand,21898
-2023,Price per unit (vatu per kilogram/litre),Medicaments,India,8530
-2023,Price per unit (vatu per kilogram/litre),Medicaments,United States of America,57851
-2023,Price per unit (vatu per kilogram/litre),Medicaments,Fiji,13298
-2023,Price per unit (vatu per kilogram/litre),Petroleum oils,Singapore,115
-2023,Price per unit (vatu per kilogram/litre),Petroleum oils,Australia,279
-2023,Price per unit (vatu per kilogram/litre),Petroleum oils,New Zealand,151
-2023,Price per unit (vatu per kilogram/litre),Petroleum oils,United Arab Emirates,417
-2023,Price per unit (vatu per kilogram/litre),Petroleum oils,Malaysia,315
-2023,Price per unit (vatu per kilogram/litre),Rice,China,80
-2023,Price per unit (vatu per kilogram/litre),Rice,Taiwan,68
-2023,Price per unit (vatu per kilogram/litre),Rice,Vietnam,72
-2023,Price per unit (vatu per kilogram/litre),Rice,Fiji,106
-2023,Price per unit (vatu per kilogram/litre),Rice,Thailand,130
-2024,Price per unit (vatu per kilogram/litre),Alcoholic drinks,,323
-2024,Price per unit (vatu per kilogram/litre),Iron or steel,,223
-2024,Price per unit (vatu per kilogram/litre),Medicaments,,8150
-2024,Price per unit (vatu per kilogram/litre),Petroleum oils,,108
-2024,Price per unit (vatu per kilogram/litre),Rice,,88
-2024,Price per unit (vatu per kilogram/litre),Alcoholic drinks,China,288
-2024,Price per unit (vatu per kilogram/litre),Alcoholic drinks,France,385
-2024,Price per unit (vatu per kilogram/litre),Alcoholic drinks,Singapore,290
-2024,Price per unit (vatu per kilogram/litre),Alcoholic drinks,Solomon Islands,248
-2024,Price per unit (vatu per kilogram/litre),Alcoholic drinks,United Kingdom,965
-2024,Price per unit (vatu per kilogram/litre),Iron or steel,China,149
-2024,Price per unit (vatu per kilogram/litre),Iron or steel,Australia,732
-2024,Price per unit (vatu per kilogram/litre),Iron or steel,Japan,538
-2024,Price per unit (vatu per kilogram/litre),Iron or steel,New Zealand,695
-2024,Price per unit (vatu per kilogram/litre),Iron or steel,Fiji,365
-2024,Price per unit (vatu per kilogram/litre),Medicaments,Australia,6163
-2024,Price per unit (vatu per kilogram/litre),Medicaments,New Zealand,19549
-2024,Price per unit (vatu per kilogram/litre),Medicaments,India,6805
-2024,Price per unit (vatu per kilogram/litre),Medicaments,United States of America,116618
-2024,Price per unit (vatu per kilogram/litre),Medicaments,Fiji,4582
-2024,Price per unit (vatu per kilogram/litre),Petroleum oils,Singapore,105
-2024,Price per unit (vatu per kilogram/litre),Petroleum oils,Australia,308
-2024,Price per unit (vatu per kilogram/litre),Petroleum oils,New Zealand,152
-2024,Price per unit (vatu per kilogram/litre),Petroleum oils,United Arab Emirates,377
-2024,Price per unit (vatu per kilogram/litre),Petroleum oils,Malaysia,299
-2024,Price per unit (vatu per kilogram/litre),Rice,China,89
-2024,Price per unit (vatu per kilogram/litre),Rice,Taiwan,78
-2024,Price per unit (vatu per kilogram/litre),Rice,Vietnam,97
-2024,Price per unit (vatu per kilogram/litre),Rice,Fiji,120
-2024,Price per unit (vatu per kilogram/litre),Rice,Thailand,104
+Year,Series,Commodity,Country,Unit,Value
+2021,Value,,,Millions in Vatu (VUV),9704
+2021,Value,Alcoholic drinks,,Millions in Vatu (VUV),576
+2021,Value,Iron or steel,,Millions in Vatu (VUV),1253
+2021,Value,Medicaments,,Millions in Vatu (VUV),495
+2021,Value,Petroleum oils,,Millions in Vatu (VUV),6495
+2021,Value,Rice,,Millions in Vatu (VUV),885
+2021,Value,Alcoholic drinks,China,Millions in Vatu (VUV),291
+2021,Value,Alcoholic drinks,France,Millions in Vatu (VUV),173
+2021,Value,Alcoholic drinks,Singapore,Millions in Vatu (VUV),60
+2021,Value,Alcoholic drinks,Solomon Islands,Millions in Vatu (VUV),42
+2021,Value,Alcoholic drinks,United Kingdom,Millions in Vatu (VUV),11
+2021,Value,Iron or steel,China,Millions in Vatu (VUV),381
+2021,Value,Iron or steel,Australia,Millions in Vatu (VUV),658
+2021,Value,Iron or steel,Japan,Millions in Vatu (VUV),0
+2021,Value,Iron or steel,New Zealand,Millions in Vatu (VUV),144
+2021,Value,Iron or steel,Fiji,Millions in Vatu (VUV),69
+2021,Value,Medicaments,Australia,Millions in Vatu (VUV),152
+2021,Value,Medicaments,New Zealand,Millions in Vatu (VUV),170
+2021,Value,Medicaments,India,Millions in Vatu (VUV),116
+2021,Value,Medicaments,United States of America,Millions in Vatu (VUV),37
+2021,Value,Medicaments,Fiji,Millions in Vatu (VUV),19
+2021,Value,Petroleum oils,Singapore,Millions in Vatu (VUV),6210
+2021,Value,Petroleum oils,Australia,Millions in Vatu (VUV),94
+2021,Value,Petroleum oils,New Zealand,Millions in Vatu (VUV),61
+2021,Value,Petroleum oils,United Arab Emirates,Millions in Vatu (VUV),87
+2021,Value,Petroleum oils,Malaysia,Millions in Vatu (VUV),44
+2021,Value,Rice,China,Millions in Vatu (VUV),406
+2021,Value,Rice,Taiwan,Millions in Vatu (VUV),288
+2021,Value,Rice,Vietnam,Millions in Vatu (VUV),142
+2021,Value,Rice,Fiji,Millions in Vatu (VUV),28
+2021,Value,Rice,Thailand,Millions in Vatu (VUV),21
+2022,Value,,,Millions in Vatu (VUV),9820
+2022,Value,Alcoholic drinks,,Millions in Vatu (VUV),396
+2022,Value,Iron or steel,,Millions in Vatu (VUV),862
+2022,Value,Medicaments,,Millions in Vatu (VUV),403
+2022,Value,Petroleum oils,,Millions in Vatu (VUV),7509
+2022,Value,Rice,,Millions in Vatu (VUV),650
+2022,Value,Alcoholic drinks,China,Millions in Vatu (VUV),202
+2022,Value,Alcoholic drinks,France,Millions in Vatu (VUV),112
+2022,Value,Alcoholic drinks,Singapore,Millions in Vatu (VUV),48
+2022,Value,Alcoholic drinks,Solomon Islands,Millions in Vatu (VUV),28
+2022,Value,Alcoholic drinks,United Kingdom,Millions in Vatu (VUV),6
+2022,Value,Iron or steel,China,Millions in Vatu (VUV),296
+2022,Value,Iron or steel,Australia,Millions in Vatu (VUV),494
+2022,Value,Iron or steel,Japan,Millions in Vatu (VUV),0
+2022,Value,Iron or steel,New Zealand,Millions in Vatu (VUV),28
+2022,Value,Iron or steel,Fiji,Millions in Vatu (VUV),43
+2022,Value,Medicaments,Australia,Millions in Vatu (VUV),104
+2022,Value,Medicaments,New Zealand,Millions in Vatu (VUV),114
+2022,Value,Medicaments,India,Millions in Vatu (VUV),129
+2022,Value,Medicaments,United States of America,Millions in Vatu (VUV),37
+2022,Value,Medicaments,Fiji,Millions in Vatu (VUV),19
+2022,Value,Petroleum oils,Singapore,Millions in Vatu (VUV),7320
+2022,Value,Petroleum oils,Australia,Millions in Vatu (VUV),48
+2022,Value,Petroleum oils,New Zealand,Millions in Vatu (VUV),66
+2022,Value,Petroleum oils,United Arab Emirates,Millions in Vatu (VUV),35
+2022,Value,Petroleum oils,Malaysia,Millions in Vatu (VUV),39
+2022,Value,Rice,China,Millions in Vatu (VUV),319
+2022,Value,Rice,Taiwan,Millions in Vatu (VUV),269
+2022,Value,Rice,Vietnam,Millions in Vatu (VUV),42
+2022,Value,Rice,Fiji,Millions in Vatu (VUV),15
+2022,Value,Rice,Thailand,Millions in Vatu (VUV),5
+2023,Value,,,Millions in Vatu (VUV),17110
+2023,Value,Alcoholic drinks,,Millions in Vatu (VUV),1319
+2023,Value,Iron or steel,,Millions in Vatu (VUV),1236
+2023,Value,Medicaments,,Millions in Vatu (VUV),507
+2023,Value,Petroleum oils,,Millions in Vatu (VUV),12679
+2023,Value,Rice,,Millions in Vatu (VUV),1369
+2023,Value,Alcoholic drinks,China,Millions in Vatu (VUV),648
+2023,Value,Alcoholic drinks,France,Millions in Vatu (VUV),393
+2023,Value,Alcoholic drinks,Singapore,Millions in Vatu (VUV),128
+2023,Value,Alcoholic drinks,Solomon Islands,Millions in Vatu (VUV),63
+2023,Value,Alcoholic drinks,United Kingdom,Millions in Vatu (VUV),86
+2023,Value,Iron or steel,China,Millions in Vatu (VUV),733
+2023,Value,Iron or steel,Australia,Millions in Vatu (VUV),294
+2023,Value,Iron or steel,Japan,Millions in Vatu (VUV),59
+2023,Value,Iron or steel,New Zealand,Millions in Vatu (VUV),69
+2023,Value,Iron or steel,Fiji,Millions in Vatu (VUV),81
+2023,Value,Medicaments,Australia,Millions in Vatu (VUV),134
+2023,Value,Medicaments,New Zealand,Millions in Vatu (VUV),130
+2023,Value,Medicaments,India,Millions in Vatu (VUV),118
+2023,Value,Medicaments,United States of America,Millions in Vatu (VUV),40
+2023,Value,Medicaments,Fiji,Millions in Vatu (VUV),84
+2023,Value,Petroleum oils,Singapore,Millions in Vatu (VUV),12344
+2023,Value,Petroleum oils,Australia,Millions in Vatu (VUV),134
+2023,Value,Petroleum oils,New Zealand,Millions in Vatu (VUV),105
+2023,Value,Petroleum oils,United Arab Emirates,Millions in Vatu (VUV),50
+2023,Value,Petroleum oils,Malaysia,Millions in Vatu (VUV),45
+2023,Value,Rice,China,Millions in Vatu (VUV),675
+2023,Value,Rice,Taiwan,Millions in Vatu (VUV),292
+2023,Value,Rice,Vietnam,Millions in Vatu (VUV),353
+2023,Value,Rice,Fiji,Millions in Vatu (VUV),30
+2023,Value,Rice,Thailand,Millions in Vatu (VUV),19
+2024,Value,,,Millions in Vatu (VUV),11498
+2024,Value,Alcoholic drinks,,Millions in Vatu (VUV),898
+2024,Value,Iron or steel,,Millions in Vatu (VUV),1464
+2024,Value,Medicaments,,Millions in Vatu (VUV),489
+2024,Value,Petroleum oils,,Millions in Vatu (VUV),7294
+2024,Value,Rice,,Millions in Vatu (VUV),1353
+2024,Value,Alcoholic drinks,China,Millions in Vatu (VUV),439
+2024,Value,Alcoholic drinks,France,Millions in Vatu (VUV),252
+2024,Value,Alcoholic drinks,Singapore,Millions in Vatu (VUV),92
+2024,Value,Alcoholic drinks,Solomon Islands,Millions in Vatu (VUV),54
+2024,Value,Alcoholic drinks,United Kingdom,Millions in Vatu (VUV),60
+2024,Value,Iron or steel,China,Millions in Vatu (VUV),818
+2024,Value,Iron or steel,Australia,Millions in Vatu (VUV),242
+2024,Value,Iron or steel,Japan,Millions in Vatu (VUV),302
+2024,Value,Iron or steel,New Zealand,Millions in Vatu (VUV),62
+2024,Value,Iron or steel,Fiji,Millions in Vatu (VUV),41
+2024,Value,Medicaments,Australia,Millions in Vatu (VUV),216
+2024,Value,Medicaments,New Zealand,Millions in Vatu (VUV),116
+2024,Value,Medicaments,India,Millions in Vatu (VUV),103
+2024,Value,Medicaments,United States of America,Millions in Vatu (VUV),36
+2024,Value,Medicaments,Fiji,Millions in Vatu (VUV),17
+2024,Value,Petroleum oils,Singapore,Millions in Vatu (VUV),6908
+2024,Value,Petroleum oils,Australia,Millions in Vatu (VUV),108
+2024,Value,Petroleum oils,New Zealand,Millions in Vatu (VUV),145
+2024,Value,Petroleum oils,United Arab Emirates,Millions in Vatu (VUV),84
+2024,Value,Petroleum oils,Malaysia,Millions in Vatu (VUV),48
+2024,Value,Rice,China,Millions in Vatu (VUV),131
+2024,Value,Rice,Taiwan,Millions in Vatu (VUV),519
+2024,Value,Rice,Vietnam,Millions in Vatu (VUV),648
+2024,Value,Rice,Fiji,Millions in Vatu (VUV),20
+2024,Value,Rice,Thailand,Millions in Vatu (VUV),34
+2021,Quantity,,,Tonnes in Kilogram (Kg),120981
+2021,Quantity,Alcoholic drinks,,Tonnes in Kilogram (Kg),2698
+2021,Quantity,Iron or steel,,Tonnes in Kilogram (Kg),5202
+2021,Quantity,Medicaments,,Tonnes in Kilogram (Kg),184
+2021,Quantity,Petroleum oils,,Tonnes in Kilogram (Kg),97025
+2021,Quantity,Rice,,Tonnes in Kilogram (Kg),15872
+2021,Quantity,Alcoholic drinks,China,Tonnes in Kilogram (Kg),1612
+2021,Quantity,Alcoholic drinks,France,Tonnes in Kilogram (Kg),664
+2021,Quantity,Alcoholic drinks,Singapore,Tonnes in Kilogram (Kg),233
+2021,Quantity,Alcoholic drinks,Solomon Islands,Tonnes in Kilogram (Kg),177
+2021,Quantity,Alcoholic drinks,United Kingdom,Tonnes in Kilogram (Kg),12
+2021,Quantity,Iron or steel,China,Tonnes in Kilogram (Kg),2707
+2021,Quantity,Iron or steel,Australia,Tonnes in Kilogram (Kg),1635
+2021,Quantity,Iron or steel,Japan,Tonnes in Kilogram (Kg),0
+2021,Quantity,Iron or steel,New Zealand,Tonnes in Kilogram (Kg),556
+2021,Quantity,Iron or steel,Fiji,Tonnes in Kilogram (Kg),303
+2021,Quantity,Medicaments,Australia,Tonnes in Kilogram (Kg),142
+2021,Quantity,Medicaments,New Zealand,Tonnes in Kilogram (Kg),9
+2021,Quantity,Medicaments,India,Tonnes in Kilogram (Kg),17
+2021,Quantity,Medicaments,United States of America,Tonnes in Kilogram (Kg),7
+2021,Quantity,Medicaments,Fiji,Tonnes in Kilogram (Kg),9
+2021,Quantity,Petroleum oils,Singapore,Tonnes in Kilogram (Kg),95312
+2021,Quantity,Petroleum oils,Australia,Tonnes in Kilogram (Kg),546
+2021,Quantity,Petroleum oils,New Zealand,Tonnes in Kilogram (Kg),718
+2021,Quantity,Petroleum oils,United Arab Emirates,Tonnes in Kilogram (Kg),280
+2021,Quantity,Petroleum oils,Malaysia,Tonnes in Kilogram (Kg),169
+2021,Quantity,Rice,China,Tonnes in Kilogram (Kg),6227
+2021,Quantity,Rice,Taiwan,Tonnes in Kilogram (Kg),5163
+2021,Quantity,Rice,Vietnam,Tonnes in Kilogram (Kg),3994
+2021,Quantity,Rice,Fiji,Tonnes in Kilogram (Kg),296
+2021,Quantity,Rice,Thailand,Tonnes in Kilogram (Kg),192
+2022,Quantity,,,Tonnes in Kilogram (Kg),68917
+2022,Quantity,Alcoholic drinks,,Tonnes in Kilogram (Kg),1580
+2022,Quantity,Iron or steel,,Tonnes in Kilogram (Kg),2303
+2022,Quantity,Medicaments,,Tonnes in Kilogram (Kg),129
+2022,Quantity,Petroleum oils,,Tonnes in Kilogram (Kg),56373
+2022,Quantity,Rice,,Tonnes in Kilogram (Kg),8532
+2022,Quantity,Alcoholic drinks,China,Tonnes in Kilogram (Kg),863
+2022,Quantity,Alcoholic drinks,France,Tonnes in Kilogram (Kg),422
+2022,Quantity,Alcoholic drinks,Singapore,Tonnes in Kilogram (Kg),179
+2022,Quantity,Alcoholic drinks,Solomon Islands,Tonnes in Kilogram (Kg),108
+2022,Quantity,Alcoholic drinks,United Kingdom,Tonnes in Kilogram (Kg),7
+2022,Quantity,Iron or steel,China,Tonnes in Kilogram (Kg),1487
+2022,Quantity,Iron or steel,Australia,Tonnes in Kilogram (Kg),636
+2022,Quantity,Iron or steel,Japan,Tonnes in Kilogram (Kg),0
+2022,Quantity,Iron or steel,New Zealand,Tonnes in Kilogram (Kg),31
+2022,Quantity,Iron or steel,Fiji,Tonnes in Kilogram (Kg),148
+2022,Quantity,Medicaments,Australia,Tonnes in Kilogram (Kg),88
+2022,Quantity,Medicaments,New Zealand,Tonnes in Kilogram (Kg),7
+2022,Quantity,Medicaments,India,Tonnes in Kilogram (Kg),24
+2022,Quantity,Medicaments,United States of America,Tonnes in Kilogram (Kg),4
+2022,Quantity,Medicaments,Fiji,Tonnes in Kilogram (Kg),7
+2022,Quantity,Petroleum oils,Singapore,Tonnes in Kilogram (Kg),55572
+2022,Quantity,Petroleum oils,Australia,Tonnes in Kilogram (Kg),164
+2022,Quantity,Petroleum oils,New Zealand,Tonnes in Kilogram (Kg),402
+2022,Quantity,Petroleum oils,United Arab Emirates,Tonnes in Kilogram (Kg),106
+2022,Quantity,Petroleum oils,Malaysia,Tonnes in Kilogram (Kg),130
+2022,Quantity,Rice,China,Tonnes in Kilogram (Kg),4085
+2022,Quantity,Rice,Taiwan,Tonnes in Kilogram (Kg),3657
+2022,Quantity,Rice,Vietnam,Tonnes in Kilogram (Kg),609
+2022,Quantity,Rice,Fiji,Tonnes in Kilogram (Kg),152
+2022,Quantity,Rice,Thailand,Tonnes in Kilogram (Kg),29
+2023,Quantity,,,Tonnes in Kilogram (Kg),136997
+2023,Quantity,Alcoholic drinks,,Tonnes in Kilogram (Kg),4237
+2023,Quantity,Iron or steel,,Tonnes in Kilogram (Kg),5508
+2023,Quantity,Medicaments,,Tonnes in Kilogram (Kg),82
+2023,Quantity,Petroleum oils,,Tonnes in Kilogram (Kg),109082
+2023,Quantity,Rice,,Tonnes in Kilogram (Kg),18088
+2023,Quantity,Alcoholic drinks,China,Tonnes in Kilogram (Kg),2233
+2023,Quantity,Alcoholic drinks,France,Tonnes in Kilogram (Kg),1189
+2023,Quantity,Alcoholic drinks,Singapore,Tonnes in Kilogram (Kg),459
+2023,Quantity,Alcoholic drinks,Solomon Islands,Tonnes in Kilogram (Kg),260
+2023,Quantity,Alcoholic drinks,United Kingdom,Tonnes in Kilogram (Kg),97
+2023,Quantity,Iron or steel,China,Tonnes in Kilogram (Kg),4408
+2023,Quantity,Iron or steel,Australia,Tonnes in Kilogram (Kg),495
+2023,Quantity,Iron or steel,Japan,Tonnes in Kilogram (Kg),280
+2023,Quantity,Iron or steel,New Zealand,Tonnes in Kilogram (Kg),104
+2023,Quantity,Iron or steel,Fiji,Tonnes in Kilogram (Kg),221
+2023,Quantity,Medicaments,Australia,Tonnes in Kilogram (Kg),55
+2023,Quantity,Medicaments,New Zealand,Tonnes in Kilogram (Kg),6
+2023,Quantity,Medicaments,India,Tonnes in Kilogram (Kg),14
+2023,Quantity,Medicaments,United States of America,Tonnes in Kilogram (Kg),1
+2023,Quantity,Medicaments,Fiji,Tonnes in Kilogram (Kg),6
+2023,Quantity,Petroleum oils,Singapore,Tonnes in Kilogram (Kg),107640
+2023,Quantity,Petroleum oils,Australia,Tonnes in Kilogram (Kg),481
+2023,Quantity,Petroleum oils,New Zealand,Tonnes in Kilogram (Kg),696
+2023,Quantity,Petroleum oils,United Arab Emirates,Tonnes in Kilogram (Kg),121
+2023,Quantity,Petroleum oils,Malaysia,Tonnes in Kilogram (Kg),143
+2023,Quantity,Rice,China,Tonnes in Kilogram (Kg),8491
+2023,Quantity,Rice,Taiwan,Tonnes in Kilogram (Kg),4298
+2023,Quantity,Rice,Vietnam,Tonnes in Kilogram (Kg),4868
+2023,Quantity,Rice,Fiji,Tonnes in Kilogram (Kg),284
+2023,Quantity,Rice,Thailand,Tonnes in Kilogram (Kg),146
+2024,Quantity,,,Tonnes in Kilogram (Kg),92331
+2024,Quantity,Alcoholic drinks,,Tonnes in Kilogram (Kg),2778
+2024,Quantity,Iron or steel,,Tonnes in Kilogram (Kg),6577
+2024,Quantity,Medicaments,,Tonnes in Kilogram (Kg),60
+2024,Quantity,Petroleum oils,,Tonnes in Kilogram (Kg),67580
+2024,Quantity,Rice,,Tonnes in Kilogram (Kg),15336
+2024,Quantity,Alcoholic drinks,China,Tonnes in Kilogram (Kg),1525
+2024,Quantity,Alcoholic drinks,France,Tonnes in Kilogram (Kg),654
+2024,Quantity,Alcoholic drinks,Singapore,Tonnes in Kilogram (Kg),318
+2024,Quantity,Alcoholic drinks,Solomon Islands,Tonnes in Kilogram (Kg),218
+2024,Quantity,Alcoholic drinks,United Kingdom,Tonnes in Kilogram (Kg),63
+2024,Quantity,Iron or steel,China,Tonnes in Kilogram (Kg),5486
+2024,Quantity,Iron or steel,Australia,Tonnes in Kilogram (Kg),331
+2024,Quantity,Iron or steel,Japan,Tonnes in Kilogram (Kg),560
+2024,Quantity,Iron or steel,New Zealand,Tonnes in Kilogram (Kg),88
+2024,Quantity,Iron or steel,Fiji,Tonnes in Kilogram (Kg),111
+2024,Quantity,Medicaments,Australia,Tonnes in Kilogram (Kg),35
+2024,Quantity,Medicaments,New Zealand,Tonnes in Kilogram (Kg),6
+2024,Quantity,Medicaments,India,Tonnes in Kilogram (Kg),15
+2024,Quantity,Medicaments,United States of America,Tonnes in Kilogram (Kg),0
+2024,Quantity,Medicaments,Fiji,Tonnes in Kilogram (Kg),4
+2024,Quantity,Petroleum oils,Singapore,Tonnes in Kilogram (Kg),65892
+2024,Quantity,Petroleum oils,Australia,Tonnes in Kilogram (Kg),350
+2024,Quantity,Petroleum oils,New Zealand,Tonnes in Kilogram (Kg),954
+2024,Quantity,Petroleum oils,United Arab Emirates,Tonnes in Kilogram (Kg),222
+2024,Quantity,Petroleum oils,Malaysia,Tonnes in Kilogram (Kg),162
+2024,Quantity,Rice,China,Tonnes in Kilogram (Kg),1467
+2024,Quantity,Rice,Taiwan,Tonnes in Kilogram (Kg),6683
+2024,Quantity,Rice,Vietnam,Tonnes in Kilogram (Kg),6686
+2024,Quantity,Rice,Fiji,Tonnes in Kilogram (Kg),170
+2024,Quantity,Rice,Thailand,Tonnes in Kilogram (Kg),330
+2021,Price per Unit,Alcoholic drinks,,Vatu per Kilogram/Litre,213
+2021,Price per Unit,Iron or steel,,Vatu per Kilogram/Litre,241
+2021,Price per Unit,Medicaments,,Vatu per Kilogram/Litre,2690
+2021,Price per Unit,Petroleum oils,,Vatu per Kilogram/Litre,67
+2021,Price per Unit,Rice,,Vatu per Kilogram/Litre,56
+2021,Price per Unit,Alcoholic drinks,China,Vatu per Kilogram/Litre,181
+2021,Price per Unit,Alcoholic drinks,France,Vatu per Kilogram/Litre,260
+2021,Price per Unit,Alcoholic drinks,Singapore,Vatu per Kilogram/Litre,258
+2021,Price per Unit,Alcoholic drinks,Solomon Islands,Vatu per Kilogram/Litre,235
+2021,Price per Unit,Alcoholic drinks,United Kingdom,Vatu per Kilogram/Litre,878
+2021,Price per Unit,Iron or steel,China,Vatu per Kilogram/Litre,141
+2021,Price per Unit,Iron or steel,Australia,Vatu per Kilogram/Litre,402
+2021,Price per Unit,Iron or steel,Japan,Vatu per Kilogram/Litre,1468
+2021,Price per Unit,Iron or steel,New Zealand,Vatu per Kilogram/Litre,260
+2021,Price per Unit,Iron or steel,Fiji,Vatu per Kilogram/Litre,229
+2021,Price per Unit,Medicaments,Australia,Vatu per Kilogram/Litre,1073
+2021,Price per Unit,Medicaments,New Zealand,Vatu per Kilogram/Litre,19206
+2021,Price per Unit,Medicaments,India,Vatu per Kilogram/Litre,6811
+2021,Price per Unit,Medicaments,United States of America,Vatu per Kilogram/Litre,5365
+2021,Price per Unit,Medicaments,Fiji,Vatu per Kilogram/Litre,2141
+2021,Price per Unit,Petroleum oils,Singapore,Vatu per Kilogram/Litre,65
+2021,Price per Unit,Petroleum oils,Australia,Vatu per Kilogram/Litre,172
+2021,Price per Unit,Petroleum oils,New Zealand,Vatu per Kilogram/Litre,85
+2021,Price per Unit,Petroleum oils,United Arab Emirates,Vatu per Kilogram/Litre,309
+2021,Price per Unit,Petroleum oils,Malaysia,Vatu per Kilogram/Litre,258
+2021,Price per Unit,Rice,China,Vatu per Kilogram/Litre,65
+2021,Price per Unit,Rice,Taiwan,Vatu per Kilogram/Litre,56
+2021,Price per Unit,Rice,Vietnam,Vatu per Kilogram/Litre,36
+2021,Price per Unit,Rice,Fiji,Vatu per Kilogram/Litre,95
+2021,Price per Unit,Rice,Thailand,Vatu per Kilogram/Litre,109
+2022,Price per Unit,Alcoholic drinks,,Vatu per Kilogram/Litre,251
+2022,Price per Unit,Iron or steel,,Vatu per Kilogram/Litre,374
+2022,Price per Unit,Medicaments,,Vatu per Kilogram/Litre,3124
+2022,Price per Unit,Petroleum oils,,Vatu per Kilogram/Litre,133
+2022,Price per Unit,Rice,,Vatu per Kilogram/Litre,76
+2022,Price per Unit,Alcoholic drinks,China,Vatu per Kilogram/Litre,234
+2022,Price per Unit,Alcoholic drinks,France,Vatu per Kilogram/Litre,265
+2022,Price per Unit,Alcoholic drinks,Singapore,Vatu per Kilogram/Litre,268
+2022,Price per Unit,Alcoholic drinks,Solomon Islands,Vatu per Kilogram/Litre,256
+2022,Price per Unit,Alcoholic drinks,United Kingdom,Vatu per Kilogram/Litre,899
+2022,Price per Unit,Iron or steel,China,Vatu per Kilogram/Litre,199
+2022,Price per Unit,Iron or steel,Australia,Vatu per Kilogram/Litre,777
+2022,Price per Unit,Iron or steel,Japan,Vatu per Kilogram/Litre,2707
+2022,Price per Unit,Iron or steel,New Zealand,Vatu per Kilogram/Litre,908
+2022,Price per Unit,Iron or steel,Fiji,Vatu per Kilogram/Litre,292
+2022,Price per Unit,Medicaments,Australia,Vatu per Kilogram/Litre,1188
+2022,Price per Unit,Medicaments,New Zealand,Vatu per Kilogram/Litre,16594
+2022,Price per Unit,Medicaments,India,Vatu per Kilogram/Litre,5388
+2022,Price per Unit,Medicaments,United States of America,Vatu per Kilogram/Litre,9822
+2022,Price per Unit,Medicaments,Fiji,Vatu per Kilogram/Litre,2964
+2022,Price per Unit,Petroleum oils,Singapore,Vatu per Kilogram/Litre,132
+2022,Price per Unit,Petroleum oils,Australia,Vatu per Kilogram/Litre,292
+2022,Price per Unit,Petroleum oils,New Zealand,Vatu per Kilogram/Litre,165
+2022,Price per Unit,Petroleum oils,United Arab Emirates,Vatu per Kilogram/Litre,335
+2022,Price per Unit,Petroleum oils,Malaysia,Vatu per Kilogram/Litre,302
+2022,Price per Unit,Rice,China,Vatu per Kilogram/Litre,78
+2022,Price per Unit,Rice,Taiwan,Vatu per Kilogram/Litre,74
+2022,Price per Unit,Rice,Vietnam,Vatu per Kilogram/Litre,68
+2022,Price per Unit,Rice,Fiji,Vatu per Kilogram/Litre,100
+2022,Price per Unit,Rice,Thailand,Vatu per Kilogram/Litre,186
+2023,Price per Unit,Alcoholic drinks,,Vatu per Kilogram/Litre,311
+2023,Price per Unit,Iron or steel,,Vatu per Kilogram/Litre,224
+2023,Price per Unit,Medicaments,,Vatu per Kilogram/Litre,6183
+2023,Price per Unit,Petroleum oils,,Vatu per Kilogram/Litre,116
+2023,Price per Unit,Rice,,Vatu per Kilogram/Litre,76
+2023,Price per Unit,Alcoholic drinks,China,Vatu per Kilogram/Litre,290
+2023,Price per Unit,Alcoholic drinks,France,Vatu per Kilogram/Litre,331
+2023,Price per Unit,Alcoholic drinks,Singapore,Vatu per Kilogram/Litre,279
+2023,Price per Unit,Alcoholic drinks,Solomon Islands,Vatu per Kilogram/Litre,243
+2023,Price per Unit,Alcoholic drinks,United Kingdom,Vatu per Kilogram/Litre,893
+2023,Price per Unit,Iron or steel,China,Vatu per Kilogram/Litre,166
+2023,Price per Unit,Iron or steel,Australia,Vatu per Kilogram/Litre,595
+2023,Price per Unit,Iron or steel,Japan,Vatu per Kilogram/Litre,210
+2023,Price per Unit,Iron or steel,New Zealand,Vatu per Kilogram/Litre,662
+2023,Price per Unit,Iron or steel,Fiji,Vatu per Kilogram/Litre,366
+2023,Price per Unit,Medicaments,Australia,Vatu per Kilogram/Litre,2434
+2023,Price per Unit,Medicaments,New Zealand,Vatu per Kilogram/Litre,21898
+2023,Price per Unit,Medicaments,India,Vatu per Kilogram/Litre,8530
+2023,Price per Unit,Medicaments,United States of America,Vatu per Kilogram/Litre,57851
+2023,Price per Unit,Medicaments,Fiji,Vatu per Kilogram/Litre,13298
+2023,Price per Unit,Petroleum oils,Singapore,Vatu per Kilogram/Litre,115
+2023,Price per Unit,Petroleum oils,Australia,Vatu per Kilogram/Litre,279
+2023,Price per Unit,Petroleum oils,New Zealand,Vatu per Kilogram/Litre,151
+2023,Price per Unit,Petroleum oils,United Arab Emirates,Vatu per Kilogram/Litre,417
+2023,Price per Unit,Petroleum oils,Malaysia,Vatu per Kilogram/Litre,315
+2023,Price per Unit,Rice,China,Vatu per Kilogram/Litre,80
+2023,Price per Unit,Rice,Taiwan,Vatu per Kilogram/Litre,68
+2023,Price per Unit,Rice,Vietnam,Vatu per Kilogram/Litre,72
+2023,Price per Unit,Rice,Fiji,Vatu per Kilogram/Litre,106
+2023,Price per Unit,Rice,Thailand,Vatu per Kilogram/Litre,130
+2024,Price per Unit,Alcoholic drinks,,Vatu per Kilogram/Litre,323
+2024,Price per Unit,Iron or steel,,Vatu per Kilogram/Litre,223
+2024,Price per Unit,Medicaments,,Vatu per Kilogram/Litre,8150
+2024,Price per Unit,Petroleum oils,,Vatu per Kilogram/Litre,108
+2024,Price per Unit,Rice,,Vatu per Kilogram/Litre,88
+2024,Price per Unit,Alcoholic drinks,China,Vatu per Kilogram/Litre,288
+2024,Price per Unit,Alcoholic drinks,France,Vatu per Kilogram/Litre,385
+2024,Price per Unit,Alcoholic drinks,Singapore,Vatu per Kilogram/Litre,290
+2024,Price per Unit,Alcoholic drinks,Solomon Islands,Vatu per Kilogram/Litre,248
+2024,Price per Unit,Alcoholic drinks,United Kingdom,Vatu per Kilogram/Litre,965
+2024,Price per Unit,Iron or steel,China,Vatu per Kilogram/Litre,149
+2024,Price per Unit,Iron or steel,Australia,Vatu per Kilogram/Litre,732
+2024,Price per Unit,Iron or steel,Japan,Vatu per Kilogram/Litre,538
+2024,Price per Unit,Iron or steel,New Zealand,Vatu per Kilogram/Litre,695
+2024,Price per Unit,Iron or steel,Fiji,Vatu per Kilogram/Litre,365
+2024,Price per Unit,Medicaments,Australia,Vatu per Kilogram/Litre,6163
+2024,Price per Unit,Medicaments,New Zealand,Vatu per Kilogram/Litre,19549
+2024,Price per Unit,Medicaments,India,Vatu per Kilogram/Litre,6805
+2024,Price per Unit,Medicaments,United States of America,Vatu per Kilogram/Litre,116618
+2024,Price per Unit,Medicaments,Fiji,Vatu per Kilogram/Litre,4582
+2024,Price per Unit,Petroleum oils,Singapore,Vatu per Kilogram/Litre,105
+2024,Price per Unit,Petroleum oils,Australia,Vatu per Kilogram/Litre,308
+2024,Price per Unit,Petroleum oils,New Zealand,Vatu per Kilogram/Litre,152
+2024,Price per Unit,Petroleum oils,United Arab Emirates,Vatu per Kilogram/Litre,377
+2024,Price per Unit,Petroleum oils,Malaysia,Vatu per Kilogram/Litre,299
+2024,Price per Unit,Rice,China,Vatu per Kilogram/Litre,89
+2024,Price per Unit,Rice,Taiwan,Vatu per Kilogram/Litre,78
+2024,Price per Unit,Rice,Vietnam,Vatu per Kilogram/Litre,97
+2024,Price per Unit,Rice,Fiji,Vatu per Kilogram/Litre,120
+2024,Price per Unit,Rice,Thailand,Vatu per Kilogram/Litre,104
