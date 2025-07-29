@@ -196,8 +196,6 @@ menu:
         translation_key: NSPD ONLINE PLATFORM
       - path: /reporting-status/
         translation_key: DATA AVAILABILITY
-      - path: /indicator-overview/
-        translation_key: INDICATOR OVERVIEW
       - path: /methodology/
         translation_key: METHODOLOGY
   - path: /2030-agenda/
