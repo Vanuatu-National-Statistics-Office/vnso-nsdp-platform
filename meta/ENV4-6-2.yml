@@ -1,54 +1,55 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-ComputationMethod: Number of timber licensees harvesting divided by Total number of
-  Timber harvesting multiply by 100
-ComputationUnit: Total Count
-Concept: "Any person who contracts to one or more principal licensees and employs\
-  \ other persons to undertake timber harvesting operations must hold a Contractor\u2019\
-  s Licence. Principal licensees must ensure that a Contractor\u2019s Licence is issued\
-  \ to a contractor before timber harvesting operations commence"
-DataSource: '* Department of Forestry'
-Definition: All timber harvesting operations must be authorised by a Timber Licence
-  or Products Licence that contains conditions that are binding on the licensees
-Dissaggregation: '* Area Council Level
+﻿Proxy: 'No'
+Definition: >-
+  The "Proportion of Licensees Harvesting Within Their Allocated Quota"
+  indicator measures the percentage of licensed operators who are harvesting
+  natural resources, such as timber, fish, or minerals, within the limits set by
+  their allocated quota. Alternatively, the "Proportion of Licensee Operations
+  Being Monitored" indicator measures the percentage of licensed operations that
+  are actively monitored to ensure compliance with legal and regulatory
+  requirements, including quota adherence.
+Concept: >-
+  These indicators track compliance and enforcement within resource extraction
+  industries. The "Proportion of Licensees Harvesting Within Their Allocated
+  Quota" focuses on the extent to which licensees adhere to the resource limits
+  assigned to them, ensuring sustainable resource use. The "Proportion of
+  Licensee Operations Being Monitored" reflects the level of oversight by
+  regulatory authorities to ensure that operations are conducted legally and
+  sustainably.
+Disaggregation: Region
+Rationale: >-
+  Monitoring these indicators is essential for ensuring sustainable management
+  of natural resources. Compliance with quotas helps prevent over-extraction,
+  protects ecosystems, and maintains the long-term viability of resources.
+  Effective monitoring of licensee operations ensures that regulations are
+  enforced, reducing the likelihood of illegal activities and over-harvesting.
+MethodOfComputation: >+
+  To compute the "Proportion of Licensees Harvesting Within Their Allocated
+  Quota," first gather data on the total number of licensed operators and the
+  number of those adhering to their quotas. Then, divide the number of compliant
+  licensees by the total number of licensees and multiply by 100 to express the
+  proportion as a percentage.
 
-  * Rural/Urban
 
-  * Provincial Level
+  To compute the "Proportion of Licensee Operations Being Monitored," first
+  collect data on the total number of licensed operations and the number being
+  actively monitored. Then, divide the number of monitored operations by the
+  total number of licensee operations and multiply by 100 to express the
+  proportion as a percentage.
 
-  * National Level'
-FrequencyOfCollection: ''
-FrequencyofCollection: null
-GoalDescription: 'A nation which utilises and sustainably manages our land, water
-  and natural resources '
-GoalId: ENV 4
-IndicatorDescription: Proportion of licensees harvesting within their allocated quota
-  or Proportion of licensee operations being monitored.
-IndicatorId: ENV 4.6.2
-IndicatorShortName: Licensed Foresters Harvesting Within Allocated Quotas
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: ENV 4.6.2
-OtherDemandSources: null
-PillarDescription: Environment
-PillarName: Environment
-PolicyLinkage: null
-PolicyObjectiveDescription: Reduce deforestation and ensure rehabilitation and reforestation
-  is common in place.
-PolicyObjectiveId: ENV 4.6
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Proxy: ''
-Purpose/Rationale: null
-Range: null
-Rationale: Licences must be issued before operations commence.  Anyone who undertakes
-  or is employed in timber harvesting operations on State forests or other Crown Timber
-  Lands without having first obtained an appropriate licence commits an offence under
-  the provisions of the Forestry Act and Regulation
-RelatedLinks: null
-ResponsibleAgency: null
-SDGAlignment: ''
-SourceTag: null
-TargetDescription: 80% compliance of licensees with maximum allowable quota or 75%
-  of forestry licensee operations being monitored to ensure compliance with quotas.
+
+
+  Formula:
+
+  Proportion of Licensees Complying with Quotas (%) = (Number of Licenses
+  Harvesting Within Quota/Total Number of Licenses) * 100
+
+
+  Proportion of Licensees being Monitored (%) = (Number of Licenses
+  Monitored/Total Number of Licenses) * 100
+
+SDGAlignment: 15.2.1
+UnitOfMeasurement: Percentage
+FrequencyOfCollection: Annually
+source_organisation_1: 'Department of Forestry '
+source_organisation_2: ''
+source_organisation_3: ''

@@ -1,30 +1,45 @@
 ﻿Proxy: ''
 Definition: >-
-  The term “first language” refers to the language a person is most familiar
-  with and most accustomed to speaking. Usually, it is the language that a
-  person hears and eventually learns in the following years after he was born.
-  The term is largely differentiated from other terms such as the “mother
-  tongue,” as this generally refers to the language of a collective group, not
-  of a person.
+  The "Proportion of Population Whose First Language Learned is Indigenous"
+  indicator measures the percentage of the population that learned an indigenous
+  language as their first language, often referred to as a mother tongue. An
+  indigenous language is a language native to a particular region or community,
+  traditionally spoken by the indigenous peoples of that area.
 Concept: >-
-  The concept of the indicator "proportion of population first language learned
-  indigenous" refers to a specific measure used to assess the percentage of a
-  population that acquired their first language from indigenous communities. 
-Disaggregation: 'National, Province, Region, Sex'
+  This indicator tracks the extent to which indigenous languages are passed down
+  as the first language to new generations within a population. The first
+  language learned by an individual plays a crucial role in shaping their
+  cultural identity, cognitive development, and linguistic proficiency. The
+  indicator provides insight into the intergenerational transmission of
+  indigenous languages, which is key to preserving linguistic diversity and
+  cultural heritage.
+Disaggregation: Region
 Rationale: >-
-  This indicator focuses on tracking the linguistic heritage and cultural
-  continuity of indigenous communities within a nation. It provides insights
-  into the preservation and transmission of indigenous languages to future
-  generations.
-MethodOfComputation: >-
-  number of people who identified indigenous language as first language divide
-  by the total sample population surveyed then multiplied by 100 to find the
-  percentage value.
-SDGAlignment: |-
-  11.4
-  11.4.1 (Tier 3)
+  Monitoring the proportion of the population that learned an indigenous
+  language as their first language is essential for assessing the vitality of
+  these languages within a community. A higher proportion indicates strong
+  cultural continuity and effective transmission of indigenous languages from
+  one generation to the next. Conversely, a declining proportion may signal
+  language shift, where dominant languages replace indigenous ones as the
+  primary language of communication.
+MethodOfComputation: >
+  To compute the "Proportion of Population Whose First Language Learned is
+  Indigenous," first collect data on the first language learned by individuals
+  through surveys or census, asking respondents to identify the language they
+  first learned to speak as a child. Identify the number of individuals who
+  report an indigenous language as their first language. Calculate the
+  proportion by dividing the number of indigenous first language learners by the
+  total population surveyed, and multiply by 100 to express the result as a
+  percentage.
+
+
+  **Formula**:
+
+  Proportion of Indigenous First Language Learners (%) = (Number of Indigenous
+  First Language Learners/ Total Population Surveyed) *100
+SDGAlignment: 11.4.1 (Tier 3)
 UnitOfMeasurement: percentage (%)
-FrequencyOfCollection: NSDP Baseline Survey - 5 Years
-source_organisation_1: 2012 Melanesian Well-being Indicators Pilot Study Report - VNSO
-source_organisation_2: 2020 NSDP Baseline Survey - VBOS
+FrequencyOfCollection: Every 5-10 years
+source_organisation_1: ''
+source_organisation_2: ''
 source_organisation_3: ''

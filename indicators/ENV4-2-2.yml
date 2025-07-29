@@ -1,5 +1,61 @@
-computation_units: null
-data_non_statistical: false
+﻿composite_breakdown_label: ''
+computation_units: ''
+copyright: ''
+data_footnote: ''
+data_non_statistical: true
+data_notice_class: ''
+data_notice_heading: ''
+data_notice_text: ''
+data_show_map: false
+data_start_values: []
+embedded_feature_footer: ''
+embedded_feature_html: ''
+embedded_feature_tab_title: ''
+embedded_feature_title: ''
+embedded_feature_url: ''
+expected_disaggregations: []
+footer_fields: []
+graph_annotations: []
+graph_limits: []
+graph_series_breaks: []
+graph_stacked_disaggregation: ''
+graph_target_lines: []
 graph_title: Establishment of GIS mapping relevant to the management of forest activities
+graph_titles: []
 graph_type: bar
-reporting_status: notstarted
+indicator_available: ''
+indicator_name: indicators.ENV4-2-2-title
+indicator_number: ENV4-2-2
+indicator_tabs:
+  override: false
+  tab_1: ''
+  tab_2: ''
+  tab_3: ''
+  tab_4: ''
+national_geographical_coverage: Vanuatu
+page_content: >-
+  Vanuatu has established a foundational GIS-based forest inventory system to
+  support Indicator ENV 4.2.2. Under the National Forestry Policy, the
+  Department of Forestry is conducting a National Forest Inventory (NFI)—a
+  ten-yearly, ground-based survey across over 1,000 sample plots covering major
+  islands (e.g., Santo, Malekula, Efate) aimed at measuring tree volume,
+  species, and forest condition. The NFI, supported by GIS equipment and
+  open-source tools from the UN-REDD/MRV program, allows precise mapping and
+  monitoring of forest cover and biomass. This integration of spatial data,
+  remote sensing, and forest field measurements ensures that the forestry sector
+  has up-to-date, geospatial information critical for sustainable forest
+  management and policy development.
+permalink: ''
+placeholder: ''
+precision: []
+progress_status: not_available
+proxy: ''
+proxy_series: []
+publications: []
+related_indicators: []
+reporting_status: complete
+sort: ''
+sources: []
+standalone: false
+tags: []
+x_axis_label: ''

@@ -1,0 +1,42 @@
+﻿Proxy: ''
+Definition: >-
+  The indicator “Value Added Tax (VAT) Collected by Major Industry” measures the
+  total Value Added Tax (VAT) collected from registered businesses,
+  disaggregated by major industry groups. It captures the contribution of each
+  sector to total VAT revenue collected by the Department of Customs and Inland
+  Revenue.
+Concept: >-
+  This indicator reflects the concept of domestic revenue mobilisation through
+  indirect taxation, specifically VAT. VAT is a consumption tax levied on the
+  value added to goods and services at each stage of production or distribution.
+  As a broad-based tax, it is a major source of government revenue and a key
+  instrument for financing public expenditure. Disaggregating VAT by industry
+  supports analysis of the economic structure, sectoral tax compliance, and the
+  relative productivity of different sectors in contributing to the tax base.
+Disaggregation: ''
+Rationale: >-
+  Tracking VAT collected by industry provides valuable insights into the
+  distribution of taxable economic activity across sectors. It helps identify
+  which industries are contributing most to public finances and can signal areas
+  where compliance is strong or where enforcement may need to be strengthened.
+  Trends over time can reveal structural shifts in the economy or the impact of
+  tax policy changes. High VAT collection in certain sectors may indicate robust
+  consumer activity, while low figures in others may reflect informal practices
+  or underreporting.
+MethodOfComputation: >
+  Aggregate the total VAT collected for each major industry group, based on
+  reported VAT returns, and recorded transactions from VAT-registered
+  businesses. Include both domestic and import-based VAT where relevant,
+  ensuring values are net of refunds.
+
+
+  Formula: 
+
+  VAT Collected by Industry (I, year Y) = ∑ VAT Revenue from Industry I in year
+  Y
+SDGAlignment: ''
+UnitOfMeasurement: Millions of Vatu
+FrequencyOfCollection: Annually
+source_organisation_1: 'Department of Customs and Inland Revenue '
+source_organisation_2: ''
+source_organisation_3: ''

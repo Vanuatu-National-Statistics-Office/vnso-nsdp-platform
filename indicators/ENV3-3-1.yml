@@ -1,6 +1,62 @@
-computation_units: null
-data_non_statistical: false
-graph_title: Number of support plans available to communities for coordination, planning,
-  preparedness, response and recovery
+﻿composite_breakdown_label: ''
+computation_units: ''
+copyright: ''
+data_footnote: ''
+data_non_statistical: true
+data_notice_class: ''
+data_notice_heading: ''
+data_notice_text: ''
+data_show_map: false
+data_start_values: []
+embedded_feature_footer: ''
+embedded_feature_html: ''
+embedded_feature_tab_title: ''
+embedded_feature_title: ''
+embedded_feature_url: ''
+expected_disaggregations: []
+footer_fields: []
+graph_annotations: []
+graph_limits: []
+graph_series_breaks: []
+graph_stacked_disaggregation: ''
+graph_target_lines: []
+graph_title: ''
+graph_titles: []
 graph_type: bar
-reporting_status: notstarted
+indicator_available: ''
+indicator_name: indicators.ENV3-3-1-title
+indicator_number: ENV3-3-1
+indicator_tabs:
+  override: false
+  tab_1: ''
+  tab_2: ''
+  tab_3: ''
+  tab_4: ''
+national_geographical_coverage: Vanuatu
+page_content: >-
+  Vanuatu has established a two-tier system of support plans to strengthen
+  disaster coordination, planning, preparedness, response, and recovery at the
+  community level. At the provincial level, each province develops a Provincial
+  Disaster and Climate Response Plan (PDCRP) in collaboration with the National
+  Disaster Management Office. These plans define roles, responsibilities, and
+  coordinated actions across government and non-government actors, and are
+  reviewed annually with full updates every five years. At the area council
+  level, communities conduct local risk and vulnerability assessments that
+  inform tailored disaster preparedness and response plans. Together, these
+  provincial and area council plans ensure that disaster risk management is both
+  locally relevant and nationally coordinated, enabling communities to better
+  prepare for and recover from climate-related and natural hazards.
+permalink: ''
+placeholder: ''
+precision: []
+progress_status: not_available
+proxy: ''
+proxy_series: []
+publications: []
+related_indicators: []
+reporting_status: complete
+sort: ''
+sources: []
+standalone: false
+tags: []
+x_axis_label: ''

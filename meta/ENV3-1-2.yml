@@ -1,53 +1,48 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-ComputationMethod: "To retrieve all findings and data on NAB based on;\n\u2022 Review\
-  \ of policies, guidelines and positions.\n\u2022 Provide advice on disaster risk\
-  \ reduction and climate change obligations, projects,initiatives and activities.\n\
-  \u2022 Review of audit report of the development of national climate finance processes.\n\
-  \u2022 Review of guidelines and coordination to the development of climate finance\
-  \ processes."
-ComputationUnit: ''
-Concept: "The NAB develops DRR and CC policies, guidelines and positions, advises\
-  \ on international and regional DRR and CC obligations, facilitates and endorses\
-  \ the development of new DRR & CC programs, projects, initiatives and activities,\
-  \ acts as a focal point for information \u2010 sharing and coordination on CC/DRR,\
-  \ as well as guides and coordinates the development of national climate finance\
-  \ processes."
-DataSource: Vanuatu National Advisory Board
-Definition: "Vanuatu\u2019s National Advisory Board on Climate Change & Disaster Risk\
-  \ reduction (NAB) is the supreme policy making and advisory body for all disaster\
-  \ risk reduction and climate change programs, projects, initiatives and activities."
-Dissaggregation: Area council, Rural/Urban, Provincial, National
+﻿Proxy: 'No'
+Definition: >-
+  The "Institutional Strengthening of National Advisory Board (NAB), Department
+  of Climate Change, and Other Ministry of Climate Change (MoCC) Departments"
+  indicator measures the progress made in enhancing the capacity, effectiveness,
+  and organizational development of the NAB, the Department of Climate Change,
+  and other departments within the MoCC. This includes improvements in
+  governance structures, staff capacity, resource allocation, and operational
+  efficiency.
+Concept: >-
+  This indicator tracks the efforts made to strengthen the institutional
+  capacity of key climate governance bodies within the Ministry of Climate
+  Change. Institutional strengthening involves activities such as capacity
+  building, training, development of policies and procedures, resource
+  mobilization, and enhancement of coordination mechanisms. The aim is to ensure
+  that these bodies are better equipped to formulate, implement, and monitor
+  climate policies, strategies, and actions effectively.
+Disaggregation: Sector
+Rationale: >-
+  Strengthening the institutions responsible for climate governance is essential
+  for effectively addressing the challenges posed by climate change. Enhanced
+  institutional capacity enables the NAB, the Department of Climate Change, and
+  other MoCC departments to fulfill their mandates more effectively, including
+  developing and implementing climate policies, coordinating climate action
+  across sectors, and engaging with international partners.
+MethodOfComputation: >
+  Method of computation:
+
+  To compute the progress in "Institutional Strengthening of National Advisory
+  Board (NAB), Department of Climate Change, and Other MoCC Departments," first
+  identify the key activities and initiatives planned for institutional
+  strengthening. Then, assess the progress of these activities by determining
+  how many have been fully implemented. Calculate the progress by dividing the
+  number of fully implemented activities by the total number of planned
+  activities, and multiply by 100 to express the result as a percentage.
+
+
+
+  Formula:
+
+  Institutional Strengthening Progress (%) = (Number of Strengthening Activities
+  Fully Implemented/Total Number of Planned Strengthening Activities) * 100
+SDGAlignment: 13.2.1
+UnitOfMeasurement: Percentage
 FrequencyOfCollection: Annually
-FrequencyofCollection: null
-GoalDescription: A strong and resilient nation in the face of climate change and disaster
-  risks posed by natural and man-made hazards.
-GoalId: 3
-IndicatorDescription: Institutional strengthening of NAB, Department of Climate Change
-  and other MoCC departments.
-IndicatorId: ENV3.1.2
-IndicatorShortName: Government Finance Support for Staff of NAB and DoCC
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: ENV 3.1.2
-OtherDemandSources: null
-PillarDescription: Environment
-PillarName: Environment
-PolicyLinkage: null
-PolicyObjectiveDescription: Institutionalise climate change and disaster risk governance,
-  and build institutional capacity and awareness.
-PolicyObjectiveId: ENV 3.1
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Proxy: ''
-Purpose/Rationale: null
-Range: null
-Rationale: "The study will highly address the Vanuatu\u2019s society, environment,\
-  \ and economy which are highly vulnerable to climate change and disaster risks."
-RelatedLinks: null
-ResponsibleAgency: null
-SDGAlignment: ''
-SourceTag: null
-TargetDescription: By 2030 100% of DoCC and National Advisory Board secretariat staff
-  financed by the government.
+source_organisation_1: Ministry of Climate Change and Adaptation
+source_organisation_2: ''
+source_organisation_3: ''

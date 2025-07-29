@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: '%'
+computation_units: ''
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -22,7 +22,7 @@ graph_stacked_disaggregation: ''
 graph_target_lines: []
 graph_title: Proportion of population speaking indigenous language daily
 graph_titles: []
-graph_type: bar
+graph_type: line
 indicator_available: ''
 indicator_name: indicators.SOC1-1-1-title
 indicator_number: SOC1-1-1
@@ -38,8 +38,13 @@ permalink: ''
 placeholder: ''
 precision: []
 progress_status: not_available
+proxy: ''
+proxy_series: []
+publications: []
+related_indicators: []
 reporting_status: complete
 sort: ''
+sources: []
 standalone: false
 tags: []
 x_axis_label: ''

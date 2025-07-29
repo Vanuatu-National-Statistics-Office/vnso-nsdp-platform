@@ -1,51 +1,49 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-ComputationMethod: "\_* Maps will be designed and created using geographic information\
-  \ system and remote sensing software (QGIS).\n* We use the land capability assessment\
-  \ method to assess land suitability for existing and potential agricultural and\
-  \ non-agricultural uses. The method identifies possible physical, chemical and degradation\
-  \ constraints to land use on particular soils and landscapes. This information is\
-  \ then used by planners, managers and advisers to improve sustainable development."
-ComputationUnit: Land area sq.km
-Concept: Land-use capability maps must not be confused with land-use maps. Capability
-  maps shows the potential uses usually in relation to farming) whilst the land-use
-  maps show the actual use for the land at the present time.
-DataSource: ' department of lands, survey and registry.'
-Definition: "Land-use capability maps are maps created to represent the potential\
-  \ uses of a \u201Cunit\u201D of land. They are measured using various indicators,\
-  \ although the most common are five physical factors (rock type, soil type, slope,\
-  \ erosion degree and type and vegetation)."
-Dissaggregation: Area Council, Province, Urban/rural, National
-FrequencyOfCollection: 6 Monthly, Annually
-FrequencyofCollection: null
-GoalDescription: 'A nation that ensures our food and nutrition security needs are
-  adequately met for all people through increasing sustainable food production systems
-  and improving household production '
-GoalId: 1
-IndicatorDescription: Establishment of land use capability mapping systems to determine
-  which crops and farming systems are best suited to different areas.
-IndicatorId: ENV1.4.3
-IndicatorShortName: Land-Use Capability Map
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: ENV 1.4.3
-OtherDemandSources: null
-PillarDescription: Environment
-PillarName: Environment
-PolicyLinkage: null
-PolicyObjectiveDescription: Improve access to appropriate technology, knowledge and
-  skills in food production, preservation and storage.
-PolicyObjectiveId: ' ENV 1.4'
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Proxy: 'No'
-Purpose/Rationale: null
-Range: null
-Rationale: To establish land-use capability maps to help find suitable areas that
-  are available for crops and farming systems throughout the islands of Vanuatu
-RelatedLinks: null
-ResponsibleAgency: null
-SDGAlignment: 14.4.1 (R) (Tier 1)
-SourceTag: null
-TargetDescription: Land-use capability map developed for 100% province.
+﻿Proxy: 'No'
+Definition: >-
+  The "Establishment of Land Use Capability Mapping Systems to Determine Which
+  Crops and Farming Systems Are Best Suited to Different Areas" indicator
+  measures the development and implementation of mapping systems designed to
+  assess land use capabilities. These systems analyze soil types, topography,
+  climate, and other environmental factors to identify the most suitable crops
+  and farming systems for different regions within a country or area.
+Concept: >-
+  This indicator focuses on the establishment of tools and methodologies that
+  allow for the systematic assessment of land's agricultural potential. Land use
+  capability mapping systems are essential for optimizing agricultural
+  productivity by ensuring that land resources are used in a manner that
+  maximizes crop yields and sustainability. These systems help in matching
+  specific crops and farming practices to the most appropriate areas based on
+  environmental conditions and land characteristics.
+Disaggregation: Region
+Rationale: >-
+  Monitoring the establishment of land use capability mapping systems is crucial
+  for promoting sustainable agriculture and efficient land use management. By
+  aligning agricultural activities with the land's natural capabilities, these
+  systems help to increase productivity, reduce environmental degradation, and
+  promote the efficient use of resources. Monitoring this indicator helps assess
+  the progress of efforts to enhance agricultural planning and sustainability
+  through science-based land management practices.
+MethodOfComputation: >
+  Method of computation:
+
+  To assess the "Establishment of Land Use Capability Mapping Systems to
+  Determine Which Crops and Farming Systems Are Best Suited to Different Areas,"
+  first determine whether the mapping systems have been fully developed,
+  including the analysis of environmental and soil factors. Then, verify that
+  these systems are operational and being used to guide agricultural planning
+  and decision-making. If the systems meet both criteria—development and
+  operational status—they are categorized as "established and operational."
+
+
+  **Formula:**
+
+  This indicator is typically qualitative rather than quantitative, and it does
+  not require a mathematical formula. Instead, it involves a checklist or
+  categorical assessment based on the following criteria: mapping system
+  development, implementation, and use
+SDGAlignment: '12.8.1, 12.a.1 & 14.4.1'
+UnitOfMeasurement: Yes/No
+FrequencyOfCollection: Annually
+source_organisation_1: Ministry of Lands & Natural Resources
+source_organisation_2: ''
+source_organisation_3: ''

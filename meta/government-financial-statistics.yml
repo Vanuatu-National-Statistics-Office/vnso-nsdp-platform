@@ -1,0 +1,39 @@
+﻿Proxy: ''
+Definition: >-
+  The indicator “Government Budget Allocation by Ministry” tracks the amount of
+  public funds allocated to each Ministry in the original government budget for
+  a given year. It reflects the government’s planned spending priorities across
+  sectors.
+Concept: >-
+  This indicator reflects the concept of public resource allocation as a tool
+  for implementing national priorities and ensuring fiscal transparency. It
+  captures how governments plan to distribute funds across sectors, aligning
+  with principles of efficiency, accountability, and equity. Budget allocations
+  signal political intent and are essential for understanding how policies are
+  resourced and operationalized.
+Disaggregation: ''
+Rationale: >-
+  Monitoring government budget allocation by ministry is essential for assessing
+  how public resources are distributed across policy areas. It provides insight
+  into government priorities and commitments, such as education, health, and
+  infrastructure. It can be used for tracking policy alignment with development
+  goals and for fiscal accountability and transparency. Interpreting shifts over
+  time can reveal changes in focus or responses to macroeconomic conditions and
+  sectoral needs.
+MethodOfComputation: >
+  Aggregate the budget values from the dataset for each ministry under the
+  "Original Budget" series for the specified year. If needed, this can be
+  disaggregated further by department or used to compute relative shares of the
+  total budget.
+
+
+  Formula: 
+
+  Budget Allocation for Ministry (M, year Y) = ∑ Budget Value (Original Budget)
+  for Ministry M in year Y
+SDGAlignment: ''
+UnitOfMeasurement: Millions of Vatu
+FrequencyOfCollection: Annually
+source_organisation_1: Department of Finance & Treasury
+source_organisation_2: ''
+source_organisation_3: ''

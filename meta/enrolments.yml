@@ -1,0 +1,38 @@
+﻿Proxy: ''
+Definition: >-
+  The indicator “Number of Children Attending School by Province, Island, and
+  Class” measures the total number of children who are physically attending
+  school during a given academic year, disaggregated by province, island, and
+  class level.
+Concept: >-
+  School attendance refers to the presence of children in formal learning
+  environments on a regular basis, as distinct from enrolment figures which may
+  include those registered but not attending. "Class" indicates the grade or
+  level of schooling (e.g. Class 1, Class 2), while "island" and "province"
+  identify the geographic location of the school. Together, these dimensions
+  enable detailed spatial and educational analysis of participation in the
+  school system.
+Disaggregation: ''
+Rationale: >-
+  Monitoring actual school attendance is critical for understanding access to
+  education and identifying barriers to sustained participation. Disaggregation
+  by class, island, and province allows for targeted policy responses to address
+  regional disparities, dropout risks, and education resource gaps. It also
+  supports planning efforts for teacher deployment, infrastructure investment,
+  and inclusive education strategies.
+MethodOfComputation: >
+  This indicator is calculated using administrative records collected from
+  schools or education offices. Data is aggregated to count the number of
+  attending students per class level, island, and province within a given school
+  year.
+
+
+  Formula: 
+
+  None required, the indicator is a direct count of children attending school.
+SDGAlignment: ''
+UnitOfMeasurement: Number
+FrequencyOfCollection: Annual
+source_organisation_1: 'Ministry of Education & Training  '
+source_organisation_2: ''
+source_organisation_3: ''

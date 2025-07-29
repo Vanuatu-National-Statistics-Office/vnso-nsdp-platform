@@ -1,23 +1,44 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: People Living with Disability
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: SOC 4.3.1
-OtherDemandSources: null
-PillarName: Society
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
-source_active_1: true
-source_active_2: true
-source_organisation_1: 2013 DHS Report (p216), MoH and VNSO
-source_organisation_2: 2009 Population and Housing Census, VNSO
+﻿Proxy: 'No'
+Definition: >-
+  The "Proportion of Population Reporting Some Degree of Disability" indicator
+  measures the percentage of individuals within a population who self-report
+  experiencing some form of disability. Disabilities can be physical, sensory,
+  cognitive, or psychosocial and can range from mild to severe. The indicator
+  typically encompasses both temporary and permanent disabilities.
+Concept: >-
+  This indicator tracks the prevalence of disability within a population,
+  providing insight into the proportion of individuals who experience
+  limitations in functioning due to physical, mental, sensory, or emotional
+  conditions. Disabilities can affect various aspects of life, including
+  mobility, communication, self-care, and participation in work or social
+  activities. Understanding the proportion of the population with disabilities
+  helps in identifying the scale of need for accessible services, support, and
+  policies aimed at inclusion.
+Disaggregation: 'Region, Sex'
+Rationale: >-
+  Monitoring the proportion of the population reporting some degree of
+  disability is crucial for developing and implementing policies and programs
+  that promote accessibility, inclusion, and equality. It also supports the
+  assessment of compliance with international commitments, such as the
+  Convention on the Rights of Persons with Disabilities (CRPD), and national
+  policies aimed at improving the quality of life for people with disabilities.
+MethodOfComputation: >-
+  To compute the "Proportion of Population Reporting Some Degree of Disability,"
+  first design and administer a survey that includes questions about various
+  types of disabilities. Then, identify the individuals who report having some
+  degree of disability based on their responses. Next, divide the number of
+  individuals reporting disabilities by the total number of respondents in the
+  survey. Finally, multiply the result by 100 to express the proportion as a
+  percentage.
+
+
+  Formula:
+
+  Proportion of Population Reporting Disability (%) = (Number of Individuals
+  Reporting Disability/Total Population) * 100
+SDGAlignment: 10.3.1
+UnitOfMeasurement: Percentage
+FrequencyOfCollection: Every 5-10 years
+source_organisation_1: ''
+source_organisation_2: ''
+source_organisation_3: ''

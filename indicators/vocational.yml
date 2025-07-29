@@ -22,7 +22,7 @@ graph_stacked_disaggregation: ''
 graph_target_lines: []
 graph_title: Vanuatu Vocational Education
 graph_titles: []
-graph_type: line
+graph_type: bar
 indicator_available: ''
 indicator_name: Vanuatu Vocational Education
 indicator_number: vocational education
@@ -34,23 +34,15 @@ indicator_tabs:
   tab_4: ''
 national_geographical_coverage: Vanuatu
 page_content: >+
-  Vocational education is crucial for developing skills and knowledge necessary
-  for employment in Vanuatu. The vocational education system offers a range of
-  courses that cater to the diverse needs of students across the country. These
-  courses are intended to provide students with practical skills and knowledge
-  that can be  applied in various industries. However , there are still
-  challenges in the vocational education  system, such as limited resources,
-  outdated equipment, and inadequate training for teachers. Collaborations
-  between government agencies, employers and educational institutions is
-  essential to address these challenges and enhance the quality of vocational
-  education in Vanuatu. Despite these challenges, there are promising
-  developments, such as the establishment of the National Apprenticeship Scheme
-  and other vocational training initiatives. These efforts aim to equip students
-  with skills and knowledge they need to enter the workforce and contribute to
-  the economic development of the country. As Vanuatu continues to develop,
-  vocational education will play an increasingly important role in preparing
-  students for changing demands of the workforce, and empowering them  to
-  succeed in their careers.
+  Enrolment in vocational training programmes grew significantly from just 22
+  students in 2016 to over 2,000 by 2021, reflecting expanding access and
+  increased demand for skills-based education. While enrolment dipped slightly
+  to 1,624 in 2022, overall uptake remains substantially higher than pre-2019
+  levels. Programmes in agriculture, aquaculture, construction, and tourism are
+  among the most common, indicating alignment with national development
+  priorities. These trends suggest strengthened outreach and relevance of
+  vocational training, though continued monitoring is needed to ensure equitable
+  access across islands.
 
 permalink: ''
 placeholder: ''
@@ -60,7 +52,7 @@ proxy: ''
 proxy_series: []
 publications: []
 related_indicators: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 sources: []
 standalone: true

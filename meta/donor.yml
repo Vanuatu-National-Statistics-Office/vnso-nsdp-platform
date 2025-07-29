@@ -1,0 +1,38 @@
+﻿Proxy: ''
+Definition: >-
+  The indicator “Donor Funds Allocated to Government by Ministry” tracks the
+  total value of donor funding allocated directly to government ministries for a
+  given year. It includes all external assistance channelled through government
+  systems, whether as project-specific grants or general budget support.
+Concept: >-
+  This indicator is based on the concept of external development financing
+  aligned with national systems. Donor funds are a critical complement to
+  domestic budgets in many developing countries, particularly for achieving
+  development goals. Tracking these allocations helps assess the degree of donor
+  alignment with government plans, the extent of external resource mobilisation,
+  and the effectiveness of aid coordination.
+Disaggregation: ''
+Rationale: >-
+  Monitoring donor funds allocated to government ministries is essential for
+  understanding the scale and focus of external support. It highlights which
+  sectors receive donor investments and whether those funds are being integrated
+  into national plans and systems. High reliance on donor funding in key sectors
+  may indicate strategic partnerships, but it can also raise issues of
+  sustainability and dependency.
+MethodOfComputation: >
+  Aggregate the total value of donor contributions recorded under each ministry
+  for the reference year. Data should reflect actual commitments or
+  disbursements made through the government budget framework, either as
+  stand-alone projects or pooled funding.
+
+
+  Formula: 
+
+  Donor Funds Allocated to Ministry (M, year Y) = ∑ Donor Contributions recorded
+  for Ministry M in year Y
+SDGAlignment: ''
+UnitOfMeasurement: Millions of Vatu
+FrequencyOfCollection: Annually
+source_organisation_1: Department of Finance & Treasury
+source_organisation_2: ''
+source_organisation_3: ''

@@ -1,0 +1,38 @@
+﻿Proxy: ''
+Definition: >-
+  The indicator “Number of Business Licenses Issued by Industry” measures the
+  total number of business licenses issued by the Department of Customs and
+  Inland Revenue, disaggregated by major industry and year. It reflects formal
+  business registration activity across the economy.
+Concept: >-
+  The indicator draws on the concept of formalisation of economic activity,
+  which is a critical element of inclusive growth and regulatory governance. A
+  business license is a formal recognition that an entity is permitted to
+  operate within a specific sector under national regulations. Tracking business
+  licenses by industry allows policymakers to monitor trends in
+  entrepreneurship, sector growth, and regulatory compliance.
+Disaggregation: ''
+Rationale: >-
+  Monitoring business license data provides insights into the scale and
+  composition of registered economic activity. Increases in license issuance may
+  indicate economic dynamism or improved enforcement, while declines may reflect
+  barriers to formalization. Disaggregating the data by sector supports targeted
+  policy interventions, such as reducing registration burdens or promoting
+  priority industries.
+MethodOfComputation: >
+  Sum the number of licenses issued per year for each major or minor industry
+  category, based on official licensing records from the Department of Customs
+  and Inland Revenue. Exclude renewals if only new registrations are of
+  interest.
+
+
+  Formula: 
+
+  Business Licenses Issued by Industry (I, year Y) = ∑ Number of Licenses Issued
+  for Industry I in year Y
+SDGAlignment: ''
+UnitOfMeasurement: Number
+FrequencyOfCollection: Annually
+source_organisation_1: 'Department of Customs and Inland Revenue '
+source_organisation_2: ''
+source_organisation_3: ''

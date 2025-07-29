@@ -1,19 +1,48 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Rural Based Standard Operational Storage and Processing Facilities
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: ECO 3.3.3
-OtherDemandSources: null
-PillarName: Economy
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Total Number of Standard Operational Storage and Processing Facilities
+  Located in Rural Areas by Province" indicator measures the total count of
+  storage and processing facilities that meet standard operational criteria and
+  are located in rural areas, disaggregated by province. These facilities are
+  essential for storing, preserving, and processing agricultural and other
+  products to add value and reduce post-harvest losses.
+Concept: >-
+  This indicator tracks the availability and distribution of infrastructure
+  critical to the agricultural and rural economy. Standard operational storage
+  and processing facilities include warehouses, cold storage units, grain silos,
+  and processing plants that adhere to specified operational standards. These
+  facilities help in maintaining the quality of produce, extending its shelf
+  life, and adding value through processing before it reaches the market. By
+  disaggregating the data by province, the indicator provides insight into
+  regional disparities in infrastructure availability and highlights areas
+  needing further development.
+Disaggregation: Region
+Rationale: >-
+  Monitoring the total number of standard operational storage and processing
+  facilities in rural areas is crucial for understanding the level of
+  infrastructure development that supports rural economies, particularly in
+  agriculture. Adequate storage and processing facilities are vital for reducing
+  post-harvest losses, ensuring food security, and enhancing the profitability
+  of rural producers by enabling them to store goods during price fluctuations
+  and process raw materials into higher-value products.
+MethodOfComputation: >
+  To compute the "Total Number of Standard Operational Storage and Processing
+  Facilities Located in Rural Areas by Province," first collect data on the
+  number of storage and processing facilities that meet standard operational
+  criteria and are located in rural areas. Then, disaggregate this data by
+  province and sum the total number of such facilities in each province.
+
+
+  Formula:
+
+  Total Number of Facilities in Province X= The Total Standard Operational
+  Facilities in Rural Areas within Province X
+SDGAlignment: |-
+  9.3.1
+  9.3.2
+  14.b.1
+UnitOfMeasurement: Number
+FrequencyOfCollection: Annually
+source_organisation_1: ''
+source_organisation_2: ''
+source_organisation_3: ''

@@ -1,19 +1,43 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Community-Based Natural Resource Management Trainings by DEPC
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: ENV 4.7.1
-OtherDemandSources: null
-PillarName: Environment
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Total Annual Outreach and Awareness Activities Undertaken by or in
+  Partnership with the Department of Environmental Protection & Conservation
+  (DEPC)" indicator measures the total number of public outreach and awareness
+  activities conducted by DEPC or in collaboration with other organizations
+  within a specific year. These activities aim to educate and engage the public
+  on environmental protection, conservation, and sustainable practices.
+Concept: >-
+  This indicator tracks the efforts of the DEPC to raise public awareness and
+  promote environmental stewardship through various outreach activities. These
+  activities may include workshops, seminars, community events, media campaigns,
+  educational programs, and collaborations with NGOs, schools, and community
+  groups. The indicator reflects the DEPC’s commitment to fostering a culture of
+  environmental awareness and encouraging positive environmental behaviours
+  among the public.
+Disaggregation: Region
+Rationale: >-
+  Monitoring the total number of outreach and awareness activities is essential
+  for assessing the effectiveness of environmental education and public
+  engagement efforts. Outreach activities are key to informing the public about
+  environmental issues, promoting sustainable practices, and building support
+  for environmental policies and initiatives.
+MethodOfComputation: >
+  To compute the "Total Annual Outreach and Awareness Activities Undertaken by
+  or in Partnership with the Department of Environmental Protection &
+  Conservation (DEPC)," first identify and list all outreach and awareness
+  activities conducted by the DEPC or in collaboration with other organizations
+  within the specified year. Then, verify that each activity was aimed at
+  raising environmental awareness or promoting conservation. Finally, count the
+  total number of verified activities conducted during the year.
+
+
+  Formula:
+
+  Total Number of Outreach and Awareness Activities = Sum of All Verified
+  DEPC-Supported Activities 
+SDGAlignment: 11.3.2 & 11.a.1
+UnitOfMeasurement: Number
+FrequencyOfCollection: Annually
+source_organisation_1: Department of Environmental Protection & Conservation
+source_organisation_2: ''
+source_organisation_3: ''

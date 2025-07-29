@@ -24,8 +24,8 @@ graph_title: Government Financial Statistics
 graph_titles: []
 graph_type: line
 indicator_available: ''
-indicator_name: ''
-indicator_number: ''
+indicator_name: Government Budget Allocation by Ministry
+indicator_number: government finance
 indicator_tabs:
   override: false
   tab_1: ''
@@ -33,34 +33,18 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 national_geographical_coverage: Vanuatu
-page_content: >-
-  ## Overview of governments resource allocation towards the NSDP 
-
-  The government financial statistics produced by the Ministry of Finance and
-  Economic Management are a continuation of the efforts of the Government of
-  Vanuatu to establish a financing mechanism that enables the country to fund
-  and execute the NSDP as expected. Tracking the budgets and expenses of the
-  nation in line with its implementation of the targets, which are aligned with
-  national development priorities, will give the opportunity for all
-  stakeholders to assess how much the various goals and metrics have been
-  accomplished over the years, laying the groundwork for determining how much
-  more will be needed to realise the NSDP. The transparent reporting on
-  government’s spending to achieve the NSDP provides both Private Sector and
-  Multilateral Development Partners the opportunity to determine which goals
-  require more attention, or the Ministries, Departments and Agencies (MDAs)
-  that require financial or technical assistance in working towards the
-  achievement of the Goals. It also provides the Government the opportunity to
-  adjust its allocations to ensure the equitable distribution of resources
-  across MDAs. This reporting seeks to provide data that will enable the
-  Government and its partners to monitor the progress being made on the various
-  Goals against the investments made over the years to ascertain the efficient
-  use of all financial resources. 
+page_content: ' Vanuatu’s total original government budget grew from 8.5 billion Vatu in 2004 to a record 57.1 billion Vatu in 2024, showing a more than sixfold increase over two decades. Actual expenditure also rose steadily, reaching 47.6 billion Vatu in 2024, though it fell short of the record-high allocation that year. Between 2018 and 2021, actual spending often exceeded budgeted amounts'
 permalink: ''
 placeholder: ''
 precision: []
 progress_status: not_available
+proxy: ''
+proxy_series: []
+publications: []
+related_indicators: []
 reporting_status: complete
 sort: ''
+sources: []
 standalone: true
 tags: []
 x_axis_label: ''

@@ -1,55 +1,47 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-ComputationMethod: Number of multi-hazard warning systems with maintenance plans in
-  place
-ComputationUnit: Total Count
-Concept: To be effective, early warning systems need to actively involve the people
-  and communities at risk from a range of hazards, facilitate public education and
-  awareness of risks, disseminate messages and warnings efficiently and ensure that
-  there is a constant state of preparedness and that early action is enabled with
-  maintenance plans in place.
-DataSource: Meteorology Department, NDMO Department, Climate Change Unit
-Definition: Multi-hazard warning system is a major element of disaster risk reduction.
-  It can prevent loss of life and reduce the economic and material impacts of hazardous
-  events including disasters
-Dissaggregation: '* Area Council Level
+﻿Proxy: 'No'
+Definition: >-
+  The "Establishment of Multi-Hazard Warning Systems with Maintenance Plans in
+  Place" indicator measures the progress in developing, implementing, and
+  maintaining multi-hazard warning systems that provide timely and effective
+  alerts for various types of hazards, such as natural disasters (e.g., floods,
+  earthquakes, tsunamis, cyclones) and other emergencies. This indicator also
+  tracks whether these systems have comprehensive maintenance plans to ensure
+  their continuous functionality and reliability.
+Concept: >-
+  This indicator focuses on the establishment of integrated warning systems that
+  can detect, monitor, and provide alerts for multiple hazards. A multi-hazard
+  warning system is designed to serve as an early warning mechanism, helping to
+  mitigate the impacts of disasters by providing critical information to
+  communities, governments, and response agencies. The inclusion of maintenance
+  plans ensures that these systems remain operational, are regularly tested, and
+  are capable of providing accurate warnings when needed.
+Disaggregation: Sector
+Rationale: >-
+  Monitoring the establishment of multi-hazard warning systems with maintenance
+  plans is crucial for enhancing disaster preparedness and resilience. Effective
+  warning systems save lives, reduce economic losses, and minimize the damage
+  caused by disasters. Having a maintenance plan in place is equally important,
+  as it ensures that the systems are regularly checked, updated, and functioning
+  optimally when disasters strike.
+MethodOfComputation: >
+  To compute the "Establishment of Multi-Hazard Warning Systems with Maintenance
+  Plans in Place," first identify all the multi-hazard warning systems that have
+  been established within the region or country. Verify that these systems are
+  fully operational and capable of issuing timely alerts for various hazards.
+  Then, assess whether formal maintenance plans are in place for each system.
+  Calculate the proportion by dividing the number of warning systems with
+  maintenance plans by the total number of established systems, and multiply by
+  100 to express the result as a percentage.
 
-  * Rural/Urban
 
-  * Provincial Level
+  Formula:
 
-  * National Level'
-FrequencyOfCollection: ''
-FrequencyofCollection: null
-GoalDescription: A strong and resilient nation in the face of climate change and disaster
-  risks posed by natural and man-made hazards.
-GoalId: ENV 3
-IndicatorDescription: Establishment of multi-hazard warning systems with maintenance
-  plans in place.
-IndicatorId: ENV 3.2.1
-IndicatorShortName: Provincial Multi-Hazard Warning Systems Established
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: ENV 3.2.1
-OtherDemandSources: null
-PillarDescription: Environment
-PillarName: Environment
-PolicyLinkage: null
-PolicyObjectiveDescription: Improve monitoring and early warning systems
-PolicyObjectiveId: ENV 3.2
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Proxy: ''
-Purpose/Rationale: null
-Range: null
-Rationale: "Strengthened\_monitoring\_and\_assessment\_of\_natural\_hazards\_and\_\
-  improved\_forecasting and\_warning\_services\_have\_contributed\_to\_this\_progress.\_\
-  Just\_as\_important,\_people\_increasingly\_understand\_the\_risks\_posed\_by\_\
-  natural\_hazards\_and\_the\_measures\_they\_should\_take\_to\_protect\_themselves\_\
-  and\_their\_families."
-RelatedLinks: null
-ResponsibleAgency: null
-SDGAlignment: "13.1.1  (Tier 2) , 13.1.2 \n(R)(Tier 2)"
-SourceTag: null
-TargetDescription: 100% of province with multi-hazard warning systems
+  Proportion of Established Systems with Maintenance Plans (%) = (Number of
+  Multi-Hazard Warning Systems with Maintenance Plans/Total Number of
+  Established Multi-Hazard Warning Systems) * 100
+SDGAlignment: '13.1.1 , 13.1.2'
+UnitOfMeasurement: Percentage
+FrequencyOfCollection: Annually
+source_organisation_1: Ministry of Climate Change and Adaptation
+source_organisation_2: ''
+source_organisation_3: ''

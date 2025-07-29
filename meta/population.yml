@@ -1,0 +1,40 @@
+﻿Proxy: ''
+Definition: >-
+  The indicator “Projected Population by Sex, Age Group, and Province” is the
+  estimated number of individuals projected to reside in each province of
+  Vanuatu, disaggregated by sex and 5-year age groups, for each year from 2020
+  to 2050.
+Concept: >-
+  This indicator is based on the demographic concept of population projections,
+  which are forward-looking estimates derived from the most recent census base
+  population, adjusted using assumptions about future trends in fertility,
+  mortality, and migration. It supports long-term planning, including
+  infrastructure, education, healthcare, and social services, by estimating
+  future population dynamics by region, age, and sex.
+Disaggregation: None
+Rationale: >-
+  Population projections provide critical insights for national and provincial
+  policy and planning. Disaggregating the data by age and sex allows for
+  assessment of demographic shifts, ageing trends, youth bulges, and population
+  growth or decline in specific areas. These insights inform targeted
+  investments, especially in health, education, and economic development.
+MethodOfComputation: >
+  Method of Computation: 
+
+  Projections are calculated using the cohort-component method, which applies
+  age-specific fertility, mortality, and migration rates to a base year
+  population. Each subsequent year's population is derived by aging the
+  population forward and applying assumptions for births, deaths, and net
+  migration.
+
+
+  Formula: 
+
+  Not applicable — total projected population counts by age group, sex, and
+  province are produced through demographic modelling, not a single formula.
+SDGAlignment: ''
+UnitOfMeasurement: ''
+FrequencyOfCollection: Every 10 years
+source_organisation_1: 'Vanuatu Bureau of Statistics '
+source_organisation_2: ''
+source_organisation_3: ''

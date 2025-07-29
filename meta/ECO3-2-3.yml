@@ -1,24 +1,49 @@
-﻿Proxy: ''
+﻿Proxy: 'No'
 Definition: >-
-  Number of tourist travelling to outer islands in cooperative relation to the
-  total number of tourist visitors into the country
-Concept: >-
-  Number of tourists visiting the outer islands of Vanuatu either for a day pass
-  or spend the night apart from the total number of tourist’s visitors into the
+  The "Proportion of Visitors Traveling to Outer Islands" indicator measures the
+  percentage of total visitors who travel from the main island or primary
+  tourist destinations to outer islands within a country or region. This
+  indicator reflects the distribution of tourism activity across different
+  geographic areas, particularly the less accessible or more remote parts of the
   country.
-Disaggregation: ''
+Concept: >-
+  This indicator tracks the extent to which visitors explore beyond the main
+  island or primary tourist hubs and visit outer islands. Outer islands often
+  offer unique cultural, natural, and recreational experiences that differ from
+  those available on the main island. By measuring the proportion of visitors
+  who venture to these areas, the indicator provides insight into the appeal of
+  outer islands as tourist destinations and the effectiveness of efforts to
+  promote tourism in these regions. It also highlights the potential for
+  spreading the economic benefits of tourism more evenly across the country.
+Disaggregation: Region
 Rationale: >-
-  * Indicates the impacts of tourism in the economy.
-
-  * Depicts the development of the tourism sector in the outer islands and the
-  rural communities. 
-MethodOfComputation: >-
-  Total number of visitors travelling to outer islands divide total number of
-  tourist coming into the country then multiply by 100 to give value in
+  Monitoring the proportion of visitors traveling to outer islands is crucial
+  for understanding the spatial distribution of tourism and its economic impact
+  on different regions. A higher proportion of visitors traveling to outer
+  islands indicates that tourism benefits are being distributed more widely,
+  supporting local economies, preserving cultural heritage, and reducing
+  pressure on the main island’s infrastructure. Conversely, a lower proportion
+  may suggest that more efforts are needed to promote these areas or improve
+  access.
+MethodOfComputation: >
+  To compute the "Proportion of Visitors Traveling to Outer Islands," first
+  collect data on the number of visitors who travel to outer islands during the
+  reporting period and the total number of visitors to the country or region.
+  Calculate the proportion by dividing the number of visitors to outer islands
+  by the total number of visitors, and multiply by 100 to express it as a
   percentage.
-SDGAlignment: ''
-UnitOfMeasurement: ''
-FrequencyOfCollection: 'Monthly, Annually'
-source_organisation_1: '2017 International Arrivals Statistics Monthly Report (December), VNSO'
-source_organisation_2: '2018 International Arrivals Statistics Monthly Report (December), VNSO'
+
+
+  Formula:
+
+  Proportion of Visitors Traveling to Outer Islands (%)= (Number of Visitors to
+  Outer Islands/Total Number of Visitors)*100
+SDGAlignment: |-
+  8.9.1
+  8.9.2
+  17.17.1
+UnitOfMeasurement: Percentage
+FrequencyOfCollection: Monthly
+source_organisation_1: Department of Customs & Inland Revenue
+source_organisation_2: ''
 source_organisation_3: ''

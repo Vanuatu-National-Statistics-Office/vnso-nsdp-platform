@@ -1,19 +1,45 @@
-AlternativeDataSource: null
-Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
-IndicatorShortName: Imports Meeting High Energy Efficiency Standards, Lighting Appliances
-IntendedDirection: null
-Limitations: null
-NSDPIndicatorID: ENV 2.3.1
-OtherDemandSources: null
-PillarName: Environment
-PolicyLinkage: null
-PreferredDataSource: null
-PrimaryCollectionSystem: null
-Purpose/Rationale: null
-Range: null
-RelatedLinks: null
-ResponsibleAgency: null
-SourceTag: null
+﻿Proxy: 'No'
+Definition: >-
+  The "Proportion of All Imported Lighting and Refrigeration Appliances That
+  Meet High Energy Efficiency Standards" indicator measures the percentage of
+  lighting and refrigeration appliances imported into a country that conform to
+  recognized high energy efficiency standards. These standards are typically
+  defined by national or international energy efficiency certifications, such as
+  ENERGY STAR, EU Energy Label, or similar.
+Concept: >-
+  This indicator tracks the prevalence of energy-efficient appliances within the
+  market, focusing specifically on imported lighting and refrigeration products.
+  Energy efficiency standards are designed to reduce energy consumption and
+  lower greenhouse gas emissions by ensuring that appliances operate using less
+  power while maintaining performance. By monitoring the proportion of
+  energy-efficient imports, this indicator reflects the effectiveness of
+  regulations, incentives, and consumer preferences in promoting sustainable
+  energy use.
+Disaggregation: Sector
+Rationale: >-
+  Monitoring the proportion of energy-efficient lighting and refrigeration
+  appliances is essential for promoting energy conservation, reducing
+  electricity demand, and minimizing environmental impact. Energy-efficient
+  appliances contribute to lower utility bills for consumers, reduced strain on
+  the energy grid, and decreased carbon emissions.
+MethodOfComputation: >
+  To compute the "Proportion of All Imported Lighting and Refrigeration
+  Appliances That Meet High Energy Efficiency Standards," first collect data on
+  the total number of lighting and refrigeration appliances imported into the
+  country within a specific period. Then, gather information on how many of
+  these imported appliances meet recognized high energy efficiency standards.
+  Next, divide the number of energy-efficient appliances by the total number of
+  imported appliances. Finally, multiply the result by 100 to express the
+  proportion as a percentage.
+
+
+  Formula:
+
+  Proportion of Energy-Efficient Imports (%) = (Number of Imported Appliances
+  Meeting Energy Efficiency Standards/Total Number of Imported Appliances) * 100
+SDGAlignment: '7.1.2, 7.2.1, 7.3.1 & 7.b.1'
+UnitOfMeasurement: Percentage
+FrequencyOfCollection: Annually
+source_organisation_1: 'Department of Environmental Protection & Conservation  '
+source_organisation_2: ''
+source_organisation_3: ''

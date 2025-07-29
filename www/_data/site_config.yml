@@ -196,8 +196,6 @@ menu:
         translation_key: NSPD ONLINE PLATFORM
       - path: /reporting-status/
         translation_key: DATA AVAILABILITY
-      - path: /indicator-overview/
-        translation_key: INDICATOR OVERVIEW
       - path: /methodology/
         translation_key: METHODOLOGY
   - path: /2030-agenda/
@@ -218,36 +216,20 @@ menu:
         translation_key: EXPORTS
       - path: /imports/
         translation_key: IMPORTS
+      - path: /tourism/
+        translation_key: TOURISM        
   - path: /education/
     translation_key: EDUCATION
     dropdown:
       - path: /enrolments/
         translation_key: ENROLMENTS
-      - path: /grades/
-        translation_key: GRADES
       - path: /vocational/
         translation_key: VOCATIONAL
-      - path: /usp/
-        translation_key: USP
   - path: /2030-agenda/
-    translation_key: DISASTER
+    translation_key: POPULATION
     dropdown:
       - path: /population/
-        translation_key: POPULATION
-      - path: /health/
-        translation_key: HEALTH
-      - path: /labor/
-        translation_key: LABOR
-      - path: /agriculture/
-        translation_key: AGRICULTURE
-      - path: /infrastructure/
-        translation_key: INFRASTRUCTURE
-      - path: /shelter/
-        translation_key: SHELTER
-      - path: /watersanitation&hygiene/
-        translation_key: WATER SANITATION & HYGIENE
-      - path: /income/
-        translation_key: INCOME
+        translation_key: PROJECTION
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
@@ -287,6 +269,9 @@ reporting_status:
     - value: notstarted
       label: status.exploring_data_sources
       hide_on_goal_pages: false
+    - value: inprogress
+      label: status.in_progress
+      hide_on_goal_pages: false  
 repository_url_data: ''
 repository_url_site: ''
 search_index_boost: []
