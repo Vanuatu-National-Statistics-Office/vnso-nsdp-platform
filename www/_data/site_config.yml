@@ -225,14 +225,10 @@ menu:
     dropdown:
       - path: /enrolments/
         translation_key: ENROLMENTS
-      - path: /grades/
-        translation_key: GRADES
       - path: /vocational/
         translation_key: VOCATIONAL
-      - path: /usp/
-        translation_key: USP
-  - path: /2030-agenda/
-    translation_key: POPULATION
+      - path: /2030-agenda/
+        translation_key: POPULATION
     dropdown:
       - path: /population/
         translation_key: PROJECTION
