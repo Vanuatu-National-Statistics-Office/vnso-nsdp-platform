@@ -889,6 +889,17 @@
             "title": "Department"
           },
           {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Millions in Vatu (VUV)",
+                ""
+              ]
+            },
+            "title": "Unit"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
@@ -1458,36 +1469,38 @@
             "title": "Year"
           },
           {
-            "name": "Major Industry",
+            "name": "Industry",
             "type": "string",
             "constraints": {
               "enum": [
-                "Accommodation and food service activities",
-                "Administrative and support service activities",
-                "Agriculture, forestry and fishing",
-                "Construction",
-                "Education",
-                "Financial and insurance activities",
-                "Human health and social work activities",
-                "Information and communication",
+                "Crop Production",
+                "Animal Production",
+                "Forestry",
+                "Fishing",
+                "Mining and Quarrying",
                 "Manufacturing",
-                "Mining and quarrying",
-                "Other service activities",
-                "Professional, scientific and technical activities",
-                "Real estate activities",
-                "Transportation and storage",
-                "Wholesale and retail trade; repair of motor vehicles and motorcycles",
+                "Electricity & Water Supply",
+                "Construction",
+                "Wholesale and Retail Trade",
+                "Transport",
+                "Accommodation and Food Services",
+                "Information and Communication",
+                "Finance and Insurance",
+                "Real Estate",
+                "Professional Services ",
+                "Public Administration ",
+                "Education, Health and Other Services",
                 ""
               ]
             },
-            "title": "Major Industry"
+            "title": "Industry"
           },
           {
             "name": "Unit",
             "type": "string",
             "constraints": {
               "enum": [
-                "Vatu in millions (VUV)",
+                "Millions in Vatu (VUV)",
                 ""
               ]
             },
@@ -1495,7 +1508,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "string",
             "title": "Value"
           }
         ]
@@ -2525,9 +2538,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Value (in million vatu)",
-                "Quantity (in tonnes kilogram)",
-                "Price per unit (vatu per kilogram/litre)",
+                "Value",
+                "Quantity",
+                "Price per Unit",
                 ""
               ]
             },
@@ -2588,14 +2601,17 @@
             "title": "Country"
           },
           {
-            "name": "Unnamed: 5",
-            "type": "number",
+            "name": "Unit",
+            "type": "string",
             "constraints": {
               "enum": [
+                "Millions in Vatu (VUV)",
+                "Tonnes in Kilogram (Kg)",
+                "Vatu per Kilogram/Litre",
                 ""
               ]
             },
-            "title": "Unnamed: 5"
+            "title": "Unit"
           },
           {
             "name": "Value",
@@ -3343,6 +3359,17 @@
               ]
             },
             "title": "Department"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Millions in Vatu (VUV)",
+                ""
+              ]
+            },
+            "title": "Unit"
           },
           {
             "name": "Value",
@@ -4615,9 +4642,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Value (in million vatu)",
-                "Quantity (in tonnes kilogram)",
-                "Price per unit (vatu per kilogram/litre)",
+                "Value",
+                "Quantity",
+                "Price per Unit",
                 ""
               ]
             },
@@ -4663,6 +4690,19 @@
               ]
             },
             "title": "Country"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Millions in Vatu (VUV)",
+                "Tonnes in Kilogram (Kg)",
+                "Vatu per Kilogram/Litre",
+                ""
+              ]
+            },
+            "title": "Unit"
           },
           {
             "name": "Value",
