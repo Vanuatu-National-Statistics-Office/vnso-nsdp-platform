@@ -49,7 +49,6 @@ prose:
             element: text
             translation_key: "Frequency of Collection"
             scope: national
-      ## Source 1
       - name: source_active_1
         field:
             element: checkbox
