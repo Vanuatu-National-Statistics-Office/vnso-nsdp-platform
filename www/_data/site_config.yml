@@ -130,8 +130,6 @@ indicator_metadata_form:
     - national
     - global
     - source_1
-    - source_2
-    - source_3
   exclude_fields: []
   translated: true
 indicator_tabs:
@@ -235,7 +233,7 @@ metadata_tabs:
   - scope: national
     title: indicator.national_metadata
     description: indicator.national_metadata_blurb
-  - scope: sources
+  - scope: source_1
     title: indicator.sources
     description: ''
 news:

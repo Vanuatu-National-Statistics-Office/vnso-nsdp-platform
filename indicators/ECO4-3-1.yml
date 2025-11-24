@@ -46,7 +46,19 @@ publications: []
 related_indicators: []
 reporting_status: complete
 sort: ''
-sources: []
+sources:
+  - organisation: Vanuatu Bureau of Statistics
+    periodicity: ''
+    earliest_available: '2023'
+    geographical_coverage: National
+    url: ''
+    url_text: ''
+    release_date: ''
+    next_release: ''
+    statistical_classification: Trade Statistics Annual Analysis Report
+    contact: Mrs Anna Tavoa
+    other_info: Trades Statisticians
+    logo: ''
 standalone: false
 tags: []
 x_axis_label: Years

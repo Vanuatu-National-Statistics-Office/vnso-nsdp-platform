@@ -52,7 +52,19 @@ publications: []
 related_indicators: []
 reporting_status: complete
 sort: ''
-sources: []
+sources:
+  - organisation: Vanuatu Bureau of Statistics
+    periodicity: Annual
+    earliest_available: '2008'
+    geographical_coverage: 'Vanuatu Urban Areas (Port Vila, Luganville, Lenakel & Lakatoro'
+    url: 'https://vbos.gov.vu/index.php/en/economic-statistics/consumer-price-index'
+    url_text: Vanuatu Consumer Price Index
+    release_date: November - December 2024
+    next_release: November - December 2025
+    statistical_classification: Official Statistics
+    contact: Mrs Vania Manutai
+    other_info: ''
+    logo: ''
 standalone: false
 tags: []
 x_axis_label: Years with available data
