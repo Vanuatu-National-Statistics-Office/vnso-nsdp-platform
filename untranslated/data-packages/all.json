@@ -3993,67 +3993,6 @@
       "title": "indicators.ENV4-5-2-title"
     },
     {
-      "path": "ENV1-1-1/data.csv",
-      "name": "ENV1-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Urban/Rural",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Urban",
-                "Rural",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Port Vila",
-                "Luganville",
-                "Torba",
-                "Sanma",
-                "Penama",
-                "Malampa",
-                "Shefa",
-                "Tafea",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit of measurement",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage of households (%)",
-                "Total number of households",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "indicators.ENV1-1-1-title"
-    },
-    {
       "path": "SOC6-1-1/data.csv",
       "name": "SOC6-1-1",
       "profile": "tabular-data-resource",
@@ -6937,6 +6876,67 @@
         ]
       },
       "title": "ECO4-4-1"
+    },
+    {
+      "path": "ENV1-1-1/data.csv",
+      "name": "ENV1-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Urban/Rural",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Urban",
+                "Rural",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Port Vila",
+                "Luganville",
+                "Torba",
+                "Sanma",
+                "Penama",
+                "Malampa",
+                "Shefa",
+                "Tafea",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit of measurement",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage of households (%)",
+                "Total number of households",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "indicators.ENV1-1-1-title"
     },
     {
       "path": "ENV3-3-3/data.csv",
