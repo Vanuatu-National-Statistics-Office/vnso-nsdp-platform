@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: Total Number
+computation_units: Percentage
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -21,7 +21,7 @@ graph_series_breaks: []
 graph_stacked_disaggregation: ''
 graph_target_lines: []
 graph_title: >-
-  Total Number of National food guidelines directing food security and nutrition
+  Percentage National food guidelines directing food security and nutrition
   promotional activities (including island kaikai) completed and operational
 graph_titles: []
 graph_type: bar
