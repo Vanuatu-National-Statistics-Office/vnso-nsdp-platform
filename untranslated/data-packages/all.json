@@ -1610,39 +1610,6 @@
       "title": "Visitor Arrivals by Mode of Transport, Purpose of Visit, and Country of Residence"
     },
     {
-      "path": "ECO1-4-2/data.csv",
-      "name": "ECO1-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Change (%)",
-                "Value (million vatu)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "indicators.ECO1-4-2-title"
-    },
-    {
       "path": "SOC1-3-1/data.csv",
       "name": "SOC1-3-1",
       "profile": "tabular-data-resource",
@@ -3295,6 +3262,39 @@
         ]
       },
       "title": "indicators.ECO1-1-1-title"
+    },
+    {
+      "path": "ECO1-4-2/data.csv",
+      "name": "ECO1-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Change (%)",
+                "Value (million vatu)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "indicators.ECO1-4-2-title"
     },
     {
       "path": "ENV2-4-1/data.csv",
@@ -5759,51 +5759,6 @@
       "title": "ENV5-6-1"
     },
     {
-      "path": "ECO1-5-1/data.csv",
-      "name": "ECO1-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Trade Type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Exports",
-                "Imports",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Country",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Fiji",
-                "Papua New Giunea",
-                "Solomon Islands",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "indicators.ECO1-5-1-title"
-    },
-    {
       "path": "ENV2-3-1/data.csv",
       "name": "ENV2-3-1",
       "profile": "tabular-data-resource",
@@ -7061,6 +7016,51 @@
         ]
       },
       "title": "SOC6-1-3"
+    },
+    {
+      "path": "ECO1-5-1/data.csv",
+      "name": "ECO1-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Trade Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Exports",
+                "Imports",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Fiji",
+                "Papua New Giunea",
+                "Solomon Islands",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "indicators.ECO1-5-1-title"
     },
     {
       "path": "ECO4-8-1/data.csv",
