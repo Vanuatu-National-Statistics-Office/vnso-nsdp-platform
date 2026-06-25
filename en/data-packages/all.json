@@ -2247,30 +2247,6 @@
       "title": "Growth in Gross Fixed Capital Formation"
     },
     {
-      "path": "ENV1-4-2/data.csv",
-      "name": "ENV1-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "string",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "ENV1-4-2"
-    },
-    {
       "path": "SOC5-5-3/data.csv",
       "name": "SOC5-5-3",
       "profile": "tabular-data-resource",
@@ -5041,42 +5017,6 @@
       "title": "Proportion of population utilising media outlets for news including: newspapers, mobile phones, radio, television, and internet"
     },
     {
-      "path": "ENV1-3-3/data.csv",
-      "name": "ENV1-3-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Geographic Location",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Port Vila",
-                "Luganville",
-                ""
-              ]
-            },
-            "title": "Geographic Location"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "ENV1-3-3"
-    },
-    {
       "path": "ECO2-4-1/data.csv",
       "name": "ECO2-4-1",
       "profile": "tabular-data-resource",
@@ -5949,30 +5889,6 @@
       "title": "Up to date data on primary production (agriculture, livestock, forestry, fisheries, biosecurity) available for analysis and informed decision-making and reporting"
     },
     {
-      "path": "ENV1-2-1/data.csv",
-      "name": "ENV1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "string",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "National food guidelines directing food security and nutrition promotional activities (including aelan kaikai) completed and operational"
-    },
-    {
       "path": "SOC1-7-2/data.csv",
       "name": "SOC1-7-2",
       "profile": "tabular-data-resource",
@@ -6168,6 +6084,42 @@
         ]
       },
       "title": "ENV5-3-1"
+    },
+    {
+      "path": "ENV1-3-3/data.csv",
+      "name": "ENV1-3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Geographic Location",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Port Vila",
+                "Luganville",
+                ""
+              ]
+            },
+            "title": "Geographic Location"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "ENV1-3-3"
     },
     {
       "path": "ECO4-2-1/data.csv",
@@ -8324,6 +8276,54 @@
         ]
       },
       "title": "No. of environmental guidelines developed"
+    },
+    {
+      "path": "ENV1-2-1/data.csv",
+      "name": "ENV1-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "National food guidelines directing food security and nutrition promotional activities (including aelan kaikai) completed and operational"
+    },
+    {
+      "path": "ENV1-4-2/data.csv",
+      "name": "ENV1-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "ENV1-4-2"
     },
     {
       "path": "ENV2-4-3/data.csv",
