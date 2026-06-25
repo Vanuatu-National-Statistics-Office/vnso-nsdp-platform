@@ -3,6 +3,7 @@ Indicator,Disaggregations,Number of disaggregations
 #ECO1-2-1,Revenue Source,1
 #ECO1-3-1,Unit,1
 #ECO1-4-1,Trade,1
+#ECO1-5-1,"Country, Trade Type",2
 #ECO1-5-2,"Country, TradeType",2
 #ECO1-5-3,Country,1
 #ECO1-6-2,Trade,1
