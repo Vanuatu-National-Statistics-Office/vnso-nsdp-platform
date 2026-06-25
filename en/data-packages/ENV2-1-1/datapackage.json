@@ -16,8 +16,21 @@
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "Status",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "Achieved",
+                "Remain_to_target",
+                "Target",
+                ""
+              ]
+            },
+            "title": "Status"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]
