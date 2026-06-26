@@ -1,8 +1,8 @@
 ﻿composite_breakdown_label: ''
-computation_units: ''
+computation_units: Total Number
 copyright: ''
 data_footnote: ''
-data_non_statistical: true
+data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
@@ -18,9 +18,9 @@ footer_fields: []
 graph_annotations: []
 graph_limits: []
 graph_series_breaks: []
-graph_stacked_disaggregation: ''
+graph_stacked_disaggregation: Status
 graph_target_lines: []
-graph_title: ''
+graph_title: Number of multi-hazard and risk maps to improve Post-Disaster Needs Assessment
 graph_titles: []
 graph_type: bar
 indicator_available: ''
@@ -42,7 +42,14 @@ page_content: >+
   earthquakes, and volcanic activity. Over 50 hazard and risk maps have been
   produced for key areas like Port Vila and Luganville. These tools provide an
   evidence-based foundation for estimating disaster impacts and planning
-  recovery efforts across multiple hazard types.
+  recovery efforts across multiple hazard types. As of 2025 1 national
+  multi-hazard map developed (UNOSAT/NORAD layers) (2024, Source: MoCC/Partners)
+
+  Partner 2 Project implemented by NIWA and SPC for Vanuatu. Cyclone tracking
+  model and Sea level rise Dashboard. DRMIS was already launched in 2025 and is
+  up and running and will be hosted by NDMO, therefore the target was achieved
+  before the target dateline of 2030.
+
 
 permalink: ''
 placeholder: ''
@@ -57,4 +64,4 @@ sort: ''
 sources: []
 standalone: false
 tags: []
-x_axis_label: ''
+x_axis_label: Years
