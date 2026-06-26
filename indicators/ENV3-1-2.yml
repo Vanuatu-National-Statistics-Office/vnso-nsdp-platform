@@ -25,7 +25,7 @@ graph_title: >-
   other MoCC departments
 graph_titles: []
 graph_type: bar
-indicator_available: ''
+indicator_available: 'Yes'
 indicator_name: indicators.ENV3-1-2-title
 indicator_number: ENV3-1-2
 indicator_tabs:
