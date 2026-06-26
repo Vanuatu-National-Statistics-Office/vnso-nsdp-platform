@@ -295,6 +295,30 @@
       "title": "ENV2-6-1"
     },
     {
+      "path": "ENV3-1-2/data.csv",
+      "name": "ENV3-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Institutional strengthening of NAB, Department of Climate Change and other MoCC departments"
+    },
+    {
       "path": "SOC1-6-2/data.csv",
       "name": "SOC1-6-2",
       "profile": "tabular-data-resource",
@@ -2035,8 +2059,31 @@
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "Status",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "Achieved",
+                "Target",
+                ""
+              ]
+            },
+            "title": "Status"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percent",
+                ""
+              ]
+            },
+            "title": "Unit"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]
@@ -3788,30 +3835,6 @@
         ]
       },
       "title": "Proportion of population reporting some degree of disability"
-    },
-    {
-      "path": "ENV3-1-2/data.csv",
-      "name": "ENV3-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "string",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Institutional strengthening of NAB, Department of Climate Change and other MoCC departments"
     },
     {
       "path": "ENV1-5-2/data.csv",
