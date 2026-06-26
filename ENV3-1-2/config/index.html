@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20260626040106">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20260626045308">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -829,7 +829,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_available', "Yes");
+        var currentValue = normalizeCurrentValue('indicator_available', "");
         var propertyEditor = editor.getEditor('root.indicator_available');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -899,7 +899,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('page_content', "The Ministry of Climate Change (MoCC) has undertaken institutional reforms to strengthen the capacity and coordination of its core departments, including the National Advisory Board on Climate Change and Disaster Risk Reduction (NAB) and the Department of Climate Change. A revised organizational structure has already been implemented across several MoCC departments, with a comprehensive review currently underway to assess effectiveness and identify areas for further improvement. The outcome of this review will inform a new structure submission aimed at enhancing efficiency, clarifying mandates, and ensuring that the Ministry is better equipped to lead climate change adaptation, mitigation, and disaster risk reduction efforts across Vanuatu. As of 2025, 100% of DoCC and NAB Secretariat staff  are finally financed by Government (2024, Source: MoCC AR) as required by the 2030 Target of 100% of DoCC and NAB secretariat staff financed by the government. NDMO has a unit under operation which are responsible for DRR and CCA coordination.  While New Zealand Ministry of Foreign Affairs funded additional human resources to support restructuring capacity needs of DoCC and NAB Secretariat staff.");
+        var currentValue = normalizeCurrentValue('page_content', "The Ministry of Climate Change (MoCC) has undertaken institutional reforms to strengthen the capacity and coordination of its core departments, including the National Advisory Board on Climate Change and Disaster Risk Reduction (NAB) and the Department of Climate Change. A revised organizational structure has already been implemented across several MoCC departments, with a comprehensive review currently underway to assess effectiveness and identify areas for further improvement. The outcome of this review will inform a new structure submission aimed at enhancing efficiency, clarifying mandates, and ensuring that the Ministry is better equipped to lead climate change adaptation, mitigation, and disaster risk reduction efforts across Vanuatu. As of 2025, 100% of DoCC and NAB Secretariat staff  are finally financed by Government (2024, Source - MoCC AR) as required by the 2030 Target of 100% of DoCC and NAB secretariat staff financed by the government. NDMO has a unit under operation which are responsible for DRR and CCA coordination.  While New Zealand Ministry of Foreign Affairs funded additional human resources to support restructuring capacity needs of DoCC and NAB Secretariat staff.");
         var propertyEditor = editor.getEditor('root.page_content');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1232,12 +1232,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20260626040106'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20260626045308'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20260626040106"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20260626045308"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
