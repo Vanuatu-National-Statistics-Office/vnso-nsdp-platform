@@ -4421,8 +4421,30 @@
             "type": "string"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Schools",
+                "Islands",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Achieved",
+                "Target",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },

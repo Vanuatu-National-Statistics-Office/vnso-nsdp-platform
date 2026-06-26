@@ -16,8 +16,32 @@
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "Series",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "Schools",
+                "Islands",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Achieved",
+                "Target",
+                ""
+              ]
+            },
+            "title": "Status"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]
