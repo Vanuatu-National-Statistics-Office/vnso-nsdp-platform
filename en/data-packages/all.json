@@ -5756,6 +5756,30 @@
       "title": "SOC4-4-1"
     },
     {
+      "path": "ENV3-3-3/data.csv",
+      "name": "ENV3-3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Number of multi-hazard and risk maps to improve Post-Disaster Needs Assessment"
+    },
+    {
       "path": "ECO1-4-1/data.csv",
       "name": "ECO1-4-1",
       "profile": "tabular-data-resource",
@@ -7533,30 +7557,6 @@
         ]
       },
       "title": "Proportion of households engaged in production of food for own consumption"
-    },
-    {
-      "path": "ENV3-3-3/data.csv",
-      "name": "ENV3-3-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "string",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Number of multi-hazard and risk maps to improve Post-Disaster Needs Assessment"
     },
     {
       "path": "ECO4-7-3/data.csv",
