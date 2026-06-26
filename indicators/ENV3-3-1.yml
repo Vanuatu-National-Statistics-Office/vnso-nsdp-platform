@@ -25,7 +25,7 @@ graph_title: >
   preparedness, response and recovery
 graph_titles: []
 graph_type: bar
-indicator_available:''
+indicator_available: ''
 indicator_name: indicators.ENV3-3-1-title
 indicator_number: ENV3-3-1
 indicator_tabs:
