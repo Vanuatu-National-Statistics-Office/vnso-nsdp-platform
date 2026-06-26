@@ -1,4 +1,4 @@
-﻿composite_breakdown_label: ''
+composite_breakdown_label: ''
 computation_units: Total Number
 copyright: ''
 data_footnote: ''
@@ -20,12 +20,12 @@ graph_limits: []
 graph_series_breaks: []
 graph_stacked_disaggregation: ''
 graph_target_lines: []
-graph_title: >-
+graph_title: >
   Support plans available to communities for coordination, planning,
   preparedness, response and recovery
 graph_titles: []
 graph_type: bar
-indicator_available: ''
+indicator_available: true
 indicator_name: indicators.ENV3-3-1-title
 indicator_number: ENV3-3-1
 indicator_tabs:
@@ -35,7 +35,7 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 national_geographical_coverage: Vanuatu
-page_content: >-
+page_content: >
   Vanuatu has established a two-tier system of support plans to strengthen
   disaster coordination, planning, preparedness, response, and recovery at the
   community level. At the provincial level, each province develops a Provincial
@@ -61,14 +61,17 @@ page_content: >-
 permalink: ''
 placeholder: ''
 precision: []
-progress_status: not_available
+progress_status: complete
 proxy: ''
 proxy_series: []
 publications: []
 related_indicators: []
 reporting_status: complete
 sort: ''
-sources: []
+sources:
+  - title: ENV3-3-1 Data
+    path: data/ENV3-3-1.csv
+    type: csv
 standalone: false
 tags: []
 x_axis_label: Years
