@@ -18,14 +18,14 @@ footer_fields: []
 graph_annotations: []
 graph_limits: []
 graph_series_breaks: []
-graph_stacked_disaggregation: ''
+graph_stacked_disaggregation: Status
 graph_target_lines: []
 graph_title: >
   Support plans available to communities for coordination, planning,
   preparedness, response and recovery
 graph_titles: []
 graph_type: bar
-indicator_available: true
+indicator_available:''
 indicator_name: indicators.ENV3-3-1-title
 indicator_number: ENV3-3-1
 indicator_tabs:
