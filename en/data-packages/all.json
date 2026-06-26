@@ -5793,6 +5793,30 @@
       "title": "Trade agreement analysis reports"
     },
     {
+      "path": "ENV3-3-1/data.csv",
+      "name": "ENV3-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Number of support plans available to communities for coordination, planning, preparedness, response and recovery"
+    },
+    {
       "path": "ENV2-5-1/data.csv",
       "name": "ENV2-5-1",
       "profile": "tabular-data-resource",
@@ -6824,30 +6848,6 @@
         ]
       },
       "title": "Number of reported cases of violence against women, children, and vulnerable people"
-    },
-    {
-      "path": "ENV3-3-1/data.csv",
-      "name": "ENV3-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "string",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Number of support plans available to communities for coordination, planning, preparedness, response and recovery"
     },
     {
       "path": "ECO1-8-1/data.csv",

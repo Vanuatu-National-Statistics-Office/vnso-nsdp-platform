@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20260625120437">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20260626001747">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -517,7 +517,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_units', "");
+        var currentValue = normalizeCurrentValue('computation_units', "Total Number");
         var propertyEditor = editor.getEditor('root.computation_units');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -557,18 +557,6 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_footnote'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('data_non_statistical', true);
-        var propertyEditor = editor.getEditor('root.data_non_statistical');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: data_non_statistical');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_non_statistical'));
 
     
@@ -799,7 +787,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('graph_title', "");
+        var currentValue = normalizeCurrentValue('graph_title', "Support plans available to communities for coordination, planning, preparedness, response and recovery");
         var propertyEditor = editor.getEditor('root.graph_title');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -911,7 +899,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('page_content', "Vanuatu has established a two-tier system of support plans to strengthen disaster coordination, planning, preparedness, response, and recovery at the community level. At the provincial level, each province develops a Provincial Disaster and Climate Response Plan (PDCRP) in collaboration with the National Disaster Management Office. These plans define roles, responsibilities, and coordinated actions across government and non-government actors, and are reviewed annually with full updates every five years. At the area council level, communities conduct local risk and vulnerability assessments that inform tailored disaster preparedness and response plans. Together, these provincial and area council plans ensure that disaster risk management is both locally relevant and nationally coordinated, enabling communities to better prepare for and recover from climate-related and natural hazards.");
+        var currentValue = normalizeCurrentValue('page_content', "Vanuatu has established a two-tier system of support plans to strengthen disaster coordination, planning, preparedness, response, and recovery at the community level. At the provincial level, each province develops a Provincial Disaster and Climate Response Plan (PDCRP) in collaboration with the National Disaster Management Office. These plans define roles, responsibilities, and coordinated actions across government and non-government actors, and are reviewed annually with full updates every five years. At the area council level, communities conduct local risk and vulnerability assessments that inform tailored disaster preparedness and response plans. Together, these provincial and area council plans ensure that disaster risk management is both locally relevant and nationally coordinated, enabling communities to better prepare for and recover from climate-related and natural hazards. From a progress point of view, By 2025, an estimated 55% of communities (510 CBDR plans) have access to support plans for coordination, planning, preparedness, response and recovery. Based on this, the total number of communities is approximately 930. The 2030 target is that 80% of communities have access to such plans, which corresponds to around 740 communities. This means that an additional 230 communities must be covered by support plans between 2025 and 2030. On average, this requires increasing coverage by about 5 percentage points per year, or supporting approximately 45–50 additional communities annually with new or updated CBDR plans to remain on track to achieve the 2030 target");
         var propertyEditor = editor.getEditor('root.page_content');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1095,7 +1083,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('x_axis_label', "");
+        var currentValue = normalizeCurrentValue('x_axis_label', "Years");
         var propertyEditor = editor.getEditor('root.x_axis_label');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1244,12 +1232,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20260625120437'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20260626001747'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20260625120437"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20260626001747"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
