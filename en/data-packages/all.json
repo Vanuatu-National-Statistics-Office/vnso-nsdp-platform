@@ -6721,13 +6721,36 @@
             "title": "Year"
           },
           {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Achieved",
+                "Target",
+                ""
+              ]
+            },
+            "title": "Status"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Billion Vatu",
+                ""
+              ]
+            },
+            "title": "Unit"
+          },
+          {
             "name": "Value",
             "type": "string",
             "title": "Value"
           }
         ]
       },
-      "title": "ENV3-5-3"
+      "title": "Amount of climate and disaster finance used for community programs and activities through external support"
     },
     {
       "path": "ECO4-6-1/data.csv",

@@ -6202,12 +6202,33 @@
             "type": "string"
           },
           {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Achieved",
+                "Target",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Billion Vatu",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "string"
           }
         ]
       },
-      "title": "ENV3-5-3"
+      "title": "indicators.ENV3-5-3-title"
     },
     {
       "path": "ECO4-6-1/data.csv",
