@@ -4578,17 +4578,17 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "ENV3-5-2"
+      "title": "Number of climate and disaster finance funds to which Vanuatu is formally accredited"
     },
     {
       "path": "ENV4-6-1/data.csv",
