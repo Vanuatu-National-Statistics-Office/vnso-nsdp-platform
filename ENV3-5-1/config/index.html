@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20260627015541">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20260627022033">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -801,7 +801,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('graph_titles', [{"series":"Proportion of annual spending on climate change adaptation and disaster risk management funded with budget support from donor partners to the government","unit":"Percentage","title":"Number of annual spending on climate change adaptation and disaster risk management funded with budget support from donor partners to the government"}]);
+        var currentValue = normalizeCurrentValue('graph_titles', [{"series":"Donor Support","unit":"percentage","title":"percentage of Donor Support via Government Systems"},{"series":"Government Support","unit":"percentage","title":"Percentage of Government Support via Government Systems"}]);
         var propertyEditor = editor.getEditor('root.graph_titles');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -899,7 +899,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('page_content', "");
+        var currentValue = normalizeCurrentValue('page_content', "Climate finance accessed through donor support via government systems remains at 14% (163 out of approximately 1200 projects) based on DSPPAC national data.\nHowever, within the climate-specific portfolio tracked by the National Advisory Board (NAB), 47% of 562 projects are climate-related and supported through government systems, indicating stronger alignment within the climate sector.");
         var propertyEditor = editor.getEditor('root.page_content');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -927,7 +927,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('placeholder', "Climate finance accessed through donor support via government systems remains at 14% (163 out of approximately 1200 projects) based on DSPPAC national data.\nHowever, within the climate-specific portfolio tracked by the National Advisory Board (NAB), 47% of 562 projects are climate-related and supported through government systems, indicating stronger alignment within the climate sector. ");
+        var currentValue = normalizeCurrentValue('placeholder', "");
         var propertyEditor = editor.getEditor('root.placeholder');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1232,12 +1232,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20260627015541'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20260627022033'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20260627015541"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20260627022033"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
