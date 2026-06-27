@@ -1276,12 +1276,45 @@
             "type": "string"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Donor Support via Government Systems",
+                "Government Support via Government Systems",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Achieved",
+                "Target",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage",
+                "Total Count",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "ENV3-5-1"
+      "title": "indicators.ENV3-5-1-title"
     },
     {
       "path": "SOC3-2-1/data.csv",
