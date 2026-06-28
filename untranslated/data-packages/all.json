@@ -5819,32 +5819,12 @@
             "type": "integer"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "25310",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "integer"
           }
         ]
       },
-      "title": "ENV5-3-1"
+      "title": "indicators.ENV5-3-1-title"
     },
     {
       "path": "ENV1-3-3/data.csv",
