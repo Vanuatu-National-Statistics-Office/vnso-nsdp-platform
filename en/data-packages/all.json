@@ -8302,17 +8302,17 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "ENV2-6-2"
+      "title": "Amount deposited in the Environmental Trust Fund"
     },
     {
       "path": "business/data.csv",

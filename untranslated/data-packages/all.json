@@ -7666,15 +7666,15 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "ENV2-6-2"
+      "title": "indicators.ENV2-6-2-title"
     },
     {
       "path": "business/data.csv",
