@@ -1,8 +1,8 @@
-﻿composite_breakdown_label: ''
-computation_units: ''
+composite_breakdown_label: ''
+computation_units: Total Number
 copyright: ''
 data_footnote: ''
-data_non_statistical: true
+data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
@@ -18,9 +18,11 @@ footer_fields: []
 graph_annotations: []
 graph_limits: []
 graph_series_breaks: []
-graph_stacked_disaggregation: ''
+graph_stacked_disaggregation: Status
 graph_target_lines: []
-graph_title: ''
+graph_title: >
+  Support plans available to communities for coordination, planning,
+  preparedness, response and recovery
 graph_titles: []
 graph_type: bar
 indicator_available: ''
@@ -33,7 +35,7 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 national_geographical_coverage: Vanuatu
-page_content: >-
+page_content: >
   Vanuatu has established a two-tier system of support plans to strengthen
   disaster coordination, planning, preparedness, response, and recovery at the
   community level. At the provincial level, each province develops a Provincial
@@ -45,18 +47,31 @@ page_content: >-
   inform tailored disaster preparedness and response plans. Together, these
   provincial and area council plans ensure that disaster risk management is both
   locally relevant and nationally coordinated, enabling communities to better
-  prepare for and recover from climate-related and natural hazards.
+  prepare for and recover from climate-related and natural hazards. From a
+  progress point of view, By 2025, an estimated 55% of communities (510 CBDR
+  plans) have access to support plans for coordination, planning, preparedness,
+  response and recovery. Based on this, the total number of communities is
+  approximately 930. The 2030 target is that 80% of communities have access to
+  such plans, which corresponds to around 740 communities. This means that an
+  additional 230 communities must be covered by support plans between 2025 and
+  2030. On average, this requires increasing coverage by about 5 percentage
+  points per year, or supporting approximately 45–50 additional communities
+  annually with new or updated CBDR plans to remain on track to achieve the 2030
+  target
 permalink: ''
 placeholder: ''
 precision: []
-progress_status: not_available
+progress_status: complete
 proxy: ''
 proxy_series: []
 publications: []
 related_indicators: []
 reporting_status: complete
 sort: ''
-sources: []
+sources:
+  - title: ENV3-3-1 Data
+    path: data/ENV3-3-1.csv
+    type: csv
 standalone: false
 tags: []
-x_axis_label: ''
+x_axis_label: Years

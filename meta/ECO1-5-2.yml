@@ -27,12 +27,11 @@ MethodOfComputation: >+
 
   Formula:
 
-  MSG Trade Agreement Value= Total Value of Exports (MSG) - Total Value of
+  MSG Trade Agreement Value= Total Value of Exports (MSG) + Total Value of
   Imports (MSG)
 
 SDGAlignment: 17.11.1
 UnitOfMeasurement: Vatu in millions
 FrequencyOfCollection: Annual
 source_organisation_1: Customs & Inland Revenue Department
-source_organisation_2: ''
-source_organisation_3: ''
+source_organisation_2: Vanuatu Bureau of Statistics
