@@ -1307,17 +1307,17 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "ENV3-1-1"
+      "title": "Proportion of government ministries with policies, budgets, and legislation for CC & DRM"
     },
     {
       "path": "SOC5-3-3/data.csv",

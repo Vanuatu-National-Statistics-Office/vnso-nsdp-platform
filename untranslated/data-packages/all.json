@@ -1220,15 +1220,15 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "ENV3-1-1"
+      "title": "indicators.ENV3-1-1-title"
     },
     {
       "path": "SOC5-3-3/data.csv",
