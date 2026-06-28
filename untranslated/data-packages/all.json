@@ -1082,32 +1082,12 @@
             "type": "integer"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "22421",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "integer"
           }
         ]
       },
-      "title": "ENV2-4-2"
+      "title": "indicators.ENV2-4-2-title"
     },
     {
       "path": "gdp-growth-rate/data.csv",

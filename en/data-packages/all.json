@@ -1159,35 +1159,13 @@
             "title": "Year"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total Private Motor Vehicular Registration, Port Vila and Luganville (PROXY)",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "ENV2-4-2"
+      "title": "Proportion of vehicles that comply with emission standards"
     },
     {
       "path": "gdp-growth-rate/data.csv",
