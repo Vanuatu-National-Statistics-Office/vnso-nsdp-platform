@@ -8129,17 +8129,17 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "ENV2-5-2"
+      "title": "Proportion of environmental obligations within international conventions and treaties met"
     },
     {
       "path": "SOC5-4-3/data.csv",

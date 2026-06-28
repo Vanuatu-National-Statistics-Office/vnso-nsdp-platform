@@ -7507,15 +7507,15 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "ENV2-5-2"
+      "title": "indicators.ENV2-5-2-title"
     },
     {
       "path": "SOC5-4-3/data.csv",
