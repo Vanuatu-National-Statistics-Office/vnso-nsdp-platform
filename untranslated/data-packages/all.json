@@ -3450,15 +3450,15 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "ECO3-6-2"
+      "title": "indicators.ECO3-6-2-title"
     },
     {
       "path": "ECO1-7-2/data.csv",

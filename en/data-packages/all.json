@@ -3724,17 +3724,17 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "ECO3-6-2"
+      "title": "Number of controlled waste disposal facilities"
     },
     {
       "path": "ECO1-7-2/data.csv",
