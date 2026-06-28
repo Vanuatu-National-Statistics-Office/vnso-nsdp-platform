@@ -5957,15 +5957,26 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Achieved",
+                "Target",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
-      "title": "ENV2-3-1"
+      "title": "indicators.ENV2-3-1-title"
     },
     {
       "path": "ECO3-4-1/data.csv",
