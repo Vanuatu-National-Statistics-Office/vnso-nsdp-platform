@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20261016081143">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20261016091001">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -481,34 +481,321 @@ data-event-label="high"
   
   <div id="indicator-main" class="indicator-main col-md-12">
   
-  <div id="indicator-metadata" class="indicator-metadata">
+  <div class="mt-4">
+<ul class="nav nav-tabs" role="tablist">
+    
+    
+        
+        
+        
+        
+        <li role="presentation" class="nav-item">
+            <button
+                type="button"
+                class="nav-link active"
+                data-bs-toggle="tab"
+                id="tab-national"
+                data-bs-target="#national"
+                aria-controls="national"
+                role="tab"
+                data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to indicator.national_metadata tab"
 
-  <ul class="nav nav-tabs" role="tablist">
-    <li class="nav-item"><a class="nav-link" href="#national-metadata" role="tab" data-bs-toggle="tab">National Metadata</a></li> 
-    <li class="nav-item"><a class="nav-link active" href="#sources" role="tab" data-bs-toggle="tab">Sources</a></li>
-    <li class="nav-item"><a class="nav-link" href="#edit-indicator" role="tab" data-bs-toggle="tab">Edit Indicator</a></li>
-  </ul>
+            >National Metadata</button>
+        </li>
+    
+        
+        
+        
+        
+        <li role="presentation" class="nav-item">
+            <button
+                type="button"
+                class="nav-link "
+                data-bs-toggle="tab"
+                id="tab-source_1"
+                data-bs-target="#source_1"
+                aria-controls="source_1"
+                role="tab"
+                data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to indicator.sources tab"
 
-  <div class="tab-content" style="margin-top:1rem;">
-    <div id="national-metadata" class="tab-pane fade" role="tabpanel">
-      
-        <p>No national metadata available.</p>
-      
-    </div>
+            >Sources</button>
+        </li>
+    
+    
+    
+        <li role="presentation" class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab">Edit Indicator</a>
+        </li>
+    
+</ul>
 
-    <div id="sources" class="tab-pane fade show active" role="tabpanel">
-      
-      
-        <p>No sources listed for this indicator.</p>
-      
-    </div>
+<div class="tab-content">
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane active" id="national">
+            <article>
+                <p>This table provides metadata for the actual indicator available from Vanuatu statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Vanuatuan statistics, this table should be consulted for information on national methodology and other Vanuatu-specific metadata information.</p>
 
-    <div id="edit-indicator" class="tab-pane fade" role="tabpanel">
-      <p><a href="" target="_blank" rel="noopener">Edit this indicator (GitHub)</a></p>
-    </div>
-  </div>
+                <table class="table metadata-content">
+  <tbody>
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Proxy </th>
+        <td>
+          
+            <p>No</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Definition </th>
+        <td>
+          
+            <p>The “Total Annual Number of New Businesses Registered by Type” indicator measures the total count of new businesses officially registered within a country or region during a given year, categorized by the type of business entity. Business types may include sole proprietorships, partnerships, limited liability companies (LLCs), corporations, cooperatives, and other legal forms of business organization.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Concept </th>
+        <td>
+          
+            <p>This indicator tracks the entrepreneurial activity and business formation within an economy by recording the number of new businesses registered and categorizing them by their legal structure. The type of business entity chosen by entrepreneurs can reflect the nature of the business, the level of investment, the number of stakeholders involved, and the regulatory requirements they must meet. By categorizing new businesses by type, the indicator provides insights into the diversity and dynamism of the business landscape.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Disaggregation </th>
+        <td>
+          
+            <p>Industry</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Rationale </th>
+        <td>
+          
+            <p>Monitoring the total annual number of new businesses registered by type is crucial for understanding the entrepreneurial climate, the ease of doing business, and the overall health of the economy. A higher number of new business registrations can indicate a favourable business environment, growing investor confidence, and economic expansion. The breakdown by business type allows policymakers and economic analysts to assess trends in business formation, identify which sectors or types of businesses are experiencing growth, and evaluate the impact of regulatory frameworks on different types of enterprises.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Method of Computation </th>
+        <td>
+          
+            <p>To compute the “Total Annual Number of New Businesses Registered by Type,” first collect data on the total number of new businesses registered within the reporting year. Categorize these businesses by their legal form or type, such as sole proprietorships, partnerships, LLCs, or corporations. Then, sum the total number of new businesses registered for each type to obtain a count of new registrations by business type.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Sustainable Development Goal Indicator Alignment </th>
+        <td>
+          
+            <p>2.3.1
+5.a.1
+17.5.1</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Unit of Measurement </th>
+        <td>
+          
+            <p>Number</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Frequency of Collection </th>
+        <td>
+          
+            <p>Annually</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>Department of Customs &amp; Inland Revenue</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+      
+      
+      
+        
+          
+  
+  
+  
+  </tbody>
+</table>
+
+            </article>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane " id="source_1">
+            <article>
+                
+                <table class="table metadata-content">
+  <tbody>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+            </article>
+        </div>
+        
+    
+    
+        <div role="tabpanel" class="tab-pane" id="edit">
+            <div class="edit-container">
+  
+  
+
+  
+  
+
+
+  <a class="btn btn-primary" href="data">Edit Data</a>
+  
+
+  
+  <a class="btn btn-primary" href="metadata">Edit Metadata</a>
+  
+
+  
+  <a class="btn btn-primary" href="config">Edit Configuration</a>
+  
+
 </div>
 
+        </div>
+    
+</div>
+
+</div>
   </div>
 </div>
 
@@ -583,12 +870,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20261016081143'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20261016091001'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20261016081143"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20261016091001"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
