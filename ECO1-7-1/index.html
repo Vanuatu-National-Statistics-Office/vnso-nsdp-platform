@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20261016050648">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20261016055047">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -945,34 +945,323 @@ data-event-label="Change to Table tab"
 </section>
 
   
-  <div id="indicator-metadata" class="indicator-metadata">
+  <div class="mt-4">
+<ul class="nav nav-tabs" role="tablist">
+    
+    
+        
+        
+        
+        
+        <li role="presentation" class="nav-item">
+            <button
+                type="button"
+                class="nav-link active"
+                data-bs-toggle="tab"
+                id="tab-national"
+                data-bs-target="#national"
+                aria-controls="national"
+                role="tab"
+                data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to indicator.national_metadata tab"
 
-  <ul class="nav nav-tabs" role="tablist">
-    <li class="nav-item"><a class="nav-link" href="#national-metadata" role="tab" data-toggle="tab">National Metadata</a></li>
-    <li class="nav-item"><a class="nav-link active" href="#sources" role="tab" data-toggle="tab">Sources</a></li>
-    <li class="nav-item"><a class="nav-link" href="#edit-indicator" role="tab" data-toggle="tab">Edit Indicator</a></li>
-  </ul>
+            >National Metadata</button>
+        </li>
+    
+        
+        
+        
+        
+        <li role="presentation" class="nav-item">
+            <button
+                type="button"
+                class="nav-link "
+                data-bs-toggle="tab"
+                id="tab-source_1"
+                data-bs-target="#source_1"
+                aria-controls="source_1"
+                role="tab"
+                data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to indicator.sources tab"
 
-  <div class="tab-content" style="margin-top:1rem;">
-    <div id="national-metadata" class="tab-pane fade" role="tabpanel">
-      
-        <p>No national metadata available.</p>
-      
-    </div>
+            >Sources</button>
+        </li>
+    
+    
+    
+        <li role="presentation" class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab">Edit Indicator</a>
+        </li>
+    
+</ul>
 
-    <div id="sources" class="tab-pane fade show active" role="tabpanel">
-      
-      
-        <p>No sources listed for this indicator.</p>
-      
-    </div>
+<div class="tab-content">
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane active" id="national">
+            <article>
+                <p>This table provides metadata for the actual indicator available from Vanuatu statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Vanuatuan statistics, this table should be consulted for information on national methodology and other Vanuatu-specific metadata information.</p>
 
-    <div id="edit-indicator" class="tab-pane fade" role="tabpanel">
-      <p><a href="" target="_blank" rel="noopener">Edit this indicator (GitHub)</a></p>
-    </div>
-  </div>
+                <table class="table metadata-content">
+  <tbody>
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Proxy </th>
+        <td>
+          
+            <p>Yes (Production Measured by International Exports Only)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Definition </th>
+        <td>
+          
+            <p>The “Level of Production of Major Commodities Including Beef, Coconut Oil, Cocoa, Copra, Kava, Wood, and Coffee” indicator measures the total quantity of these key agricultural and forestry commodities produced within a country over a specific period. This indicator reflects the output of these major commodities, which are critical to the country’s economy and export markets.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Concept </th>
+        <td>
+          
+            <p>This indicator tracks the production levels of essential commodities such as beef, coconut oil, cocoa, copra, kava, wood, and coffee. These commodities are significant contributors to the agricultural and forestry sectors, which play a vital role in the country’s economy. The production level is an important measure of the agricultural sector’s performance, indicating the ability to meet domestic demand and contribute to exports. It also provides insights into the health of the sector, including productivity, resource availability, and market conditions.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Disaggregation </th>
+        <td>
+          
+            <p>Commodity, Country</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Rationale </th>
+        <td>
+          
+            <p>Monitoring the level of production of these major commodities is crucial for understanding the agricultural and forestry sectors’ contributions to the national economy. These commodities are often key exports and sources of income for rural communities. A higher level of production typically indicates a robust and productive sector, which can enhance food security, generate employment, and increase export revenues. Conversely, a decline in production could signal challenges such as adverse weather conditions, resource constraints, or market disruptions.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Method of Computation </th>
+        <td>
+          
+            <p>To compute the “Level of Production of Major Commodities Including Beef, Coconut Oil, Cocoa, Copra, Kava, Wood, and Coffee,” first collect data on the total quantity and total value of each commodity produced during the reporting period. Sum the production quantities and values for each commodity to determine the total production level for each item.</p>
+
+<p>Formula:
+Total Production Quantity= Total Production Quantity of (Beef + Coconut Oil + Cocoa + Copra + Kava)
+Total Production Value= Total Production Value of (Beef + Coconut Oil + Cocoa + Copra + Kava)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Sustainable Development Goal Indicator Alignment </th>
+        <td>
+          
+            <p>8.2.1</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Unit of Measurement </th>
+        <td>
+          
+            <p>Vatu in Millions &amp; Kilogram in Tons</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Frequency of Collection </th>
+        <td>
+          
+            <p>Monthly</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>Customs &amp; Inland Revenue</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+      
+      
+      
+        
+          
+  
+  
+  
+  </tbody>
+</table>
+
+            </article>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane " id="source_1">
+            <article>
+                
+                <table class="table metadata-content">
+  <tbody>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+            </article>
+        </div>
+        
+    
+    
+        <div role="tabpanel" class="tab-pane" id="edit">
+            <div class="edit-container">
+  
+  
+
+  
+  
+
+
+  <a class="btn btn-primary" href="data">Edit Data</a>
+  
+
+  
+  <a class="btn btn-primary" href="metadata">Edit Metadata</a>
+  
+
+  
+  <a class="btn btn-primary" href="config">Edit Configuration</a>
+  
+
 </div>
 
+        </div>
+    
+</div>
+
+</div>
   </div>
 </div>
 
@@ -1049,12 +1338,12 @@ data-event-label="Change to Table tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20261016050648'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20261016055047'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20261016050648"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20261016055047"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
