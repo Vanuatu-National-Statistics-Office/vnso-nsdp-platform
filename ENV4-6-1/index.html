@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20261016055047">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20261016055734">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -760,311 +760,34 @@ data-event-label="Change to Table tab"
 </section>
 
   
-  <div class="mt-4">
-<ul class="nav nav-tabs" role="tablist">
-    
-    
-        
-        
-        
-        
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link active"
-                data-bs-toggle="tab"
-                id="tab-national"
-                data-bs-target="#national"
-                aria-controls="national"
-                role="tab"
-                data-on="click"
-data-event-category="Tab change"
-data-event-action="Change metadata view"
-data-event-label="Change to indicator.national_metadata tab"
+  <div id="indicator-metadata" class="indicator-metadata">
 
-            >National Metadata</button>
-        </li>
-    
-        
-        
-        
-        
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link "
-                data-bs-toggle="tab"
-                id="tab-source_1"
-                data-bs-target="#source_1"
-                aria-controls="source_1"
-                role="tab"
-                data-on="click"
-data-event-category="Tab change"
-data-event-action="Change metadata view"
-data-event-label="Change to indicator.sources tab"
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item"><a class="nav-link" href="#national-metadata" role="tab" data-toggle="tab">National Metadata</a></li>
+    <li class="nav-item"><a class="nav-link active" href="#sources" role="tab" data-toggle="tab">Sources</a></li>
+    <li class="nav-item"><a class="nav-link" href="#edit-indicator" role="tab" data-toggle="tab">Edit Indicator</a></li>
+  </ul>
 
-            >Sources</button>
-        </li>
-    
-    
-    
-        <li role="presentation" class="nav-item">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab">Edit Indicator</a>
-        </li>
-    
-</ul>
+  <div class="tab-content" style="margin-top:1rem;">
+    <div id="national-metadata" class="tab-pane fade" role="tabpanel">
+      
+        <p>No national metadata available.</p>
+      
+    </div>
 
-<div class="tab-content">
-    
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane active" id="national">
-            <article>
-                <p>This table provides metadata for the actual indicator available from Vanuatu statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Vanuatuan statistics, this table should be consulted for information on national methodology and other Vanuatu-specific metadata information.</p>
+    <div id="sources" class="tab-pane fade show active" role="tabpanel">
+      
+      
+        <p>No sources listed for this indicator.</p>
+      
+    </div>
 
-                <table class="table metadata-content">
-  <tbody>
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Proxy </th>
-        <td>
-          
-            <p>No</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Definition </th>
-        <td>
-          
-            <p>The “Annual Estimated Area (Square Km) of Reforestation and Rehabilitation” indicator measures the total area, in square kilometres, that has been reforested or rehabilitated within a specific year. Reforestation refers to the process of planting trees on land that was previously forested but has been cleared or degraded, while rehabilitation involves restoring degraded land to a more natural state, often through planting native vegetation or other restorative actions.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Concept </th>
-        <td>
-          
-            <p>This indicator tracks the efforts to restore forest ecosystems and rehabilitate degraded lands within a given year. Reforestation and rehabilitation are critical components of sustainable land management, contributing to biodiversity conservation, carbon sequestration, soil stabilization, water regulation, and the overall enhancement of ecosystem services. The indicator provides insights into the scale and effectiveness of restoration activities, helping to assess progress toward environmental sustainability goals.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Disaggregation </th>
-        <td>
-          
-            <p>Region</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Rationale </th>
-        <td>
-          
-            <p>Monitoring the annual estimated area of reforestation and rehabilitation is crucial for evaluating the success of environmental restoration programs and policies. Forests play a vital role in mitigating climate change, supporting biodiversity, and providing resources and livelihoods for communities.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Method of Computation </th>
-        <td>
-          
-            <p>To compute the “Annual Estimated Area (Square km) of Reforestation and Rehabilitation,” first identify all reforestation and rehabilitation projects carried out within the year. Estimate the total area covered by these projects by reviewing relevant reports, satellite imagery, and GIS data. Then, sum the estimated areas of all identified projects to obtain the total area reforested or rehabilitated within the year, expressed in square kilometres.</p>
-
-<p>Formula:
-Total Area of Reforestation and Rehabilitation (sq km) = Sum of Area Covered by Each Reforestation/Rehabilitation Project (sq km)</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Sustainable Development Goal Indicator Alignment </th>
-        <td>
-          
-            <p>15.2.1</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Unit of Measurement </th>
-        <td>
-          
-            <p>Square kilometres</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Frequency of Collection </th>
-        <td>
-          
-            <p>Annually</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-      
-      
-      
-        
-          
-  
-      
-      
-      
-        
-          
-  
-  
-  
-  </tbody>
-</table>
-
-            </article>
-        </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane " id="source_1">
-            <article>
-                
-                <table class="table metadata-content">
-  <tbody>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </tbody>
-</table>
-
-            </article>
-        </div>
-        
-    
-    
-        <div role="tabpanel" class="tab-pane" id="edit">
-            <div class="edit-container">
-  
-  
-
-  
-  
-
-
-  <a class="btn btn-primary" href="data">Edit Data</a>
-  
-
-  
-  <a class="btn btn-primary" href="metadata">Edit Metadata</a>
-  
-
-  
-  <a class="btn btn-primary" href="config">Edit Configuration</a>
-  
-
+    <div id="edit-indicator" class="tab-pane fade" role="tabpanel">
+      <p><a href="" target="_blank" rel="noopener">Edit this indicator (GitHub)</a></p>
+    </div>
+  </div>
 </div>
 
-        </div>
-    
-</div>
-
-</div>
   </div>
 </div>
 
@@ -1141,12 +864,12 @@ Total Area of Reforestation and Rehabilitation (sq km) = Sum of Area Covered by 
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20261016055047'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20261016055734'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20261016055047"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20261016055734"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

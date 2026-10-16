@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20261016055047">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20261016055734">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -481,322 +481,34 @@ data-event-label="high"
   
   <div id="indicator-main" class="indicator-main col-md-12">
   
-  <div class="mt-4">
-<ul class="nav nav-tabs" role="tablist">
-    
-    
-        
-        
-        
-        
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link active"
-                data-bs-toggle="tab"
-                id="tab-national"
-                data-bs-target="#national"
-                aria-controls="national"
-                role="tab"
-                data-on="click"
-data-event-category="Tab change"
-data-event-action="Change metadata view"
-data-event-label="Change to indicator.national_metadata tab"
+  <div id="indicator-metadata" class="indicator-metadata">
 
-            >National Metadata</button>
-        </li>
-    
-        
-        
-        
-        
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link "
-                data-bs-toggle="tab"
-                id="tab-source_1"
-                data-bs-target="#source_1"
-                aria-controls="source_1"
-                role="tab"
-                data-on="click"
-data-event-category="Tab change"
-data-event-action="Change metadata view"
-data-event-label="Change to indicator.sources tab"
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item"><a class="nav-link" href="#national-metadata" role="tab" data-toggle="tab">National Metadata</a></li>
+    <li class="nav-item"><a class="nav-link active" href="#sources" role="tab" data-toggle="tab">Sources</a></li>
+    <li class="nav-item"><a class="nav-link" href="#edit-indicator" role="tab" data-toggle="tab">Edit Indicator</a></li>
+  </ul>
 
-            >Sources</button>
-        </li>
-    
-    
-    
-        <li role="presentation" class="nav-item">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab">Edit Indicator</a>
-        </li>
-    
-</ul>
+  <div class="tab-content" style="margin-top:1rem;">
+    <div id="national-metadata" class="tab-pane fade" role="tabpanel">
+      
+        <p>No national metadata available.</p>
+      
+    </div>
 
-<div class="tab-content">
-    
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane active" id="national">
-            <article>
-                <p>This table provides metadata for the actual indicator available from Vanuatu statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Vanuatuan statistics, this table should be consulted for information on national methodology and other Vanuatu-specific metadata information.</p>
+    <div id="sources" class="tab-pane fade show active" role="tabpanel">
+      
+      
+        <p>No sources listed for this indicator.</p>
+      
+    </div>
 
-                <table class="table metadata-content">
-  <tbody>
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Proxy </th>
-        <td>
-          
-            <p>No</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Definition </th>
-        <td>
-          
-            <p>The “Total Number of Annual Community Engagement Activities Undertaken by National Law Enforcement Officers” indicator measures the total number of community-oriented activities, programs, or events conducted by national law enforcement officers within a calendar year. These activities aim to build trust, foster positive relationships, and collaborate with community members to improve public safety and security.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Concept </th>
-        <td>
-          
-            <p>This indicator tracks the efforts of national law enforcement agencies to engage with the community through various activities such as public safety workshops, crime prevention programs, school visits, neighbourhood patrols, town hall meetings, and other outreach initiatives. Community engagement is a critical aspect of modern policing, emphasizing the importance of collaboration between law enforcement and the communities they serve to prevent crime, reduce fear, and enhance overall safety.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Disaggregation </th>
-        <td>
-          
-            <p>Region</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Rationale </th>
-        <td>
-          
-            <p>Monitoring the number of community engagement activities is essential for assessing the commitment of national law enforcement agencies to community policing principles. High levels of engagement indicate proactive efforts by law enforcement to connect with the community, build mutual trust, and work collaboratively to address local safety concerns. Conversely, low levels of engagement may suggest a need for increased focus on relationship-building and community involvement.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Method of Computation </th>
-        <td>
-          
-            <p>To compute the “Total Number of Annual Community Engagement Activities Undertaken by National Law Enforcement Officers,” first identify and list all relevant community engagement activities conducted by law enforcement officers within the specified year. Then, collect data on the number of these activities from official records or reports. Finally, count the total number of community engagement activities to determine the indicator value.</p>
-
-<p>Formula:
-Total Number of Community Engagement Activities = Sum of All Community Engagement Activities Conducted in One Year</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Sustainable Development Goal Indicator Alignment </th>
-        <td>
-          
-            <p>16.7.2</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Unit of Measurement </th>
-        <td>
-          
-            <p>Number</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Frequency of Collection </th>
-        <td>
-          
-            <p>Annually</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>Vanuatu Police Force</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-      
-      
-      
-        
-          
-  
-  
-  
-  </tbody>
-</table>
-
-            </article>
-        </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane " id="source_1">
-            <article>
-                
-                <table class="table metadata-content">
-  <tbody>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </tbody>
-</table>
-
-            </article>
-        </div>
-        
-    
-    
-        <div role="tabpanel" class="tab-pane" id="edit">
-            <div class="edit-container">
-  
-  
-
-  
-  
-
-
-  <a class="btn btn-primary" href="data">Edit Data</a>
-  
-
-  
-  <a class="btn btn-primary" href="metadata">Edit Metadata</a>
-  
-
-  
-  <a class="btn btn-primary" href="config">Edit Configuration</a>
-  
-
+    <div id="edit-indicator" class="tab-pane fade" role="tabpanel">
+      <p><a href="" target="_blank" rel="noopener">Edit this indicator (GitHub)</a></p>
+    </div>
+  </div>
 </div>
 
-        </div>
-    
-</div>
-
-</div>
   </div>
 </div>
 
@@ -871,12 +583,12 @@ Total Number of Community Engagement Activities = Sum of All Community Engagemen
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20261016055047'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20261016055734'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20261016055047"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20261016055734"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
