@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20261016041005">
+        <link rel="stylesheet" href="/vnso-nsdp-platform/assets/css/style.css?v=20261016050648">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -809,323 +809,34 @@ data-event-label="Change to Table tab"
 </section>
 
   
-  <div class="mt-4">
-<ul class="nav nav-tabs" role="tablist">
-    
-    
-        
-        
-        
-        
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link active"
-                data-bs-toggle="tab"
-                id="tab-national"
-                data-bs-target="#national"
-                aria-controls="national"
-                role="tab"
-                data-on="click"
-data-event-category="Tab change"
-data-event-action="Change metadata view"
-data-event-label="Change to indicator.national_metadata tab"
+  <div id="indicator-metadata" class="indicator-metadata">
 
-            >National Metadata</button>
-        </li>
-    
-        
-        
-        
-        
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link "
-                data-bs-toggle="tab"
-                id="tab-source_1"
-                data-bs-target="#source_1"
-                aria-controls="source_1"
-                role="tab"
-                data-on="click"
-data-event-category="Tab change"
-data-event-action="Change metadata view"
-data-event-label="Change to indicator.sources tab"
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item"><a class="nav-link" href="#national-metadata" role="tab" data-toggle="tab">National Metadata</a></li>
+    <li class="nav-item"><a class="nav-link active" href="#sources" role="tab" data-toggle="tab">Sources</a></li>
+    <li class="nav-item"><a class="nav-link" href="#edit-indicator" role="tab" data-toggle="tab">Edit Indicator</a></li>
+  </ul>
 
-            >Sources</button>
-        </li>
-    
-    
-    
-        <li role="presentation" class="nav-item">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab">Edit Indicator</a>
-        </li>
-    
-</ul>
+  <div class="tab-content" style="margin-top:1rem;">
+    <div id="national-metadata" class="tab-pane fade" role="tabpanel">
+      
+        <p>No national metadata available.</p>
+      
+    </div>
 
-<div class="tab-content">
-    
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane active" id="national">
-            <article>
-                <p>This table provides metadata for the actual indicator available from Vanuatu statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Vanuatuan statistics, this table should be consulted for information on national methodology and other Vanuatu-specific metadata information.</p>
+    <div id="sources" class="tab-pane fade show active" role="tabpanel">
+      
+      
+        <p>No sources listed for this indicator.</p>
+      
+    </div>
 
-                <table class="table metadata-content">
-  <tbody>
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Proxy </th>
-        <td>
-          
-            <p>No</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Definition </th>
-        <td>
-          
-            <p>The “Proportion of Households Sourcing Energy for Lighting from Renewable Sources” indicator measures the percentage of households that use renewable energy sources, such as solar, wind, hydro, or biomass, as their primary source of energy for lighting. This indicator reflects the extent to which renewable energy is being adopted at the household level for lighting purposes.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Concept </th>
-        <td>
-          
-            <p>This indicator tracks the adoption of renewable energy technologies in households specifically for lighting. Renewable energy sources are sustainable and environmentally friendly alternatives to traditional fossil fuels, reducing greenhouse gas emissions and reliance on non-renewable energy. The indicator provides insights into the penetration of renewable energy in the residential sector, which is a key component of broader efforts to transition to a sustainable energy future.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Disaggregation </th>
-        <td>
-          
-            <p>Region</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Rationale </th>
-        <td>
-          
-            <p>Monitoring the proportion of households sourcing energy for lighting from renewable sources is crucial for assessing progress towards energy sustainability and environmental goals. A higher proportion indicates a successful uptake of renewable energy technologies, contributing to reduced carbon emissions, lower energy costs, and enhanced energy security. It also reflects the effectiveness of policies and programs aimed at promoting renewable energy adoption at the household level. Conversely, a lower proportion may suggest barriers to access, such as high costs, lack of infrastructure, or limited awareness.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Method of Computation </th>
-        <td>
-          
-            <p>To compute the “Proportion of Households Sourcing Energy for Lighting from Renewable Sources,” first collect data on the energy sources used by households for lighting through surveys or census data. Identify the number of households that use renewable energy sources as their primary source of lighting. Then, calculate the proportion by dividing the number of these households by the total number of households surveyed, and multiply by 100 to express it as a percentage.</p>
-
-<p>Formula:
-Percentage of Households Using Renewable Energy for Lighting= (Number of Households Using Renewable Sources/Total Number of Households Surveyed)*100</p>
-
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Sustainable Development Goal Indicator Alignment </th>
-        <td>
-          
-            <p>7.1.1, 7.1.2 &amp; 7.2.1</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Unit of Measurement </th>
-        <td>
-          
-            <p>Percentage</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Frequency of Collection </th>
-        <td>
-          
-            <p>Every 10 years</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>Vanuatu Bureau of Statistics</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-      
-      
-      
-        
-          
-  
-  
-  
-  </tbody>
-</table>
-
-            </article>
-        </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane " id="source_1">
-            <article>
-                
-                <table class="table metadata-content">
-  <tbody>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </tbody>
-</table>
-
-            </article>
-        </div>
-        
-    
-    
-        <div role="tabpanel" class="tab-pane" id="edit">
-            <div class="edit-container">
-  
-  
-
-  
-  
-
-
-  <a class="btn btn-primary" href="data">Edit Data</a>
-  
-
-  
-  <a class="btn btn-primary" href="metadata">Edit Metadata</a>
-  
-
-  
-  <a class="btn btn-primary" href="config">Edit Configuration</a>
-  
-
+    <div id="edit-indicator" class="tab-pane fade" role="tabpanel">
+      <p><a href="" target="_blank" rel="noopener">Edit this indicator (GitHub)</a></p>
+    </div>
+  </div>
 </div>
 
-        </div>
-    
-</div>
-
-</div>
   </div>
 </div>
 
@@ -1200,12 +911,12 @@ Percentage of Households Using Renewable Energy for Lighting= (Number of Househo
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20261016041005'></script>
+<script src='/vnso-nsdp-platform/assets/js/sdg.js?v=20261016050648'></script>
 
 
     
     
-    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20261016041005"></script><script>
+    <script src="/vnso-nsdp-platform/assets/js/custom.js?v=20261016050648"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
