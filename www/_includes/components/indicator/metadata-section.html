@@ -1,0 +1,48 @@
+<div id="indicator-metadata" class="indicator-metadata">
+
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item"><a class="nav-link" href="#national-metadata" role="tab" data-toggle="tab">National Metadata</a></li>
+    <li class="nav-item"><a class="nav-link active" href="#sources" role="tab" data-toggle="tab">Sources</a></li>
+    <li class="nav-item"><a class="nav-link" href="#edit-indicator" role="tab" data-toggle="tab">Edit Indicator</a></li>
+  </ul>
+
+  <div class="tab-content" style="margin-top:1rem;">
+    <div id="national-metadata" class="tab-pane fade" role="tabpanel">
+      {% if page.indicator.metadata %}
+        {{ page.indicator.metadata | markdownify }}
+      {% else %}
+        <p>No national metadata available.</p>
+      {% endif %}
+    </div>
+
+    <div id="sources" class="tab-pane fade show active" role="tabpanel">
+      {% assign sources = page.indicator.sources %}
+      {% if sources and sources.size > 0 %}
+        {% for s in sources %}
+          <div class="indicator-source" style="margin-bottom:1.25rem;">
+            {% if s.organisation %}<h4 class="source-org">{{ s.organisation }}</h4>{% endif %}
+            <ul class="source-details" style="margin-left:1rem;">
+              {% if s.periodicity %}<li><strong>Periodicity:</strong> {{ s.periodicity }}</li>{% endif %}
+              {% if s.earliest_available %}<li><strong>Earliest available:</strong> {{ s.earliest_available }}</li>{% endif %}
+              {% if s.geographical_coverage %}<li><strong>Geographical coverage:</strong> {{ s.geographical_coverage }}</li>{% endif %}
+              {% if s.statistical_classification %}<li><strong>Statistical classification:</strong> {{ s.statistical_classification }}</li>{% endif %}
+              {% if s.release_date %}<li><strong>Release date:</strong> {{ s.release_date }}</li>{% endif %}
+              {% if s.next_release %}<li><strong>Next release:</strong> {{ s.next_release }}</li>{% endif %}
+              {% if s.contact %}<li><strong>Contact:</strong> {{ s.contact }}</li>{% endif %}
+              {% if s.url %}
+                <li><strong>URL:</strong> <a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.url_text | default: s.url }}</a></li>
+              {% endif %}
+              {% if s.other_info %}<li>{{ s.other_info }}</li>{% endif %}
+            </ul>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p>No sources listed for this indicator.</p>
+      {% endif %}
+    </div>
+
+    <div id="edit-indicator" class="tab-pane fade" role="tabpanel">
+      <p><a href="{{ site.repository }}" target="_blank" rel="noopener">Edit this indicator (GitHub)</a></p>
+    </div>
+  </div>
+</div>
