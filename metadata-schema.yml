@@ -57,9 +57,9 @@ prose:
       - name: source_organisation_1
         field:
             element: text
-            label: "Organisation"
+            label: "Data Source"
             translation_key: metadata_fields.source_organisation_1
-            scope: national
+            scope: source_1
       ## Source 2
       - name: source_active_2
         field:
@@ -81,9 +81,9 @@ prose:
       - name: source_organisation_3
         field:
             element: text
-            label: "Organisation"
+            label: "Data Source"
             translation_key: metadata_fields.source_organisation_1
-            scope: source_3
+            scope: source_1
       - name: "reporting_status"
         field:
             element: select
