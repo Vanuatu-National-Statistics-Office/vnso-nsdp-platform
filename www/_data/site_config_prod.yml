@@ -2,5 +2,5 @@ analytics:
   ga_prod: ''
 disclaimer:
   hidden: true
-goal_image_base: /assets/img/goals
+goal_image_base: /assets/img/goals/en
 environment: production
